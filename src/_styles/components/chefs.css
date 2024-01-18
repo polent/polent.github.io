@@ -1,0 +1,23 @@
+.recipe-chefs-figure {
+	margin: 0 0 1em 0;
+	display: grid;
+	column-gap: 1em;
+
+	figcaption {
+		padding: 0;
+	}
+}
+.recipe-chefs-container {
+	display: grid;
+	gap: 1em;
+
+	h2 {
+		margin-bottom: 0.5em;
+	}
+}
+@media only screen and (min-width: 720px) {
+	.recipe-chefs-container,
+	.recipe-chefs-figure {
+		grid-template-columns: 1fr 1fr;
+	}
+}

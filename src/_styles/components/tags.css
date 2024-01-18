@@ -1,0 +1,14 @@
+.tags-list {
+	@extend %list-reset;
+
+	li {
+		display: inline;
+		margin-right: 10px;
+	}
+	a {
+		border: 1px solid var(--color-border-default);
+		padding: 5px;
+		border-radius: 5px;
+		text-decoration: none;
+	}
+}

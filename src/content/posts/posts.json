@@ -1,0 +1,10 @@
+{
+	"layout": "layouts/post",
+	"permalink": "/recipes/{{ page.fileSlug }}/index.html",
+	"eleventyNavigation": {
+		"parent": "recipes"
+	},
+	"og": {
+		"type": "article"
+	}
+}
