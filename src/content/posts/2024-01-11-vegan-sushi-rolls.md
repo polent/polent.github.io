@@ -10,7 +10,7 @@ tags:
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Sushi Rolls Recipe"
-  imageSrc: "./src/media/2024-01-19-vegan-sushi-rolls.png"
+  imageSrc: "./src/media/2024-01-11-vegan-sushi-rolls.png"
   imageTitle: "Vegan Sushi Rolls Recipe"
   imageAlt: "Create a hyperrealistic image of a minimalist yet classy dinner table showcasing a Vegan Sushi Roll house special. The centerpiece includes a bamboo sushi mat with a delicately balanced presentation of bite-sized vegan sushi rolls. Each roll is intricately conceived with a marvelous assortment of vividly fresh vegetables and tofu revealing themselves through layers of sushi rice and nori. The layers include cucumber, carrot, avocado, and marinated tofu. Accompanying this is a curation of petite dishes featuring soy sauce, wasabi, and pickled ginger. The entire tableau embodies the comfort and wholesome essence of a vegan dinner experience."
   loading: "eager"
