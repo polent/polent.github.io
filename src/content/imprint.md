@@ -5,6 +5,7 @@ eleventyNavigation:
   title: Imprint
   order: 4
 title: "Imprint"
+description: "The imprint, whom to contact in any case."
 permalink: "/imprint/index.html"
 ---
 
