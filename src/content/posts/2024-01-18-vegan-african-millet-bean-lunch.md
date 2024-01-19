@@ -7,6 +7,7 @@ tags:
   - "millet"  
   - "beans"  
   - "lunch"
+  - "Nia"
 figureRecipe: 
   caption: "Vegan African Millet and Bean Lunch"
   imageSrc: "./src/media/2024-01-18-vegan-african-millet-bean-lunch.png"
