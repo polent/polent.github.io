@@ -30,5 +30,4 @@
 	padding: var(--space-l);
 	border-radius: var(--border-radius-small);
 	background-color: var(--color-surface-secondary);
-	max-width: var(--measure-default);
 }

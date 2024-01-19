@@ -13,7 +13,15 @@
         <h2>Latest recipes</h2>
         <ul class="recipe-ul">
           {% for item in collections.latest %}
-            {% include "partials/site-post-list.njk" %}
+            <li>
+              <a href="{{ item.url }}">
+                  {% figure %}
+                      {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 260px, 340px" %}
+                  {% endfigure %}
+                  {{ item.data.title }}
+              </a>
+              <time datetime="{{ item.date | dateToYYYYMMDD }}"> {{ item.date | dateToDMY }}</time>
+          </li>
           {% endfor %}
         </ul>
       </aside>

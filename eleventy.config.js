@@ -24,7 +24,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addCollection("posts", collections.posts);
 	eleventyConfig.addCollection("feed", collections.feed);
 	eleventyConfig.addCollection("latest", collections.latest);
-	eleventyConfig.addCollection("spot", collections.spot);
+	eleventyConfig.addCollection("featured", collections.featured);
 
 	// Filters
 	eleventyConfig.addFilter("dateToDMY", filters.dateToDMY);
