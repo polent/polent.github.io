@@ -1,5 +1,5 @@
 module.exports = {
-	projectName: "Recipes by Polente",
+	projectName: "Recipes by our chefs",
 	description:
 		"Recipes are full AI Generated - let me know if you have tried them, I tried some of them and they were delicious.",
 	shortName: "Recipes @ Polente",

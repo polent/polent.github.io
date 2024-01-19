@@ -7,15 +7,9 @@ Welcome to our AI-Generated Vegan Recipe Page, a unique culinary destination whe
 
 ## Meet Our Chefs
 
-1. **Emily from America:** Emily brings the sizzle and smoke of vegan BBQ to your table. From smoky BBQ tempeh ribs to grilled jackfruit, her recipes redefine American BBQ with a vegan twist.
+Emily from America brings the sizzle and smoke of vegan BBQ to your table with her smoky BBQ tempeh ribs and grilled jackfruit, redefining American BBQ with a vegan twist; Hiroshi from Asia is an expert in vegan sushi and noodle dishes, blending traditional Asian flavors with plant-based ingredients like avocado cucumber sushi rolls and vegan ramen; Isabella from Europe takes you on a journey through Italy with her vegan pastas and pizzas, showcasing the versatility of Italian vegan cuisine with dishes like creamy mushroom risotto and hand-tossed pizza; and Nia from Africa offers a colorful exploration of African cuisine with her Ethiopian lentil stew and Moroccan vegetable tagine, infusing rich African flavors into her vegan creations. [Meet them here](/our-chefs)
 
-2. **Hiroshi from Asia:** Hiroshi is our expert in vegan sushi and noodle dishes. His creations, like avocado cucumber sushi rolls and vegan ramen, blend traditional Asian flavors with plant-based ingredients.
-
-3. **Isabella from Europe:** Journey through Italy with Isabella’s vegan pastas and pizzas. Her dishes, such as creamy mushroom risotto and hand-tossed pizza, are a testament to the versatility of Italian vegan cuisine.
-
-4. **Nia from Africa:** Nia’s recipes are a colorful exploration of African cuisine. From Ethiopian lentil stew to Moroccan vegetable tagine, her dishes bring the rich flavors of Africa to your vegan diet.
-
-**What to Expect:**
+## What to Expect
 
 On our page, you will find a wide variety of recipes crafted by these AI-generated chefs. Each recipe includes:
 
