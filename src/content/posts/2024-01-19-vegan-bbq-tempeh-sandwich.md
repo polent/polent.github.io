@@ -2,12 +2,12 @@
 title: "Vegan BBQ Tempeh Sandwich"
 description: "Experience a culinary adventure with this Vegan BBQ Tempeh Sandwich recipe. It's smoky, spicy, and full of classic American BBQ flavors, making vegan lunch not just healthier but also more exciting."
 tags:
-  - "Vegan"
-  - "BBQ"
-  - "Tempeh"
-  - "Sandwich"
-  - "Healthy"
-  - "Lunch"
+  - "vegan"
+  - "bbq"
+  - "tempeh"
+  - "sandwich"
+  - "healthy"
+  - "lunch"
   - "Emily"
 figureRecipe: 
   caption: "Vegan BBQ Tempeh Sandwich"

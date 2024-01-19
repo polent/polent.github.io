@@ -3,7 +3,7 @@ title: "Vegan African Millet and Bean Lunch"
 description: "Looking for a simple and delicious vegan lunch idea? Try out this flavorful African-inspired recipe that combines the hearty textures of millet and beans with aromatic spices."
 tags: 
   - "vegan"  
-  - "African"  
+  - "african"  
   - "millet"  
   - "beans"  
   - "lunch"

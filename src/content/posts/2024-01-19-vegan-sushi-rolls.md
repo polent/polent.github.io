@@ -4,7 +4,7 @@ description: "This Vegan Sushi Rolls recipe combines fresh vegetables, tofu, and
 tags:
   - "vegan"
   - "sushi"
-  - "Asian"
+  - "asian"
   - "dinner"
   - "recipe"
   - "Hiroshi"

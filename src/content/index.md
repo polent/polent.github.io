@@ -17,6 +17,6 @@ On our page, you will find a wide variety of recipes crafted by these AI-generat
 - **Step-by-Step Instructions:** Clear and easy-to-follow directions to guide you through the cooking process.
 - **AI-Generated Images:** Realistic and appetizing images of the final dish, giving you a visual taste of what to expect.
 
-Whether you're a seasoned vegan cook or just starting your plant-based journey, our AI-Generated Vegan Recipe Page offers something for everyone. From hearty meals to light snacks, each recipe is a blend of tradition, innovation, and global flavors. 
+Whether you're a seasoned vegan cook or just starting your plant-based journey, our AI-Generated Vegan Recipe Page offers something for everyone. From hearty meals to light snacks, each recipe is a blend of tradition, innovation, and global flavors.
 
 Join us as we explore the delicious possibilities of vegan cuisine, one AI-generated recipe at a time!
