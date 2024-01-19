@@ -10,7 +10,7 @@ tags:
   - "Nia"
 figureRecipe: 
   caption: "Vegan African-Inspired Breakfast Bowl"
-  imageSrc: "./src/media/2024-01-19-vegan-african-inspired-breakfast-bowl.png"
+  imageSrc: "./src/media/2024-01-12-vegan-african-inspired-breakfast-bowl.png"
   imageTitle: "Vegan African-Inspired Breakfast Bowl"
   imageAlt: "Create a rich and detailed image of an African-inspired Vegan breakfast bowl on a beautifully set breakfast table amidst the natural beauty of the morning. The bowl, warmed by golden morning sunlight, overflows with a wholesome medley of cooked millet, black beans, creamy avocado slices, diced tomatoes, and red onions. Fresh cilantro leaves are scattered around, and the invigorating aroma they emanate fills the air. A zesty lime dressing artistically drizzled over the bowl adds a finishing touch. The scene encapsulates tranquility and nourishment at the start of the day, symbolizing the harmonious blend of textures and flavors, relishing in good food and the company of nature."
   loading: "eager"
@@ -26,15 +26,15 @@ Start your day with a delicious and nutritious vegan breakfast. Today, we have a
 
 ## Ingredients
 
-1 cup cooked millet
-1 cup cooked black beans
-1 ripe avocado, sliced
-1 small tomato, diced
-1/4 cup diced red onion
-1/4 cup chopped fresh cilantro
-Juice of 1 lime
-1 tablespoon extra-virgin olive oil
-Salt and pepper to taste
+- 1 cup cooked millet
+- 1 cup cooked black beans
+- 1 ripe avocado, sliced
+- 1 small tomato, diced
+- 1/4 cup diced red onion
+- 1/4 cup chopped fresh cilantro
+- Juice of 1 lime
+- 1 tablespoon extra-virgin olive oil
+- Salt and pepper to taste
 
 ## Instructions
 

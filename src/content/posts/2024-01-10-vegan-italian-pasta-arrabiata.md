@@ -9,7 +9,7 @@ tags:
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Italian Pasta Arrabiata"
-  imageSrc: "./src/media/2024-01-19-vegan-italian-pasta-arrabiata.png"
+  imageSrc: "./src/media/2024-01-10-vegan-italian-pasta-arrabiata.png"
   imageTitle: "Vegan Italian Pasta Arrabiata"
   imageAlt: "Visualize an intimate, cozy dinner table, illuminated gently by the flicker of candlelight. The table's focus is a sizeable dish brimming with Vegan Italian Pasta Arrabiata. The pasta, cooked to perfection, is glossed over by a thick, red sauce derived from pulverized tomatoes, garlic, and a sprinkle of chili flakes. A lavish amount of fresh basil leaves are strewn across, offering a vibrant green counterpoint. Offset to the side is an authentic bowl of homemade vegan parmesan cheese, set for sprinkling. From the pasta, a steam wafts upwards, creating a soothing ambiance for a chilly evening. Rustic, Italian-style dinnerware and silverware set the table, with a glass of red wine positioned next to the plate to elevate the Italian culinary experience."
   loading: "eager"

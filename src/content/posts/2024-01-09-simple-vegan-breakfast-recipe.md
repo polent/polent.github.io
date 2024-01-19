@@ -10,7 +10,7 @@ tags:
   - "Hiroshi"
 figureRecipe: 
   caption: "Simple Vegan Breakfast Recipe"
-  imageSrc: "./src/media/2024-01-19-simple-vegan-breakfast-recipe.png"
+  imageSrc: "./src/media/2024-01-09-simple-vegan-breakfast-recipe.png"
   imageTitle: "Simple Vegan Breakfast Recipe"
   imageAlt: "Visualize an enticing vegan breakfast that kickstarts a serene morning. A well-set breakfast table hosts a plate filled with a tofu scramble, mirroring fluffy scrambled eggs, seasoned with soy sauce, turmeric, garlic powder, onion powder, black salt, and black pepper. The tofu scramble is cooked in a skillet with diced bell peppers, onions, and mushrooms, all bursting with vibrant colors and flavors. The tantalizing aroma of the sautéing veggies fills the room. Complementing this scene are a warm cup of herbal tea and a bowl of fresh fruits alongside, with the entire setup bathed in soft morning light filtering through a nearby window, painting a wholesome and filling vegan morning breakfast."
   loading: "eager"
