@@ -11,7 +11,7 @@ Welcome to our AI-Generated Vegan Recipe Page, a unique culinary destination whe
 
 {% set latestRecipe = collections.featured[0].data %}
 <a class="index" href="{{ collections.featured[0].url }}">
-{% figure %}
+{% figure latestRecipe.figureRecipe.caption %}
     {% picture latestRecipe.figureRecipe.imageSrc, latestRecipe.figureRecipe.imageTitle, latestRecipe.figureRecipe.imageAlt, latestRecipe.figureRecipe.loading %}
 {% endfigure %}
 </a>
