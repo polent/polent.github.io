@@ -28,6 +28,6 @@
 
 	.main-nav ul li {
 		margin-inline-end: var(--space-xs-s);
-		line-height: 4;
+		line-height: 7;
 	}
 }
