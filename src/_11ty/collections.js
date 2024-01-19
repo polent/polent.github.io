@@ -1,6 +1,6 @@
 // Collection for posts
 const posts = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse();
-const latest = i => i.getFilteredByGlob("./src/content/posts/*.md").slice(0, 3);
+const latest = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse().slice(0, 3);
 const feed = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse();
 
 module.exports = {
