@@ -1,14 +1,10 @@
 // Collection for posts
 const posts = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse();
+const latest = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse().slice(0, 3);
 const feed = i => i.getFilteredByGlob("./src/content/posts/*.md").reverse();
-const curated = i =>
-	i
-		.getAllSorted()
-		.filter(post => post.data.curated)
-		.reverse();
 
 module.exports = {
 	posts,
 	feed,
-	curated,
+	latest,
 };

@@ -10,9 +10,9 @@
     </div>
     <div class="layout-span layout-span--aside">
       <aside class="content-aside flow">
-        <h2>Curated recipes</h2>
+        <h2>Latest recipes</h2>
         <ul>
-          {% for item in collections.curated %}
+          {% for item in collections.latest %}
             {% include "partials/site-post-list.njk" %}
           {% endfor %}
         </ul>

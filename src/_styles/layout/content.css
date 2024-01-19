@@ -33,5 +33,12 @@
 
 	ul {
 		@extend %list-reset;
+
+		time {
+			display: block;
+			font-style: italic;
+			text-align: right;
+			margin-top: 0.25em;
+		}
 	}
 }

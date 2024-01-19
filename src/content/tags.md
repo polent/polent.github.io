@@ -8,6 +8,6 @@ pagination:
   filter:
     - "all"
     - "posts"
-    - "curated"
+    - "latest"
 permalink: "/tag/{{ tag | slug }}/"
 ---

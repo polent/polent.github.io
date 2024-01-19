@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
 	// Collections
 	eleventyConfig.addCollection("posts", collections.posts);
 	eleventyConfig.addCollection("feed", collections.feed);
-	eleventyConfig.addCollection("curated", collections.curated);
+	eleventyConfig.addCollection("latest", collections.latest);
 
 	// Filters
 	eleventyConfig.addFilter("dateToDMY", filters.dateToDMY);
