@@ -1,9 +1,20 @@
 ---
 layout: "layouts/index"
 permalink: "/index.html"
+eleventyImport:
+  collections: ["featured"]
 ---
 
 Welcome to our AI-Generated Vegan Recipe Page, a unique culinary destination where the fusion of technology and diverse global flavors brings you an exclusive range of vegan recipes. We are thrilled to introduce you to our four AI-created chef personas, each representing a different corner of the world, infusing their unique cultural touch into vegan cooking.
+
+## Newest Recipe
+
+{% set latestRecipe = collections.featured[0].data %}
+<a class="index" href="{{ collections.featured[0].url }}">
+{% figure latestRecipe.figureRecipe.caption %}
+    {% picture latestRecipe.figureRecipe.imageSrc, latestRecipe.figureRecipe.imageTitle, latestRecipe.figureRecipe.imageAlt, latestRecipe.figureRecipe.loading %}
+{% endfigure %}
+</a>
 
 ## Meet Our Chefs
 

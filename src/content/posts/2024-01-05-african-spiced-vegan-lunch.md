@@ -11,7 +11,7 @@ tags:
   - "Nia"
 figureRecipe: 
   caption: "African Spiced Vegan Lunch"
-  imageSrc: "./src/media/2024-01-19-african-spiced-vegan-lunch.png"
+  imageSrc: "./src/media/2024-01-05-african-spiced-vegan-lunch.png"
   imageTitle: "African Spiced Vegan Lunch"
   imageAlt: "Generate an image that illustrates a lunch table setting bathed in sunlight coming in from a near window. In the center, there's a vibrant, tantalizing African vegan meal, intricately seasoned with spices such as cumin, paprika, turmeric, and coriander. This dish combines cooked sorghum and black-eyed peas, and is subtly garnished with bright green cilantro. Additional small bowls surround the main plate, offering more servings of the sorghum and peas. A side of freshly baked bread is present, as well as a glass of cool, refreshing lemonade. The ambience is inviting, with lively colors and textures, reflecting the richness of African vegan culinary culture."
   loading: "eager"

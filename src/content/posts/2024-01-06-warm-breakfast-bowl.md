@@ -9,7 +9,7 @@ tags:
   - "Isabella"
 figureRecipe: 
   caption: "Warm Breakfast Bowl"
-  imageSrc: "./src/media/2024-01-19-warm-breakfast-bowl.png"
+  imageSrc: "./src/media/2024-01-06-warm-breakfast-bowl.png"
   imageTitle: "Warm Breakfast Bowl"
   imageAlt: "Visualize a cozy and comforting breakfast scene, set on a beautifully arranged table that basks in soft morning light, exuding a serene and inviting ambiance. At the center of the table is a steaming bowl filled with creamy oats cooked in almond milk infused with flavorful mashed banana, maple syrup, cinnamon, and vanilla extract. Adorning this oat meal bowl are vibrant toppings - bright slices of strawberries, blueberries, and banana, along with crunchy almonds and walnuts for texture. Optional coconut flakes add an adventurous touch. This wholesome vegan breakfast radiates warmth and happiness, symbolizing a refreshing start to the day."
   loading: "eager"

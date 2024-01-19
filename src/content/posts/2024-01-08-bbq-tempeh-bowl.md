@@ -9,7 +9,7 @@ tags:
   - "Emily"
 figureRecipe: 
   caption: "BBQ Tempeh Bowl"
-  imageSrc: "./src/media/2024-01-19-bbq-tempeh-bowl.png"
+  imageSrc: "./src/media/2024-01-08-bbq-tempeh-bowl.png"
   imageTitle: "BBQ Tempeh Bowl"
   imageAlt: "Depict a vibrant vegan dinner setting featuring a BBQ Tempeh Bowl. Show a dinner table holding a luscious bowl overflowing with grilled tempeh, fluffy quinoa, vibrant bell peppers, sliced red onions, sweet corn kernels, creamy avocado slices, and a sprinkle of fresh cilantro, all basking under the warm glow of a setting sun. An aroma of BBQ sauce permeates the air, with a fresh lime wedge poised for squeezing over the bowl. The viewer is virtually sat at the table, anticipation evident, ready to explore this culinary delight. The scene is meant to evoke the sensation of relishing each bite of this healthy and flavorful dish."
   loading: "eager"

@@ -15,7 +15,7 @@
 					<li>
 						<a href="{{ item.url }}" 
 							{% if item.url in page.url %} 
-								class="main-nav-item--active"
+								aria-current="page"
 							{% endif %}
 						>{{ item.title }}</a>
 					</li>

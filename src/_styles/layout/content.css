@@ -30,15 +30,4 @@
 	padding: var(--space-l);
 	border-radius: var(--border-radius-small);
 	background-color: var(--color-surface-secondary);
-
-	ul {
-		@extend %list-reset;
-
-		time {
-			display: block;
-			font-style: italic;
-			text-align: right;
-			margin-top: 0.25em;
-		}
-	}
 }

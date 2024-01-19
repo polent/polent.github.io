@@ -8,8 +8,8 @@ module.exports = {
 			? "http://localhost:8080"
 			: "https://recipe.polente.de",
 	robots: "index, follow",
-	themeColor: "#FFFFFF",
-	backgroundColor: "#FFFFFF",
+	themeColor: "#fefbdc",
+	backgroundColor: "#fefbdc",
 	author: {
 		name: "Holger Hellinger",
 		email: "sitte@polente.de",
@@ -25,7 +25,7 @@ module.exports = {
 		type: "website",
 		image: {
 			rel: "/og-default.png",
-			alt: "Default OG image displayed here",
+			alt: "A nice AI generated Dish",
 		},
 	},
 };

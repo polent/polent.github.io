@@ -12,7 +12,7 @@ tags:
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Vegan Porridge"
-  imageSrc: "./src/media/2024-01-19-african-inspired-vegan-porridge.png"
+  imageSrc: "./src/media/2024-01-07-african-inspired-vegan-porridge.png"
   imageTitle: "African-Inspired Vegan Porridge"
   imageAlt: "Visualize a calm morning scenario. Located on a grand table situated against the tranquil backdrop of nature, a cold breakfast spread is set. In the middle, a bowl of African-Inspired Vegan Porridge emanates welcoming steam carrying the fragrance of spices like cinnamon, nutmeg, and ginger. The table is beautifully decorated with colorful fresh toppings like sliced bananas, chopped nuts, and coconut flakes, all meticulously arranged. The serving of porridge gleams with a tantalising drizzle of maple syrup. Natural light softly streams through a nearby window, imbuing the scene with a comforting glow and illuminating the vibrant colors of the culinary arrangement. Enjoy this visual experience of a peaceful morning with a delectable African-inspired vegan breakfast."
   loading: "eager"
