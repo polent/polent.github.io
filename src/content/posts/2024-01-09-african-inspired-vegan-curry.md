@@ -10,7 +10,7 @@ tags:
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Vegan Curry"
-  imageSrc: "./src/media/2024-01-19-african-inspired-vegan-curry.png"
+  imageSrc: "./src/media/2024-01-09-african-inspired-vegan-curry.png"
   imageTitle: "African-Inspired Vegan Curry"
   imageAlt: "Visualize a homely kitchen scene with an African-inspired meal being served. See a modest dinner table boasting a piping hot bowl of vegan curry. The curry looks vibrant with an assortment of multihued vegetables immersed in creamy coconut milk, sprinkled generously with aromatic spices. Fresh cilantro adds a striking contrast with its bright green hue. See perfectly cut sweet potatoes, red-yellow bell peppers, and crunchy bits of carrots and zucchini interspersed in the curry, with cooked chickpeas peppering through for a protein punch. Wafts of curry powder, paprika, cumin, and turmeric mix into the air, setting a tantalizing aroma. The smooth, rich creaminess of coconut milk adds a layer of indulgence, making each bite a gastronomic delight. The meal emanates a colorful, aromatic richness typical of African cuisine, while also promising to be a wholesome, healthful dinner option. You are seated at this table, ready to experience this exciting burst of flavors. The warmth of the curry pot, the liveliness of its colors, and the enticing smells present a feast for your senses. The meal leaves you satiated, with an unforgettable flavor experience that transports you to the very heart of Africa. Bon appétit!"
   loading: "eager"

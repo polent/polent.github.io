@@ -11,7 +11,7 @@ tags:
   - "Nia"
 figureRecipe: 
   caption: "Chilled Millet Salad with Spiced Chickpeas"
-  imageSrc: "./src/media/2024-01-19-chilled-millet-salad-with-spiced-chickpeas.png"
+  imageSrc: "./src/media/2024-01-08-chilled-millet-salad-with-spiced-chickpeas.png"
   imageTitle: "Chilled Millet Salad with Spiced Chickpeas"
   imageAlt: "Generate an image of a rustic, warmly lit dinner table set with a large, colorful bowl of Chilled Millet Salad with Spiced Chickpeas. The salad should be vibrant and textured, showcasing the fluffy millet grains, crispy spiced chickpeas, diced red bell pepper, and cucumber mixed in. Sprigs of fresh coriander are scattered throughout, and the dish is drizzled with a sheen of lemon juice and olive oil. The dinner table should also feature a few other elements suggesting a cold weather - perhaps a lit candle, a cozy plaid tablecloth, or a steaming cup of herbal tea. The overall mood should be inviting and comforting, with the salad as the star of the scene, ready to be enjoyed."
   loading: "eager"
