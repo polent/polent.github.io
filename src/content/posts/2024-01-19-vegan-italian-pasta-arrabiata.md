@@ -25,11 +25,22 @@ As the temperatures drop, there's nothing better than a warm, hearty meal to end
 
 ## Ingredients
 
-1 lb dried pasta (your choice), 2 tablespoons olive oil, 4 cloves garlic (minced), 1 teaspoon red chili flakes, 1 can (28 ounces) of crushed tomatoes, 1/2 cup fresh basil (chopped), Salt and pepper to taste, Vegan parmesan cheese for sprinkling (optional)
+- 1 lb dried pasta (your choice),
+- 2 tablespoons olive oil,
+- 4 cloves garlic (minced),
+- 1 teaspoon red chili flakes,
+- 1 can (28 ounces) of crushed tomatoes,
+- 1/2 cup fresh basil (chopped),
+- Salt and pepper to taste, 
+- Vegan parmesan cheese for sprinkling (optional)
 
 ## Instructions
 
-1. Cook the pasta according to the package instructions. Drain and set aside. 2. In a large pan, heat the olive oil over medium heat. Add the garlic and red chili flakes, stirring until the garlic is golden. 3. Add the crushed tomatoes, salt, and pepper. Let the sauce simmer for 15-20 minutes. 4. Add the cooked pasta to the sauce, tossing until the pasta is well coated. 5. Stir in the chopped fresh basil. 6. Serve the pasta hot, sprinkled with vegan parmesan cheese (optional).
+1. Cook the pasta according to the package instructions. Drain and set aside.
+2. In a large pan, heat the olive oil over medium heat. Add the garlic and red chili flakes, stirring until the garlic is golden.
+3. Add the crushed tomatoes, salt, and pepper. Let the sauce simmer for 15-20 minutes.
+4. Add the cooked pasta to the sauce, tossing until the pasta is well coated.
+5. Stir in the chopped fresh basil. 6. Serve the pasta hot, sprinkled with vegan parmesan cheese (optional).
 
 Buon Appetito! This savory vegan pasta dish is the perfect comfort food for a cold evening. Enjoy the flavors of Italy in a dish that's as hearty and satisfying as it is healthy.
 

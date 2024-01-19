@@ -26,7 +26,18 @@ Today, we will be preparing a simple yet flavorful dinner with a vegan twist. Th
 
 ## Ingredients
 
-1 cup of sushi rice, 2 cups of water, 1/2 cup of rice vinegar, 3 sheets of nori, 1/2 cucumber, 1 carrot, 1 avocado, 1 block of firm tofu, 2 tablespoons of soy sauce, 1 tablespoon of sesame oil, 1 teaspoon of agave nectar, A pinch of salt.
+- 1 cup of sushi rice,
+- 2 cups of water,
+- 1/2 cup of rice vinegar,
+- 3 sheets of nori,
+- 1/2 cucumber,
+- 1 carrot,
+- 1 avocado,
+- 1 block of firm tofu,
+- 2 tablespoons of soy sauce,
+- 1 tablespoon of sesame oil,
+- 1 teaspoon of agave nectar,
+- A pinch of salt.
 
 ## Instructions
 
@@ -35,4 +46,3 @@ Start by cooking the sushi rice with water as per the instructions on the packag
 Enjoy your homemade Vegan Sushi Rolls! This dish offers a delicious and healthy alternative to traditional sushi, while maintaining the classic flavors we all love. It's a great way to introduce a new, vegan dish to your dinner table.
 
 Hiroshi
-
