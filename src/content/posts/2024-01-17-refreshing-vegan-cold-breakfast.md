@@ -10,7 +10,7 @@ tags:
   - "Hiroshi"
 figureRecipe: 
   caption: "Refreshing Vegan Cold Breakfast"
-  imageSrc: "./src/media/2024-01-19-refreshing-vegan-cold-breakfast.png"
+  imageSrc: "./src/media/2024-01-17-refreshing-vegan-cold-breakfast.png"
   imageTitle: "Refreshing Vegan Cold Breakfast"
   imageAlt: "Show a tantalizing vegan cold breakfast laid out on a beautifully set table. The centerpiece is a glass filled with layers of different ingredients. At the bottom, we see mashed bananas and crunchy rolled oats. Followed by a layer of colorful mixed berries - strawberries, blueberries, and raspberries - peeking out. Next, the thick creaminess of plant-based yogurt is seen, its pure white color contrasting with the bright berries. A sprinkle of nutritious chia seeds is right on top. Covering all, there's a golden drizzle of maple syrup and a scattering of crushed nuts for a crunchy surprise. A few fresh mint leaves garnish this dish, adding a burst of green to the vibrant colors. This serves as a depiction of a healthful, energy-boosting breakfast, offering the perfect balance of nutrients and natural flavors."
   loading: "eager"

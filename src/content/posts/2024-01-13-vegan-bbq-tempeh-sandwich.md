@@ -11,7 +11,7 @@ tags:
   - "Emily"
 figureRecipe: 
   caption: "Vegan BBQ Tempeh Sandwich"
-  imageSrc: "./src/media/2024-01-19-vegan-bbq-tempeh-sandwich.png"
+  imageSrc: "./src/media/2024-01-13-vegan-bbq-tempeh-sandwich.png"
   imageTitle: "Vegan BBQ Tempeh Sandwich"
   imageAlt: "Generate a vivid and realistic image of a delightful outdoor lunch setting, bathed in the warm Californian sunlight. The focus of this scene is a meticulously made Vegan BBQ Tempeh Sandwich set on a rustic table. This sandwich, assembled on freshly toasted whole grain bread, contains layers of crunchy lettuce, succulent tomato slices, sautéed bell peppers and onions, and caramelized BBQ tempeh, all shimmering under the soft sunlight. The barbecue sauce exudes a smoky and spicy aroma that entices the senses. To add a bit of color, the bell peppers and tomatoes contribute a captivating splash of freshness to the scene. An inviting bowl of extra BBQ sauce is kept close by for anyone wanting more. The table is nonchalantly adorned with a linen napkin, a refreshing glass of iced tea sitting in the condensation, and a lively sunflower placed in a crystal clear vase. The image, portraying not only the appetizing visuals of the sandwich but the sensory excitement it offers, exudes an easygoing lunch ambiance."
   loading: "eager"

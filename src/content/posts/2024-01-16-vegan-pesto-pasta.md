@@ -8,7 +8,7 @@ tags:
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Pesto Pasta"
-  imageSrc: "./src/media/2024-01-19-vegan-pesto-pasta.png"
+  imageSrc: "./src/media/2024-01-16-vegan-pesto-pasta.png"
   imageTitle: "Vegan Pesto Pasta"
   imageAlt: "Draw a realistic image of a cozy dinner setting illuminated by soft lighting. In the center, lay a wooden table, beautifully set with cutlery and tableware. On the table, sits a star attraction: a dish of Vegan Pesto Pasta, garnished enticingly with halved cherry tomatoes and fresh basil leaves. The image should evoke comfort, satisfaction, and should seek to highlight the vibrant colors and flavors of the vegan meal."
   loading: "eager"
