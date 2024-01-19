@@ -2,11 +2,16 @@
 
 {% block content %}
   <section class="wrapper layout-grid">
-    <h1 class="page-header layout-span">Recipes using “{{ tag }}”</h1>
+    <h1 class="page-header layout-span">Recipes tagged with “{{ tag }}”</h1>
     <div class="layout-span | content-main flow">
       <ul class="recipe-ul">
-        {% for item in collections[tag] | reverse %}
-          {% include "partials/site-post-list.njk" %}
+        {% for item in collections[tag] | reverse %}          
+          <a href="{{ item.url }}">
+              {% figure %}
+                  {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 260px, 340px" %}
+              {% endfigure %}
+              {{ item.data.title }}
+          </a>
         {% endfor %}
       </ul>
     </div>
