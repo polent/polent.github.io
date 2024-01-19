@@ -10,7 +10,7 @@ tags:
   - "Hiroshi"
 figureRecipe: 
   caption: "Simple Vegan Breakfast Recipe"
-  imageSrc: "./src/media/2024-01-19-simple-vegan-breakfast-recipe.png"
+  imageSrc: "./src/media/2024-01-19-simple-vegan-breakfast-recipe-hiroshi.png"
   imageTitle: "Simple Vegan Breakfast Recipe"
   imageAlt: "Imagine a cozy morning setting with sunlight streaming through the window, casting a warm glow on a vegan breakfast table. The centerpiece of the table is a plate filled with a vibrant mix of crumbled, slightly crisp tofu and colorful, tender vegetables, garnished with thinly sliced green onions and toasted sesame seeds. To complement this, there's a bowl of ripe berries and sliced tropical fruits, a few slices of toasted whole grain bread spread with plant-based butter, and a cup of freshly brewed coffee or herbal tea. Nearby, fresh flowers or a small potted plant enhance the scene. The image captures all these details from a slightly overhead angle, in soft, natural light."
   loading: "eager"
