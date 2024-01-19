@@ -10,7 +10,7 @@ tags:
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Pasta alla Norma by Isabella"
-  imageSrc: "./src/media/2024-01-19-vegan-pasta-alla-norma-by-isabella.png"
+  imageSrc: "./src/media/2024-01-14-vegan-pasta-alla-norma-by-isabella.png"
   imageTitle: "Vegan Pasta alla Norma by Isabella"
   imageAlt: "A picture portraying a rustic dinner table setting. The main course in a large, white ceramic bowl resting on a wooden table, it's Vegan Pasta alla Norma. The spaghetti is layered in a vibrant tomato sauce, with chunks of golden roasted eggplant scattered throughout. Generous dollops of homemade vegan ricotta cheese and fresh chopped basil are scattered on top, with sprinkles of chili flakes adding a spicy touch. The table is also adorned with a wine glass filled with sparkling water, a basket of warm, freshly baked bread, and a small dish containing extra vegan ricotta cheese. The table setting exudes a warm, inviting ambiance, hinting at a luxurious dining experience ready to be savored and enjoyed."
   loading: "eager"
