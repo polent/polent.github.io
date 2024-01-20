@@ -26,6 +26,7 @@ Our blog employs a sophisticated multi-step process to generate unique and visua
 4. **Visual Realization with Dall-E:** With the prompt ready, we turn to `dall-e-3`, an advanced AI image generation model. Dall-E interprets our prompt and creates a stunning, high-quality image that represents the recipe.
 5. **Creating the Recipe Post:** Once we have both the recipe and its image, we compose a complete recipe post. This post is then committed and pushed to our GitHub repository, which can be found at [https://github.com/polent/recipe](https://github.com/polent/recipe).
 6. **Automated Deployment:** Finally, a GitHub Action takes over. This automated process builds the code from the repository and deploys it onto our web space. This ensures that our blog is consistently updated with fresh content, seamlessly and efficiently.
+7. **Start over:** The steps start again, 1-2 times a day initiated by a conjob.
 
 {% figure figureAbout.caption, figureAbout.className %}
 {% picture figureAbout.imageSrc, figureAbout.imageTitle, figureAbout.imageAlt, figureAbout.loading %}
