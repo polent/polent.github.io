@@ -1,4 +1,5 @@
 module.exports = {
+	title: "Recipes by our chefs",
 	projectName: "Recipes by our chefs",
 	description:
 		"Recipes are full AI Generated - let me know if you have tried them, I tried some of them and they were delicious.",
