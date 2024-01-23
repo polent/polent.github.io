@@ -13,10 +13,10 @@ const picture = async function (
 		urlPath: "/img/",
 		outputDir: "./dist/img/",
 		sharpAvifOptions: {
-			quality: 50,
+			quality: 40,
 		},
 		sharpJpegOptions: {
-			quality: 50,
+			quality: 40,
 		},
 	});
 
