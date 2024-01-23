@@ -8,7 +8,7 @@
         {% for item in pagination.items %} 
           <a href="{{ item.url }}">         
           {% figure %}
-              {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
+              {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
           {% endfigure %}
           {{ item.data.title }}
           </a>
