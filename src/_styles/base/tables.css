@@ -3,6 +3,7 @@
 table,
 fieldset {
 	margin: 0;
+	color: var(--color-text-default);
 }
 
 table {
