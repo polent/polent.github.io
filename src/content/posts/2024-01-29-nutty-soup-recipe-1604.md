@@ -49,16 +49,6 @@ Warm up with a comforting bowl of Nutty Soup, a delicious and nutritious plant-b
 
 Enjoy this creamy and flavorful Nutty Soup as a starter or a hearty meal. It's a vegan twist on a classic comfort food that will leave you feeling nourished and satisfied.
 
-Emily
+*Emily*
 
-### Nutritionfacts
-
-Nuts are a great source of healthy fats, protein, and fiber. This Nutty Soup provides a good dose of essential nutrients, including vitamins and minerals. Each serving is rich in antioxidants and is a nourishing option for vegans.
-
-### Preparation Time
-
-30 minutes
-
-### Allergy Information
-
-This recipe contains nuts.
+<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Nuts are a great source of healthy fats, protein, and fiber. This Nutty Soup provides a good dose of essential nutrients, including vitamins and minerals. Each serving is rich in antioxidants and is a nourishing option for vegans.</td></tr><tr><th>Preparation Time</th><td>30 minutes</td></tr><tr><th>This recipe contains nuts.</th><td>None</td></tr></table>
