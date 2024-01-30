@@ -49,20 +49,10 @@ Enjoy this invigorating Watermelon Mint Lemonade and stay refreshed all summer l
 
 *Hiroshi*
 
-### Nutritionfacts
-
-Serving Size: 1 cup
+<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup
 Calories: 46
 Total Fat: 0g
 Sodium: 2mg
 Total Carbohydrate: 12g
 Sugars: 9g
-Protein: 1g
-
-### Preparation Time
-
-10 minutes
-
-### Allergy Information
-
-None
+Protein: 1g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>None</td></tr></table>
