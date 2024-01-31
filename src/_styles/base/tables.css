@@ -10,7 +10,8 @@ table {
 	table-layout: fixed;
 	border-collapse: collapse;
 	border-spacing: 0;
-color: var(--color-text-default);
+	color: var(--color-text-default);
+	margin-block-start: 2em !important;
 	caption,
 	th {
 		text-align: left;
@@ -19,15 +20,14 @@ color: var(--color-text-default);
 	caption {
 		margin-bottom: 0.25em;
 
-color: var(--color-text-default);
+		color: var(--color-text-default);
 	}
 	td,
 	th {
 		padding: 0.25em;
 		border: 1px solid var(--color-border-default);
 
-color: var(--color-text-default);
-vertical-align: top;
-
+		color: var(--color-text-default);
+		vertical-align: top;
 	}
 }

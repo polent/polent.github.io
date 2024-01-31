@@ -55,7 +55,7 @@ So go ahead and treat yourself to this delicious vegan dessert. You deserve it!
 
 *Nia*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
 Calories: 220
 Total Fat: 8g
 Saturated Fat: 7g

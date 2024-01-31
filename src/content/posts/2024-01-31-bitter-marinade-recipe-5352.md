@@ -54,7 +54,7 @@ Enjoy the bold flavors of this bitter marinade in your dishes and explore the vi
 
 *Nia*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 tablespoon
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 tablespoon
 Calories: 35
 Total Fat: 3g
 Saturated Fat: 0.4g

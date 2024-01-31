@@ -45,7 +45,7 @@ Enjoy this invigorating drink and savor the bold flavors it offers. Cheers to a 
 
 *Emily*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80
 Total Fat: 2g
 Saturated Fat: 0.2g
 Cholesterol: 0mg

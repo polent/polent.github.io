@@ -46,7 +46,7 @@ Enjoy this buttery side dish as a flavorful accompaniment to any meal. With its 
 
 *Nia*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120
 Total Fat: 7g
 Sodium: 200mg
 Carbohydrates: 12g
