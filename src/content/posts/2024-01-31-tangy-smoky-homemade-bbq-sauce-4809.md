@@ -49,5 +49,5 @@ Enjoy the bold and delicious flavors of this homemade BBQ sauce on your favorite
 
 *Emily*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td></td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td></td></tr></table>
+<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>&nbsp;</td></tr></table>
 
