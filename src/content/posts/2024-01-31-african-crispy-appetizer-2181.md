@@ -51,7 +51,7 @@ Enjoy these crispy appetizers as a delightful way to start your meal or as a tas
 
 *Nia*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 fritter
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 fritter
 Calories: 80
 Total Fat: 3g
 Saturated Fat: 0.3g

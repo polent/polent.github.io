@@ -49,7 +49,7 @@ Enjoy the bright and refreshing flavors of this citrusy breakfast! With a mix of
 
 *Hiroshi*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 plate
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 plate
 Calories: 150
 Total Fat: 1g
 Saturated Fat: 0g

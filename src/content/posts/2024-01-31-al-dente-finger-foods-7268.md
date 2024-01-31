@@ -53,7 +53,7 @@ Enjoy these Al Dente Finger Foods as a satisfying and flavorful bite. Whether yo
 
 *Isabella*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving size: 4 balls
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving size: 4 balls
 Calories: 150
 Total fat: 8g
 Saturated fat: 1g

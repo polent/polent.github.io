@@ -47,5 +47,5 @@ Enjoy this smoky drink as a refreshing and intriguing alternative to your usual 
 
 *Isabella*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>&nbsp;</td></tr><tr><th>Preparation Time</th><td>5 minutes</td></tr><tr><th>Allergy Information</th><td>&nbsp;</td></tr></table>
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>&nbsp;</td></tr><tr><th>Preparation Time</th><td>5 minutes</td></tr><tr><th>Allergy Information</th><td>&nbsp;</td></tr></table>
 

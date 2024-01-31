@@ -45,7 +45,7 @@ Enjoy this mild dessert as a comforting treat that is both vegan and delicious.
 
 *Emily*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
 Calories: 120
 Total Fat: 4g
 Saturated Fat: 0.5g

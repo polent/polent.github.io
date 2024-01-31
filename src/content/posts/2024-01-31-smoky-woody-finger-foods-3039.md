@@ -48,7 +48,7 @@ These woody finger foods are sure to be a hit at any party or gathering. Enjoy t
 
 *Emily*
 
-<table><caption>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150
+<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150
 Total Fat: 1g
 Sodium: 500mg
 Carbohydrates: 35g
