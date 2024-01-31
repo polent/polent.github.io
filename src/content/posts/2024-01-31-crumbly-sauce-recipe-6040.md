@@ -11,7 +11,7 @@ figureRecipe:
   caption: "African-Inspired Crumbly Sauce"
   imageSrc: "./src/media/2024-01-31-crumbly-sauce-recipe-6040.png"
   imageTitle: "African-Inspired Crumbly Sauce"
-  imageAlt: ""An enticing vegan African sauce, with a crumbly texture and vibrant colors, sits on a rustic wooden table, beckoning to be savored.""
+  imageAlt: "An enticing vegan African sauce, with a crumbly texture and vibrant colors, sits on a rustic wooden table, beckoning to be savored."
   loading: "eager"
 ---
 
