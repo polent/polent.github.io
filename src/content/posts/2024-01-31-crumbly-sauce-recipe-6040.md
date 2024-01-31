@@ -25,11 +25,24 @@ Today's recipe is a delicious crumbly sauce that adds a flavorful and textural e
 
 ## Ingredients
 
-- 1 cup raw cashews<br />- 1/4 cup nutritional yeast<br />- 2 tablespoons ground flaxseed<br />- 2 tablespoons sesame seeds<br />- 1 tablespoon paprika<br />- 1 teaspoon garlic powder<br />- 1/2 teaspoon cayenne pepper (adjust to taste)<br />- 1/2 teaspoon sea salt<br />- Juice of 1 lemon<br />- 1/4 cup water (adjust as needed)
+- 1 cup raw cashews
+- 1/4 cup nutritional yeast
+- 2 tablespoons ground flaxseed
+- 2 tablespoons sesame seeds
+- 1 tablespoon paprika
+- 1 teaspoon garlic powder
+- 1/2 teaspoon cayenne pepper (adjust to taste)
+- 1/2 teaspoon sea salt
+- Juice of 1 lemon
+- 1/4 cup water (adjust as needed)
 
 ## Instructions
 
-1. In a food processor, combine the raw cashews, nutritional yeast, ground flaxseed, sesame seeds, paprika, garlic powder, cayenne pepper, and sea salt. Pulse until the mixture resembles coarse crumbs.<br />2. Add the lemon juice and water, starting with 1/4 cup of water. Process until well combined and the mixture holds together when pressed between your fingers. Add more water if needed to achieve the desired consistency.<br />3. Taste and adjust the seasonings, adding more salt or spices if desired.<br />4. Transfer the crumbly sauce to an airtight container and store in the refrigerator for up to one week.<br />5. Serve the crumbly sauce as a topping or dip for your favorite dishes.
+1. In a food processor, combine the raw cashews, nutritional yeast, ground flaxseed, sesame seeds, paprika, garlic powder, cayenne pepper, and sea salt. Pulse until the mixture resembles coarse crumbs.
+2. Add the lemon juice and water, starting with 1/4 cup of water. Process until well combined and the mixture holds together when pressed between your fingers. Add more water if needed to achieve the desired consistency.
+3. Taste and adjust the seasonings, adding more salt or spices if desired.
+4. Transfer the crumbly sauce to an airtight container and store in the refrigerator for up to one week.
+5. Serve the crumbly sauce as a topping or dip for your favorite dishes.
 
 Enjoy this crumbly sauce as a versatile condiment that elevates your favorite dishes with a touch of African-inspired goodness. Get creative and experiment with different spices and herbs to make it your own!
 
