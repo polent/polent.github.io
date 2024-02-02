@@ -25,8 +25,6 @@ Indulge in the rich and flavorful taste of East African cuisine with this vegan 
 
 ## Ingredients
 
-## Ingredients
-
 - 1 cup chickpea flour
 - 1/4 cup water
 - 1 small onion, finely chopped
@@ -37,8 +35,6 @@ Indulge in the rich and flavorful taste of East African cuisine with this vegan 
 - 1/4 teaspoon cayenne pepper
 - Salt and pepper, to taste
 - Vegetable oil, for frying
-
-## Instructions
 
 ## Instructions
 

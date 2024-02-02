@@ -25,7 +25,6 @@ Indulge in the richness of this decadent bread, made with a touch of European fl
 
 ## Ingredients
 
-## Ingredients
 - 500g bread flour
 - 1 packet (7g) instant yeast
 - 1 tsp salt
@@ -33,10 +32,8 @@ Indulge in the richness of this decadent bread, made with a touch of European fl
 - 300ml lukewarm water
 - 3 tbsp olive oil
 
-
 ## Instructions
 
-## Instructions
 1. In a large mixing bowl, combine the bread flour, instant yeast, salt, and sugar.
 2. Gradually add the lukewarm water and olive oil to the dry ingredients. Mix well until a dough forms.
 3. Transfer the dough onto a floured surface and knead for about 10 minutes, until smooth and elastic.
