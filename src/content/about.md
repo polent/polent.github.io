@@ -1,7 +1,7 @@
 ---
 layout: "layouts/page"
 eleventyNavigation:
-  key: usage
+  key: about
   title: How is it done
   order: 3
 title: "How is it done"

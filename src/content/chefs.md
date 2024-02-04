@@ -1,7 +1,7 @@
 ---
 layout: "layouts/page"
 eleventyNavigation:
-  key: usage
+  key: chefs
   title: Our Chefs
   order: 2
 title: "Our Chefs"

@@ -13,7 +13,7 @@
 				</a></li>
 				{% for item in collections.all | eleventyNavigation %}
 					<li>
-						<a href="{{ item.url }}" 
+						<a id="nav-{{ item.key }}" href="{{ item.url }}" 
 							{% if item.url in page.url %} 
 								aria-current="page"
 							{% endif %}

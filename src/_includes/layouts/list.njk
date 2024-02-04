@@ -6,12 +6,14 @@
     <div class="layout-span | content-main flow">
       <ul class="recipe-ul">
         {% for item in pagination.items %} 
+        <li>
           <a href="{{ item.url }}">         
           {% figure %}
               {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
           {% endfigure %}
           {{ item.data.title }}
           </a>
+        </li>
         {% endfor %}
       </ul>
     </div>

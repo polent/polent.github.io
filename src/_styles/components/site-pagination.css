@@ -4,11 +4,11 @@
 
 .site-pagination ul {
 	@extend %list-reset;
-	display: flex;
 }
 
 .site-pagination ul li {
 	margin-inline-end: var(--space-xs-s);
+	display: inline-block;
 }
 
 .site-pagination a[aria-current="page"] {

@@ -33,6 +33,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("dateToYear", filters.dateToYear);
 	eleventyConfig.addFilter("dateToMonth", filters.dateToMonth);
 	eleventyConfig.addFilter("dateToUNIX", filters.dateToUNIX);
+	eleventyConfig.addFilter("squash", filters.squash);
 
 	// Shortcodes
 	eleventyConfig.addShortcode("picture", shortcodes.picture);
