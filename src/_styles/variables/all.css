@@ -1,8 +1,8 @@
 :root {
 	/* Colour */
 	--color-surface-default: hsl(55, 94%, 93%);
-	--color-surface-secondary: #CB9173;
-	--color-highlight: #111;
+	--color-surface-secondary: #cb9173;
+	--color-highlight: #eee;
 	--color-text-default: #000;
 	--color-text-code-default: #000;
 	--color-text-code-attr: hsl(358, 85%, 38%);
@@ -10,12 +10,12 @@
 	--color-text-code-class: hsl(39, 92%, 35%);
 	--color-text-code-selector: hsl(299, 54%, 40%);
 	--color-text-code-variable: hsl(143, 59%, 34%);
-	--color-text-code-url: #0A3943;
-	--color-interactive-default: #0A3943;
+	--color-text-code-url: #0a3943;
+	--color-interactive-default: #0a3943;
 	--color-interactive-hover: #0e505e;
 	--color-interactive-focus: #12697b;
 	--color-interactive-focus-ring: #09677b;
-	--color-border-default: #8E443D;
+	--color-border-default: #8e443d;
 
 	/* Font */
 	--font-family-sans: system-ui, -apple-system, sans-serif;

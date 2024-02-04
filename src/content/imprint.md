@@ -1,9 +1,9 @@
 ---
 layout: "layouts/page"
 eleventyNavigation:
-  key: usage
+  key: imprint
   title: Imprint
-  order: 4
+  order: 5
 title: "Imprint"
 description: "The imprint, whom to contact in any case."
 permalink: "/imprint/index.html"

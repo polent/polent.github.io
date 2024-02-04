@@ -5,7 +5,7 @@ eleventyImport:
   collections: ["featured"]
 ---
 
-Welcome to our AI-Generated Vegan Recipe Page, a unique culinary destination where the fusion of technology and diverse global flavors brings you an exclusive range of vegan recipes. We are thrilled to introduce you to our four AI-created chef personas, each representing a different corner of the world, infusing their unique cultural touch into vegan cooking.
+Welcome to our AI-Generated Vegan Recipe Page, a unique culinary destination where the fusion of technology and diverse global flavors brings you an exclusive range of vegan recipes. We are excited to introduce you to our four AI-created chef personas, each representing a different corner of the world, diving into their unique cultural touch into vegan cooking.
 
 ## Recipe of the day
 
