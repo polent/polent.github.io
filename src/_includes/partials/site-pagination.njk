@@ -1,6 +1,6 @@
 {# Uses Nunjucks special variable loop.index0 to target the current iteration of a loop #}
-
-<nav class="site-pagination" aria-labelledby="pagination">
+<h2 class="sr-only" id="pagination-h2">Recipe Pagination</h2>
+<nav class="site-pagination" aria-labelledby="pagination-h2">
   <ul>
     <li><a href="{{ pagination.href.first }}">First</a></li>
     {%- for pageEntry in pagination.pages %}
