@@ -3,7 +3,7 @@ title: "Vegan Shepherd's Pie with Parsnip and Potato Crust"
 description: "Try this vegan twist on a classic Shepherd's Pie with a parsnip and potato crust. Packed with savory flavors and wholesome ingredients, it's a hearty and delicious dish that will satisfy your cravings."
 tags:
   - "vegan"
-  - "shepherd's pie"
+  - "shepherds pie"
   - "comfort food"
   - "Isabella"
 figureRecipe: 
