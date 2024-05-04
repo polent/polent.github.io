@@ -3,7 +3,7 @@ title: "African-Inspired Crumbly Sauce"
 description: "This African-inspired crumbly sauce is made with wholesome ingredients and adds a flavorful and textural element to any dish. Vegan and packed with African-inspired flavors, it's perfect for drizzling over roasted vegetables, grains, or as a dip for bread."
 tags:
   - "vegan"
-  - "african-inspired"
+  - "african inspired"
   - "sauce"
   - "condiment"
   - "Nia"

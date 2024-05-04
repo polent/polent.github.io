@@ -4,7 +4,7 @@ description: "Add a spicy kick to your dishes with this flavorful African-inspir
 tags:
   - "spicy"
   - "marinade"
-  - "african-inspired"
+  - "african inspired"
   - "vegan"
   - "flavorful"
   - "Nia"

@@ -3,7 +3,7 @@ title: "Vegan Matoke Stew Recipe"
 description: "Enjoy a flavorful Vegan Matoke Stew, featuring ripe plantains in a tomato and coconut sauce. This African-inspired dish is perfect for a satisfying lunch!"
 tags:
   - "vegan"
-  - "african-inspired"
+  - "african inspired"
   - "stew"
   - "plant-based"
   - "lunch"

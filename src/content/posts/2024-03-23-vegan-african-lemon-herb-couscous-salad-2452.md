@@ -3,7 +3,7 @@ title: "Vegan African Lemon Herb Couscous Salad"
 description: "Enjoy a tangy Vegan African Lemon Herb Couscous Salad bursting with zesty flavors. This light and refreshing dish is perfect for a flavorful meal."
 tags:
   - "vegan"
-  - "african-inspired"
+  - "african inspired"
   - "couscous"
   - "salad"
   - "tangy"

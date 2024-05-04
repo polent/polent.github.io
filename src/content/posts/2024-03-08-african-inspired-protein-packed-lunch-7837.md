@@ -3,7 +3,7 @@ title: "African-Inspired Protein-Packed Lunch"
 description: "Elevate your lunch with this flavorful and protein-packed vegan African-inspired dish. Perfect for a quick and delicious meal!"
 tags:
   - "vegan"
-  - "african-inspired"
+  - "african inspired"
   - "protein-packed"
   - "lunch"
   - "Nia"

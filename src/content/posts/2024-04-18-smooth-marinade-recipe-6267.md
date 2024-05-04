@@ -4,7 +4,7 @@ description: "Elevate your dishes with this African-inspired smooth marinade. Pe
 tags:
   - "vegan"
   - "marinade"
-  - "african-inspired"
+  - "african inspired"
   - "flavorful"
   - "Nia"
 figureRecipe: 
