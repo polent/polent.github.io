@@ -4,7 +4,7 @@ description: "Indulge in a decadent and creamy African-inspired fatty drink that
 tags:
   - "fatty drink"
   - "creamy"
-  - "african inspired"
+  - "african-inspired"
   - "indulgent"
   - "Nia"
 figureRecipe: 

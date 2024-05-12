@@ -4,7 +4,7 @@ description: "Indulge in a luscious and silky vegan dinner delight, rich in flav
 tags:
   - "vegan"
   - "dinner"
-  - "african inspired"
+  - "african-inspired"
   - "silky"
   - "coconut milk"
   - "chickpeas"
