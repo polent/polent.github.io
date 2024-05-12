@@ -4,7 +4,7 @@ description: "Start your day with a taste of Africa! This vegan African-inspired
 tags:
   - "vegan"
   - "breakfast"
-  - "african inspired"
+  - "african-inspired"
   - "wholesome"
   - "flavorful"
   - "Nia"

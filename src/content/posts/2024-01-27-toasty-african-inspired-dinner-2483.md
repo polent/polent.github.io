@@ -3,7 +3,7 @@ title: "Toasty African-Inspired Dinner"
 description: "Warm up your evening with this delicious and toasty African-inspired dinner. This vegan dish combines the flavors of North Africa and West Africa, creating a hearty meal using local and sustainable ingredients."
 tags:
   - "vegan"
-  - "african inspired"
+  - "african-inspired"
   - "couscous"
   - "chickpeas"
   - "tomatoes"

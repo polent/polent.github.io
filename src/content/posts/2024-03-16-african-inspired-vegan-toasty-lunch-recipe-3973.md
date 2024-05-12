@@ -3,7 +3,7 @@ title: "African-Inspired Vegan Toasty Lunch Recipe"
 description: "Try this African-inspired vegan toasty lunch recipe for a flavorful and hearty meal. Perfect for a quick and satisfying lunch that celebrates the rich flavors of Africa in a vegan twist."
 tags:
   - "vegan"
-  - "african inspired"
+  - "african-inspired"
   - "toasty lunch"
   - "chickpeas"
   - "bell pepper"

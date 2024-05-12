@@ -4,7 +4,7 @@ description: "Enjoy chewy vegan sweet potato and black bean burgers with this ea
 tags:
   - "vegan"
   - "burgers"
-  - "african inspired"
+  - "african-inspired"
   - "sweet potato"
   - "black beans"
   - "chewy"

@@ -4,7 +4,7 @@ description: "Indulge in a delightful and sweet lunch with this vegan African-in
 tags:
   - "vegan"
   - "dessert"
-  - "african inspired"
+  - "african-inspired"
   - "fruit"
   - "sweet"
   - "Nia"
