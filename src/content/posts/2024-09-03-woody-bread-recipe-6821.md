@@ -4,7 +4,7 @@ description: "Discover how to make delicious woody bread with rosemary and whole
 tags:
   - "vegan"
   - "bread"
-  - "whole wheat"
+  - "whole-wheat"
   - "rosemary"
   - "Isabella"
 figureRecipe: 
