@@ -4,7 +4,7 @@ description: "Discover the vibrant flavors of our Asian-Inspired Robust Salad, a
 tags:
   - "vegan"
   - "salad"
-  - "asian-cuisine"
+  - "asian"
   - "healthy"
   - "nutritious"
   - "Hiroshi"
