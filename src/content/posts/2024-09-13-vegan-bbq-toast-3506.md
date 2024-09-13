@@ -5,8 +5,7 @@ tags:
   - "vegan"
   - "bbq"
   - "toast"
-  - "quick-meal"
-  - "plant-based"
+  - "quick"
   - "Emily"
 figureRecipe: 
   caption: "Vegan BBQ Toast"
