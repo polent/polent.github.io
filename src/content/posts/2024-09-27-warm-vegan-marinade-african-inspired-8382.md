@@ -3,7 +3,7 @@ title: "Warm Vegan Marinade: African Inspired"
 description: "Discover the flavors of Africa with this warm vegan marinade, perfect for vegetables and tofu. A blend of spices and a hint of sweetness make it irresistible!"
 tags:
   - "vegan"
-  - "african-cuisine"
+  - "african cuisine"
   - "marinade"
   - "spicy"
   - "sweet"
