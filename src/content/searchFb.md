@@ -21,3 +21,9 @@ Currently no recipes are indexed with Google.
     <input type="text" name="q" id="search-str"></p>   
     <button type="submit" class="submit">Search with Google - opens new Window/Tab</button>   
 </form>
+
+## Search Results
+
+<ul id="results"><li>Nothing found yet</li></ul>
+
+<script src="/js/search.js" async defer></script>

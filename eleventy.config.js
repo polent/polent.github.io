@@ -45,6 +45,7 @@ module.exports = function (eleventyConfig) {
 	// Passthrough copies
 	eleventyConfig.addPassthroughCopy({ "src/static/fonts": "/fonts" });
 	eleventyConfig.addPassthroughCopy({ "src/static/favicons/*": "/" });
+	eleventyConfig.addPassthroughCopy({ "src/static/js/*": "/js" });
 	eleventyConfig.addPassthroughCopy({
 		"src/static/og-default.png": "/og-default.png",
 	});
