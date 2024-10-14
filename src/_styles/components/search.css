@@ -1,0 +1,10 @@
+ul#results,
+ul#results li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul#results li {
+	margin-bottom: 1em;
+}

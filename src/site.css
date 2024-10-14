@@ -30,6 +30,7 @@
 /* Components */
 @import "./_styles/components/site-header.css";
 @import "./_styles/components/site-footer.css";
+@import "./_styles/components/search.css";
 @import "./_styles/components/site-pagination.css";
 @import "./_styles/components/card-list.css";
 @import "./_styles/components/footnotes.css";
