@@ -8,7 +8,8 @@ permalink: "/search.json"
       "url": "{{ url }}",
       "title": "{{ post.data.title }}",
       "excerpt": "{{ post.data.description }}",
-      "tags": "{{ post.data.tags }}"
+      "tags": "{{ post.data.tags }}",
+      "content": "{{ post.content | striptags | escape }}"
     }
     {%- if not loop.last -%}
     ,

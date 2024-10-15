@@ -6,7 +6,8 @@
 			if (
 				post.title.toLowerCase().includes(searchString) ||
 				post.excerpt.toLowerCase().includes(searchString) ||
-				post.tags.toLowerCase().includes(searchString)
+				post.tags.toLowerCase().includes(searchString) ||
+				post.content.toLowerCase().includes(searchString)
 			) {
 				results.push(`<li><a href="${post.url}">
             <h3>
