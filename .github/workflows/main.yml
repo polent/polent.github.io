@@ -21,10 +21,10 @@ jobs:
       - name: Restore cache
         uses: actions/cache@v3
         with:
-          path: ./dist/img
-          key: ${{ runner.os }}-dist-img-${{ hashFiles('**/package-lock.json') }}
+          path: ./dist
+          key: ${{ runner.os }}-dist-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-dist-img-
+            ${{ runner.os }}-dist-
 
       - name: Install Dependencies
         run: npm install
@@ -35,8 +35,8 @@ jobs:
       - name: Save cache
         uses: actions/cache@v3
         with:
-          path: ./dist/img
-          key: ${{ runner.os }}-dist-img-${{ hashFiles('**/package-lock.json') }}
+          path: ./dist
+          key: ${{ runner.os }}-dist-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install rsync
         run: sudo apt-get install -y rsync
