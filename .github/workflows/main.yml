@@ -11,16 +11,32 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
+      - name: Restore cache
+        uses: actions/cache@v3
+        with:
+          path: ./dist/img
+          key: ${{ runner.os }}-dist-img-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-dist-img-
+
       - name: Install Dependencies
         run: npm install
+
       - name: Build
         run: npm run build --if-present
+
+      - name: Save cache
+        uses: actions/cache@v3
+        with:
+          path: ./dist/img
+          key: ${{ runner.os }}-dist-img-${{ hashFiles('**/package-lock.json') }}
 
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
