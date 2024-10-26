@@ -5,7 +5,8 @@ tags:
   - "vegan"
   - "jackfruit"
   - "bbq"
-  - "asian-fusion"
+  - "asian"
+  - "fusion"
   - "lunch"
   - "Emily"
 figureRecipe: 
