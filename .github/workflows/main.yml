@@ -39,6 +39,9 @@ jobs:
           path: ./dist
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
+      - name: Install rsync
+        run: sudo apt-get install -y rsync
+
       - name: Compare and copy changed files
         run: |
           rsync -avz --delete ./dist/ ./temp-dist/
