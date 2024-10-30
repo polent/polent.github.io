@@ -49,3 +49,4 @@ jobs:
           remote_path: "/"
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
+          rsync: true
