@@ -39,11 +39,9 @@ jobs:
           path: ./dist
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
-      - name: Install rsync
-        run: sudo apt-get install -y rsync
-
-      - name: Sync new files to temp directory
-        run: rsync -av ./dist/ ./temp-dist/
+      - name: Compare and copy changed files
+        run: |
+          rsync -avz --delete ./dist/ ./temp-dist/
 
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
