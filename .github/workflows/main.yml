@@ -17,12 +17,27 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
+      - uses: actions/checkout@v4
 
       - name: Install Dependencies
         run: npm install
 
+      - name: Restore cached Primes
+        id: cache-primes-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: ./dist
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+
       - name: Build
         run: npm run build --if-present
+
+      - name: Save Primes
+        id: cache-primes-save
+        uses: actions/cache/save@v4
+        with:
+          path: ./dist
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
       - name: deploy file to server
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
