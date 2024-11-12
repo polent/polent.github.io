@@ -3,7 +3,7 @@ title: "Vegan Asian BBQ Burger"
 description: "Explore the unique fusion of Asian flavors with classic BBQ in this Vegan Asian BBQ Burger, perfect for a cozy gastro pub experience at home."
 tags:
   - "vegan"
-  - "asian fusion"
+  - "asian-fusion"
   - "bbq"
   - "gastro pub"
   - "comfort food"

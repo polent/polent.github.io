@@ -6,7 +6,7 @@ tags:
   - "miso soup"
   - "foamed cuisine"
   - "plant-based"
-  - "asian fusion"
+  - "asian-fusion"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Foamed Miso Soup with Crispy Tofu and Seaweed"

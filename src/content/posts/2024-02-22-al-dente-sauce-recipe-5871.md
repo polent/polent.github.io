@@ -6,7 +6,7 @@ tags:
   - "al dente sauce"
   - "fusion cuisine"
   - "vegan"
-  - "asian fusion"
+  - "asian-fusion"
   - "Hiroshi"
 figureRecipe: 
   caption: "Al Dente Sauce Recipe"

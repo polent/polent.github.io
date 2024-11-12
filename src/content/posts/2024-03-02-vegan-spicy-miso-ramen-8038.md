@@ -6,7 +6,7 @@ tags:
   - "ramen"
   - "spicy"
   - "miso"
-  - "asian fusion"
+  - "asian-fusion"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Spicy Miso Ramen"

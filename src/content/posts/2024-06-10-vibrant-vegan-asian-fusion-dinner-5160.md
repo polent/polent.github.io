@@ -3,7 +3,7 @@ title: "Vibrant Vegan Asian Fusion Dinner"
 description: "Transform your bland dinner with this vibrant vegan Asian fusion dish by Chef Hiroshi. Experience a burst of flavors with innovative plant-based ingredients."
 tags:
   - "vegan"
-  - "asian fusion"
+  - "asian-fusion"
   - "noodles"
   - "sushi"
   - "innovative"

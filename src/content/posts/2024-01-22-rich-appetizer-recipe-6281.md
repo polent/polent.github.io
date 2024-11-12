@@ -4,7 +4,7 @@ description: "Delight your taste buds with this rich and crispy vegan appetizer 
 tags:
   - "vegan"
   - "appetizer"
-  - "asian fusion"
+  - "asian-fusion"
   - "tofu"
   - "crispy"
   - "marinade"

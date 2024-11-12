@@ -6,7 +6,7 @@ tags:
   - "brunch"
   - "bbq"
   - "tofu"
-  - "asian fusion"
+  - "asian-fusion"
   - "Emily"
 figureRecipe: 
   caption: "Smoky Asian BBQ Tofu Benedict"
