@@ -4,7 +4,7 @@ description: "Indulge in a delightful woody dessert featuring a fusion of tradit
 tags:
   - "vegan"
   - "dessert"
-  - "asian fusion"
+  - "asian-fusion"
   - "plant-based"
   - "Hiroshi"
 figureRecipe: 

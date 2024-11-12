@@ -3,7 +3,7 @@ title: "Vegan Shredded Mushroom and Tofu Stir-Fry"
 description: "Delicious vegan shredded mushroom and tofu stir-fry, combining the essence of Asian flavors in a modern plant-based dish."
 tags:
   - "vegan"
-  - "asian fusion"
+  - "asian-fusion"
   - "stir-fry"
   - "mushroom"
   - "tofu"

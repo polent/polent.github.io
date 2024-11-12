@@ -6,7 +6,7 @@ tags:
   - "grassy sauce"
   - "vegan"
   - "sauce"
-  - "asian fusion"
+  - "asian-fusion"
   - "Hiroshi"
 figureRecipe: 
   caption: "Today's Grassy Sauce Recipe"

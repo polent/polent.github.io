@@ -6,7 +6,7 @@ tags:
   - "appetizer"
   - "mushrooms"
   - "buttery"
-  - "asian fusion"
+  - "asian-fusion"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Buttered Mushrooms"

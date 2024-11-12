@@ -4,7 +4,7 @@ description: "Discover this Vegan Bruschetta with Miso-Glazed Eggplant and Fresh
 tags:
   - "vegan"
   - "appetizer"
-  - "asian fusion"
+  - "asian-fusion"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Bruschetta with Miso-Glazed Eggplant and Fresh Herbs"

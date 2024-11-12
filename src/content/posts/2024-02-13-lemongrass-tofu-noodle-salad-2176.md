@@ -4,7 +4,7 @@ description: "Enjoy a refreshing and tangy Lemongrass Tofu Noodle Salad, combini
 tags:
   - "lemongrass tofu noodle salad"
   - "vegan recipe"
-  - "asian fusion"
+  - "asian-fusion"
   - "light lunch"
   - "Hiroshi"
 figureRecipe: 

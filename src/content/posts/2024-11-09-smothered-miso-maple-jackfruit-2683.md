@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "comfort food"
   - "jackfruit"
-  - "asian fusion"
+  - "asian-fusion"
   - "easy recipe"
   - "Emily"
 figureRecipe: 
