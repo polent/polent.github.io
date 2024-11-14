@@ -3,7 +3,7 @@ title: "Nutty Vegan African Lunch"
 description: "Enjoy a Nutty Vegan African Lunch featuring roasted peanuts, chickpeas, and sweet potatoes, seasoned with spices for a flavorful meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "nutty"
   - "lunch"
   - "Nia"

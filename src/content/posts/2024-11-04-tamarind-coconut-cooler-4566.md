@@ -3,7 +3,7 @@ title: "Tamarind Coconut Cooler"
 description: "Discover the refreshing taste of Tamarind Coconut Cooler, a perfect vegan drink blending tamarind pulp and coconut milk, inspired by African flavors."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "refreshing drink"
   - "coconut"
   - "tamarind"

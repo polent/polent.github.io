@@ -6,7 +6,7 @@ tags:
   - "dumplings"
   - "spicy"
   - "appetizer"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "Hiroshi"
 figureRecipe: 
   caption: "Crispy Vegan Dumplings with Spicy Dipping Sauce"

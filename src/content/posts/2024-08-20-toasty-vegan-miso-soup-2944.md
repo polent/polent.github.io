@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "miso"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "warm dishes"
   - "Hiroshi"
 figureRecipe: 

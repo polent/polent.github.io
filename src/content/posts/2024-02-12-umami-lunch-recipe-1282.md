@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "lunch"
   - "umami"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "Hiroshi"
 figureRecipe: 
   caption: "Umami Lunch Recipe"

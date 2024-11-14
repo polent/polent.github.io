@@ -3,9 +3,9 @@ title: "Vegan Bento Box: A Fresh Culinary Delight"
 description: "Explore a delightful Vegan Bento Box recipe, blending traditional Asian flavors with vegan ingredients for a nutritious meal, perfect for lunch or dinner."
 tags:
   - "vegan"
-  - "bento box"
+  - "bento-box"
   - "healthy"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Bento Box: A Fresh Culinary Delight"

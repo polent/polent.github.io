@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "citrus"
   - "salad"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "tofu"
   - "lunch"
   - "Hiroshi"

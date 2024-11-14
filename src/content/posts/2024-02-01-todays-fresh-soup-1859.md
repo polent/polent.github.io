@@ -4,7 +4,7 @@ description: "Warm up with a bowl of today's fresh soup! This hearty and flavorf
 tags:
   - "soup"
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "hearty"
   - "flavorful"
   - "Nia"

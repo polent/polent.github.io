@@ -3,7 +3,7 @@ title: "African-Inspired Sunshine Salad"
 description: "Try this African-Inspired Sunshine Salad with quinoa, mango, and peanuts, bursting with fresh flavors and perfect for a healthy meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "salad"
   - "healthy"
   - "quinoa"

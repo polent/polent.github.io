@@ -3,7 +3,7 @@ title: "Salty Bento Box Delight"
 description: "Experience a vegan twist on the traditional bento box with our 'Salty Bento Box Delight', featuring sushi rice, vegan teriyaki chicken, and fresh vegetables."
 tags:
   - "vegan"
-  - "bento box"
+  - "bento-box"
   - "japanese"
   - "lunch"
   - "dinner"

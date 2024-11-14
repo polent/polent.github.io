@@ -3,7 +3,7 @@ title: "Caramelized Bento Box Delight"
 description: "A vegan caramelized bento box recipe that combines sweet potatoes, tofu, and broccoli with a delicious sauce. Perfect for a special day meal."
 tags:
   - "vegan"
-  - "bento box"
+  - "bento-box"
   - "caramelized"
   - "healthy"
   - "Nia"

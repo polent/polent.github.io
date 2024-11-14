@@ -3,7 +3,7 @@ title: "Sticky African Spiced Vegan Dinner"
 description: "Discover a sticky, sweet, and spicy vegan dinner inspired by traditional African flavors, featuring millet and roasted sweet potatoes."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "sticky dinner"
   - "spicy"
   - "sweet"

@@ -3,7 +3,7 @@ title: "Creamy African Peanut Soup"
 description: "Warm up with this creamy, vegan African Peanut Soup, packed with sweet potatoes and spices, perfect for a comforting meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "peanut soup"
   - "comfort food"
   - "Nia"

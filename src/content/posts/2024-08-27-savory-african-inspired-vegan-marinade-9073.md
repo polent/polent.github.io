@@ -3,7 +3,7 @@ title: "Savory African-Inspired Vegan Marinade"
 description: "Explore the rich flavors of Africa with this vegan marinade, perfect for enhancing your plant-based meals. Quick to prepare and packed with spices."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "marinade"
   - "savory"
   - "Nia"

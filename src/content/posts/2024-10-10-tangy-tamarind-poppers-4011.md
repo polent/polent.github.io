@@ -3,7 +3,7 @@ title: "Tangy Tamarind Poppers"
 description: "Enjoy a unique vegan snack with these 'Tangy Tamarind Poppers', blending tamarind, dates, and nuts for a deliciously tangy treat."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "fingerfood"
   - "tamarind"
   - "snacks"

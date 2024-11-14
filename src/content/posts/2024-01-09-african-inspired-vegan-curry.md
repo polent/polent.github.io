@@ -3,7 +3,7 @@ title: "African-Inspired Vegan Curry"
 description: "Try this delicious African-inspired vegan curry for a flavorful and nutritious dinner. Packed with vibrant vegetables, aromatic spices, and creamy coconut milk, it's a perfect plant-based meal!"
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "curry"
   - "plant-based"
   - "healthy dinner"

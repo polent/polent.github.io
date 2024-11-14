@@ -4,7 +4,7 @@ description: "Start your day with a nutritious Vegan Savory Sorghum Porridge, ri
 tags:
   - "vegan"
   - "breakfast"
-  - "african cuisine"
+  - "african-cuisine"
   - "sorghum"
   - "porridge"
   - "Nia"

@@ -3,7 +3,7 @@ title: "Vegan Buttered Greens"
 description: "Try this delicious vegan twist on a classic African side dish. Made with collard greens and a flavorful vegan butter, these greens are sure to impress."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "side dish"
   - "collard greens"
   - "Nia"

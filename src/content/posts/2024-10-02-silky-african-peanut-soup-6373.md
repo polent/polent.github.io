@@ -4,7 +4,7 @@ description: "Enjoy a bowl of Silky African Peanut Soup, blending sweet potatoes
 tags:
   - "vegan"
   - "soup"
-  - "african cuisine"
+  - "african-cuisine"
   - "peanut soup"
   - "comfort food"
   - "Nia"

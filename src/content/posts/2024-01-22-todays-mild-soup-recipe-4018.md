@@ -4,7 +4,7 @@ description: "Warm up with today's mild soup recipe, a nourishing and flavorful 
 tags:
   - "soup"
   - "vegan"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "Hiroshi"
 figureRecipe: 
   caption: "Today's Mild Soup Recipe"

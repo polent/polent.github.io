@@ -3,7 +3,7 @@ title: "Shiitake Mushroom Ramen with Grilled Tempeh"
 description: "Savor the flavors of shiitake mushrooms and grilled tempeh in this vegan ramen recipe. A hearty dish with aromatic spices, perfect for a cozy dinner."
 tags:
   - "vegan"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "ramen"
   - "grilled tempeh"
   - "shiitake mushrooms"

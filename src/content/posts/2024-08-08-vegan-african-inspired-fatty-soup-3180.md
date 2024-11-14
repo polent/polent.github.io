@@ -3,7 +3,7 @@ title: "Vegan African-Inspired Fatty Soup"
 description: "This Vegan African-Inspired Fatty Soup is a hearty, flavorful meal perfect for cold days. Made with coconut milk, sweet potatoes, and spices."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "soup"
   - "comfort food"
   - "Nia"

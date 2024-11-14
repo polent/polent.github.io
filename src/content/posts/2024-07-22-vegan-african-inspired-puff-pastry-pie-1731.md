@@ -3,7 +3,7 @@ title: "Vegan African-Inspired Puff-Pastry Pie"
 description: "Try this Vegan African-Inspired Puff-Pastry Pie with sweet potatoes and chickpeas, wrapped in a flaky crust, perfect for a hearty dinner."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "puff pastry"
   - "dinner"
   - "Nia"

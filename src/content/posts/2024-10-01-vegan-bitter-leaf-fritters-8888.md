@@ -3,7 +3,7 @@ title: "Vegan Bitter Leaf Fritters"
 description: "Try these Vegan Bitter Leaf Fritters, a unique African-inspired finger food that's perfect for any occasion. Packed with flavors and easy to make!"
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "finger food"
   - "bitter leaf"
   - "fritters"

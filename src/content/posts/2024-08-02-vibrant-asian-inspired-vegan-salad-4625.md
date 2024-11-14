@@ -4,7 +4,7 @@ description: "Try this refreshing Vibrant Asian-Inspired Vegan Salad, perfect as
 tags:
   - "vegan"
   - "salad"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "healthy"
   - "mango"
   - "Hiroshi"

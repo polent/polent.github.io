@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "sushi"
   - "finger food"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "Hiroshi"
 figureRecipe: 
   caption: "Silky Vegan Sushi Rolls"

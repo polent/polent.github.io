@@ -3,7 +3,7 @@ title: "Vegan East African Pilau with Coconut Cucumber Salad"
 description: "A vegan twist on East African Pilau paired with a Coconut Cucumber Salad, perfect for a flavorful and hearty lunch."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "lunch"
   - "rice dish"
   - "salad"

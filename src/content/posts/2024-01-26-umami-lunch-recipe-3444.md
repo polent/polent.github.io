@@ -4,7 +4,7 @@ description: "Indulge in a mouthwatering umami-packed lunch with this plant-base
 tags:
   - "umami"
   - "lunch"
-  - "african cuisine"
+  - "african-cuisine"
   - "vegan recipe"
   - "Nia"
 figureRecipe: 

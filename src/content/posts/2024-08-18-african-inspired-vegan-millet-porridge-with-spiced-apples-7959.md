@@ -4,7 +4,7 @@ description: "Warm and comforting African-inspired vegan millet porridge with sp
 tags:
   - "vegan"
   - "breakfast"
-  - "african cuisine"
+  - "african-cuisine"
   - "millet"
   - "porridge"
   - "Nia"

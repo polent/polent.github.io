@@ -4,7 +4,7 @@ description: "Savor this Asian-inspired Vegan Miso Vegetable Seaweed Soup, rich 
 tags:
   - "vegan"
   - "soup"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "seaweed"
   - "miso"
   - "Hiroshi"

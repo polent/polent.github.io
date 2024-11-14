@@ -6,7 +6,7 @@ tags:
   - "west african"
   - "groundnut stew"
   - "plant-based"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "Vegan West African Groundnut Stew"

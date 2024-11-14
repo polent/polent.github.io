@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "snacks"
   - "nuts"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Spiced Nut Mix"

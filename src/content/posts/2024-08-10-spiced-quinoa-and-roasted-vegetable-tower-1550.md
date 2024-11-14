@@ -3,7 +3,7 @@ title: "Spiced Quinoa and Roasted Vegetable Tower"
 description: "Prepare a vegan Spiced Quinoa and Roasted Vegetable Tower, featuring turmeric and cumin-spiced quinoa with layers of roasted vegetables and a tahini dressing."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "quinoa"
   - "roasted vegetables"
   - "dinner"

@@ -4,7 +4,7 @@ description: "Discover a vegan dish full of umami flavors with seitan, shiitake 
 tags:
   - "vegan"
   - "umami"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "shiitake"
   - "seitan"
   - "Hiroshi"

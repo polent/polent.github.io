@@ -3,7 +3,7 @@ title: "Spicy Peanut and Sweet Potato Soup"
 description: "Warm up with this creamy and spicy African-inspired peanut and sweet potato soup, perfect for a cozy meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "soup"
   - "peanut butter"
   - "sweet potato"

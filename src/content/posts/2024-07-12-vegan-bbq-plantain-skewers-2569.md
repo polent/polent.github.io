@@ -3,7 +3,7 @@ title: "Vegan BBQ Plantain Skewers"
 description: "Enjoy these easy-to-make Vegan BBQ Plantain Skewers, perfect for any gathering! Packed with flavors and entirely plant-based."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "street food"
   - "fingerfood"
   - "plant-based"

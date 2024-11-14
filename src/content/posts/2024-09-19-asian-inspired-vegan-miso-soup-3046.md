@@ -4,7 +4,7 @@ description: "Try this nourishing Asian-Inspired Vegan Miso Soup, full of flavor
 tags:
   - "vegan"
   - "soup"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "miso"
   - "Hiroshi"
 figureRecipe: 

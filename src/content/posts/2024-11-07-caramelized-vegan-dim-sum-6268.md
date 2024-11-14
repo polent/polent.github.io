@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "dim sum"
   - "caramelized"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "healthy eating"
   - "Nia"
 figureRecipe: 

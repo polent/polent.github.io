@@ -3,7 +3,7 @@ title: "Spiced Vegan Plantain Fritters"
 description: "Try these crispy and flavorful Spiced Vegan Plantain Fritters, a perfect African-inspired side dish that's completely plant-based."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "side dish"
   - "plantains"
   - "fritters"

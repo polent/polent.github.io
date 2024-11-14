@@ -3,7 +3,7 @@ title: "African-Inspired Soft Salad"
 description: "This African-Inspired Soft Salad features roasted beets, avocado, and a tangy citrus dressing, perfect for a nutritious meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "salad"
   - "healthy"
   - "Nia"

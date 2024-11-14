@@ -3,7 +3,7 @@ title: "Moroccan-Inspired Chickpea and Apricot Tagine with Ethiopian Spiced Rice
 description: "Experience the warmth of Africa with this vegan Moroccan-Inspired Chickpea and Apricot Tagine paired with aromatic Ethiopian Spiced Rice."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "tagine"
   - "spiced rice"
   - "comfort food"

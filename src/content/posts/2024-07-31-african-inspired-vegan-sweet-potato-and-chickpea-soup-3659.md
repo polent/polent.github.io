@@ -3,7 +3,7 @@ title: "African-Inspired Vegan Sweet Potato and Chickpea Soup"
 description: "Try this vegan African-inspired sweet potato and chickpea soup, packed with flavors of cumin, coriander, and ginger."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "soup"
   - "sweet potato"
   - "chickpea"

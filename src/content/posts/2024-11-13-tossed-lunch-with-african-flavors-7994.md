@@ -3,7 +3,7 @@ title: "Tossed Lunch with African Flavors"
 description: "Discover a vibrant tossed lunch recipe with African flavors, featuring sorghum, fresh vegetables, and aromatic spices, perfect for a nutritious vegan meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "lunch"
   - "sorghum"
   - "healthy"

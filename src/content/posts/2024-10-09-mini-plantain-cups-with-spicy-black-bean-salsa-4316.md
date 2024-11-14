@@ -3,7 +3,7 @@ title: "Mini Plantain Cups with Spicy Black Bean Salsa"
 description: "Try this unique vegan African-inspired finger food: Mini Plantain Cups filled with a spicy black bean salsa. Perfect for parties!"
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "fingerfood"
   - "plantain"
   - "black beans"

@@ -4,7 +4,7 @@ description: "This Vegan Soba Noodle Salad blends soba noodles with fresh vegeta
 tags:
   - "vegan"
   - "noodle salad"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "cold lunch"
   - "Hiroshi"
 figureRecipe: 

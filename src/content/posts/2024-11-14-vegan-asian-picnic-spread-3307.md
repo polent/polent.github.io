@@ -4,7 +4,7 @@ description: "A delightful Vegan Asian Picnic Spread featuring dehydrated waterm
 tags:
   - "vegan"
   - "picnic"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "sushi"
   - "plant-based"
   - "Hiroshi"

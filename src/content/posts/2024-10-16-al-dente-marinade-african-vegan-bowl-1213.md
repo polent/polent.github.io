@@ -3,7 +3,7 @@ title: "Al Dente Marinade African Vegan Bowl"
 description: "Al Dente Marinade African Vegan Bowl blends nutritious grains, fresh vegetables, and aromatic spices in a delicious vegan dish, perfect for a healthy meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "healthy"
   - "bowl"
   - "marinade"

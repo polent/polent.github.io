@@ -3,7 +3,7 @@ title: "African-Inspired Warm Breakfast"
 description: "Start your day with a warm and comforting African-inspired breakfast. This recipe combines the flavors of East and West Africa, creating a delicious and nourishing dish to fuel your morning."
 tags:
   - "breakfast"
-  - "african cuisine"
+  - "african-cuisine"
   - "maize flour"
   - "plant-based"
   - "warm breakfast"

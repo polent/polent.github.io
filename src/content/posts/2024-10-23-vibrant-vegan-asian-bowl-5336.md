@@ -3,7 +3,7 @@ title: "Vibrant Vegan Asian Bowl"
 description: "Discover the flavors of a vegan Asian-inspired bowl, combining brown rice with fresh veggies and a savory dressing, perfect for a wholesome lunch."
 tags:
   - "vegan"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "wholesome lunch"
   - "plant-based"
   - "Hiroshi"
