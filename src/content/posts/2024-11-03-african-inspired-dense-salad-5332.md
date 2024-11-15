@@ -2,7 +2,7 @@
 title: "African-Inspired Dense Salad"
 description: "Delight in this African-Inspired Dense Salad, a hearty mix of millet, sorghum, vegetables, and spices, perfect for a nutritious vegan meal."
 tags:
-  - "african cuisine"
+  - "african-cuisine"
   - "vegan"
   - "salad"
   - "healthy"

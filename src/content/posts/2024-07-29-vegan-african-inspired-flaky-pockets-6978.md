@@ -3,7 +3,7 @@ title: "Vegan African-Inspired Flaky Pockets"
 description: "Enjoy a vegan dinner with our African-Inspired Flaky Pockets, filled with spicy lentils and vegetables, encased in crispy pastry."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "flaky pastry"
   - "spicy lentils"
   - "Nia"

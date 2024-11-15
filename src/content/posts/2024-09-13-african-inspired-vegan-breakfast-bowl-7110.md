@@ -3,7 +3,7 @@ title: "African-Inspired Vegan Breakfast Bowl"
 description: "Indulge in a vibrant and nourishing African-Inspired Vegan Breakfast Bowl, perfect for a healthy start to your day."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "breakfast"
   - "healthy"
   - "Nia"

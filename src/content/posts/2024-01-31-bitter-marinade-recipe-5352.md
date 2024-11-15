@@ -4,7 +4,7 @@ description: "Add a unique twist to your vegan dishes with this flavorful and ta
 tags:
   - "recipe"
   - "marinade"
-  - "african cuisine"
+  - "african-cuisine"
   - "vegan"
   - "bitter flavors"
   - "Nia"

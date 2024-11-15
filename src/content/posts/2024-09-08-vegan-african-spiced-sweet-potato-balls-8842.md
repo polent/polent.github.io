@@ -4,7 +4,7 @@ description: "Make these Vegan African Spiced Sweet Potato Balls for a flavorful
 tags:
   - "vegan"
   - "snack"
-  - "african cuisine"
+  - "african-cuisine"
   - "sweet potato"
   - "spicy"
   - "Nia"

@@ -3,7 +3,7 @@ title: "Spicy African-Inspired Vegan Soup"
 description: "Warm up with this Spicy African-Inspired Vegan Soup packed with flavorsome spices, hearty vegetables, and coconut milk. A perfect vegan delight!"
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "spicy soup"
   - "hearty vegetables"
   - "Nia"

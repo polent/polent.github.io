@@ -3,7 +3,7 @@ title: "Sweet Potato and Coconut Milk Pudding"
 description: "Experience the flavors of Africa with this vegan Sweet Potato and Coconut Milk Pudding. A perfect blend of sweetness and spice, ideal for any meal."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "dessert"
   - "sweet potato"
   - "coconut milk"

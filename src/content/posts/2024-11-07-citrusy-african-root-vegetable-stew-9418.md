@@ -3,7 +3,7 @@ title: "Citrusy African Root Vegetable Stew"
 description: "Enjoy a Citrusy African Root Vegetable Stew that blends tangy citrus flavors with hearty root vegetables, spiced perfectly with traditional African spices."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "citrus"
   - "root vegetables"
   - "stew"

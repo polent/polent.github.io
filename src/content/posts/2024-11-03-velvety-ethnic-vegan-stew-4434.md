@@ -3,7 +3,7 @@ title: "Velvety Ethnic Vegan Stew"
 description: "Explore the velvety, rich flavors of African cuisine with this vegan stew, perfect for a cozy meal. Packed with nutritious ingredients and vibrant spices, it's a culinary treat."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "stew"
   - "comfort food"
   - "plant-based"

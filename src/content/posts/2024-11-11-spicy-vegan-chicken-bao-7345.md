@@ -4,7 +4,7 @@ description: "Spicy Vegan 'Chicken' Bao recipe brings the warmth and flavors of 
 tags:
   - "vegan"
   - "street food"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "bao bun"
   - "spicy"
   - "Hiroshi"

@@ -4,7 +4,7 @@ description: "Discover how to make a vegan Asian-inspired syrupy sauce with tama
 tags:
   - "vegan"
   - "syrupy sauce"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "tamarind"
   - "ginger"
   - "Hiroshi"

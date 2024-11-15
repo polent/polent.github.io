@@ -4,7 +4,7 @@ description: "Tasty Vegan Asian-Inspired Breakfast Bowl with quinoa, shiitake mu
 tags:
   - "vegan"
   - "breakfast"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "healthy"
   - "quinoa"
   - "Hiroshi"

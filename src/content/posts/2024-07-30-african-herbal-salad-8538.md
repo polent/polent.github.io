@@ -4,7 +4,7 @@ description: "A refreshing blend of aromatic herbs and crisp vegetables, perfect
 tags:
   - "vegan"
   - "salad"
-  - "african cuisine"
+  - "african-cuisine"
   - "herbal"
   - "Nia"
 figureRecipe: 

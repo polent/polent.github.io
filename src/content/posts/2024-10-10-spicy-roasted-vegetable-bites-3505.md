@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "appetizer"
   - "roasted vegetables"
-  - "african cuisine"
+  - "african-cuisine"
   - "spicy"
   - "Nia"
 figureRecipe: 

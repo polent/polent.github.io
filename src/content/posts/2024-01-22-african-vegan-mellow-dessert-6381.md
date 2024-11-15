@@ -4,7 +4,7 @@ description: "Indulge in the mellow flavors of Africa with this delicious vegan 
 tags:
   - "vegan"
   - "dessert"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "African Vegan Mellow Dessert"

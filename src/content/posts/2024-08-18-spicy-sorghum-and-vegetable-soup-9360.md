@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "sorghum"
   - "spicy"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "Spicy Sorghum and Vegetable Soup"

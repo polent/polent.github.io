@@ -3,7 +3,7 @@ title: "Macerated African Vegan Feast"
 description: "Discover a macerated African vegan feast that blends traditional flavors with a modern twist, perfect for any special dinner."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "macerated dish"
   - "healthy"
   - "Nia"

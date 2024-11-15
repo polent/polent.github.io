@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "sushi"
   - "appetizer"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "mango"
   - "avocado"
   - "Hiroshi"

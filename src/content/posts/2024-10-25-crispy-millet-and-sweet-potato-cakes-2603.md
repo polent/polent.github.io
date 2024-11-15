@@ -7,7 +7,7 @@ tags:
   - "millet"
   - "sweet potato"
   - "crispy"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "Crispy Millet and Sweet Potato Cakes"

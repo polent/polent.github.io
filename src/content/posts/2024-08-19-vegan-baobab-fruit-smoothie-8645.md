@@ -4,7 +4,7 @@ description: "Energize your day with our Vegan Baobab Fruit Smoothie, a blend of
 tags:
   - "vegan"
   - "smoothie"
-  - "african cuisine"
+  - "african-cuisine"
   - "baobab"
   - "healthy drink"
   - "Nia"

@@ -3,7 +3,7 @@ title: "Vegan Spicy Peanut Stew Recipe"
 description: "Indulge in the rich and complex flavors of our African-inspired Spicy Peanut Stew. This hearty vegan dish is a celebration of traditional ingredients and modern tastes."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "spicy"
   - "peanut stew"
   - "plant-based"

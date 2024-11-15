@@ -4,7 +4,7 @@ description: "Start your day with a warm and hearty vegan breakfast inspired by 
 tags:
   - "vegan"
   - "breakfast"
-  - "african cuisine"
+  - "african-cuisine"
   - "maize flour"
   - "nutritious"
   - "Nia"

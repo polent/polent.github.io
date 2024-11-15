@@ -7,7 +7,7 @@ tags:
   - "sweet potato"
   - "chickpea"
   - "coconut rice"
-  - "african cuisine"
+  - "african-cuisine"
   - "Nia"
 figureRecipe: 
   caption: "Vegan Sweet Potato and Chickpea Curry with Coconut Rice"

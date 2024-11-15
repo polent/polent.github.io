@@ -4,7 +4,7 @@ description: "Discover the flavors of earthy vegan bread with this simple, whole
 tags:
   - "vegan"
   - "bread"
-  - "whole wheat"
+  - whole-wheat"
   - "seeds"
   - "healthy"
   - "Isabella"

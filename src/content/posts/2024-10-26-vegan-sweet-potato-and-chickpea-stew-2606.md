@@ -6,7 +6,7 @@ tags:
   - "sweet potato"
   - "chickpea"
   - "stew"
-  - "african cuisine"
+  - "african-cuisine"
   - "plant-based"
   - "Nia"
 figureRecipe: 

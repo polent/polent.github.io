@@ -4,7 +4,7 @@ description: "This Asian-Inspired Vegan Coconut Soup blends aromatic spices, veg
 tags:
   - "vegan"
   - "soup"
-  - "asian cuisine"
+  - "asian-cuisine"
   - "coconut milk"
   - "healthy"
   - "Hiroshi"

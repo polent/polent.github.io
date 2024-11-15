@@ -3,7 +3,7 @@ title: "North African-Inspired Spicy Roasted Bell Pepper Sauce"
 description: "This North African-inspired sauce features roasted bell peppers, fresh herbs, and a touch of heat. Perfect for grains or as a flavorful dip."
 tags:
   - "vegan"
-  - "african cuisine"
+  - "african-cuisine"
   - "sauce"
   - "spicy"
   - "roasted bell pepper"
