@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "appetizer"
   - "bruschetta"
-  - "italian cuisine"
+  - "italian-cuisine"
   - "party food"
   - "Isabella"
 figureRecipe: 

@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "soup"
-  - "sweet potato"
+  - "sweet-potato"
   - "chickpea"
   - "Nia"
 figureRecipe: 

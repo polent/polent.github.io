@@ -4,7 +4,7 @@ description: "Warm up with a comforting bowl of today's mellow soup! This hearty
 tags:
   - "soup"
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Today's Mellow Soup"

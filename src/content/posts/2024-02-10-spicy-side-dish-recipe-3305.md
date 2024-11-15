@@ -3,7 +3,7 @@ title: "Spicy Side Dish Recipe"
 description: "Add some heat to your BBQ spread with this spicy side dish recipe. Grilled peppers, onions, and spices come together to create a fiery and flavorful accompaniment to your vegan BBQ feast."
 tags:
   - "spicy"
-  - "side dish"
+  - "side-dish"
   - "bbq"
   - "vegan"
   - "Emily"

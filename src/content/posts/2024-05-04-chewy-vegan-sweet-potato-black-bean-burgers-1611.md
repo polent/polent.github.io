@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "burgers"
   - "african-inspired"
-  - "sweet potato"
+  - "sweet-potato"
   - "black beans"
   - "chewy"
   - "Nia"

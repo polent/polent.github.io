@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "soup"
   - "african-cuisine"
-  - "peanut soup"
-  - "comfort food"
+  - "peanut-soup"
+  - "comfort-food"
   - "Nia"
 figureRecipe: 
   caption: "Silky African Peanut Soup"

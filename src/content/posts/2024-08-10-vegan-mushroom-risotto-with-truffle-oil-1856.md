@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "risotto"
   - "mushroom"
-  - "truffle oil"
+  - "truffle-oil"
   - "dinner"
   - "Isabella"
 figureRecipe: 

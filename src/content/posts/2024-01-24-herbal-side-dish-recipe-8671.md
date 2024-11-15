@@ -3,7 +3,7 @@ title: "Herbal Side Dish Recipe"
 description: "Explore the world of herbal side dishes with this delicious recipe. Roasted vegetables combine with a medley of fresh herbs, creating a burst of flavors. Perfect as an accompaniment to any main course."
 tags:
   - "herbal"
-  - "side dish"
+  - "side-dish"
   - "roasted vegetables"
   - "fresh herbs"
   - "Isabella"

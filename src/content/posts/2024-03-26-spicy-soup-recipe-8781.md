@@ -5,7 +5,7 @@ tags:
   - "soup"
   - "spicy"
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Spicy Vegan Soup Recipe"

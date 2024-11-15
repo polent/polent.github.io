@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "plant-based"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Hearty Oily Soup Recipe"

@@ -3,7 +3,7 @@ title: "Zesty Citrusy Asian Side Dish"
 description: "Add a burst of citrusy freshness to your meal with this easy and flavorful Asian-inspired side dish. Perfect for a light and zesty accompaniment."
 tags:
   - "citrusy"
-  - "side dish"
+  - "side-dish"
   - "asian"
   - "vegan"
   - "recipe"

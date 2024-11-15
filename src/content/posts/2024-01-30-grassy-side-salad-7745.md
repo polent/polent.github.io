@@ -2,7 +2,7 @@
 title: "Grassy Side Salad"
 description: "This Grassy Side Salad is the perfect accompaniment to any BBQ. Packed with fresh greens and a tangy dressing, it's a vibrant and healthy addition to your meal."
 tags:
-  - "side dish"
+  - "side-dish"
   - "salad"
   - "vegan"
   - "healthy"

@@ -4,7 +4,7 @@ description: "Indulge in this rich and creamy vegan mac and cheese, a perfect si
 tags:
   - "vegan"
   - "bbq"
-  - "side dish"
+  - "side-dish"
   - "mac and cheese"
   - "Emily"
 figureRecipe: 

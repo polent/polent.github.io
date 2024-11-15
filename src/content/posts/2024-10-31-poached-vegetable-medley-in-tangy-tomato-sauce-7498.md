@@ -3,10 +3,10 @@ title: "Poached Vegetable Medley in Tangy Tomato Sauce"
 description: "Discover a heartwarming vegan dish: Poached Vegetable Medley in Tangy Tomato Sauce, blending soft poached veggies with a zesty tomato sauce."
 tags:
   - "vegan"
-  - "poached vegetables"
-  - "tomato sauce"
+  - "poached-vegetables"
+  - "tomato-sauce"
   - "healthy"
-  - "comfort food"
+  - "comfort-food"
   - "Nia"
 figureRecipe: 
   caption: "Poached Vegetable Medley in Tangy Tomato Sauce"

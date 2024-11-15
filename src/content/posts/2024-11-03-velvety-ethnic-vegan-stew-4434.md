@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "stew"
-  - "comfort food"
+  - "comfort-food"
   - "plant-based"
   - "Nia"
 figureRecipe: 

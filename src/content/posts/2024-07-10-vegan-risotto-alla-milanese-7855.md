@@ -3,9 +3,9 @@ title: "Vegan Risotto alla Milanese"
 description: "Delight in a vegan version of the classic Risotto alla Milanese. This creamy saffron-infused dish is perfect for a luxurious yet comforting meal."
 tags:
   - "vegan"
-  - "italian cuisine"
+  - "italian-cuisine"
   - "risotto"
-  - "comfort food"
+  - "comfort-food"
   - "saffron"
   - "Isabella"
 figureRecipe: 

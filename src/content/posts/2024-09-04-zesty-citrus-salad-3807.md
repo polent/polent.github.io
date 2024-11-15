@@ -3,7 +3,7 @@ title: "Zesty Citrus Salad"
 description: "This vegan and gluten-free Zesty Citrus Salad is a refreshing side dish featuring oranges, grapefruit, and a tangy dressing."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "citrus"
   - "gluten-free"
   - "low-calorie"

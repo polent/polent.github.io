@@ -3,7 +3,7 @@ title: "Earthy Roasted Root Vegetables and Grains"
 description: "Enjoy a flavorful and wholesome earthy side dish of roasted root vegetables and hearty grains. This vegan dish is perfect for complementing any main course with its rich flavors."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "root vegetables"
   - "grains"
   - "roasted"

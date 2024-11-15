@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "tagine"
-  - "spiced rice"
-  - "comfort food"
+  - "spiced-rice"
+  - "comfort-food"
   - "Nia"
 figureRecipe: 
   caption: "Moroccan-Inspired Chickpea and Apricot Tagine with Ethiopian Spiced Rice"

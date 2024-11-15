@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "risotto"
   - "truffle"
-  - "side dish"
+  - "side-dish"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Truffle Risotto"

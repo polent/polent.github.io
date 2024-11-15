@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "gnocchi"
   - "fusion"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Sprinkled Delight Gnocchi"

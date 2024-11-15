@@ -4,7 +4,7 @@ description: "Indulge in a rich and savory side dish today with this Asian-inspi
 tags:
   - "vegan"
   - "asian"
-  - "side dish"
+  - "side-dish"
   - "mushroom"
   - "tempeh"
   - "stir-fry"

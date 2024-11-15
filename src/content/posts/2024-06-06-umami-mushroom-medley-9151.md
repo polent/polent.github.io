@@ -3,7 +3,7 @@ title: "Umami Mushroom Medley"
 description: "Indulge in the savory delight of Umami Mushroom Medley, a flavorful side dish that will elevate your dining experience. Easy to make and bursting with umami goodness."
 tags:
   - "salty"
-  - "side dish"
+  - "side-dish"
   - "umami"
   - "mushrooms"
   - "Hiroshi"

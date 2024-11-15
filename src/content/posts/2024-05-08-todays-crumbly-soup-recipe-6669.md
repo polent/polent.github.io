@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "crumbly"
   - "asian"
-  - "comfort food"
+  - "comfort-food"
   - "Hiroshi"
 figureRecipe: 
   caption: "Today's Crumbly Soup Recipe"

@@ -6,7 +6,7 @@ tags:
   - "cucumber"
   - "salad"
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "Hiroshi"
 figureRecipe: 
   caption: "Japanese Cucumber Salad Recipe"

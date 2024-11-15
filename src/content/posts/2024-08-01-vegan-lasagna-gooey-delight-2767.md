@@ -6,7 +6,7 @@ tags:
   - "italian"
   - "dinner"
   - "lasagna"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Lasagna: A Gooey Delight"

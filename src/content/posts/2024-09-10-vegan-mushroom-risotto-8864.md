@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "risotto"
   - "mushroom"
-  - "italian cuisine"
+  - "italian-cuisine"
   - "lunch"
   - "Isabella"
 figureRecipe: 

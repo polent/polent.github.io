@@ -6,8 +6,8 @@ tags:
   - "risotto"
   - "mushroom"
   - "walnut"
-  - "comfort food"
-  - "truffle oil"
+  - "comfort-food"
+  - "truffle-oil"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Mushroom and Walnut Risotto with Truffle Oil"

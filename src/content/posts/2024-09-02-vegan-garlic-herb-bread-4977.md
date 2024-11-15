@@ -6,7 +6,7 @@ tags:
   - "bread"
   - "garlic"
   - "herbs"
-  - "easy recipe"
+  - "easy-recipe"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Garlic Herb Bread"

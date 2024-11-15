@@ -3,7 +3,7 @@ title: "Vegan Sweet Potato and Chickpea Stew"
 description: "Discover a comforting vegan stew combining sweet potatoes and chickpeas with a rich blend of spices, perfect for a wholesome meal."
 tags:
   - "vegan"
-  - "sweet potato"
+  - "sweet-potato"
   - "chickpea"
   - "stew"
   - "african-cuisine"

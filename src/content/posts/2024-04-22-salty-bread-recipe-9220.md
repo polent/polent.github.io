@@ -7,7 +7,7 @@ tags:
   - "salty"
   - "savory"
   - "snack"
-  - "side dish"
+  - "side-dish"
   - "Hiroshi"
 figureRecipe: 
   caption: "Savory Salty Bread Recipe"

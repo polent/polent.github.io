@@ -3,7 +3,7 @@ title: "Creamy Vegan Truffle Mushroom Risotto"
 description: "Indulge in a rich and creamy vegan truffle mushroom risotto, a decadent side dish perfect for any occasion. This dish combines the earthy flavors of mushrooms with the luxurious aroma of truffle oil."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "risotto"
   - "truffle"
   - "mushrooms"

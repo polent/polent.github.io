@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "bbq"
   - "smoky"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Smoky Vegan BBQ Soup"

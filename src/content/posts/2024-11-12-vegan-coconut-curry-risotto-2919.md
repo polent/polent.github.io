@@ -3,10 +3,10 @@ title: "Vegan Coconut Curry Risotto"
 description: "Discover the Vegan Coconut Curry Risotto, a fusion dish blending creamy Italian risotto with the exotic flavors of Asian coconut curry. Perfect for a comforting and nourishing meal."
 tags:
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "risotto"
-  - "coconut curry"
-  - "italian-asian fusion"
+  - "coconut-curry"
+  - "italian-asian-fusion"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Coconut Curry Risotto"

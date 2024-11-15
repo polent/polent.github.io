@@ -7,7 +7,7 @@ tags:
   - "fusion"
   - "italian"
   - "asian"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Asian-Italian Fusion Risotto"

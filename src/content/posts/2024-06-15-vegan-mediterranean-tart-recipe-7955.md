@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "mediterranean"
   - "tart"
-  - "side dish"
+  - "side-dish"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Mediterranean Tart Recipe"

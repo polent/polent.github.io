@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "pizza"
   - "mushroom"
-  - "truffle oil"
+  - "truffle-oil"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Mushroom and Truffle Oil Pizza"

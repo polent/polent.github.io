@@ -4,7 +4,7 @@ description: "Indulge in a bowl of hearty thick soup, a comforting and satisfyin
 tags:
   - "soup"
   - "hearty"
-  - "comfort food"
+  - "comfort-food"
   - "vegan"
   - "plant-based"
   - "Hiroshi"

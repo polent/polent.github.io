@@ -6,7 +6,7 @@ tags:
   - "vegan salad"
   - "spicy"
   - "healthy"
-  - "side dish"
+  - "side-dish"
   - "Nia"
 figureRecipe: 
   caption: "Berbere Spiced Carrot and Lentil Salad"

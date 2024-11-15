@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "umami"
   - "plant-based"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Umami Vegan Soup Recipe"

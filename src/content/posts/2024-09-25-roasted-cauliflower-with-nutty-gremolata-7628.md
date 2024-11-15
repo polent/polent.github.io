@@ -3,9 +3,9 @@ title: "Roasted Cauliflower with Nutty Gremolata"
 description: "Easy vegan recipe for Roasted Cauliflower with a Nutty Gremolata. A perfect side dish that is both flavorful and nutritious."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "cauliflower"
-  - "easy recipe"
+  - "easy-recipe"
   - "Hiroshi"
 figureRecipe: 
   caption: "Roasted Cauliflower with Nutty Gremolata"

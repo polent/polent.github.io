@@ -4,7 +4,7 @@ description: "A rich and flavorful vegan side dish inspired by the vibrant flavo
 tags:
   - "vegan"
   - "west african"
-  - "side dish"
+  - "side-dish"
   - "Nia"
 figureRecipe: 
   caption: "Vegan West African Side Dish"
