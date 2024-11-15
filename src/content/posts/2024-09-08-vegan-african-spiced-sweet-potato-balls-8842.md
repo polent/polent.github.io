@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "snack"
   - "african-cuisine"
-  - "sweet potato"
+  - "sweet-potato"
   - "spicy"
   - "Nia"
 figureRecipe: 

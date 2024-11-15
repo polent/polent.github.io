@@ -3,9 +3,9 @@ title: "Kenyan-Inspired Vegan Sour Side Dish"
 description: "Discover how to make a Kenyan-inspired vegan sour side dish. This recipe is perfect for adding a tangy flavor to your meals, using healthy ingredients."
 tags:
   - "vegan"
-  - "kenyan cuisine"
-  - "side dish"
-  - "sour dish"
+  - "kenyan-cuisine"
+  - "side-dish"
+  - "sour-dish"
   - "Nia"
 figureRecipe: 
   caption: "Kenyan-Inspired Vegan Sour Side Dish"

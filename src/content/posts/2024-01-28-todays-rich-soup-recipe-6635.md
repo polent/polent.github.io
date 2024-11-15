@@ -4,7 +4,7 @@ description: "Warm up with a bowl of today's rich and comforting vegan soup reci
 tags:
   - "vegan"
   - "soup"
-  - "comfort food"
+  - "comfort-food"
   - "italian"
   - "Isabella"
 figureRecipe: 

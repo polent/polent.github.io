@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "dessert"
   - "african"
-  - "sweet potato"
+  - "sweet-potato"
   - "pudding"
   - "Nia"
 figureRecipe: 

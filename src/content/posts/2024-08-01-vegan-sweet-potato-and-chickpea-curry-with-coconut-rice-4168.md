@@ -4,7 +4,7 @@ description: "Discover the taste of East Africa with this Vegan Sweet Potato and
 tags:
   - "vegan"
   - "curry"
-  - "sweet potato"
+  - "sweet-potato"
   - "chickpea"
   - "coconut rice"
   - "african-cuisine"

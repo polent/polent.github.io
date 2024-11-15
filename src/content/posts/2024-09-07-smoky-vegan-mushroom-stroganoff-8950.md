@@ -6,7 +6,7 @@ tags:
   - "dinner"
   - "mushroom"
   - "stroganoff"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Smoky Vegan Mushroom Stroganoff"

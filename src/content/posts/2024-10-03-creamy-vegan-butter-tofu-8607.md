@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "dinner"
   - "tofu"
-  - "indian cuisine"
-  - "comfort food"
+  - "indian-cuisine"
+  - "comfort-food"
   - "Hiroshi"
 figureRecipe: 
   caption: "Creamy Vegan 'Butter' Tofu"

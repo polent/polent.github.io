@@ -3,10 +3,10 @@ title: "Smothered Miso Maple Jackfruit"
 description: "Discover the recipe for Smothered Miso Maple Jackfruit, a vegan comfort dish combining tender jackfruit with a rich miso and maple sauce."
 tags:
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "jackfruit"
   - "asian-fusion"
-  - "easy recipe"
+  - "easy-recipe"
   - "Emily"
 figureRecipe: 
   caption: "Smothered Miso Maple Jackfruit"

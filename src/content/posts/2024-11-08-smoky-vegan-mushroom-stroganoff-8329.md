@@ -3,7 +3,7 @@ title: "Smoky Vegan Mushroom Stroganoff"
 description: "Enjoy today's special, Smoky Vegan Mushroom Stroganoff with garlic quinoa—a comforting, plant-based dish perfect for any meal."
 tags:
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "mushroom"
   - "stroganoff"
   - "quinoa"

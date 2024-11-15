@@ -3,9 +3,9 @@ title: "Modern Twist on Traditional Bitter Bread"
 description: "This recipe gives a modern twist to traditional bitter bread, combining it with kale, almonds, and cranberries for a comforting and delicious meal."
 tags:
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "seasonal"
-  - "whole grain"
+  - "whole-grain"
   - "healthy"
   - "Isabella"
 figureRecipe: 

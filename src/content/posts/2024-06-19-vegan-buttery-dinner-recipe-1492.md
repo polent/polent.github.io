@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "buttery"
   - "dinner"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Buttery Dinner Recipe"

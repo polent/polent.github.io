@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "udon"
   - "mushroom"
-  - "truffle oil"
+  - "truffle-oil"
   - "dinner"
   - "Hiroshi"
 figureRecipe: 

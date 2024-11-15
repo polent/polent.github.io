@@ -3,9 +3,9 @@ title: "Vegan Wet Bread Recipe"
 description: "Try this unique Vegan Wet Bread recipe, perfect as a comforting main course or side. It's a savory, herb-infused dish that's simple to make and delicious!"
 tags:
   - "vegan"
-  - "main course"
-  - "comfort food"
-  - "easy recipes"
+  - "main-course"
+  - "comfort-food"
+  - "easy-recipes"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Wet Bread Recipe"

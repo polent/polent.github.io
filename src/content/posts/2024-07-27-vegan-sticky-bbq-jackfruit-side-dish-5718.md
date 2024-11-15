@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bbq"
   - "jackfruit"
-  - "side dish"
+  - "side-dish"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Sticky BBQ Jackfruit Side Dish"

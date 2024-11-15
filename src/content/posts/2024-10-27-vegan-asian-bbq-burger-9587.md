@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "asian-fusion"
   - "bbq"
-  - "gastro pub"
-  - "comfort food"
+  - "gastro-pub"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Asian BBQ Burger"

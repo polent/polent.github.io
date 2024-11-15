@@ -4,8 +4,8 @@ description: "Warm up with this creamy, vegan African Peanut Soup, packed with s
 tags:
   - "vegan"
   - "african-cuisine"
-  - "peanut soup"
-  - "comfort food"
+  - "peanut-soup"
+  - "comfort-food"
   - "Nia"
 figureRecipe: 
   caption: "Creamy African Peanut Soup"

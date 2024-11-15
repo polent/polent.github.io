@@ -3,7 +3,7 @@ title: "Roasted Miso-Glazed Eggplant"
 description: "Try this mouthwatering Asian-inspired recipe for roasted miso-glazed eggplant. It combines the bold flavors of roasted eggplant with a tangy miso glaze, creating a robust side dish that's perfect for any meal."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "asian-inspired"
   - "roasted eggplant"
   - "miso glaze"

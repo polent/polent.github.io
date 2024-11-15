@@ -4,7 +4,7 @@ description: "Elevate your side dish with this flavorful African-inspired vegan 
 tags:
   - "african"
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "flavorful"
   - "Nia"
 figureRecipe: 

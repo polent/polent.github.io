@@ -3,7 +3,7 @@ title: "Steamed Vegan 'Sausage' and Mash"
 description: "A vegan twist on classic gastro pub fare, featuring steamed vegan sausages served over creamy mashed potatoes with rich gravy."
 tags:
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "steamed"
   - "mashed-potatoes"
   - "Hiroshi"

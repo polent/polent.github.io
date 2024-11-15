@@ -6,7 +6,7 @@ tags:
   - "dessert"
   - "fusion"
   - "gluten-free"
-  - "sweet potato"
+  - "sweet-potato"
   - "coconut"
   - "Nia"
 figureRecipe: 

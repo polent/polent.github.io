@@ -4,7 +4,7 @@ description: "Discover how to make a vegan BBQ side dish, Al Dente BBQ Chickpea 
 tags:
   - "vegan"
   - "bbq"
-  - "side dish"
+  - "side-dish"
   - "chickpea"
   - "salad"
   - "Emily"

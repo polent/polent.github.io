@@ -4,7 +4,7 @@ description: "Try these crispy and flavorful Spiced Vegan Plantain Fritters, a p
 tags:
   - "vegan"
   - "african-cuisine"
-  - "side dish"
+  - "side-dish"
   - "plantains"
   - "fritters"
   - "Nia"

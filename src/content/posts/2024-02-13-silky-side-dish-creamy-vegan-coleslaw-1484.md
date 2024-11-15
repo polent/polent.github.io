@@ -4,7 +4,7 @@ description: "Creamy vegan coleslaw is the perfect side dish for your BBQ feast.
 tags:
   - "vegan"
   - "coleslaw"
-  - "side dish"
+  - "side-dish"
   - "bbq"
   - "Emily"
 figureRecipe: 

@@ -3,7 +3,7 @@ title: "Creamy Vegan Mushroom Medley"
 description: "Indulge in a creamy and decadent side dish with this vegan Mushroom Medley recipe. Rich cashew cream meets earthy wild mushrooms for a luxurious dining experience."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "creamy"
   - "mushrooms"
   - "Isabella"

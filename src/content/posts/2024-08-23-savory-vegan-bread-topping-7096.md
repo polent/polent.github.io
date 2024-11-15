@@ -4,7 +4,7 @@ description: "Easy and quick vegan topping for bland bread, turning it into a de
 tags:
   - "vegan"
   - "appetizer"
-  - "easy recipe"
+  - "easy-recipe"
   - "bread topping"
   - "Isabella"
 figureRecipe: 

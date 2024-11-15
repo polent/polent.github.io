@@ -4,7 +4,7 @@ description: "Experience the fusion of East African and West African flavors in 
 tags:
   - "vegan"
   - "african"
-  - "side dish"
+  - "side-dish"
   - "Nia"
 figureRecipe: 
   caption: "Creamy Sweet Potato Mash with Spicy Peanut Sauce"

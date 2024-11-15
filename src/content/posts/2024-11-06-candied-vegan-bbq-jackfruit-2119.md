@@ -6,7 +6,7 @@ tags:
   - "bbq"
   - "jackfruit"
   - "candied"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Candied Vegan BBQ Jackfruit"

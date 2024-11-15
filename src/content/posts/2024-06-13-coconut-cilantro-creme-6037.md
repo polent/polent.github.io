@@ -3,7 +3,7 @@ title: "Coconut Cilantro Crème"
 description: "Delight in a silky side dish with the Coconut Cilantro Crème recipe. This creamy creation combines coconut milk with fresh cilantro for a burst of flavor."
 tags:
   - "smooth"
-  - "side dish"
+  - "side-dish"
   - "coconut"
   - "cilantro"
   - "creamy"

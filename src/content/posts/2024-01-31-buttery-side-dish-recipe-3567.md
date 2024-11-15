@@ -4,8 +4,8 @@ description: "Try this delicious vegan twist on a classic African side dish. Mad
 tags:
   - "vegan"
   - "african-cuisine"
-  - "side dish"
-  - "collard greens"
+  - "side-dish"
+  - "collard-greens"
   - "Nia"
 figureRecipe: 
   caption: "Vegan Buttered Greens"

@@ -6,8 +6,8 @@ tags:
   - "italian"
   - "risotto"
   - "mushroom"
-  - "truffle oil"
-  - "comfort food"
+  - "truffle-oil"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Mushroom Risotto with Truffle Oil"

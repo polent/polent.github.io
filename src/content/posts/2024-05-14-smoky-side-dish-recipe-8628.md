@@ -3,7 +3,7 @@ title: "Smoky Side Dish Recipe"
 description: "Try this delicious smoky side dish recipe that combines sweet potatoes, chickpeas, and bell peppers with smoky paprika for a flavorful twist. Perfect for vegans and gluten-free diets."
 tags:
   - "smoky"
-  - "side dish"
+  - "side-dish"
   - "vegan"
   - "gluten-free"
   - "Isabella"

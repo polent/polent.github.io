@@ -4,7 +4,7 @@ description: "Try these nutritious and delicious Vegan Sweet Potato and Millet F
 tags:
   - "vegan"
   - "lunch"
-  - "sweet potato"
+  - "sweet-potato"
   - "millet"
   - "fritters"
   - "Nia"

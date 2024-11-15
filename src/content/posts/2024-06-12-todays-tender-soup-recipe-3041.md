@@ -4,7 +4,7 @@ description: "Enjoy a comforting bowl of tender soup made with wholesome ingredi
 tags:
   - "soup"
   - "vegan"
-  - "comfort food"
+  - "comfort-food"
   - "Isabella"
 figureRecipe: 
   caption: "Today's Tender Soup Recipe"

@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "soup"
-  - "peanut butter"
-  - "sweet potato"
+  - "peanut-butter"
+  - "sweet-potato"
   - "Nia"
 figureRecipe: 
   caption: "Spicy Peanut and Sweet Potato Soup"

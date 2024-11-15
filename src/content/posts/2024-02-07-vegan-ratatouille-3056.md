@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "italian"
   - "ratatouille"
-  - "side dish"
+  - "side-dish"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Ratatouille"

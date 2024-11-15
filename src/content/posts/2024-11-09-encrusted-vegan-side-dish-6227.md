@@ -3,7 +3,7 @@ title: "Encrusted Vegan Side Dish"
 description: "A delightful encrusted vegan side dish featuring crispy panko and nut crust with tender potatoes. Perfect for adding elegance to any meal."
 tags:
   - "vegan"
-  - "side dish"
+  - "side-dish"
   - "encrusted"
   - "breadcrumbs"
   - "potatoes"

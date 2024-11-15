@@ -4,7 +4,7 @@ description: "Delight in a vegan version of Insalata Caprese, featuring homemade
 tags:
   - "vegan"
   - "italian"
-  - "side dish"
+  - "side-dish"
   - "gluten-free"
   - "dairy-free"
   - "Isabella"

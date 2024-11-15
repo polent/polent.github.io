@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "nutty"
-  - "comfort food"
+  - "comfort-food"
   - "Emily"
 figureRecipe: 
   caption: "Nutty Soup Recipe"

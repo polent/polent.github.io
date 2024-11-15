@@ -3,9 +3,9 @@ title: "Vegan Shepherd's Pie with Crispy Wasabi-Parsnip Crust"
 description: "Experience a gourmet twist on classic comfort food with this Vegan Shepherd's Pie featuring a crispy wasabi-parsnip crust. Perfect for a cozy meal."
 tags:
   - "vegan"
-  - "comfort food"
-  - "gastro pub"
-  - "shepherd's pie"
+  - "comfort-food"
+  - "gastro-pub"
+  - "shepherds-pie"
   - "wasabi"
   - "Isabella"
 figureRecipe: 

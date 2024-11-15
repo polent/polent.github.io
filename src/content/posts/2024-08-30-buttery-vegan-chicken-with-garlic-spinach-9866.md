@@ -4,7 +4,7 @@ description: "Enjoy a comforting vegan dinner with our Buttery Vegan 'Chicken' w
 tags:
   - "vegan"
   - "dinner"
-  - "comfort food"
+  - "comfort-food"
   - "plant-based"
   - "Emily"
 figureRecipe: 

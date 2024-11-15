@@ -4,7 +4,7 @@ description: "Add a touch of elegance to your BBQ spread with this delightful fl
 tags:
   - "vegan"
   - "bbq"
-  - "side dish"
+  - "side-dish"
   - "floral"
   - "Emily"
 figureRecipe: 

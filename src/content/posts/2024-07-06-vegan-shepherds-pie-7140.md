@@ -4,9 +4,9 @@ description: "Try this hearty Vegan Shepherd's Pie, a comforting blend of lentil
 tags:
   - "vegan"
   - "dinner"
-  - "comfort food"
+  - "comfort-food"
   - "plant-based"
-  - "shepherd's pie"
+  - "shepherds-pie"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Shepherd's Pie"

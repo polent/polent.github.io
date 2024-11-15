@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "soup"
-  - "comfort food"
+  - "comfort-food"
   - "Nia"
 figureRecipe: 
   caption: "Vegan African-Inspired Fatty Soup"

@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "dessert"
-  - "sweet potato"
+  - "sweet-potato"
   - "coconut milk"
   - "Nia"
 figureRecipe: 
