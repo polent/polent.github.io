@@ -6,7 +6,7 @@ tags:
   - "breakfast"
   - "tofu"
   - "vegetables"
-  - "asian flavors"
+  - "asian-flavors"
   - "Hiroshi"
 figureRecipe: 
   caption: "Simple Vegan Breakfast Recipe"

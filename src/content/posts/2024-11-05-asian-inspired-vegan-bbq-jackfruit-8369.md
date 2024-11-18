@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bbq"
   - "jackfruit"
-  - "asian flavors"
+  - "asian-flavors"
   - "plant-based"
   - "Emily"
 figureRecipe: 
