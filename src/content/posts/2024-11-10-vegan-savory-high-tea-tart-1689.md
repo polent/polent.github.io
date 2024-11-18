@@ -3,7 +3,7 @@ title: "Vegan Savory High Tea Tart"
 description: "Discover a vegan twist on savory high tea with this delicious Vegan Savory High Tea Tart, combining mushrooms, spinach, and red bell peppers in a crisp pastry."
 tags:
   - "vegan"
-  - "high tea"
+  - "high-tea"
   - "savory tart"
   - "plant-based"
   - "Hiroshi"
