@@ -6,7 +6,7 @@ tags:
   - "side-dish"
   - "asian-inspired"
   - "roasted eggplant"
-  - "miso glaze"
+  - "miso-glaze"
   - "Hiroshi"
 figureRecipe: 
   caption: "Roasted Miso-Glazed Eggplant"
