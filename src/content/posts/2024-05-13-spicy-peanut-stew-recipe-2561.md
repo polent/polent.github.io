@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "spicy"
-  - "peanut stew"
+  - "peanut-stew"
   - "plant-based"
   - "Nia"
 figureRecipe: 

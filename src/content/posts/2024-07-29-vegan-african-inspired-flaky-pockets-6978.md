@@ -4,7 +4,7 @@ description: "Enjoy a vegan dinner with our African-Inspired Flaky Pockets, fill
 tags:
   - "vegan"
   - "african-cuisine"
-  - "flaky pastry"
+  - flaky-pastry"
   - "spicy lentils"
   - "Nia"
 figureRecipe: 
