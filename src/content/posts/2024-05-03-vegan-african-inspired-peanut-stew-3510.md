@@ -4,7 +4,7 @@ description: "Indulge in a rich and flavorful Vegan African-inspired Peanut Stew
 tags:
   - "vegan"
   - "african"
-  - "peanut stew"
+  - "peanut-stew"
   - "lunch"
   - "Nia"
 figureRecipe: 
