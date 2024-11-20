@@ -4,7 +4,7 @@ description: "Experience the smoky and savory flavors of a classic American BBQ 
 tags:
   - "vegan"
   - "bbq"
-  - "pulled pork"
+  - "pulled-pork"
   - "sandwich"
   - "jackfruit"
   - "Emily"
