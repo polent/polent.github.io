@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "asian-cuisine"
-  - "coconut milk"
+  - "coconut-milk"
   - "healthy"
   - "Hiroshi"
 figureRecipe: 

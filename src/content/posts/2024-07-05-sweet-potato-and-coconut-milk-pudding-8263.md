@@ -6,7 +6,7 @@ tags:
   - "african-cuisine"
   - "dessert"
   - "sweet-potato"
-  - "coconut milk"
+  - "coconut-milk"
   - "Nia"
 figureRecipe: 
   caption: "Sweet Potato and Coconut Milk Pudding"

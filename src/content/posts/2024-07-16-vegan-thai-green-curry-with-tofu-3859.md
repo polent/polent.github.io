@@ -6,7 +6,7 @@ tags:
   - "thai cuisine"
   - "curry"
   - "tofu"
-  - "coconut milk"
+  - "coconut-milk"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Thai Green Curry with Tofu"

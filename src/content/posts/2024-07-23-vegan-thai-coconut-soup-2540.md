@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "thai cuisine"
   - "soup"
-  - "coconut milk"
+  - "coconut-milk"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Thai Coconut Soup"

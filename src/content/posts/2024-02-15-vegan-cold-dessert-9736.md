@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "dessert"
   - "cold"
-  - "coconut milk"
+  - "coconut-milk"
   - "berries"
   - "Isabella"
 figureRecipe: 

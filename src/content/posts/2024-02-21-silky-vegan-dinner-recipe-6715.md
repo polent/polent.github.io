@@ -6,7 +6,7 @@ tags:
   - "dinner"
   - "african-inspired"
   - "silky"
-  - "coconut milk"
+  - "coconut-milk"
   - "chickpeas"
   - "Nia"
 figureRecipe: 
