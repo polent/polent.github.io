@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "cauliflower"
   - "garlic"
-  - "coconut milk"
+  - "coconut-milk"
   - "Isabella"
 figureRecipe: 
   caption: "Roasted Cauliflower and Garlic Soup"
