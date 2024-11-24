@@ -3,9 +3,9 @@ title: "Vietnamese-Inspired Vegan Pho"
 description: "Experience a soothing dinner with our Vietnamese-Inspired Vegan Pho, packed with aromatic spices, fresh vegetables, and silky tofu."
 tags:
   - "vegan"
-  - "vietnamese cuisine"
+  - "vietnamese-cuisine"
   - "pho"
-  - "noodle soup"
+  - "noodle-soup"
   - "tofu"
   - "Hiroshi"
 figureRecipe: 
