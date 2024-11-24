@@ -6,7 +6,7 @@ tags:
   - "bbq"
   - "tempeh"
   - "grilled"
-  - "light dinner"
+  - "light-dinner"
   - "Emily"
 figureRecipe: 
   caption: "Smoky Grilled Tempeh Steak"
