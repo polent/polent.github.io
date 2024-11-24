@@ -3,7 +3,7 @@ title: "Vietnamese Zucchini Noodle Salad"
 description: "Whip up a quick and flavorful Vietnamese zucchini noodle salad for a light and satisfying lunch option. This vegan dish is bursting with fresh ingredients and zesty flavors."
 tags:
   - "vegan"
-  - "noodle salad"
+  - "noodle-salad"
   - "vietnamese cuisine"
   - "Hiroshi"
 figureRecipe: 
