@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "thai cuisine"
   - "curry"
-  - "noodle bowl"
+  - "noodle-bowl"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Thai Green Curry Noodle Bowl"
