@@ -5,7 +5,7 @@ tags:
   - "umami"
   - "lunch"
   - "african-cuisine"
-  - "vegan recipe"
+  - "vegan-recipe"
   - "Nia"
 figureRecipe: 
   caption: "Umami Lunch Recipe: Plant-Based African Delights"

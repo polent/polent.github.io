@@ -6,7 +6,7 @@ tags:
   - "asian-cuisine"
   - "ramen"
   - "grilled tempeh"
-  - "shiitake mushrooms"
+  - "shiitake-mushrooms"
   - "Hiroshi"
 figureRecipe: 
   caption: "Shiitake Mushroom Ramen with Grilled Tempeh"

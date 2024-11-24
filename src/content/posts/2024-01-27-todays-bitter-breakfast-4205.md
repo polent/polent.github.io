@@ -4,7 +4,7 @@ description: "Start your day with a unique and flavorful twist! This bitter brea
 tags:
   - "bitter breakfast"
   - "african flavors"
-  - "vegan recipe"
+  - "vegan-recipe"
   - "healthy breakfast"
   - "Nia"
 figureRecipe: 
