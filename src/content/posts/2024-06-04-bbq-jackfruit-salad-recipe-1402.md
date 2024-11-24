@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bbq"
   - "salad"
-  - "light lunch"
+  - "light-lunch"
   - "Emily"
 figureRecipe: 
   caption: "BBQ Jackfruit Salad Recipe"

@@ -3,7 +3,7 @@ title: "Vegan Thai Green Curry"
 description: "Enjoy a vegan version of the classic Thai Green Curry, packed with fresh vegetables and aromatic herbs, perfect for a comforting dinner."
 tags:
   - "vegan"
-  - "thai cuisine"
+  - "thai-cuisine"
   - "curry"
   - "dinner"
   - "Hiroshi"

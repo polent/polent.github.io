@@ -3,9 +3,9 @@ title: "Vegan Thai Green Curry Noodle Bowl"
 description: "A nutritious and flavorful Vegan Thai Green Curry Noodle Bowl, perfect for a wholesome midday meal. Easy to prepare with rich Thai flavors."
 tags:
   - "vegan"
-  - "thai cuisine"
+  - "thai-cuisine"
   - "curry"
-  - "noodle bowl"
+  - "noodle-bowl"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Thai Green Curry Noodle Bowl"
