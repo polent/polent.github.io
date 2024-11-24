@@ -4,7 +4,7 @@ description: "Try this Japanese Chilled Noodle Salad for a refreshing vegan lunc
 tags:
   - "vegan"
   - "japanese"
-  - "noodle salad"
+  - "noodle-salad"
   - "Hiroshi"
 figureRecipe: 
   caption: "Japanese Chilled Noodle Salad"
