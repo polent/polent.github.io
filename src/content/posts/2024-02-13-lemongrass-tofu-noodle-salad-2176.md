@@ -5,7 +5,7 @@ tags:
   - "lemongrass tofu noodle salad"
   - "vegan recipe"
   - "asian-fusion"
-  - "light lunch"
+  - "light-lunch"
   - "Hiroshi"
 figureRecipe: 
   caption: "Lemongrass Tofu Noodle Salad"

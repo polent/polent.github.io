@@ -4,7 +4,7 @@ description: "Quick and easy vegan BBQ jackfruit wrap, perfect for a healthy and
 tags:
   - "vegan"
   - "bbq"
-  - "light lunch"
+  - "light-lunch"
   - "jackfruit"
   - "Emily"
 figureRecipe: 
