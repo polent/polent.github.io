@@ -3,7 +3,7 @@ title: "Vegan Thai Green Curry with Tofu"
 description: "Delicious and aromatic Vegan Thai Green Curry with Tofu, featuring a blend of fresh vegetables and spices, perfect for a nutritious vegan lunch."
 tags:
   - "vegan"
-  - "thai cuisine"
+  - "thai-cuisine"
   - "curry"
   - "tofu"
   - "coconut-milk"
