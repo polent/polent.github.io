@@ -6,7 +6,7 @@ tags:
   - "lunch"
   - "stir-fry"
   - "tofu"
-  - "vietnamese cuisine"
+  - "vietnamese-cuisine"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vietnamese-Inspired Tofu Lemongrass Stir-Fry"
