@@ -3,7 +3,7 @@ title: "Vegan Thai Coconut Soup"
 description: "Enjoy a cozy evening with our Vegan Thai Coconut Soup, blending aromatic lemongrass and creamy coconut for a delightful comfort dish."
 tags:
   - "vegan"
-  - "thai cuisine"
+  - "thai-cuisine"
   - "soup"
   - "coconut-milk"
   - "Hiroshi"
