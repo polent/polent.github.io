@@ -3,7 +3,7 @@ title: "Vegan Soba Noodle Salad"
 description: "This Vegan Soba Noodle Salad blends soba noodles with fresh vegetables and a tangy dressing, perfect for a refreshing cold lunch."
 tags:
   - "vegan"
-  - "noodle salad"
+  - "noodle-salad"
   - "asian-cuisine"
   - "cold lunch"
   - "Hiroshi"
