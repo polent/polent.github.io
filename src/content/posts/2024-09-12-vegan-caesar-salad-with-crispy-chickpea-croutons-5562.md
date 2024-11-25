@@ -4,7 +4,7 @@ description: "A light and refreshing vegan twist on the classic Caesar salad, fe
 tags:
   - "vegan"
   - "salad"
-  - "light dinner"
+  - "light-dinner"
   - "dairy-free"
   - "plant-based"
   - "Emily"

@@ -3,7 +3,7 @@ title: "Vegan Quinoa Tabbouleh Light Lunch"
 description: "Enjoy a refreshing Vegan Quinoa Tabbouleh for a light and healthy lunch. Packed with fresh herbs, veggies, and dressed in lemon vinaigrette, it's perfect for health-conscious diners."
 tags:
   - "vegan"
-  - "light lunch"
+  - "light-lunch"
   - "quinoa"
   - "tabbouleh"
   - "healthy"
