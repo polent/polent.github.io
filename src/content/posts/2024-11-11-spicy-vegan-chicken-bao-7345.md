@@ -3,7 +3,7 @@ title: "Spicy Vegan 'Chicken' Bao"
 description: "Spicy Vegan 'Chicken' Bao recipe brings the warmth and flavors of Asian street food to your table, featuring vegan chicken and fresh veggies in a fluffy bao bun."
 tags:
   - "vegan"
-  - "street food"
+  - "street-food"
   - "asian-cuisine"
   - "bao bun"
   - "spicy"

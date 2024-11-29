@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "salad"
   - "healthy"
-  - "roasted vegetables"
+  - "roasted-vegetables"
   - "Isabella"
 figureRecipe: 
   caption: "Vibrant Vegan Dense Salad"

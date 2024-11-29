@@ -4,7 +4,7 @@ description: "Warm up with Spicy Roasted Vegetable Bites, a perfect vegan appeti
 tags:
   - "vegan"
   - "appetizer"
-  - "roasted vegetables"
+  - "roasted-vegetables"
   - "african-cuisine"
   - "spicy"
   - "Nia"

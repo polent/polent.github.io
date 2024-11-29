@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "breakfast"
   - "african-cuisine"
-  - "maize flour"
+  - "maize-flour"
   - "nutritious"
   - "Nia"
 figureRecipe: 

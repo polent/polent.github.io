@@ -3,9 +3,9 @@ title: "Delicious Smooth Sauce Recipe"
 description: "Add a burst of flavor to your meals with this delicious smooth sauce recipe. Made with fresh herbs, spices, and a creamy base, it's perfect for drizzling, dipping, or adding a burst of flavor to your favorite dishes."
 tags:
   - "smooth sauce"
-  - "vegan sauce"
-  - "herb sauce"
-  - "creamy sauce"
+  - "vegan-sauce"
+  - "herb-sauce"
+  - "creamy-sauce"
   - "Nia"
 figureRecipe: 
   caption: "Delicious Smooth Sauce Recipe"

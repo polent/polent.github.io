@@ -4,9 +4,9 @@ description: "Start your day with a warm and comforting African-inspired breakfa
 tags:
   - "breakfast"
   - "african-cuisine"
-  - "maize flour"
+  - "maize-flour"
   - "plant-based"
-  - "warm breakfast"
+  - "warm-breakfast"
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Warm Breakfast"
