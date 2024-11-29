@@ -4,7 +4,7 @@ description: "Indulge in the flavors of Africa with this mellow sauce recipe. Bu
 tags:
   - "mellow sauce"
   - "african flavors"
-  - "vegan sauce"
+  - "vegan-sauce"
   - "sauce recipe"
   - "Nia"
 figureRecipe: 

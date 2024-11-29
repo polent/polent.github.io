@@ -6,7 +6,7 @@ tags:
   - "african"
   - "lunch"
   - "sorghum"
-  - "black-eyed peas"
+  - "black-eyed-peas"
   - "spices"
   - "Nia"
 figureRecipe: 

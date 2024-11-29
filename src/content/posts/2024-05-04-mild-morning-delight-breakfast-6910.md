@@ -6,7 +6,7 @@ tags:
   - "mild"
   - "oatmeal"
   - "banana"
-  - "chia seeds"
+  - "chia-seeds"
   - "almond butter"
   - "berries"
   - "Hiroshi"

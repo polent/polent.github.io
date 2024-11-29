@@ -4,7 +4,7 @@ description: "Start your day with a refreshing and nourishing vegan cold breakfa
 tags:
   - "vegan"
   - "breakfast"
-  - "cold breakfast"
+  - "cold-breakfast"
   - "plant-based"
   - "refreshing"
   - "Hiroshi"

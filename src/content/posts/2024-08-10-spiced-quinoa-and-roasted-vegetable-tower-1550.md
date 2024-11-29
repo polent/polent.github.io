@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "quinoa"
-  - "roasted vegetables"
+  - "roasted-vegetables"
   - "dinner"
   - "Nia"
 figureRecipe: 

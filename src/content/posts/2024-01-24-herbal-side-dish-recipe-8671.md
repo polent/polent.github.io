@@ -4,8 +4,8 @@ description: "Explore the world of herbal side dishes with this delicious recipe
 tags:
   - "herbal"
   - "side-dish"
-  - "roasted vegetables"
-  - "fresh herbs"
+  - "roasted-vegetables"
+  - "fresh-herbs"
   - "Isabella"
 figureRecipe: 
   caption: "Herbal Side Dish Recipe"

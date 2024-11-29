@@ -4,7 +4,7 @@ description: "Enjoy these easy-to-make Vegan BBQ Plantain Skewers, perfect for a
 tags:
   - "vegan"
   - "african-cuisine"
-  - "street food"
+  - "street-food"
   - "fingerfood"
   - "plant-based"
   - "Nia"

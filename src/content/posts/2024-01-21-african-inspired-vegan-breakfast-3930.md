@@ -6,7 +6,7 @@ tags:
   - "breakfast"
   - "african"
   - "sorghum"
-  - "chia seeds"
+  - "chia-seeds"
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Vegan Breakfast"

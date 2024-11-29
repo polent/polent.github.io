@@ -6,7 +6,7 @@ tags:
   - "african-cuisine"
   - "curry"
   - "plant-based"
-  - "healthy dinner"
+  - "healthy-dinner"
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Vegan Curry"
