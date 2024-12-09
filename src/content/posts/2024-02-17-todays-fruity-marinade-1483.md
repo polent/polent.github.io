@@ -3,7 +3,7 @@ title: "Today's Fruity Marinade"
 description: "Elevate your vegan BBQ with today's fruity marinade. This sweet and tangy blend of fruits infuses your plant-based proteins with a burst of flavor. Perfect for grilling or baking!"
 tags:
   - "fruity marinade"
-  - "vegan bbq"
+  - "vegan-bbq"
   - "plant-based"
   - "marinade recipe"
   - "Emily"
