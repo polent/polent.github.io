@@ -5,7 +5,7 @@ tags:
   - "vegan dessert"
   - "salted caramel"
   - "olive oil cake"
-  - "sweet and salty"
+  - "sweet-and-salty"
   - "rosemary"
   - "Isabella"
 figureRecipe: 
