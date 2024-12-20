@@ -4,7 +4,7 @@ description: "Delight in the flavors of autumn with this vegan Airy Butternut Sq
 tags:
   - "vegan"
   - "soup"
-  - "butternut squash"
+  - "butternut-squash"
   - "autumn"
   - "Isabella"
 figureRecipe: 
