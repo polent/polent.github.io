@@ -3,7 +3,7 @@ title: "Citrusy Bread Recipe"
 description: "This citrusy bread recipe is bursting with flavor and perfect for breakfast or as a sweet treat. The combination of citrus fruits adds a refreshing twist!"
 tags:
   - "citrusy bread"
-  - "vegan bread"
+  - "vegan-bread"
   - "breakfast"
   - "sweet treat"
   - "citrus fruits"

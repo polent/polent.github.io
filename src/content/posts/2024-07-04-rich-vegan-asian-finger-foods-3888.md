@@ -4,7 +4,7 @@ description: "Elevate your gathering with rich vegan Asian finger foods, burstin
 tags:
   - "vegan"
   - "asian"
-  - "finger foods"
+  - "finger-food"
   - "Hiroshi"
 figureRecipe: 
   caption: "Rich Vegan Asian Finger Foods"

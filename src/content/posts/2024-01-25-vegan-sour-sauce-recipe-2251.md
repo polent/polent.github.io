@@ -3,7 +3,7 @@ title: "Vegan Sour Sauce Recipe"
 description: "Add a zesty kick to your dishes with this vegan sour sauce recipe. Perfect as a marinade, dip, or dressing, it's a tangy and flavorful addition to any meal."
 tags:
   - "vegan"
-  - "sour sauce"
+  - "sour-sauce"
   - "recipe"
   - "Isabella"
 figureRecipe: 

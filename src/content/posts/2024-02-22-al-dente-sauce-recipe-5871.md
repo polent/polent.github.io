@@ -4,7 +4,7 @@ description: "Discover a unique blend of Italian and Asian flavors with this Al 
 tags:
   - "recipe"
   - "al dente sauce"
-  - "fusion cuisine"
+  - "fusion-cuisine"
   - "vegan"
   - "asian-fusion"
   - "Hiroshi"

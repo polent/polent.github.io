@@ -4,7 +4,7 @@ description: "Impress your guests with these vegan BBQ finger foods. Featuring s
 tags:
   - "vegan"
   - "bbq"
-  - "finger food"
+  - "finger-food"
   - "Emily"
 figureRecipe: 
   caption: "Vegan BBQ Finger Foods"

@@ -3,7 +3,7 @@ title: "Smoky Woody Finger Foods"
 description: "These smoky woody finger foods are a vegan twist on classic BBQ. Made with tender jackfruit marinated in a smoky BBQ sauce, they are perfect for any gathering or party."
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "bbq"
   - "jackfruit"
   - "Emily"

@@ -4,7 +4,7 @@ description: "Quench your thirst with a refreshing and mild drink that combines 
 tags:
   - "mild drink"
   - "refreshing"
-  - "seasonal fruits"
+  - "seasonal-fruits"
   - "beverage"
   - "recipe"
   - "Isabella"

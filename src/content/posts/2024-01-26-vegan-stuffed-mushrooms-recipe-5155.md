@@ -3,7 +3,7 @@ title: "Vegan Stuffed Mushrooms Recipe"
 description: "These Vegan Stuffed Mushrooms are a delicious finger food option that will impress your guests. Packed with savory flavors and easy to make, they are perfect for any occasion. Try this vegan appetizer today!"
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "appetizer"
   - "mushrooms"
   - "Isabella"

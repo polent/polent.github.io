@@ -3,7 +3,7 @@ title: "Vegan Tempura Avocado Bites"
 description: "Try these Vegan Tempura Avocado Bites for a crispy and delightful finger food experience. Perfect for snacking or serving as an appetizer!"
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "tempura"
   - "avocado"
   - "snack"

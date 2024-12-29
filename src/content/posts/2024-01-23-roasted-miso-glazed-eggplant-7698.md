@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "side-dish"
   - "asian-inspired"
-  - "roasted eggplant"
+  - "roasted-eggplant"
   - "miso-glaze"
   - "Hiroshi"
 figureRecipe: 
