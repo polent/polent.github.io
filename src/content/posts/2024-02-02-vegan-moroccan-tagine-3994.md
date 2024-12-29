@@ -6,9 +6,9 @@ tags:
   - "moroccan"
   - "tagine"
   - "stew"
-  - "north african"
+  - "north-african"
   - "chickpeas"
-  - "aromatic spices"
+  - "aromatic-spices"
   - "vegetables"
   - "Nia"
 figureRecipe: 

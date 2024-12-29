@@ -2,10 +2,10 @@
 title: "Pungent Marinade"
 description: "Elevate your BBQ dishes with this pungent marinade. Perfect for plant-based meats like jackfruit, seitan, or tempeh. The smoky and bold flavors will impress your guests!"
 tags:
-  - "pungent marinade"
-  - "bbq marinade"
-  - "vegan marinade"
-  - "plant-based marinade"
+  - "pungent-marinade"
+  - "bbq-marinade"
+  - "vegan-marinade"
+  - "plant-based-marinade"
   - "Emily"
 figureRecipe: 
   caption: "Pungent Marinade"

@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bread"
   - "rosemary"
-  - "olive oil"
+  - "olive-oil"
   - "baking"
   - "Isabella"
 figureRecipe: 

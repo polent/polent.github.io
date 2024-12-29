@@ -3,7 +3,7 @@ title: "Airy Vegetable Tempura Bites"
 description: "Impress your guests with these Airy Vegetable Tempura Bites - a delightful fusion of crispiness and flavor! Perfect for any gathering or as a tasty snack."
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "tempura"
   - "vegetable"
   - "appetizer"

@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "citrus"
-  - "root vegetables"
+  - "root-vegetables"
   - "stew"
   - "Nia"
 figureRecipe: 

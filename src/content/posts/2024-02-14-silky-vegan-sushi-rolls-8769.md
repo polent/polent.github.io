@@ -4,7 +4,7 @@ description: "Indulge in today's silky finger food with these delicious vegan su
 tags:
   - "vegan"
   - "sushi"
-  - "finger food"
+  - "finger-food"
   - "asian-cuisine"
   - "Hiroshi"
 figureRecipe: 

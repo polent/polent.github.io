@@ -4,8 +4,8 @@ description: "Try these Vegan Bitter Leaf Fritters, a unique African-inspired fi
 tags:
   - "vegan"
   - "african-cuisine"
-  - "finger food"
-  - "bitter leaf"
+  - "finger-food"
+  - "bitter-leaf"
   - "fritters"
   - "Nia"
 figureRecipe: 

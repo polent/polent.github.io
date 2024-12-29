@@ -3,7 +3,7 @@ title: "Moroccan-Inspired Vegan Couscous"
 description: "Enjoy a light yet fulfilling vegan dinner with our Moroccan-Inspired Vegan Couscous, featuring roasted vegetables and a blend of spices."
 tags:
   - "vegan"
-  - "moroccan cuisine"
+  - "moroccan-cuisine"
   - "couscous"
   - "dinner"
   - "Nia"

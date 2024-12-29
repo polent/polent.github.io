@@ -2,7 +2,7 @@
 title: "Today's Chewy Drink"
 description: "Indulge in today's chewy drink, a refreshing treat that will satisfy your cravings. This vegan beverage is made with tapioca pearls, coconut milk, and a touch of sweetness. Perfect for hot summer days!"
 tags:
-  - "chewy drink"
+  - "chewy-drink"
   - "refreshing"
   - "beverage"
   - "vegan"

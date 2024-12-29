@@ -4,7 +4,7 @@ description: "Impress your guests with these rich vegan sushi roll finger foods.
 tags:
   - "vegan"
   - "sushi"
-  - "finger food"
+  - "finger-food"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Sushi Roll Finger Food Recipe"

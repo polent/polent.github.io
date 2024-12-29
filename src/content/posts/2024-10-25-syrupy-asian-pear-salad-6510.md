@@ -4,8 +4,8 @@ description: "Discover the fresh and invigorating flavors of our Syrupy Asian Pe
 tags:
   - "vegan"
   - "salad"
-  - "asian pear"
-  - "syrupy dressing"
+  - "asian-pear"
+  - "syrupy-dressing"
   - "refreshing"
   - "plant-based"
   - "Hiroshi"

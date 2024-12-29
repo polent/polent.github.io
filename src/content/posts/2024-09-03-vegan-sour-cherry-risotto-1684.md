@@ -4,7 +4,7 @@ description: "Try this unique Vegan Sour Cherry Risotto recipe, a perfect blend 
 tags:
   - "vegan"
   - "risotto"
-  - "sour cherry"
+  - "sour-cherry"
   - "italian"
   - "dinner"
   - "Isabella"

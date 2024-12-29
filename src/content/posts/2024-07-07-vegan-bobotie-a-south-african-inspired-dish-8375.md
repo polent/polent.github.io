@@ -3,7 +3,7 @@ title: "Vegan Bobotie: A South African-Inspired Dish"
 description: "Experience the flavors of South Africa with this vegan Bobotie recipe, a plant-based version of the traditional dish, perfect for a hearty dinner."
 tags:
   - "vegan"
-  - "south african cuisine"
+  - "south-african-cuisine"
   - "bobotie"
   - "dinner"
   - "Nia"

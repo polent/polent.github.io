@@ -2,7 +2,7 @@
 title: "Today's Sticky Drink"
 description: "Indulge in today's sticky drink, a sweet and refreshing concoction that will tantalize your taste buds. This delightful beverage combines the flavors of tropical fruits and aromatic herbs, creating a perfect balance of sweetness and herbal notes."
 tags:
-  - "sticky drink"
+  - "sticky-drink"
   - "refreshing"
   - "tropical"
   - "beverage"

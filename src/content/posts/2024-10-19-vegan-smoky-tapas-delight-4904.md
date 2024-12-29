@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "tapas"
   - "smoky"
-  - "spanish cuisine"
+  - "spanish-cuisine"
   - "plant-based"
   - "Hiroshi"
 figureRecipe: 

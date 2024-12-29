@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "ethiopian-cuisine"
   - "chickpea-stew"
-  - "berbere spice"
+  - "berbere-spice"
   - "healthy"
   - "Nia"
 figureRecipe: 

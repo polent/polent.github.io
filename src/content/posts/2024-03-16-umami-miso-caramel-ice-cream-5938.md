@@ -4,7 +4,7 @@ description: "Indulge in a unique umami dessert experience with our savory-sweet
 tags:
   - "dessert"
   - "umami"
-  - "ice cream"
+  - "ice-cream"
   - "miso"
   - "caramel"
   - "Emily"

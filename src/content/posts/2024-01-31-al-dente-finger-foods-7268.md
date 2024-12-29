@@ -3,7 +3,7 @@ title: "Al Dente Finger Foods"
 description: "These Al Dente Finger Foods are a delicious and vegan twist on classic Italian flavors. Made with fresh ingredients, they are perfect for appetizers or snacks."
 tags:
   - "vegan"
-  - "finger foods"
+  - "finger-food"
   - "appetizer"
   - "snack"
   - "italian"

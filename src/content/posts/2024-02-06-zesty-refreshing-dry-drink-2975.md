@@ -2,7 +2,7 @@
 title: "Zesty Refreshing Dry Drink Recipe"
 description: "Beat the heat with this zesty and refreshing dry drink recipe. Bursting with flavors, it's the perfect non-alcoholic beverage for a hot summer day."
 tags:
-  - "dry drink"
+  - "dry-drink"
   - "refreshing"
   - "non-alcoholic"
   - "summer"

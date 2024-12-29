@@ -2,7 +2,7 @@
 title: "Savory BBQ Sauce"
 description: "Try this mouthwatering savory BBQ sauce recipe, perfect for marinating jackfruit, seitan, or as a dipping sauce for vegan BBQ dishes. Tangy, smoky, and packed with flavor!"
 tags:
-  - "bbq sauce"
+  - "bbq-sauce"
   - "vegan-sauce"
   - "plant-based-sauce"
   - "Emily"

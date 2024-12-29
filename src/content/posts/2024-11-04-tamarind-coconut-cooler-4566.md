@@ -4,7 +4,7 @@ description: "Discover the refreshing taste of Tamarind Coconut Cooler, a perfec
 tags:
   - "vegan"
   - "african-cuisine"
-  - "refreshing drink"
+  - "refreshing-drink"
   - "coconut"
   - "tamarind"
   - "Nia"

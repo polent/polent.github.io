@@ -2,7 +2,7 @@
 title: "Cozy Warm Drink Recipe"
 description: "Cozy up with a delightful warm drink perfect for chilly days. This vegan beverage is a comforting blend of almond milk, maple syrup, and warming spices."
 tags:
-  - "warm drink"
+  - "warm-drink"
   - "vegan"
   - "beverage"
   - "winter"

@@ -2,10 +2,10 @@
 title: "Japanese Kabocha Squash and Miso Soup"
 description: "Warm up with this Japanese-inspired Kabocha Squash and Miso Soup, blending sweet squash with rich miso for a comforting vegan meal."
 tags:
-  - "japanese cuisine"
-  - "vegan soup"
-  - "kabocha squash"
-  - "miso soup"
+  - "japanese-cuisine"
+  - "vegan-soup"
+  - "kabocha-squash"
+  - "miso-soup"
   - "Hiroshi"
 figureRecipe: 
   caption: "Japanese Kabocha Squash and Miso Soup"

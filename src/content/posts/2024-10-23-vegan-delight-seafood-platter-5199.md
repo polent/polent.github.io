@@ -3,7 +3,7 @@ title: "Vegan Delight Seafood Platter"
 description: "Experience a plant-based seafood platter with our Vegan Delight Seafood Platter recipe, featuring dehydrated watermelon, crispy jackfruit, and fresh veggies in a delicious arrangement."
 tags:
   - "vegan"
-  - "seafood platter"
+  - "seafood-platter"
   - "plant-based"
   - "tempura"
   - "watermelon"

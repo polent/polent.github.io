@@ -4,7 +4,7 @@ description: "Indulge in creamy, African-inspired vegan finger foods that are bu
 tags:
   - "vegan"
   - "african"
-  - "finger food"
+  - "finger-food"
   - "creamy"
   - "plant-based"
   - "Nia"

@@ -4,7 +4,7 @@ description: "Indulge in the rich and flavorful taste of East African cuisine wi
 tags:
   - "vegan"
   - "appetizer"
-  - "east african"
+  - "east-african"
   - "spiced"
   - "Nia"
 figureRecipe: 

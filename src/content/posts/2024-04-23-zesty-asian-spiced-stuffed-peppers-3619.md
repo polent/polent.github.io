@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "appetizer"
   - "asian"
-  - "stuffed peppers"
+  - "stuffed-peppers"
   - "Hiroshi"
 figureRecipe: 
   caption: "Zesty Asian Spiced Stuffed Peppers"

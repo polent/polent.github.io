@@ -3,7 +3,7 @@ title: "Decadent Vegan Hot Chocolate"
 description: "Indulge in a rich and creamy vegan hot chocolate, perfect for cozying up on a chilly day. Made with high-quality dark chocolate and almond milk, this luscious and velvety drink will delight your taste buds. Sip on this vegan treat and experience pure bliss."
 tags:
   - "vegan"
-  - "hot chocolate"
+  - "hot-chocolate"
   - "drink"
   - "chocolate"
   - "dessert"

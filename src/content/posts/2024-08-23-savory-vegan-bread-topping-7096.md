@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "appetizer"
   - "easy-recipe"
-  - "bread topping"
+  - "bread-topping"
   - "Isabella"
 figureRecipe: 
   caption: "Savory Vegan Bread Topping"

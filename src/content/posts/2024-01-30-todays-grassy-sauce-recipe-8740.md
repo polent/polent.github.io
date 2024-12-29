@@ -3,7 +3,7 @@ title: "Today's Grassy Sauce Recipe"
 description: "Try this easy recipe for a fresh and flavorful grassy sauce. Made with parsley, cilantro, mint, and other ingredients, this vegan sauce is perfect for adding a burst of flavor to your dishes."
 tags:
   - "recipe"
-  - "grassy sauce"
+  - "grassy-sauce"
   - "vegan"
   - "sauce"
   - "asian-fusion"

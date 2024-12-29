@@ -3,7 +3,7 @@ title: "Syrupy Finger Food Delights"
 description: "Indulge in these vegan syrupy finger foods, perfect for dessert or a sweet snack. Crispy on the outside, tender on the inside, drizzled with chocolate syrup and topped with fresh berries."
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "syrupy"
   - "dessert"
   - "sweet"

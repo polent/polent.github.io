@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "mushroom"
-  - "smoked tofu"
+  - "smoked-tofu"
   - "hearty"
   - "Emily"
 figureRecipe: 

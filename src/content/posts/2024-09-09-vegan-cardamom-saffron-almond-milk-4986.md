@@ -4,7 +4,7 @@ description: "Experience the comforting flavors of cardamom and saffron in this 
 tags:
   - "vegan"
   - "drink"
-  - "almond milk"
+  - "almond-milk"
   - "cardamom"
   - "saffron"
   - "Isabella"

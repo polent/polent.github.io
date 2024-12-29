@@ -4,7 +4,7 @@ description: "Discover a macerated African vegan feast that blends traditional f
 tags:
   - "vegan"
   - "african-cuisine"
-  - "macerated dish"
+  - "macerated-dish"
   - "healthy"
   - "Nia"
 figureRecipe: 

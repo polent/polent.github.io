@@ -4,8 +4,8 @@ description: "Enjoy a light and nutritious Vegan Avocado and Tomato Rice Bowl fo
 tags:
   - "vegan"
   - "breakfast"
-  - "rice bowl"
-  - "quick meal"
+  - "rice-bowl"
+  - "quick-meal"
   - "healthy"
   - "Hiroshi"
 figureRecipe: 

@@ -3,10 +3,10 @@ title: "Caramelized Vegan Dim Sum"
 description: "Experience the delightful fusion of traditional dim sum with a sweet caramel twist in this unique vegan recipe, perfect for any meal."
 tags:
   - "vegan"
-  - "dim sum"
+  - "dim-sum"
   - "caramelized"
   - "asian-cuisine"
-  - "healthy eating"
+  - "healthy-eating"
   - "Nia"
 figureRecipe: 
   caption: "Caramelized Vegan Dim Sum"

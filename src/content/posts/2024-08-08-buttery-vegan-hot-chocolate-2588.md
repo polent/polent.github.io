@@ -3,8 +3,8 @@ title: "Buttery Vegan Hot Chocolate"
 description: "This recipe for buttery vegan hot chocolate combines almond milk, vegan butter, and cocoa for a rich and creamy winter drink. Perfect for cozy nights."
 tags:
   - "vegan"
-  - "hot chocolate"
-  - "winter drink"
+  - "hot-chocolate"
+  - "winter-drink"
   - "dairy-free"
   - "Emily"
 figureRecipe: 

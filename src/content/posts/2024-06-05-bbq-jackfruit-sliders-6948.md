@@ -6,7 +6,7 @@ tags:
   - "bbq"
   - "sliders"
   - "jackfruit"
-  - "finger food"
+  - "finger-food"
   - "Emily"
 figureRecipe: 
   caption: "BBQ Jackfruit Sliders"

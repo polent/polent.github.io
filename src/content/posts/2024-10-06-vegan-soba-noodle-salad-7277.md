@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "noodle-salad"
   - "asian-cuisine"
-  - "cold lunch"
+  - "cold-lunch"
   - "Hiroshi"
 figureRecipe: 
   caption: "Vegan Soba Noodle Salad"

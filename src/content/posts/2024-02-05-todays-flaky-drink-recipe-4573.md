@@ -2,7 +2,7 @@
 title: "Today's Flaky Drink Recipe"
 description: "Indulge in the flaky goodness of today's refreshing drink. This delightful concoction combines the flavors of zesty citrus and aromatic herbs, creating a truly invigorating experience."
 tags:
-  - "flaky drink"
+  - "flaky-drink"
   - "refreshing"
   - "citrus"
   - "herbs"

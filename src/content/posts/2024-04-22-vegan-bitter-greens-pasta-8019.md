@@ -4,7 +4,7 @@ description: "Embrace the bitterness of the day with this flavorful and comforti
 tags:
   - "vegan"
   - "pasta"
-  - "bitter greens"
+  - "bitter-greens"
   - "italian"
   - "dinner"
   - "Isabella"

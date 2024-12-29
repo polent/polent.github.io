@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bbq"
   - "side-dish"
-  - "mac and cheese"
+  - "mac-and-cheese"
   - "Emily"
 figureRecipe: 
   caption: "Creamy Vegan Mac and Cheese"

@@ -3,7 +3,7 @@ title: "Citrusy Finger Food Delight"
 description: "Delight in a refreshing citrusy finger food that bursts with zesty flavors. Perfect for any occasion, these vegan bites are a delightful treat for your taste buds."
 tags:
   - "citrusy"
-  - "finger food"
+  - "finger-food"
   - "refreshing"
   - "vegan"
   - "appetizer"

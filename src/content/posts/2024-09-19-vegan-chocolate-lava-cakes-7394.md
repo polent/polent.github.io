@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "dessert"
   - "chocolate"
-  - "lava cake"
+  - "lava-cake"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Chocolate Lava Cakes"

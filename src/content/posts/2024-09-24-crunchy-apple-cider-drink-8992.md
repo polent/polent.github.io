@@ -4,7 +4,7 @@ description: "Crunchy Apple Cider Drink recipe: a refreshing blend of apple cide
 tags:
   - "vegan"
   - "drink"
-  - "apple cider"
+  - "apple-cider"
   - "refreshing"
   - "Emily"
 figureRecipe: 

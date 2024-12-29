@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "salad"
   - "mushrooms"
-  - "wild rice"
+  - "wild-rice"
   - "healthy"
   - "Nia"
 figureRecipe: 

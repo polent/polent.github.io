@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "snack"
   - "spicy"
-  - "plantain chips"
-  - "african flavors"
+  - "plantain-chips"
+  - "african-flavors"
   - "Nia"
 figureRecipe: 
   caption: "Spicy Plantain Chips Recipe"

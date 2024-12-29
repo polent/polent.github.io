@@ -4,7 +4,7 @@ description: "Try this unique Vegan Smoked Maple-Pecan Ice Cream for a delightfu
 tags:
   - "vegan"
   - "dessert"
-  - "ice cream"
+  - "ice-cream"
   - "maple"
   - "pecan"
   - "smoked"

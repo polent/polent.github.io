@@ -2,10 +2,10 @@
 title: "Today's Bitter Breakfast"
 description: "Start your day with a unique and flavorful twist! This bitter breakfast recipe is packed with nutritious ingredients and a hint of bitterness, bringing you the bold flavors of Africa in a healthy and delicious way."
 tags:
-  - "bitter breakfast"
-  - "african flavors"
+  - "bitter-breakfast"
+  - "african-flavors"
   - "vegan-recipe"
-  - "healthy breakfast"
+  - "healthy-breakfast"
   - "Nia"
 figureRecipe: 
   caption: "Today's Bitter Breakfast"

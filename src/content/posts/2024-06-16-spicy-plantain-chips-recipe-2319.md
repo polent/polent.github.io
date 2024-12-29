@@ -4,7 +4,7 @@ description: "Spice up your snack game with these crunchy and flavorful spicy pl
 tags:
   - "appetizer"
   - "spicy"
-  - "plantain chips"
+  - "plantain-chips"
   - "african-inspired"
   - "Nia"
 figureRecipe: 

@@ -4,7 +4,7 @@ description: "Enjoy a taste of Africa with this Vegan Mango and Coconut Rice Pud
 tags:
   - "vegan"
   - "dessert"
-  - "rice pudding"
+  - "rice-pudding"
   - "mango"
   - "coconut"
   - "Nia"

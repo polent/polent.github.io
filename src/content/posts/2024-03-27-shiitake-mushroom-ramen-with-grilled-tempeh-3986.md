@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "asian-cuisine"
   - "ramen"
-  - "grilled tempeh"
+  - "grilled-tempeh"
   - "shiitake-mushrooms"
   - "Hiroshi"
 figureRecipe: 

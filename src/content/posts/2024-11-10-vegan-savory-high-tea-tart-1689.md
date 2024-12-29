@@ -4,7 +4,7 @@ description: "Discover a vegan twist on savory high tea with this delicious Vega
 tags:
   - "vegan"
   - "high-tea"
-  - "savory tart"
+  - "savory-tart"
   - "plant-based"
   - "Hiroshi"
 figureRecipe: 

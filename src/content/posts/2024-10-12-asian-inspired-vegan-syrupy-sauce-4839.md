@@ -3,7 +3,7 @@ title: "Asian-Inspired Vegan Syrupy Sauce"
 description: "Discover how to make a vegan Asian-inspired syrupy sauce with tamarind, ginger, and a hint of chili. Perfect for both sweet and savory dishes."
 tags:
   - "vegan"
-  - "syrupy sauce"
+  - "syrupy-sauce"
   - "asian-cuisine"
   - "tamarind"
   - "ginger"

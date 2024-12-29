@@ -3,7 +3,7 @@ title: "Coconut Berry Overnight Oats"
 description: "Start your day right with Coconut Berry Overnight Oats. This cold breakfast recipe is easy, delicious, and packed with flavors of coconut, mixed berries, and nuts."
 tags:
   - "breakfast"
-  - "overnight oats"
+  - "overnight-oats"
   - "coconut"
   - "berries"
   - "nuts"

@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "appetizer"
   - "mushrooms"
-  - "finger food"
+  - "finger-food"
   - "creamy"
   - "Emily"
 figureRecipe: 

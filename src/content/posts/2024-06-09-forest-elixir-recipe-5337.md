@@ -2,10 +2,10 @@
 title: "Forest Elixir: A Woody Drink Experience"
 description: "Indulge in the essence of the forest with this unique woody drink recipe. A blend of earthy mushrooms and aromatic spices, perfect for a grounding experience."
 tags:
-  - "woody drink"
-  - "forest elixir"
-  - "earth flavors"
-  - "herbal beverage"
+  - "woody-drink"
+  - "forest-elixir"
+  - "earth-flavors"
+  - "herbal-beverage"
   - "Nia"
 figureRecipe: 
   caption: "Forest Elixir: A Woody Drink Experience"

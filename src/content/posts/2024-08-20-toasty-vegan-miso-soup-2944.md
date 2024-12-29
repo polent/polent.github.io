@@ -6,7 +6,7 @@ tags:
   - "soup"
   - "miso"
   - "asian-cuisine"
-  - "warm dishes"
+  - "warm-dishes"
   - "Hiroshi"
 figureRecipe: 
   caption: "Toasty Vegan Miso Soup"

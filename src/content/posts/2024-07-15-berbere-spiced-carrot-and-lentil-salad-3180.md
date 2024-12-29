@@ -3,7 +3,7 @@ title: "Berbere Spiced Carrot and Lentil Salad"
 description: "Try this Ethiopian-inspired, vegan-friendly Berbere Spiced Carrot and Lentil Salad. A perfect blend of spices, lentils, and carrots, ideal for a nutritious side dish."
 tags:
   - "ethiopian-cuisine"
-  - "vegan salad"
+  - "vegan-salad"
   - "spicy"
   - "healthy"
   - "side-dish"

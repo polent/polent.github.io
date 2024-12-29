@@ -6,7 +6,7 @@ tags:
   - "marinade"
   - "african-cuisine"
   - "vegan"
-  - "bitter flavors"
+  - "bitter-flavors"
   - "Nia"
 figureRecipe: 
   caption: "Bitter Marinade Recipe"

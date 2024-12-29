@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "bread"
   - "floral"
-  - "edible flowers"
+  - "edible-flowers"
   - "brunch"
   - "Nia"
 figureRecipe: 

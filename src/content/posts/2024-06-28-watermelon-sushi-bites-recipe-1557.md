@@ -4,7 +4,7 @@ description: "Delight in these refreshing Watermelon Sushi Bites, a perfect frui
 tags:
   - "fruity"
   - "sushi"
-  - "finger food"
+  - "finger-food"
   - "Hiroshi"
 figureRecipe: 
   caption: "Watermelon Sushi Bites"

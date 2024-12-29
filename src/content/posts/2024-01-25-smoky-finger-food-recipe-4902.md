@@ -3,7 +3,7 @@ title: "Smoky Finger Food Recipe"
 description: "Indulge in the smoky flavors of today's vegan finger food recipe. These tofu skewers are marinated in a smoky sauce and grilled to perfection. Perfect for snacking or entertaining guests."
 tags:
   - "vegan"
-  - "finger food"
+  - "finger-food"
   - "smoky"
   - "tofu"
   - "grill"

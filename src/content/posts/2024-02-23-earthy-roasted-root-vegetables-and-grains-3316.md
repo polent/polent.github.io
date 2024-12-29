@@ -4,7 +4,7 @@ description: "Enjoy a flavorful and wholesome earthy side dish of roasted root v
 tags:
   - "vegan"
   - "side-dish"
-  - "root vegetables"
+  - "root-vegetables"
   - "grains"
   - "roasted"
   - "Nia"

@@ -2,7 +2,7 @@
 title: "Today's Fruity Sauce Recipe"
 description: "Add a burst of fruity goodness to your dishes with this delicious fruity sauce recipe. Made with a blend of fresh and tangy fruits, this sauce is the perfect accompaniment to both sweet and savory dishes."
 tags:
-  - "fruity sauce"
+  - "fruity-sauce"
   - "vegan-sauce"
   - "fruit-recipes"
   - "condiments"

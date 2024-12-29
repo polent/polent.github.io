@@ -5,7 +5,7 @@ tags:
   - "breakfast"
   - "vegan"
   - "plant-based"
-  - "steel-cut oats"
+  - "steel-cut-oats"
   - "nutritious"
   - "Emily"
 figureRecipe: 

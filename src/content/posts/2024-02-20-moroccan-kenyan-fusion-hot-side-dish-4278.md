@@ -5,7 +5,7 @@ tags:
   - "moroccan"
   - "kenyan"
   - "fusion"
-  - "hot side dish"
+  - "hot-side-dish"
   - "Nia"
 figureRecipe: 
   caption: "Moroccan-Kenyan Fusion Hot Side Dish"

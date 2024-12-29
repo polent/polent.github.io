@@ -3,8 +3,8 @@ title: "Vegan BBQ Bao Buns"
 description: "Discover the perfect blend of Asian BBQ and American comfort with our Vegan BBQ Bao Buns recipe. Easy to make and incredibly delicious!"
 tags:
   - "vegan"
-  - "asian bbq"
-  - "bao buns"
+  - "asian-bbq"
+  - "bao-buns"
   - "fingerfood"
   - "Emily"
 figureRecipe: 
