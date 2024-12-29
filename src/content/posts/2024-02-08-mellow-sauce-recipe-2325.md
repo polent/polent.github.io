@@ -2,10 +2,10 @@
 title: "Mellow Sauce Recipe"
 description: "Indulge in the flavors of Africa with this mellow sauce recipe. Bursting with aromatic spices and rich flavors, this sauce is the perfect accompaniment to any dish."
 tags:
-  - "mellow sauce"
-  - "african flavors"
+  - "mellow-sauce"
+  - "african-flavors"
   - "vegan-sauce"
-  - "sauce recipe"
+  - "sauce-recipe"
   - "Nia"
 figureRecipe: 
   caption: "Mellow Sauce Recipe"
