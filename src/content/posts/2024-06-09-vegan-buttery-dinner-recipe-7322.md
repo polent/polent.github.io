@@ -4,7 +4,7 @@ description: "Indulge in a vegan twist on a classic buttery dinner with this fla
 tags:
   - "vegan"
   - "buttery dinner"
-  - "african flavors"
+  - "african-flavors"
   - "plant-based"
   - "sustainable"
   - "Nia"
