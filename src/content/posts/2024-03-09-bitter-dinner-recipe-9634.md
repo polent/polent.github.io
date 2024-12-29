@@ -4,8 +4,8 @@ description: "Savor the bold flavors of bitter greens in this delicious vegan di
 tags:
   - "vegan"
   - "dinner"
-  - "bitter greens"
-  - "european cuisine"
+  - "bitter-greens"
+  - "european-cuisine"
   - "quinoa"
   - "Isabella"
 figureRecipe: 
