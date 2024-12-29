@@ -6,7 +6,7 @@ tags:
   - "spicy"
   - "bread"
   - "jalapeno"
-  - "sun-dried tomatoes"
+  - "sun-dried-tomatoes"
   - "Isabella"
 figureRecipe: 
   caption: "Spicy Vegan Bread"

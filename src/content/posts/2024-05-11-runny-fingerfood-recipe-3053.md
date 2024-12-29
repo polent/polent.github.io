@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "fingerfood"
   - "snack"
-  - "chickpea flour"
-  - "bell peppers"
+  - "chickpea-flour"
+  - "bell-peppers"
   - "tomatoes"
   - "Nia"
 figureRecipe: 

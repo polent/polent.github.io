@@ -3,7 +3,7 @@ title: "Vegan West African Side Dish"
 description: "A rich and flavorful vegan side dish inspired by the vibrant flavors of West African cuisine. This dish combines aromatic spices, creamy textures, and a variety of vegetables for a truly satisfying experience."
 tags:
   - "vegan"
-  - "west african"
+  - "west-african"
   - "side-dish"
   - "Nia"
 figureRecipe: 

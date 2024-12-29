@@ -6,7 +6,7 @@ tags:
   - "marinade"
   - "bitter"
   - "recipe"
-  - "vegan cooking"
+  - "vegan-cooking"
   - "Hiroshi"
 figureRecipe: 
   caption: "Today's Bitter Marinade Recipe"

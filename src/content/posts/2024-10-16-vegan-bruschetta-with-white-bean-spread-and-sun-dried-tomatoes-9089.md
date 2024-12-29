@@ -6,7 +6,7 @@ tags:
   - "appetizer"
   - "bruschetta"
   - "italian-cuisine"
-  - "party food"
+  - "party-food"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Bruschetta with White Bean Spread and Sun-Dried Tomatoes"

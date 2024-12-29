@@ -3,7 +3,7 @@ title: "Moroccan-Style Chickpea and Vegetable Tagine"
 description: "Savor a Moroccan-style vegan tagine with chickpeas and vegetables, perfect for a light and nutritious lunch."
 tags:
   - "vegan"
-  - "moroccan cuisine"
+  - "moroccan-cuisine"
   - "tagine"
   - "lunch"
   - "Nia"

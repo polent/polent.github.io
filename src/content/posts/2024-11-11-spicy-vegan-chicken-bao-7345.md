@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "street-food"
   - "asian-cuisine"
-  - "bao bun"
+  - "bao-bun"
   - "spicy"
   - "Hiroshi"
 figureRecipe: 

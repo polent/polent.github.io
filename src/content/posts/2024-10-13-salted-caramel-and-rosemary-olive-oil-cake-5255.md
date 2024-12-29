@@ -2,9 +2,9 @@
 title: "Salted Caramel and Rosemary Olive Oil Cake"
 description: "Discover the unique taste of Salted Caramel and Rosemary Olive Oil Cake, a perfect blend of sweet and savory for any sophisticated dessert lover."
 tags:
-  - "vegan dessert"
-  - "salted caramel"
-  - "olive oil cake"
+  - "vegan-dessert"
+  - "salted-caramel"
+  - "olive-oil-cake"
   - "sweet-and-salty"
   - "rosemary"
   - "Isabella"

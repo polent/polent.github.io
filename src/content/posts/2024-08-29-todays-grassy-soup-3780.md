@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "soup"
   - "healthy"
-  - "green vegetables"
+  - "green-vegetables"
   - "Nia"
 figureRecipe: 
   caption: "Today's Grassy Soup"

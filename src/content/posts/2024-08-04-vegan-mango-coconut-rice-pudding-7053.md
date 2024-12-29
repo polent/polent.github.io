@@ -4,7 +4,7 @@ description: "Delicious vegan Mango Coconut Rice Pudding recipe featuring creamy
 tags:
   - "vegan"
   - "breakfast"
-  - "rice pudding"
+  - "rice-pudding"
   - "mango"
   - "coconut"
   - "Hiroshi"

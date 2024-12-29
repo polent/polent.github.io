@@ -2,9 +2,9 @@
 title: "Salty Marinade Recipe"
 description: "Enhance your dishes with this savory salty marinade recipe. Perfect for marinating proteins and vegetables, this versatile marinade will elevate your culinary creations."
 tags:
-  - "salty marinade"
+  - "salty-marinade"
   - "marinade"
-  - "flavor enhancer"
+  - "flavor-enhancer"
   - "Isabella"
 figureRecipe: 
   caption: "Salty Marinade Recipe"

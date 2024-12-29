@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "risotto"
   - "lavender"
-  - "floral dinner"
+  - "floral-dinner"
   - "plant-based"
   - "Emily"
 figureRecipe: 

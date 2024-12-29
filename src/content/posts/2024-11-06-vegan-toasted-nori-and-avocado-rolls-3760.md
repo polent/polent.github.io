@@ -4,7 +4,7 @@ description: "Discover the delight of Vegan Toasted Nori and Avocado Rolls, a wa
 tags:
   - "vegan"
   - "appetizer"
-  - "japanese cuisine"
+  - "japanese-cuisine"
   - "avocado"
   - "nori"
   - "Hiroshi"

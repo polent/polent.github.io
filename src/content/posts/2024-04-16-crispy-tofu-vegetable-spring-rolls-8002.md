@@ -3,7 +3,7 @@ title: "Crispy Tofu and Vegetable Spring Rolls"
 description: "These crispy tofu and vegetable spring rolls are a vegan twist on a classic Asian snack. Packed with flavors and textures, they're perfect for any occasion!"
 tags:
   - "vegan"
-  - "spring rolls"
+  - "spring-rolls"
   - "crispy"
   - "tofu"
   - "vegetable"

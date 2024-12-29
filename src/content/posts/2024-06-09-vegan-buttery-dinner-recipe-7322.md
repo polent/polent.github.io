@@ -3,7 +3,7 @@ title: "Vegan Buttery Dinner Recipe"
 description: "Indulge in a vegan twist on a classic buttery dinner with this flavorful and wholesome recipe. A celebration of rich African flavors in a sustainable plant-based dish."
 tags:
   - "vegan"
-  - "buttery dinner"
+  - "buttery-dinner"
   - "african-flavors"
   - "plant-based"
   - "sustainable"

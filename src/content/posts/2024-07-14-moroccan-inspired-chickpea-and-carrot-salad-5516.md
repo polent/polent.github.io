@@ -3,7 +3,7 @@ title: "Moroccan-Inspired Chickpea and Carrot Salad"
 description: "Try this delicious Moroccan-Inspired Chickpea and Carrot Salad for a refreshing, nutritious vegan lunch that's easy to prepare and packed with flavor."
 tags:
   - "vegan"
-  - "moroccan cuisine"
+  - "moroccan-cuisine"
   - "salad"
   - "lunch"
   - "gluten-free"

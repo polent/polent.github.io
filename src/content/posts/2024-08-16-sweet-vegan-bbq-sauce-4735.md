@@ -4,7 +4,7 @@ description: "Discover the rich flavors of our Sweet Vegan BBQ Sauce, perfect fo
 tags:
   - "vegan"
   - "bbq-sauce"
-  - "sweet sauce"
+  - "sweet-sauce"
   - "barbecue"
   - "sauce"
   - "Emily"

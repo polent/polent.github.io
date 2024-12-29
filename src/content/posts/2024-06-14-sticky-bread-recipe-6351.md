@@ -3,7 +3,7 @@ title: "African-Inspired Sticky Bread Recipe"
 description: "Try our African-inspired sticky bread recipe for a sweet and comforting treat. This easy-to-make bread is perfect for cozy days at home."
 tags:
   - "african"
-  - "sticky bread"
+  - "sticky-bread"
   - "recipe"
   - "Nia"
 figureRecipe: 

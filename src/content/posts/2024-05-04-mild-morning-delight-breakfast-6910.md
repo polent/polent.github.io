@@ -7,7 +7,7 @@ tags:
   - "oatmeal"
   - "banana"
   - "chia-seeds"
-  - "almond butter"
+  - "almond-butter"
   - "berries"
   - "Hiroshi"
 figureRecipe: 

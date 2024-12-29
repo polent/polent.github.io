@@ -6,7 +6,7 @@ tags:
   - "african-cuisine"
   - "fingerfood"
   - "plantain"
-  - "black beans"
+  - "black-beans"
   - "Nia"
 figureRecipe: 
   caption: "Mini Plantain Cups with Spicy Black Bean Salsa"

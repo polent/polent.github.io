@@ -3,7 +3,7 @@ title: "Vegan Crumbly Dinner Recipe"
 description: "Try this delicious vegan crumbly dinner recipe made with tempeh and breadcrumbs. It's a plant-based twist on a classic American meal that will satisfy your cravings."
 tags:
   - "vegan"
-  - "crumbly dinner"
+  - "crumbly-dinner"
   - "tempeh"
   - "breadcrumbs"
   - "Emily"

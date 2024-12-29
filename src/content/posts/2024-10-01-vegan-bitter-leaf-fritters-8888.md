@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "finger-food"
-  - "bitter leaf"
+  - "bitter-leaf"
   - "fritters"
   - "Nia"
 figureRecipe: 

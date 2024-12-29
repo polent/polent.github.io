@@ -3,7 +3,7 @@ title: "Vegan Bobotie: A Hearty Lunch"
 description: "Try this Vegan Bobotie, a plant-based version of the traditional South African dish, perfect for a hearty lunch. Full of spices, lentils, and mushrooms."
 tags:
   - "vegan"
-  - "south african"
+  - "south-african"
   - "bobotie"
   - "lunch"
   - "Nia"

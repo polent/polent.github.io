@@ -2,7 +2,7 @@
 title: "Decadent Creamy African Fatty Drink Recipe"
 description: "Indulge in a decadent and creamy African-inspired fatty drink that will tantalize your taste buds. This rich and flavorful beverage is a perfect treat for a cozy evening or a special occasion."
 tags:
-  - "fatty drink"
+  - "fatty-drink"
   - "creamy"
   - "african-inspired"
   - "indulgent"

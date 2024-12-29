@@ -6,7 +6,7 @@ tags:
   - "curry"
   - "sweet-potato"
   - "chickpea"
-  - "coconut rice"
+  - "coconut-rice"
   - "african-cuisine"
   - "Nia"
 figureRecipe: 

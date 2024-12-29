@@ -4,9 +4,9 @@ description: "Try this African-inspired vegan toasty lunch recipe for a flavorfu
 tags:
   - "vegan"
   - "african-inspired"
-  - "toasty lunch"
+  - "toasty-lunch"
   - "chickpeas"
-  - "bell pepper"
+  - "bell-pepper"
   - "Nia"
 figureRecipe: 
   caption: "African-Inspired Vegan Toasty Lunch Recipe"

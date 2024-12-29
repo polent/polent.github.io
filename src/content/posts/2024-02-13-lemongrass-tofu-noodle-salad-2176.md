@@ -2,7 +2,7 @@
 title: "Lemongrass Tofu Noodle Salad"
 description: "Enjoy a refreshing and tangy Lemongrass Tofu Noodle Salad, combining the flavors of Japan and Vietnam. This vegan dish is light, nutritious, and bursting with vibrant Asian flavors."
 tags:
-  - "lemongrass tofu noodle salad"
+  - "lemongrass-tofu-noodle-salad"
   - "vegan-recipe"
   - "asian-fusion"
   - "light-lunch"

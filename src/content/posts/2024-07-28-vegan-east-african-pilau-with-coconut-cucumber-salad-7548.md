@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - "lunch"
-  - "rice dish"
+  - "rice-dish"
   - "salad"
   - "Nia"
 figureRecipe: 

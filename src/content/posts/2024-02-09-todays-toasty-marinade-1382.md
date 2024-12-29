@@ -2,7 +2,7 @@
 title: "Today's Toasty Marinade"
 description: "Add a burst of flavor to your dishes with today's toasty marinade! This versatile marinade is perfect for adding a smoky and rich taste to your favorite plant-based proteins or grilled vegetables."
 tags:
-  - "toasty marinade"
+  - "toasty-marinade"
   - "plant-based"
   - "vegan"
   - "marinade"

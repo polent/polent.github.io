@@ -6,7 +6,7 @@ tags:
   - "dessert"
   - "pear"
   - "ginger"
-  - "syrup cake"
+  - "syrup-cake"
   - "Isabella"
 figureRecipe: 
   caption: "Vegan Pear and Ginger Syrup Cake"

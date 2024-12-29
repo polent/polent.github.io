@@ -4,8 +4,8 @@ description: "Warm up with this Spicy African-Inspired Vegan Soup packed with fl
 tags:
   - "vegan"
   - "african-cuisine"
-  - "spicy soup"
-  - "hearty vegetables"
+  - "spicy-soup"
+  - "hearty-vegetables"
   - "Nia"
 figureRecipe: 
   caption: "Spicy African-Inspired Vegan Soup"

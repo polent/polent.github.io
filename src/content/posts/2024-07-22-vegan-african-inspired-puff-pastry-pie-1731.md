@@ -4,7 +4,7 @@ description: "Try this Vegan African-Inspired Puff-Pastry Pie with sweet potatoe
 tags:
   - "vegan"
   - "african-cuisine"
-  - "puff pastry"
+  - "puff-pastry"
   - "dinner"
   - "Nia"
 figureRecipe: 

@@ -4,7 +4,7 @@ description: "Elevate your dish with a delicious sticky marinade recipe that str
 tags:
   - "vegan"
   - "recipe"
-  - "sticky marinade"
+  - "sticky-marinade"
   - "Hiroshi"
 figureRecipe: 
   caption: "Sticky Marinade Recipe"

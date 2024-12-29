@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "asian"
   - "snack"
-  - "edible flowers"
+  - "edible-flowers"
   - "Hiroshi"
 figureRecipe: 
   caption: "Asian Inspired Floral Snack"

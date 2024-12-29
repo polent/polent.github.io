@@ -3,9 +3,9 @@ title: "Spiced Vegan Tagine"
 description: "Prepare a vegan version of a North African Tagine, full of spices and hearty vegetables. Perfect for a savory dinner!"
 tags:
   - "vegan"
-  - "north african cuisine"
+  - "north-african-cuisine"
   - "tagine"
-  - "spiced dish"
+  - "spiced-dish"
   - "dinner"
   - "Nia"
 figureRecipe: 

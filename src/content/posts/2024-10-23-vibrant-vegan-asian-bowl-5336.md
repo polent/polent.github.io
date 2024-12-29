@@ -4,7 +4,7 @@ description: "Discover the flavors of a vegan Asian-inspired bowl, combining bro
 tags:
   - "vegan"
   - "asian-cuisine"
-  - "wholesome lunch"
+  - "wholesome-lunch"
   - "plant-based"
   - "Hiroshi"
 figureRecipe: 

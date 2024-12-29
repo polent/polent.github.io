@@ -3,7 +3,7 @@ title: "Vegan North African Stew Recipe"
 description: "Warm up with this Vegan North African Stew, a flavorful and hearty dish packed with chickpeas, lentils, and aromatic spices. Perfect for a cozy dinner at home."
 tags:
   - "vegan"
-  - "north african"
+  - "north-african"
   - "stew"
   - "dinner"
   - "Nia"

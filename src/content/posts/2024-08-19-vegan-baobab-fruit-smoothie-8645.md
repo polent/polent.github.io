@@ -6,7 +6,7 @@ tags:
   - "smoothie"
   - "african-cuisine"
   - "baobab"
-  - "healthy drink"
+  - "healthy-drink"
   - "Nia"
 figureRecipe: 
   caption: "Vegan Baobab Fruit Smoothie"

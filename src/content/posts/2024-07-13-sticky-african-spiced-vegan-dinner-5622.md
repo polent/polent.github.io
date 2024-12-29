@@ -4,7 +4,7 @@ description: "Discover a sticky, sweet, and spicy vegan dinner inspired by tradi
 tags:
   - "vegan"
   - "african-cuisine"
-  - "sticky dinner"
+  - "sticky-dinner"
   - "spicy"
   - "sweet"
   - "Nia"

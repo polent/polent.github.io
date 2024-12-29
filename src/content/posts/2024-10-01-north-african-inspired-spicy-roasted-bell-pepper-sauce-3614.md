@@ -6,7 +6,7 @@ tags:
   - "african-cuisine"
   - "sauce"
   - "spicy"
-  - "roasted bell pepper"
+  - "roasted-bell-pepper"
   - "Nia"
 figureRecipe: 
   caption: "North African-Inspired Spicy Roasted Bell Pepper Sauce"

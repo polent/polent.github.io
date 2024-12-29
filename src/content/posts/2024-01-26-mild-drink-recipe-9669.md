@@ -2,7 +2,7 @@
 title: "Mild Drink Recipe"
 description: "Quench your thirst with a refreshing and mild drink that combines the flavors of seasonal fruits and herbs. Perfect for any occasion, this delightful beverage is sure to be a crowd-pleaser."
 tags:
-  - "mild drink"
+  - "mild-drink"
   - "refreshing"
   - "seasonal-fruits"
   - "beverage"

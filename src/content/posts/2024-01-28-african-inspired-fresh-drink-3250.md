@@ -3,7 +3,7 @@ title: "African-Inspired Fresh Drink"
 description: "Quench your thirst with a vibrant African-inspired fresh drink. Made with hibiscus petals, lemon juice, and a touch of sweetness, this refreshing beverage captures the flavors of the continent. Vegan and delicious!"
 tags:
   - "african"
-  - "fresh drink"
+  - "fresh-drink"
   - "hibiscus"
   - "refreshing"
   - "vegan"

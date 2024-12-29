@@ -3,7 +3,7 @@ title: "Al Dente Sauce Recipe"
 description: "Discover a unique blend of Italian and Asian flavors with this Al Dente Sauce recipe. A savory and versatile sauce that elevates any pasta dish. Try it today!"
 tags:
   - "recipe"
-  - "al dente sauce"
+  - "al-dente-sauce"
   - "fusion-cuisine"
   - "vegan"
   - "asian-fusion"

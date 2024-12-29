@@ -6,7 +6,7 @@ tags:
   - "burgers"
   - "african-inspired"
   - "sweet-potato"
-  - "black beans"
+  - "black-beans"
   - "chewy"
   - "Nia"
 figureRecipe: 

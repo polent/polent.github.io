@@ -5,7 +5,7 @@ tags:
   - "pungent-marinade"
   - "bbq-marinade"
   - "vegan-marinade"
-  - "plant-based marinade"
+  - "plant-based-marinade"
   - "Emily"
 figureRecipe: 
   caption: "Pungent Marinade"

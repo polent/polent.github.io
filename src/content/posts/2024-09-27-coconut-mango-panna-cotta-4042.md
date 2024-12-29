@@ -6,7 +6,7 @@ tags:
   - "dessert"
   - "coconut"
   - "mango"
-  - "panna cotta"
+  - "panna-cotta"
   - "Isabella"
 figureRecipe: 
   caption: "Coconut Mango Panna Cotta"

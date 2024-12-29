@@ -3,7 +3,7 @@ title: "Cold Cucumber Avocado Soup Recipe"
 description: "Stay cool with a delicious Cold Cucumber Avocado Soup. This chilled soup is a perfect blend of cucumber and avocado, ideal for hot summer days."
 tags:
   - "soup"
-  - "cold soup"
+  - "cold-soup"
   - "cucumber"
   - "avocado"
   - "refreshing"

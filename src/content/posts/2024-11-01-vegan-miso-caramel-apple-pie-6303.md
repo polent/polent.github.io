@@ -5,8 +5,8 @@ tags:
   - "vegan"
   - "dessert"
   - "miso"
-  - "apple pie"
-  - "savory dessert"
+  - "apple-pie"
+  - "savory-dessert"
   - "Emily"
 figureRecipe: 
   caption: "Vegan Miso Caramel Apple Pie"

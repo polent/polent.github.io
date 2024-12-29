@@ -6,7 +6,7 @@ tags:
   - "dessert"
   - "shortbread"
   - "rosemary"
-  - "sea salt"
+  - "sea-salt"
   - "cookie"
   - "Isabella"
 figureRecipe: 

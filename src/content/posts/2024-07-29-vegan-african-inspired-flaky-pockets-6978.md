@@ -5,7 +5,7 @@ tags:
   - "vegan"
   - "african-cuisine"
   - flaky-pastry"
-  - "spicy lentils"
+  - "spicy-lentils"
   - "Nia"
 figureRecipe: 
   caption: "Vegan African-Inspired Flaky Pockets"

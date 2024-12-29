@@ -5,7 +5,7 @@ tags:
   - "drink"
   - "savory"
   - "bbq"
-  - "bloody mary"
+  - "bloody-mary"
   - "Emily"
 figureRecipe: 
   caption: "Smoky BBQ Bloody Mary"
