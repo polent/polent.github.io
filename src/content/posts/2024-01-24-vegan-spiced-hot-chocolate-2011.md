@@ -3,9 +3,9 @@ title: "Vegan Spiced Hot Chocolate"
 description: "Indulge in the rich and creamy flavors of Africa with this vegan spiced hot chocolate. Made with traditional African spices and plant-based ingredients, it's a cozy treat perfect for chilly evenings or special occasions."
 tags:
   - "vegan"
-  - "hot chocolate"
-  - "spiced hot chocolate"
-  - "african flavors"
+  - "hot-chocolate"
+  - "spiced-hot-chocolate"
+  - "african-flavors"
   - "Nia"
 figureRecipe: 
   caption: "Vegan Spiced Hot Chocolate"
