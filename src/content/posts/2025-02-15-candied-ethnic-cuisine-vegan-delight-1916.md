@@ -11,7 +11,7 @@ figureRecipe:
   caption: "Candied Ethnic Cuisine Vegan Delight"
   imageSrc: "./src/media/2025-02-15-candied-ethnic-cuisine-vegan-delight-1916.png"
   imageTitle: "Candied Ethnic Cuisine Vegan Delight"
-  imageAlt: "Vibrant "Candied Ethnic Cuisine Vegan Delight" with roasted sweet potato and caramelized jackfruit, garnished with peanuts and cilantro on a minimalist table."
+  imageAlt: "Vibrant 'Candied Ethnic Cuisine Vegan Delight' with roasted sweet potato and caramelized jackfruit, garnished with peanuts and cilantro on a minimalist table."
   loading: "eager"
 ---
 
