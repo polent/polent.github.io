@@ -11,7 +11,7 @@ figureRecipe:
   caption: "Vegan Seafood Platter Delight"
   imageSrc: "./src/media/2025-04-01-vegan-seafood-platter-delight-1950.png"
   imageTitle: "Vegan Seafood Platter Delight"
-  imageAlt: "Gourmet vegan seafood platter with watermelon "tuna," jackfruit "crab," and mushroom "scallops," garnished with dill and lemon on a minimalist table."
+  imageAlt: "Gourmet vegan seafood platter with watermelon 'tuna,' jackfruit 'crab,' and mushroom 'scallops,' garnished with dill and lemon on a minimalist table."
   loading: "eager"
 ---
 
