@@ -10,14 +10,12 @@ const collections = require("./src/_11ty/collections");
 const filters = require("./src/_11ty/filters");
 const shortcodes = require("./src/_11ty/shortcodes");
 const transforms = require("./src/_11ty/transforms");
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = function (eleventyConfig) {
 	// Plugins
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntax);
-	eleventyConfig.addPlugin(UpgradeHelper);
 
 	// Libraries
 	eleventyConfig.setLibrary("md", markdown.md);
