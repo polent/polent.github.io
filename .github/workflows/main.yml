@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
@@ -11,43 +11,57 @@ jobs:
     outputs:
       deploy_status: ${{ steps.deploy.outputs.status }}
       changed_files_count: ${{ steps.changes.outputs.file_count }}
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Required to compare changes
 
+      - name: Restore Eleventy image cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: eleventy-img-cache-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            eleventy-img-cache-${{ runner.os }}-
+
+      - name: Download previous build hash
+        uses: actions/download-artifact@v4
+        with:
+          name: build-hash
+        continue-on-error: true
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-          
+          node-version: "20"
+          cache: "npm"
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Build project
         run: npm run build
         id: build
-      
+
       - name: Generate build hash
         id: hash
         run: |
           echo "build_hash=$(find dist -type f -exec sha256sum {} \; | sort | sha256sum | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
-      
+
       - name: Check for changes
         id: changes
         run: |
           PREV_HASH_FILE=".previous_build_hash"
           PREV_HASH=""
           NEW_HASH="${{ steps.hash.outputs.build_hash }}"
-          
+
           # Check if we have a previous build hash
           if [ -f "$PREV_HASH_FILE" ]; then
             PREV_HASH=$(cat "$PREV_HASH_FILE")
           fi
-          
+
           # Compare current build with previous
           if [ "$PREV_HASH" = "$NEW_HASH" ]; then
             echo "No changes detected in build output"
@@ -60,10 +74,10 @@ jobs:
             echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
             echo "$NEW_HASH" > "$PREV_HASH_FILE"
           fi
-          
+
           # Save hash for future runs
           echo "$NEW_HASH" > "$PREV_HASH_FILE"
-          
+
       - name: Deploy changed files to FTP
         id: deploy
         if: steps.changes.outputs.changed == 'true'
@@ -76,19 +90,22 @@ jobs:
           remote_path: "/"
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
-      
+
       - name: Set deployment status
         if: always()
         id: status
         run: |
+          # Always set deploy_status output to avoid missing outputs
           if [ "${{ steps.changes.outputs.changed }}" == "false" ]; then
+            echo "status=unchanged" >> $GITHUB_OUTPUT
+          elif [ -z "${{ steps.deploy.outcome }}" ]; then
             echo "status=unchanged" >> $GITHUB_OUTPUT
           elif [ "${{ steps.deploy.outcome }}" == "success" ]; then
             echo "status=success" >> $GITHUB_OUTPUT
           else
             echo "status=failed" >> $GITHUB_OUTPUT
           fi
-      
+
       - name: Upload build hash
         uses: actions/upload-artifact@v4
         with:
