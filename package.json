@@ -5,7 +5,7 @@
 	"main": "eleventy.config.js",
 	"scripts": {
 		"clean": "rm -rf dist",
-		"build:files": "npx @11ty/eleventy",
+		"build:files": "npx @11ty/eleventy --incremental",
 		"build:styles": "postcss src/site.css -o dist/styles/site.css --config postcss.config.js",
 		"build": "run-p build:*",
 		"serve:files": "npx @11ty/eleventy --quiet --incremental --serve",
