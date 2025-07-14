@@ -74,10 +74,6 @@ jobs:
             echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
             echo "$NEW_HASH" > "$PREV_HASH_FILE"
           fi
-
-          # Save hash for future runs
-          echo "$NEW_HASH" > "$PREV_HASH_FILE"
-
       - name: Deploy changed files to FTP
         id: deploy
         if: steps.changes.outputs.changed == 'true'
@@ -86,11 +82,10 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
-          local_path: "./dist/*"
+          local_path: "./dist"
           remote_path: "/"
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
-
       - name: Set deployment status
         if: always()
         id: status
@@ -98,9 +93,10 @@ jobs:
           # Always set deploy_status output to avoid missing outputs
           if [ "${{ steps.changes.outputs.changed }}" == "false" ]; then
             echo "status=unchanged" >> $GITHUB_OUTPUT
-          elif [ -z "${{ steps.deploy.outcome }}" ]; then
+          elif [ -z "${{ steps.deploy.outputs.status }}" ]; then
+            # Deploy step was skipped, so status is unchanged
             echo "status=unchanged" >> $GITHUB_OUTPUT
-          elif [ "${{ steps.deploy.outcome }}" == "success" ]; then
+          elif [ "${{ steps.deploy.outputs.status }}" == "success" ]; then
             echo "status=success" >> $GITHUB_OUTPUT
           else
             echo "status=failed" >> $GITHUB_OUTPUT
@@ -111,6 +107,7 @@ jobs:
         with:
           name: build-hash
           path: .previous_build_hash
+          # Retain build hash artifact for 7 days to allow rollback or comparison with recent builds
           retention-days: 7
 
   notify:
@@ -120,10 +117,10 @@ jobs:
     steps:
       - name: Check deployment status
         run: |
-          if [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "success" ]; then
-            echo "Deployment completed successfully. Deployed ${{ needs.build-and-deploy.outputs.changed_files_count }} files."
+          if [ "${{ steps.deploy.outputs.status }}" == "success" ]; then
+            echo "Deployment completed successfully. Deployed ${{ steps.changes.outputs.file_count }} files."
             exit 0
-          elif [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "unchanged" ]; then
+          elif [ "${{ steps.deploy.outputs.status }}" == "unchanged" ]; then
             echo "No changes detected. Skipped deployment."
             exit 0
           else
