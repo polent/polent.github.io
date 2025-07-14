@@ -9,8 +9,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     outputs:
-      deploy_status: ${{ steps.deploy.outputs.status }}
+      deploy_status: ${{ steps.status.outputs.status }}
       changed_files_count: ${{ steps.changes.outputs.file_count }}
+      deployment_changed: ${{ steps.changes.outputs.changed }}
 
     steps:
       - name: Checkout repository
@@ -26,7 +27,7 @@ jobs:
           restore-keys: |
             eleventy-img-cache-${{ runner.os }}-
 
-      - name: Download previous build hash
+      - name: Download previous build manifest
         uses: actions/download-artifact@v4
         with:
           name: build-hash
@@ -42,38 +43,72 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build
+        run: |
+          # Clean dist directory to ensure fresh build
+          rm -rf dist
+          npm run build
         id: build
 
-      - name: Generate build hash
-        id: hash
-        run: |
-          echo "build_hash=$(find dist -type f -exec sha256sum {} \; | sort | sha256sum | cut -d ' ' -f 1)" >> $GITHUB_OUTPUT
+      - name: Download previous build manifest
+        uses: actions/download-artifact@v4
+        with:
+          name: build-manifest
+        continue-on-error: true
 
-      - name: Check for changes
+      - name: Detect changed files
         id: changes
         run: |
-          PREV_HASH_FILE=".previous_build_hash"
-          PREV_HASH=""
-          NEW_HASH="${{ steps.hash.outputs.build_hash }}"
-
-          # Check if we have a previous build hash
-          if [ -f "$PREV_HASH_FILE" ]; then
-            PREV_HASH=$(cat "$PREV_HASH_FILE")
-          fi
-
-          # Compare current build with previous
-          if [ "$PREV_HASH" = "$NEW_HASH" ]; then
-            echo "No changes detected in build output"
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "file_count=0" >> $GITHUB_OUTPUT
+          # Create current build manifest
+          find dist -type f -exec sha256sum {} \; | sort > current_manifest.txt
+          
+          # Create directory for changed files
+          mkdir -p changed_files
+          
+          # Check if we have a previous manifest
+          if [ -f "previous_manifest.txt" ]; then
+            echo "Previous build manifest found, comparing..."
+            
+            # Find new or modified files
+            comm -23 current_manifest.txt previous_manifest.txt > new_files.txt
+            comm -13 current_manifest.txt previous_manifest.txt > deleted_files.txt
+            
+            # Count changed files
+            NEW_COUNT=$(wc -l < new_files.txt)
+            DELETED_COUNT=$(wc -l < deleted_files.txt)
+            TOTAL_CHANGED=$((NEW_COUNT + DELETED_COUNT))
+            
+            if [ $TOTAL_CHANGED -eq 0 ]; then
+              echo "No changes detected in build output"
+              echo "changed=false" >> $GITHUB_OUTPUT
+              echo "file_count=0" >> $GITHUB_OUTPUT
+            else
+              echo "Changes detected: $NEW_COUNT new/modified, $DELETED_COUNT deleted files"
+              echo "changed=true" >> $GITHUB_OUTPUT
+              echo "file_count=$NEW_COUNT" >> $GITHUB_OUTPUT
+              
+              # Copy only changed files to upload directory
+              while IFS= read -r line; do
+                if [ -n "$line" ]; then
+                  file_path=$(echo "$line" | cut -d' ' -f3-)
+                  if [ -f "$file_path" ]; then
+                    # Create directory structure in changed_files
+                    mkdir -p "changed_files/$(dirname "$file_path")"
+                    cp "$file_path" "changed_files/$file_path"
+                  fi
+                fi
+              done < new_files.txt
+            fi
           else
-            echo "Changes detected in build output"
+            echo "No previous build manifest found, uploading all files"
             echo "changed=true" >> $GITHUB_OUTPUT
             FILE_COUNT=$(find dist -type f | wc -l)
             echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
-            echo "$NEW_HASH" > "$PREV_HASH_FILE"
+            # Copy all files for first deployment
+            cp -r dist/* changed_files/ 2>/dev/null || true
           fi
+          
+          # Save current manifest for next run
+          cp current_manifest.txt previous_manifest.txt
       - name: Deploy changed files to FTP
         id: deploy
         if: steps.changes.outputs.changed == 'true'
@@ -82,7 +117,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
-          local_path: "./dist"
+          local_path: "./changed_files"
           remote_path: "/"
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
@@ -102,12 +137,12 @@ jobs:
             echo "status=failed" >> $GITHUB_OUTPUT
           fi
 
-      - name: Upload build hash
+      - name: Upload build manifest
         uses: actions/upload-artifact@v4
         with:
-          name: build-hash
-          path: .previous_build_hash
-          # Retain build hash artifact for 7 days to allow rollback or comparison with recent builds
+          name: build-manifest
+          path: previous_manifest.txt
+          # Retain build manifest artifact for 7 days to allow comparison with recent builds
           retention-days: 7
 
   notify:
@@ -117,10 +152,10 @@ jobs:
     steps:
       - name: Check deployment status
         run: |
-          if [ "${{ steps.deploy.outputs.status }}" == "success" ]; then
-            echo "Deployment completed successfully. Deployed ${{ steps.changes.outputs.file_count }} files."
+          if [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "success" ]; then
+            echo "Deployment completed successfully. Deployed ${{ needs.build-and-deploy.outputs.changed_files_count }} files."
             exit 0
-          elif [ "${{ steps.deploy.outputs.status }}" == "unchanged" ]; then
+          elif [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "unchanged" ]; then
             echo "No changes detected. Skipped deployment."
             exit 0
           else
