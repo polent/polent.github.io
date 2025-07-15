@@ -27,10 +27,18 @@ jobs:
           restore-keys: |
             eleventy-img-cache-${{ runner.os }}-
 
+      - name: Restore build cache
+        uses: actions/cache@v4
+        with:
+          path: dist
+          key: build-cache-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            build-cache-${{ runner.os }}-
+
       - name: Download previous build manifest
         uses: actions/download-artifact@v4
         with:
-          name: build-hash
+          name: build-manifest
         continue-on-error: true
 
       - name: Setup Node.js
@@ -42,18 +50,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build project
+      - name: Build project incrementally
         run: |
-          # Clean dist directory to ensure fresh build
-          rm -rf dist
+          # Check if dist directory exists from cache
+          if [ -d "dist" ]; then
+            echo "Previous build found in cache, building incrementally..."
+            echo "Existing files in dist: $(find dist -type f | wc -l)"
+          else
+            echo "No previous build found, creating fresh build..."
+            mkdir -p dist
+          fi
+          # Use incremental build which is already configured in package.json
           npm run build
+          echo "Build completed. Total files in dist: $(find dist -type f | wc -l)"
         id: build
-
-      - name: Download previous build manifest
-        uses: actions/download-artifact@v4
-        with:
-          name: build-manifest
-        continue-on-error: true
 
       - name: Detect changed files
         id: changes
@@ -144,6 +154,21 @@ jobs:
           path: previous_manifest.txt
           # Retain build manifest artifact for 7 days to allow comparison with recent builds
           retention-days: 7
+
+      - name: Cleanup temporary files
+        if: always()
+        run: |
+          # Clean up temporary files
+          rm -f current_manifest.txt new_files.txt deleted_files.txt
+          rm -rf changed_files
+          echo "Cleanup completed"
+
+      - name: Save build cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: dist
+          key: build-cache-${{ runner.os }}-${{ github.sha }}
 
   notify:
     needs: build-and-deploy
