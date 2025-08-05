@@ -31,10 +31,11 @@ jobs:
         uses: actions/cache@v4
         with:
           path: dist
-          key: build-cache-${{ runner.os }}-${{ github.sha }}
+          key: build-cache-${{ runner.os }}-${{ github.sha }}-${{ github.run_id }}
           restore-keys: |
             build-cache-${{ runner.os }}-
 
+      # This step may fail on the first run or if the artifact expired. This is expected.
       - name: Download previous build manifest
         uses: actions/download-artifact@v4
         with:
@@ -119,18 +120,18 @@ jobs:
           
           # Save current manifest for next run
           cp current_manifest.txt previous_manifest.txt
-      - name: Deploy changed files to FTP
+      - name: Deploy changed files to SFTP
         id: deploy
         if: steps.changes.outputs.changed == 'true'
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        uses: appleboy/sftp-action@master
         with:
+          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          server: ${{ secrets.FTP_SERVER }}
-          port: ${{ secrets.FTP_PORT }}
-          local_path: "./changed_files"
-          remote_path: "/"
-          sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          source: "./changed_files/*"
+          target: "/"
+          protocol: "sftp"
       - name: Set deployment status
         if: always()
         id: status
@@ -163,8 +164,17 @@ jobs:
           rm -rf changed_files
           echo "Cleanup completed"
 
+      - name: Check if dist directory exists
+        id: check_dist
+        run: |
+          if [ -d "dist" ]; then
+            echo "dist_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "dist_exists=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Save build cache
-        if: always()
+        if: steps.check_dist.outputs.dist_exists == 'true'
         uses: actions/cache/save@v4
         with:
           path: dist
