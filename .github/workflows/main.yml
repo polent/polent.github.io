@@ -120,18 +120,18 @@ jobs:
           
           # Save current manifest for next run
           cp current_manifest.txt previous_manifest.txt
-      - name: Deploy changed files to SFTP
+      - name: Deploy changed files to FTP
         id: deploy
         if: steps.changes.outputs.changed == 'true'
-        uses: appleboy/sftp-action@master
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
-          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
-          source: "./changed_files/*"
-          target: "/"
-          protocol: "sftp"
+          local_path: "./changed_files"
+          remote_path: "/"
+          sftp_only: true
+          password: ${{ secrets.FTP_PASSWORD }}
       - name: Set deployment status
         if: always()
         id: status
