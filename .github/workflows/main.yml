@@ -8,39 +8,10 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    outputs:
-      deploy_status: ${{ steps.status.outputs.status }}
-      changed_files_count: ${{ steps.changes.outputs.file_count }}
-      deployment_changed: ${{ steps.changes.outputs.changed }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Required to compare changes
-
-      - name: Restore Eleventy image cache
-        uses: actions/cache@v4
-        with:
-          path: .cache
-          key: eleventy-img-cache-${{ runner.os }}-${{ github.sha }}
-          restore-keys: |
-            eleventy-img-cache-${{ runner.os }}-
-
-      - name: Restore build cache
-        uses: actions/cache@v4
-        with:
-          path: dist
-          key: build-cache-${{ runner.os }}-${{ github.sha }}-${{ github.run_id }}
-          restore-keys: |
-            build-cache-${{ runner.os }}-
-
-      # This step may fail on the first run or if the artifact expired. This is expected.
-      - name: Download previous build manifest
-        uses: actions/download-artifact@v4
-        with:
-          name: build-manifest
-        continue-on-error: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -51,149 +22,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build project incrementally
-        run: |
-          # Check if dist directory exists from cache
-          if [ -d "dist" ]; then
-            echo "Previous build found in cache, building incrementally..."
-            echo "Existing files in dist: $(find dist -type f | wc -l)"
-          else
-            echo "No previous build found, creating fresh build..."
-            mkdir -p dist
-          fi
-          # Use incremental build which is already configured in package.json
-          npm run build
-          echo "Build completed. Total files in dist: $(find dist -type f | wc -l)"
-        id: build
+      - name: Build project
+        run: npm run build
 
-      - name: Detect changed files
-        id: changes
-        run: |
-          # Create current build manifest
-          find dist -type f -exec sha256sum {} \; | sort > current_manifest.txt
-          
-          # Create directory for changed files
-          mkdir -p changed_files
-          
-          # Check if we have a previous manifest
-          if [ -f "previous_manifest.txt" ]; then
-            echo "Previous build manifest found, comparing..."
-            
-            # Find new or modified files
-            comm -23 current_manifest.txt previous_manifest.txt > new_files.txt
-            comm -13 current_manifest.txt previous_manifest.txt > deleted_files.txt
-            
-            # Count changed files
-            NEW_COUNT=$(wc -l < new_files.txt)
-            DELETED_COUNT=$(wc -l < deleted_files.txt)
-            TOTAL_CHANGED=$((NEW_COUNT + DELETED_COUNT))
-            
-            if [ $TOTAL_CHANGED -eq 0 ]; then
-              echo "No changes detected in build output"
-              echo "changed=false" >> $GITHUB_OUTPUT
-              echo "file_count=0" >> $GITHUB_OUTPUT
-            else
-              echo "Changes detected: $NEW_COUNT new/modified, $DELETED_COUNT deleted files"
-              echo "changed=true" >> $GITHUB_OUTPUT
-              echo "file_count=$NEW_COUNT" >> $GITHUB_OUTPUT
-              
-              # Copy only changed files to upload directory
-              while IFS= read -r line; do
-                if [ -n "$line" ]; then
-                  file_path=$(echo "$line" | cut -d' ' -f3-)
-                  if [ -f "$file_path" ]; then
-                    # Create directory structure in changed_files
-                    mkdir -p "changed_files/$(dirname "$file_path")"
-                    cp "$file_path" "changed_files/$file_path"
-                  fi
-                fi
-              done < new_files.txt
-            fi
-          else
-            echo "No previous build manifest found, uploading all files"
-            echo "changed=true" >> $GITHUB_OUTPUT
-            FILE_COUNT=$(find dist -type f | wc -l)
-            echo "file_count=$FILE_COUNT" >> $GITHUB_OUTPUT
-            # Copy all files for first deployment
-            cp -r dist/* changed_files/ 2>/dev/null || true
-          fi
-          
-          # Save current manifest for next run
-          cp current_manifest.txt previous_manifest.txt
-      - name: Deploy changed files to FTP
-        id: deploy
-        if: steps.changes.outputs.changed == 'true'
+      - name: Deploy to SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
           username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
-          local_path: "./changed_files"
+          local_path: "./dist"
           remote_path: "/"
           sftp_only: true
           password: ${{ secrets.FTP_PASSWORD }}
-      - name: Set deployment status
-        if: always()
-        id: status
-        run: |
-          # Always set deploy_status output to avoid missing outputs
-          if [ "${{ steps.changes.outputs.changed }}" == "false" ]; then
-            echo "status=unchanged" >> $GITHUB_OUTPUT
-          elif [ -z "${{ steps.deploy.outputs.status }}" ]; then
-            # Deploy step was skipped, so status is unchanged
-            echo "status=unchanged" >> $GITHUB_OUTPUT
-          elif [ "${{ steps.deploy.outputs.status }}" == "success" ]; then
-            echo "status=success" >> $GITHUB_OUTPUT
-          else
-            echo "status=failed" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Upload build manifest
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-manifest
-          path: previous_manifest.txt
-          # Retain build manifest artifact for 7 days to allow comparison with recent builds
-          retention-days: 7
-
-      - name: Cleanup temporary files
-        if: always()
-        run: |
-          # Clean up temporary files
-          rm -f current_manifest.txt new_files.txt deleted_files.txt
-          rm -rf changed_files
-          echo "Cleanup completed"
-
-      - name: Check if dist directory exists
-        id: check_dist
-        run: |
-          if [ -d "dist" ]; then
-            echo "dist_exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "dist_exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Save build cache
-        if: steps.check_dist.outputs.dist_exists == 'true'
-        uses: actions/cache/save@v4
-        with:
-          path: dist
-          key: build-cache-${{ runner.os }}-${{ github.sha }}
-
-  notify:
-    needs: build-and-deploy
-    runs-on: ubuntu-latest
-    if: always()
-    steps:
-      - name: Check deployment status
-        run: |
-          if [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "success" ]; then
-            echo "Deployment completed successfully. Deployed ${{ needs.build-and-deploy.outputs.changed_files_count }} files."
-            exit 0
-          elif [ "${{ needs.build-and-deploy.outputs.deploy_status }}" == "unchanged" ]; then
-            echo "No changes detected. Skipped deployment."
-            exit 0
-          else
-            echo "Deployment failed!"
-            exit 1
-          fi
