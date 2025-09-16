@@ -1,5 +1,46 @@
 {% extends "layouts/base.njk" %} 
 
+{% block head %}
+  {{ super() }}
+  {% if isRecipe %}
+    {% set recipeData = content | extractRecipeData %}
+    {% if (recipeData.ingredients | length) and (recipeData.instructions | length) %}
+      {% set recipeAuthor = meta.author.name %}
+      {% if tags and (tags | length) %}
+        {% set candidateAuthor = tags[tags | length - 1] %}
+        {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
+          {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
+        {% endif %}
+      {% endif %}
+      {% set recipeImage = null %}
+      {% if recipeData.image %}
+        {% set recipeImage = meta.domain + recipeData.image %}
+      {% endif %}
+      {% set recipeKeywords = null %}
+      {% if tags and (tags | length) %}
+        {% set recipeKeywords = tags | join(', ') %}
+      {% endif %}
+      {% set recipeSchema = {
+        "@context": "https://schema.org",
+        "@type": "Recipe",
+        "name": title,
+        "description": description or meta.description,
+        "url": meta.domain + page.url,
+        "datePublished": page.date | dateToYYYYMMDD,
+        "author": {
+          "@type": "Person",
+          "name": recipeAuthor
+        },
+        "image": recipeImage and [recipeImage],
+        "keywords": recipeKeywords,
+        "recipeIngredient": recipeData.ingredients,
+        "recipeInstructions": recipeData.instructions
+      } %}
+      <script type="application/ld+json">{{ recipeSchema | toJson | safe }}</script>
+    {% endif %}
+  {% endif %}
+{% endblock %}
+
 {% block content %}
   <article class="wrapper layout-grid">
     <h1 class="page-header layout-span">{{ title }}</h1>

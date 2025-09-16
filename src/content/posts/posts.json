@@ -1,5 +1,6 @@
 {
 	"layout": "layouts/post",
+	"isRecipe": true,
 	"permalink": "/recipes/{{ page.fileSlug }}/index.html",
 	"eleventyNavigation": {
 		"parent": "recipes"
