@@ -13,6 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Restore Eleventy image cache
+        uses: actions/cache@v3
+        with:
+          path: .cache/eleventy-img
+          key: eleventy-img-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            eleventy-img-${{ runner.os }}-
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -23,15 +31,17 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: npm run build
+        run: |
+          npm run build -- --incremental
 
-      - name: Deploy to SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+      - name: Deploy changed files to SFTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          username: ${{ secrets.FTP_USERNAME }}
           server: ${{ secrets.FTP_SERVER }}
-          port: ${{ secrets.FTP_PORT }}
-          local_path: "./dist/*"
-          remote_path: "/"
-          sftp_only: true
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          protocol: sftp
+          port: ${{ secrets.FTP_PORT }}
+          local-dir: dist
+          server-dir: /
+          state-name: recipe-deploy-state
