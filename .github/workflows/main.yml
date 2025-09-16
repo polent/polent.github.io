@@ -32,7 +32,7 @@ jobs:
 
       - name: Build project
         run: |
-          npm run build -- --incremental
+          npm run build
 
       - name: Deploy changed files to SFTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
