@@ -8,7 +8,7 @@ const picture = async function (
 	sizes = "(min-width: 64rem) 1024px, 100vw"
 ) {
 	const metadata = await Image(src, {
-		widths: [150, 300, 600, 1200, 1800, 2150],
+		widths: [250, 440, 600, 1024, 1600, 2150],
 		formats: ["avif", "jpeg"],
 		urlPath: "/img/",
 		outputDir: "./dist/img/",

@@ -33,9 +33,20 @@
   {% if meta.og.type %}
     <meta property="og:type" content="{{ meta.og.type }}">
   {% endif %}
-  {% if meta.og.image %}
-    <meta property="og:image" content="{{ meta.og.image.rel }}">
-    <meta property="og:image:alt" content="{{ meta.og.image.alt }}">
+  {% set ogImageUrl = meta.og.image and meta.og.image.rel %}
+  {% set ogImageAlt = meta.og.image and meta.og.image.alt %}
+  {% if isRecipe %}
+    {% set ogRecipeData = content | extractRecipeData %}
+    {% if ogRecipeData.image %}
+      {% set ogImageUrl = ogRecipeData.image %}
+      {% set ogImageAlt = title %}
+    {% endif %}
+  {% endif %}
+  {% if ogImageUrl %}
+    <meta property="og:image" content="{{ meta.domain }}{{ ogImageUrl }}">
+    {% if ogImageAlt %}
+      <meta property="og:image:alt" content="{{ ogImageAlt }}">
+    {% endif %}
   {% endif %}
 {% endif %}
 

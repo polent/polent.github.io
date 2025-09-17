@@ -64,11 +64,124 @@ function squash(text) {
 		""
 	);
 	//remove newlines, and punctuation
-	result = result.replace(/\.|\,|\?|-|—|\n/g, "");
+	result = result.replace(/\.|\,|\?|-|-|\n/g, "");
 	//remove repeated spaces
 	result = result.replace(/[ ]{2,}/g, " ");
 
 	return result;
+}
+
+const htmlEntityMap = {
+	"&amp;": "&",
+	"&lt;": "<",
+	"&gt;": ">",
+	"&quot;": '"',
+	"&#39;": "'",
+	"&nbsp;": " ",
+};
+
+const decodeNumericEntity = entity => {
+	const numericMatch = entity.match(/&#(\d+);/);
+	if (numericMatch) {
+		return String.fromCharCode(Number(numericMatch[1]));
+	}
+	return entity;
+};
+
+const decodeHtmlEntities = value => {
+	if (!value) {
+		return "";
+	}
+	return value.replace(/&#?\w+;/g, entity => htmlEntityMap[entity] || decodeNumericEntity(entity));
+};
+
+const stripHtml = value => {
+	if (!value) {
+		return "";
+	}
+	return value.replace(/<[^>]*>/g, "");
+};
+
+const extractListItems = sectionHtml => {
+	if (!sectionHtml) {
+		return [];
+	}
+	const items = [];
+	const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+	let match = listItemRegex.exec(sectionHtml);
+	while (match) {
+		const cleaned = decodeHtmlEntities(stripHtml(match[1])).replace(/\s+/g, " ").trim();
+		if (cleaned) {
+			items.push(cleaned);
+		}
+		match = listItemRegex.exec(sectionHtml);
+	}
+	return items;
+};
+
+function extractRecipeData(html) {
+	const result = {
+		image: null,
+		ingredients: [],
+		instructions: [],
+	};
+
+	if (!html) {
+		return result;
+	}
+
+	const imageMatch = html.match(/<img[^>]*src=['"]([^'"]+)['"][^>]*>/i);
+	if (imageMatch) {
+		result.image = imageMatch[1];
+	}
+
+	const headings = [];
+	const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+	let headingMatch = headingRegex.exec(html);
+	while (headingMatch) {
+		const headingText = decodeHtmlEntities(stripHtml(headingMatch[1])).toLowerCase().trim();
+		headings.push({
+			title: headingText,
+			headingIndex: headingMatch.index,
+			contentStart: headingMatch.index + headingMatch[0].length,
+		});
+		headingMatch = headingRegex.exec(html);
+	}
+
+	for (let index = 0; index < headings.length; index += 1) {
+		const current = headings[index];
+		const next = headings[index + 1];
+		const endIndex = next ? next.headingIndex : html.length;
+		current.sectionHtml = html.slice(current.contentStart, endIndex);
+	}
+
+	const ingredientsSection = headings.find(heading => heading.title === "ingredients");
+	if (ingredientsSection) {
+		result.ingredients = extractListItems(ingredientsSection.sectionHtml);
+	}
+
+	const instructionsSection = headings.find(heading => heading.title === "instructions");
+	if (instructionsSection) {
+		result.instructions = extractListItems(instructionsSection.sectionHtml).map(text => ({
+			"@type": "HowToStep",
+			text,
+		}));
+	}
+
+	return result;
+}
+
+function toJson(value) {
+	if (value === undefined) {
+		return "";
+	}
+	const replacer = (key, val) => {
+		if (val === undefined || val === null) {
+			return undefined;
+		}
+		return val;
+	};
+	return JSON.stringify(value, replacer, 2);
 }
 
 module.exports = {
@@ -79,4 +192,6 @@ module.exports = {
 	dateToMonth,
 	dateToUNIX,
 	squash,
+	extractRecipeData,
+	toJson,
 };

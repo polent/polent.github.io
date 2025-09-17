@@ -34,6 +34,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("dateToMonth", filters.dateToMonth);
 	eleventyConfig.addFilter("dateToUNIX", filters.dateToUNIX);
 	eleventyConfig.addFilter("squash", filters.squash);
+	eleventyConfig.addFilter("extractRecipeData", filters.extractRecipeData);
+	eleventyConfig.addFilter("toJson", filters.toJson);
 
 	// Shortcodes
 	eleventyConfig.addShortcode("picture", shortcodes.picture);
