@@ -34,12 +34,13 @@ jobs:
         run: |
           npm run build
 
-      - name: Deploy changed files to SFTP
-        uses: Dylan700/sftp-upload-action@latest
+      - name: Deploy to SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
-          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
-          uploads: |
-            ./dist/ => /
+          local_path: "./dist/*"
+          remote_path: "/"
+          sftp_only: true
+          password: ${{ secrets.FTP_PASSWORD }}
