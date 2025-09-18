@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Restore Eleventy image cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: .cache/eleventy-img
-          key: eleventy-img-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          key: eleventy-img-${{ runner.os }}-${{ hashFiles('package-lock.json', 'src/**/*.{md,njk}') }}
           restore-keys: |
             eleventy-img-${{ runner.os }}-
 
@@ -35,13 +35,11 @@ jobs:
           npm run build
 
       - name: Deploy changed files to SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: Dylan700/sftp-upload-action@latest
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps-legacy
           port: ${{ secrets.FTP_PORT }}
-          local-dir: dist/
-          server-dir: /
-          state-name: recipe-deploy-state
+          uploads: |
+            ./dist/ => /
