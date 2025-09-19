@@ -11,7 +11,7 @@ figureRecipe:
   caption: "Vegan Umami Charcuterie Board"
   imageSrc: "./src/media/2025-09-19-vegan-umami-charcuterie-board-8212.png"
   imageTitle: "Vegan Umami Charcuterie Board"
-  imageAlt: "A vegan umami charcuterie board on a clean table, featuring smoked carrot "salmon," golden tempeh, miso cashew cheese, pickled shiitake, spiced almonds, fresh vegetables, seaweed crisps, rice crackers, and soy sauce."
+  imageAlt: "A vegan umami charcuterie board on a clean table, featuring smoked carrot salmon, golden tempeh, miso cashew cheese, pickled shiitake, spiced almonds, fresh vegetables, seaweed crisps, rice crackers, and soy sauce."
   loading: "eager"
 ---
 
