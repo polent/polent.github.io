@@ -25,11 +25,21 @@ Discover a blanched appetizer that's both nutritious and full of flavor. This di
 
 ## Ingredients
 
-- A variety of fresh vegetables (carrots, green beans, bell peppers)\n- 1 tbsp olive oil\n- Salt to taste\n- 1 tsp mixed African spices (e.g., berbere or ras el hanout)\n- Fresh herbs (like parsley or cilantro) for garnish
+- A variety of fresh vegetables (carrots, green beans, bell peppers)
+- 1 tbsp olive oil
+- Salt to taste
+- 1 tsp mixed African spices (e.g., berbere or ras el hanout)
+- Fresh herbs (like parsley or cilantro) for garnish
 
 ## Instructions
 
-1. Wash and prepare the vegetables by cutting them into uniform sizes.\n2. Bring a large pot of salted water to a boil.\n3. Blanch each type of vegetable separately for about 1-2 minutes until vibrant but still crisp.\n4. Immediately transfer the vegetables to a bowl of ice water to stop the cooking process.\n5. Drain the vegetables and pat dry.\n6. Toss the blanched vegetables with olive oil, mixed African spices, and a pinch of salt.\n7. Garnish with fresh herbs before serving.
+1. Wash and prepare the vegetables by cutting them into uniform sizes.
+2. Bring a large pot of salted water to a boil.
+3. Blanch each type of vegetable separately for about 1-2 minutes until vibrant but still crisp.
+4. Immediately transfer the vegetables to a bowl of ice water to stop the cooking process.
+5. Drain the vegetables and pat dry.
+6. Toss the blanched vegetables with olive oil, mixed African spices, and a pinch of salt.
+7. Garnish with fresh herbs before serving.
 
 Enjoy the crisp, refreshing taste of this blanched appetizer, perfect as a light start to your meal or as a healthy snack throughout the day.
 
