@@ -42,10 +42,9 @@ jobs:
             dist
             .cache
             _site
-          key: eleventy-build-${{ hashFiles('src/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+          key: eleventy-build-${{ hashFiles('src/**/*', 'content/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
           restore-keys: |
             eleventy-build-${{ hashFiles('eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
-            eleventy-build-
       
       - name: Cache processed images
         uses: actions/cache@v4
@@ -53,17 +52,17 @@ jobs:
           path: |
             dist/img
             .cache/img
-          key: eleventy-img-${{ hashFiles('media/**/*') }}
+          key: eleventy-img-${{ hashFiles('media/**/*', 'src/_11ty/shortcodes.js') }}
           restore-keys: |
-            eleventy-img-
+            eleventy-img-${{ hashFiles('media/**/*') }}
       
       - name: Cache CSS build
         uses: actions/cache@v4
         with:
           path: dist/styles
-          key: css-build-${{ hashFiles('src/**/*.css', 'src/_styles/**/*', 'postcss.config.js') }}
+          key: css-build-${{ hashFiles('src/site.css', 'src/_styles/**/*', 'postcss.config.js') }}
           restore-keys: |
-            css-build-
+            css-build-${{ hashFiles('postcss.config.js') }}
       
       - name: Install dependencies
         run: npm ci
