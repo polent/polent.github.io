@@ -35,11 +35,41 @@ jobs:
           node-version: '20'
           cache: 'npm'
       
+      - name: Cache Eleventy build artifacts
+        uses: actions/cache@v4
+        with:
+          path: |
+            dist
+            .cache
+            _site
+          key: eleventy-build-${{ hashFiles('src/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+          restore-keys: |
+            eleventy-build-${{ hashFiles('eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+            eleventy-build-
+      
+      - name: Cache processed images
+        uses: actions/cache@v4
+        with:
+          path: |
+            dist/img
+            .cache/img
+          key: eleventy-img-${{ hashFiles('media/**/*') }}
+          restore-keys: |
+            eleventy-img-
+      
+      - name: Cache CSS build
+        uses: actions/cache@v4
+        with:
+          path: dist/styles
+          key: css-build-${{ hashFiles('src/**/*.css', 'src/_styles/**/*', 'postcss.config.js') }}
+          restore-keys: |
+            css-build-
+      
       - name: Install dependencies
         run: npm ci
       
       - name: Build site
-        run: npm run build
+        run: npm run build:files && npm run build:styles
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
