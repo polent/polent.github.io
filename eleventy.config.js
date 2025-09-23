@@ -51,6 +51,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"src/static/og-default.png": "/og-default.png",
 	});
+	eleventyConfig.addPassthroughCopy({ "src/static/CNAME": "/CNAME" });
 
 	// Watch targets
 	eleventyConfig.addWatchTarget("./src/_styles/**/*.css");
