@@ -23,7 +23,7 @@ h1 {
 
 h2 {
 	@extend %heading-2;
-	margin-bottom: 0.25em;
+	margin-bottom: 0.5em;
 }
 
 h3 {

@@ -45,13 +45,14 @@
   <article class="wrapper layout-grid">
     <h1 class="page-header layout-span">{{ title }}</h1>
     <div class="layout-span | content-main flow">
+      <time datetime="{{ page.date | dateToYYYYMMDD }}"> {{ page.date | dateToDMY }}</time>
       {% if tags %}
         <ul class="tags-list">
           {% for item in tags %}
             <li><a href="/tag/{{ item | slug }}/">{{ item }}</a></li>
           {% endfor %}
         </ul>
-      {% endif %}
+      {% endif %}      
       {{ content | safe }}
     </div>
   </article>

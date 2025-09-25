@@ -51,3 +51,10 @@ sup {
 	line-height: 0;
 	vertical-align: 0.35em;
 }
+
+time {
+	display: block;
+	font-style: italic;
+	text-align: right;
+	margin-top: 0.25em;
+}
