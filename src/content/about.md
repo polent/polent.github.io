@@ -10,7 +10,7 @@ permalink: "/how-is-it-done/index.html"
 figureAbout: 
   caption: "Vegan Food Blog Technology Workflow"
   className: "about-figure"
-  imageSrc: "./src/media/about/477da717-825a-40f2-a531-39bdb6615b68.png"
+  imageSrc: "./src/media/about/vegan_blog_workflow.png"
   imageTitle: "Vegan Food Blog Technology Workflow"
   imageAlt: "flow chart illustrating the multi-step process used by your vegan food blog, detailing each stage from initiating the process with gpt- 4o to the automated deployment of content. This visual representation helps in understanding the sequence and interactions of the various steps involved in your sophisticated AI-driven recipe generation and posting."
   loading: "lazy"
