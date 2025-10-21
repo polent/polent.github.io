@@ -1,6 +1,6 @@
 ---
 title: "Vegan Charcuterie-Inspired Platter"
-description: "A vegan twist on a charcuterie board featuring African-inspired ingredients like teff crackers, spiced chickpea dip, and smoked carrot "salmon"."
+description: "A vegan twist on a charcuterie board featuring African-inspired ingredients like teff crackers, spiced chickpea dip, and smoked carrot 'salmon'"
 tags:
   - "vegan"
   - "african-cuisine"
