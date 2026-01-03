@@ -12,7 +12,7 @@ figureRecipe:
   caption: "Sautéed Holiday Vegan Delight"
   imageSrc: "./src/media/2026-01-02-sauteed-holiday-vegan-delight-6062.png"
   imageTitle: "Sautéed Holiday Vegan Delight"
-  imageAlt: "A festive vegan dish, "Sautéed Holiday Vegan Delight," with tempeh, shiitake, red bell pepper, and green onions, elegantly presented with holiday accents."
+  imageAlt: "A festive vegan dish, «Sautéed Holiday Vegan Delight» with tempeh, shiitake, red bell pepper, and green onions, elegantly presented with holiday accents."
   loading: "eager"
 ---
 
