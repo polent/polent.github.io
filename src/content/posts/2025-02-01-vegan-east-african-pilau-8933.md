@@ -26,11 +26,37 @@ Today's recipe is a vibrant and flavorful Vegan East African Pilau, a dish that 
 
 ## Ingredients
 
-- 2 cups basmati rice, rinsed and drained\n- 4 cups vegetable broth\n- 1 large onion, finely chopped\n- 3 cloves garlic, minced\n- 1 tbsp ginger, minced\n- 1 tsp cumin seeds\n- 1 tsp coriander seeds\n- 4 cardamom pods\n- 1 cinnamon stick\n- 1/4 tsp cloves\n- 2 bay leaves\n- 1/2 tsp turmeric powder\n- 1 tsp paprika\n- 1 cup carrots, diced\n- 1 cup potatoes, diced\n- 1/4 cup raisins\n- 2 tbsp olive oil\n- Salt to taste\n- Fresh cilantro, chopped for garnish
+- 2 cups basmati rice, rinsed and drained
+- 4 cups vegetable broth
+- 1 large onion, finely chopped
+- 3 cloves garlic, minced
+- 1 tbsp ginger, minced
+- 1 tsp cumin seeds
+- 1 tsp coriander seeds
+- 4 cardamom pods
+- 1 cinnamon stick
+- 1/4 tsp cloves
+- 2 bay leaves
+- 1/2 tsp turmeric powder
+- 1 tsp paprika
+- 1 cup carrots, diced
+- 1 cup potatoes, diced
+- 1/4 cup raisins
+- 2 tbsp olive oil
+- Salt to taste
+- Fresh cilantro, chopped for garnish
 
 ## Instructions
 
-1. Heat the olive oil in a large pot over medium heat.\n2. Add the onions, garlic, and ginger, sautéing until onions are translucent.\n3. Stir in cumin seeds, coriander seeds, cardamom pods, cinnamon stick, cloves, and bay leaves, cooking until fragrant.\n4. Mix in turmeric and paprika, then add the carrots and potatoes, cooking for about 5 minutes.\n5. Add the rinsed basmati rice and stir well to coat it with the spices.\n6. Pour in the vegetable broth, add salt to taste and bring to a boil.\n7. Reduce heat to low, cover, and simmer for 20 minutes, or until the rice is cooked and the liquid is absorbed.\n8. Remove from heat, discard the bay leaves and cinnamon stick.\n9. Fluff the rice with a fork, mix in the raisins, and let it sit covered for 10 minutes before serving.\n10. Garnish with fresh cilantro and serve hot.
+1. Heat the olive oil in a large pot over medium heat.
+2. Add the onions, garlic, and ginger, sautéing until onions are translucent.
+3. Stir in cumin seeds, coriander seeds, cardamom pods, cinnamon stick, cloves, and bay leaves, cooking until fragrant.
+4. Mix in turmeric and paprika, then add the carrots and potatoes, cooking for about 5 minutes.
+5. Add the rinsed basmati rice and stir well to coat it with the spices.
+6. Pour in the vegetable broth, add salt to taste and bring to a boil.
+7. Reduce heat to low, cover, and simmer for 20 minutes, or until the rice is cooked and the liquid is absorbed.
+8. Remove from heat, discard the bay leaves and cinnamon stick.
+9. Fluff the rice with a fork, mix in the raisins, and let it sit covered for 10 minutes before serving.10. Garnish with fresh cilantro and serve hot.
 
 Enjoy this delightful Vegan East African Pilau on any day you crave a taste of Africa. It's perfect for sharing with friends and family, offering a culinary journey that's both nourishing and immensely flavorful.
 
