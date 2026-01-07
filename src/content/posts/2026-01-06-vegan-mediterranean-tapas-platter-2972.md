@@ -55,5 +55,5 @@ This dish not only brings a taste of the Mediterranean to your table but also of
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include gluten from bread and olives (depending on brine ingredients).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include gluten from bread and olives (depending on brine ingredients).&nbsp;</td></tr></table>
 
