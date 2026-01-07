@@ -49,5 +49,5 @@ Enjoy your beautifully arranged vegan charcuterie board! It's perfect for impres
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Varies based on ingredients used. Generally high in fiber and plant-based proteins.&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include nuts, soy, and gluten depending on the products used.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Varies based on ingredients used. Generally high in fiber and plant-based proteins.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include nuts, soy, and gluten depending on the products used.&nbsp;</td></tr></table>
 

@@ -58,5 +58,5 @@ Enjoy the fusion of flavors and textures in these delightful spring rolls. They'
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Sodium: 320mg, Total Carbohydrates: 20g, Dietary Fiber: 3g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Sodium: 320mg, Total Carbohydrates: 20g, Dietary Fiber: 3g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

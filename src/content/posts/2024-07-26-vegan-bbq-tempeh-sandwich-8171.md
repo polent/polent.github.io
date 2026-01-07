@@ -48,5 +48,5 @@ Enjoy your Vegan BBQ Tempeh Sandwich with a side of sweet potato fries or a fres
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380, Protein: 21g, Fat: 13g, Carbohydrates: 42g, Fiber: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Gluten, Possible nuts in vegan BBQ sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Protein: 21g, Fat: 13g, Carbohydrates: 42g, Fiber: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Possible nuts in vegan BBQ sauce&nbsp;</td></tr></table>
 

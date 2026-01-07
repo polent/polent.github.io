@@ -60,7 +60,7 @@ Enjoy this vegan twist on a classic Shepherd's Pie that is sure to satisfy your 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320<br />
 Total Fat: 10g<br />
 Saturated Fat: 2g<br />
 Cholesterol: 0mg<br />
@@ -68,5 +68,5 @@ Sodium: 460mg<br />
 Carbohydrate: 52g<br />
 Fiber: 12g<br />
 Sugar: 9g<br />
-Protein: 11g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
+Protein: 11g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
 

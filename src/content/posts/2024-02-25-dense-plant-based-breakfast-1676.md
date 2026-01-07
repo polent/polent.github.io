@@ -47,5 +47,5 @@ Enjoy this nutritious and delicious breakfast that will keep you energized throu
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 80mg, Total Carbohydrates: 54g, Dietary Fiber: 8g, Sugars: 18g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 80mg, Total Carbohydrates: 54g, Dietary Fiber: 8g, Sugars: 18g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
 

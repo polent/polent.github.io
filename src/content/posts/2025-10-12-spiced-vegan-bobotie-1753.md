@@ -58,5 +58,5 @@ Enjoy this heartwarming dish that's sure to become a new favorite in your culina
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 290, Fat: 7g, Carbs: 45g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, soy, and gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 7g, Carbs: 45g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy, and gluten&nbsp;</td></tr></table>
 

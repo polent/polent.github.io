@@ -51,5 +51,5 @@ Serve these spicy tempeh ribs with a side of your favorite grilled vegetables or
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 13g, Carbohydrates: 20g, Protein: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 13g, Carbohydrates: 20g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy&nbsp;</td></tr></table>
 

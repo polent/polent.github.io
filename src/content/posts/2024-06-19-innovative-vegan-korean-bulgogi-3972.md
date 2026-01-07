@@ -48,5 +48,5 @@ Elevate your dining experience with this delightful vegan creation that harmonio
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320 | Carbs: 25g | Fat: 10g | Protein: 30g | Fiber: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 | Carbs: 25g | Fat: 10g | Protein: 30g | Fiber: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens: Soy&nbsp;</td></tr></table>
 

@@ -50,5 +50,5 @@ Enjoy this delightful Vegan Thai Basil Pesto Pasta, a perfect fusion of East mee
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbohydrates: 54g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbohydrates: 54g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten&nbsp;</td></tr></table>
 

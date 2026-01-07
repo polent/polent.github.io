@@ -55,5 +55,5 @@ Enjoy this deliciously spicy jackfruit curry with a side of fluffy jasmine rice 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 260, Fat: 17g, Carbohydrates: 25g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 260, Fat: 17g, Carbohydrates: 25g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, coconut&nbsp;</td></tr></table>
 

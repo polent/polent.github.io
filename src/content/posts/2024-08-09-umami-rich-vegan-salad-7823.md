@@ -52,5 +52,5 @@ Enjoy this umami salad as a standalone meal or pair it with your favorite vegan 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 240, Fat: 15g, Carbs: 21g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 240, Fat: 15g, Carbs: 21g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame&nbsp;</td></tr></table>
 

@@ -49,5 +49,5 @@ Warm up your taste buds with this crispy soup that is both comforting and exciti
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Total Fat: 4g, Sodium: 800mg, Carbohydrates: 35g, Fiber: 8g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain gluten in crispy fried onions&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Total Fat: 4g, Sodium: 800mg, Carbohydrates: 35g, Fiber: 8g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten in crispy fried onions&nbsp;</td></tr></table>
 

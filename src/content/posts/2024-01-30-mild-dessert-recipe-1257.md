@@ -45,7 +45,7 @@ Enjoy this mild dessert as a comforting treat that is both vegan and delicious.
 
 *Emily*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 serving
 Calories: 120
 Total Fat: 4g
 Saturated Fat: 0.5g
@@ -54,5 +54,5 @@ Sodium: 50mg
 Total Carbohydrate: 20g
 Dietary Fiber: 1g
 Sugars: 12g
-Protein: 1g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>This recipe is suitable for those following a vegan diet. It contains almonds.</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is suitable for those following a vegan diet. It contains almonds.</td></tr></table>
 

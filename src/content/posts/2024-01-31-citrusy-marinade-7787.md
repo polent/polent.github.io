@@ -53,7 +53,7 @@ Enjoy the bright and refreshing flavors of this citrusy marinade. It's a versati
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 tablespoon<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 tablespoon<br />
 Calories: 40<br />
 Total Fat: 3g<br />
 Saturated Fat: 0g<br />
@@ -62,5 +62,5 @@ Sodium: 200mg<br />
 Total Carbohydrate: 3g<br />
 Dietary Fiber: 0g<br />
 Sugar: 1g<br />
-Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This citrusy marinade is vegan and does not contain any common allergens.&nbsp;</td></tr></table>
+Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This citrusy marinade is vegan and does not contain any common allergens.&nbsp;</td></tr></table>
 

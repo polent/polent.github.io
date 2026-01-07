@@ -51,5 +51,5 @@ Enjoy the burst of tangy flavors with each bite of this Vegan Pickled Vegetable 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy&nbsp;</td></tr></table>
 

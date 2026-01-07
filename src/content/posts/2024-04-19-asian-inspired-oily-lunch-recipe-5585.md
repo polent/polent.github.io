@@ -50,5 +50,5 @@ Enjoy this flavorful and satisfying lunch that's both vegan and packed with nutr
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 25g, Protein: 15g, Fat: 18g, Fiber: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 25g, Protein: 15g, Fat: 18g, Fiber: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.&nbsp;</td></tr></table>
 

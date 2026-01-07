@@ -51,5 +51,5 @@ Enjoy this luscious Syrupy Asian Pear Salad as a standalone meal or as a complem
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 220, Fat: 10g, Carbs: 30g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, Sesame seeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Fat: 10g, Carbs: 30g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Sesame seeds&nbsp;</td></tr></table>
 

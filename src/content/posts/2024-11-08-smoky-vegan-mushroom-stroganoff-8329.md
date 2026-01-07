@@ -55,5 +55,5 @@ This Smoky Vegan Mushroom Stroganoff is perfect for a cozy meal, bringing the co
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450, Fat: 25g, Carbs: 45g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>coconut, soy, possible gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 25g, Carbs: 45g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>coconut, soy, possible gluten&nbsp;</td></tr></table>
 

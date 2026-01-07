@@ -55,7 +55,7 @@ So go ahead and treat yourself to this delicious vegan dessert. You deserve it!
 
 *Nia*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 serving
 Calories: 220
 Total Fat: 8g
 Saturated Fat: 7g
@@ -63,5 +63,5 @@ Sodium: 5mg
 Total Carbohydrate: 40g
 Fiber: 5g
 Sugar: 26g
-Protein: 2g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>This recipe is gluten-free and nut-free.</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is gluten-free and nut-free.</td></tr></table>
 

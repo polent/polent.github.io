@@ -50,10 +50,10 @@ Enjoy the rich and comforting flavors of this African-inspired Sweet Potato Pudd
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per Serving:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per Serving:<br />
 - Calories: 180<br />
 - Fat: 4g<br />
 - Carbohydrates: 34g<br />
 - Protein: 2g<br />
-- Fiber: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+- Fiber: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

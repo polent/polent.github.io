@@ -50,5 +50,5 @@ Enjoy the taste of Kenya with this plant-based twist on a traditional favorite. 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 1g, Sodium: 450mg, Total Carbohydrates: 50g, Dietary Fiber: 12g, Protein: 14g&nbsp;</td></tr><tr><th>Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of legumes. Please check for corn and bean allergies.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 1g, Sodium: 450mg, Total Carbohydrates: 50g, Dietary Fiber: 12g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of legumes. Please check for corn and bean allergies.&nbsp;</td></tr></table>
 

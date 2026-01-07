@@ -52,5 +52,5 @@ Enjoy the explosion of flavors and textures in this dish that combines tradition
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 4g, Saturated Fat: 0g, Cholesterol: 0mg, Sodium: 700mg, Total Carbohydrates: 60g, Dietary Fiber: 10g, Sugars: 7g, Protein: 14g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 4g, Saturated Fat: 0g, Cholesterol: 0mg, Sodium: 700mg, Total Carbohydrates: 60g, Dietary Fiber: 10g, Sugars: 7g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

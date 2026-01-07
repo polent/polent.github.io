@@ -52,5 +52,5 @@ Enjoy this delightful mashed marinade dish as a standout addition to your culina
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbs: 35g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbs: 35g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut&nbsp;</td></tr></table>
 

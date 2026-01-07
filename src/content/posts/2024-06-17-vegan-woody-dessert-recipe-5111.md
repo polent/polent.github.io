@@ -44,5 +44,5 @@ Serve up this innovative woody dessert to amaze your guests with a harmonious mi
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Saturated Fat: 5g, Sodium: 20mg, Total Carbohydrates: 25g, Dietary Fiber: 4g, Sugars: 10g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Saturated Fat: 5g, Sodium: 20mg, Total Carbohydrates: 25g, Dietary Fiber: 4g, Sugars: 10g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Nuts&nbsp;</td></tr></table>
 

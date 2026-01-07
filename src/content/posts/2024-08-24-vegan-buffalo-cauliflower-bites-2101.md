@@ -52,5 +52,5 @@ Enjoy these Vegan Buffalo Cauliflower Bites as a delicious snack, appetizer, or 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150 per serving, Fat: 6g, Carbohydrates: 21g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten, Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 6g, Carbohydrates: 21g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Nuts&nbsp;</td></tr></table>
 

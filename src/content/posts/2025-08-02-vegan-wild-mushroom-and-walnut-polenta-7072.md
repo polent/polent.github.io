@@ -50,5 +50,5 @@ Serve this warming polenta dish on a brisk morning to fully enjoy its comforting
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>walnuts, possible gluten in polenta depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>walnuts, possible gluten in polenta depending on brand&nbsp;</td></tr></table>
 

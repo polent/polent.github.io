@@ -54,5 +54,5 @@ Enjoy this innovative dish as it brings a touch of novelty to your dining table,
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 13g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 13g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, sesame&nbsp;</td></tr></table>
 

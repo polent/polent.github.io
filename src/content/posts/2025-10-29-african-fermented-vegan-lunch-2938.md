@@ -49,5 +49,5 @@ Enjoy this delightful exploration of African fermented cuisine. It's a perfect d
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbohydrates: 35g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>3 days (including fermentation time)&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include sunflower oil and sauerkraut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbohydrates: 35g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>3 days (including fermentation time)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include sunflower oil and sauerkraut&nbsp;</td></tr></table>
 

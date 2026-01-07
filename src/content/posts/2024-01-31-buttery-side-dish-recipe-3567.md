@@ -46,10 +46,10 @@ Enjoy this buttery side dish as a flavorful accompaniment to any meal. With its 
 
 *Nia*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120
 Total Fat: 7g
 Sodium: 200mg
 Carbohydrates: 12g
 Fiber: 6g
-Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe is vegan and gluten-free.&nbsp;</td></tr></table>
+Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is vegan and gluten-free.&nbsp;</td></tr></table>
 

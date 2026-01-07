@@ -49,5 +49,5 @@ Serve this exquisite dish hot, garnished with fresh herbs or a sprinkle of vegan
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten-free options available by substituting bread crumbs with gluten-free alternatives&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten-free options available by substituting bread crumbs with gluten-free alternatives&nbsp;</td></tr></table>
 

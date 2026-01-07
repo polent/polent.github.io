@@ -50,5 +50,5 @@ Enjoy the fusion of traditional Korean flavors with a vegan twist in this delect
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 25g, Protein: 30g, Fat: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 25g, Protein: 30g, Fat: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
 

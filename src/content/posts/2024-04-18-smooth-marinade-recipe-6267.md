@@ -45,5 +45,5 @@ Enjoy the burst of flavors that this smooth marinade brings to your dishes. Get 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80, Total Fat: 5g, Sodium: 700mg, Total Carbohydrates: 8g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80, Total Fat: 5g, Sodium: 700mg, Total Carbohydrates: 8g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
 

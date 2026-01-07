@@ -52,5 +52,5 @@ Enjoy this exquisite vegan 'Seafood' Platter with friends and family, or savor i
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy&nbsp;</td></tr></table>
 

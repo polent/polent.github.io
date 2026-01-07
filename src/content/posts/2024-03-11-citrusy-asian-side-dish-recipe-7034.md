@@ -46,5 +46,5 @@ Enjoy this vibrant side dish that brings a burst of citrusy goodness to your tab
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 15g, Fiber: 3g, Protein: 2g, Fat: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (soy sauce), Sesame (sesame oil, sesame seeds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 15g, Fiber: 3g, Protein: 2g, Fat: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (soy sauce), Sesame (sesame oil, sesame seeds)&nbsp;</td></tr></table>
 

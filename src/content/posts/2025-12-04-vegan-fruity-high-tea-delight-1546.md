@@ -50,5 +50,5 @@ Enjoy this refreshing and elegant dish as a perfect addition to your high tea sp
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbs: 35g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies include coconut and gluten (from scones)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbs: 35g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include coconut and gluten (from scones)&nbsp;</td></tr></table>
 

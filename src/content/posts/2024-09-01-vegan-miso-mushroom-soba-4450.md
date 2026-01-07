@@ -52,5 +52,5 @@ Enjoy this warming bowl of Vegan Miso Mushroom Soba as a perfect midday snack or
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 290, Fat: 8g, Carbohydrates: 46g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Wheat&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 8g, Carbohydrates: 46g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat&nbsp;</td></tr></table>
 

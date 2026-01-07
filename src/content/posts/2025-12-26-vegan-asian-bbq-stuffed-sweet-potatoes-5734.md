@@ -53,5 +53,5 @@ Enjoy the warm, inviting flavors of this unique stuffed sweet potato dish, perfe
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 295, Fat: 4.5g, Carbohydrates: 60g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 295, Fat: 4.5g, Carbohydrates: 60g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
 

@@ -57,5 +57,5 @@ Enjoy this exquisite dish that not only satisfies your taste buds but also takes
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbs: 50g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>24 hours (includes fermentation)&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbs: 50g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>24 hours (includes fermentation)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut&nbsp;</td></tr></table>
 

@@ -47,5 +47,5 @@ Enjoy the vibrant and hearty flavors of Africa in every bite of this dish. Perfe
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 2g, Sodium: 300mg, Total Carbohydrates: 50g, Fiber: 10g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 2g, Sodium: 300mg, Total Carbohydrates: 50g, Fiber: 10g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None&nbsp;</td></tr></table>
 

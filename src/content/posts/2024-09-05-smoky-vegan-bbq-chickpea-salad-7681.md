@@ -54,5 +54,5 @@ Enjoy this delightful Smoky Vegan BBQ Chickpea Salad as a filling lunch or a lig
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 290, Fat: 14g, Carbs: 34g, Protein: 9g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains sunflower seeds; check for specific allergies in dressing ingredients.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 14g, Carbs: 34g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains sunflower seeds; check for specific allergies in dressing ingredients.&nbsp;</td></tr></table>
 

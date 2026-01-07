@@ -59,5 +59,5 @@ Serve this heartwarming chili hot and enjoy the burst of flavors with each spoon
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210 per serving, Fat: 5g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, possible gluten in smoked jackfruit depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 5g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, possible gluten in smoked jackfruit depending on brand&nbsp;</td></tr></table>
 

@@ -58,7 +58,7 @@ This umami bread is a must-try for any bread lover looking to explore new flavor
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 slice<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 slice<br />
 Calories: 150<br />
 Total Fat: 4g<br />
 Saturated Fat: 0.5g<br />
@@ -67,5 +67,5 @@ Sodium: 260mg<br />
 Total Carbohydrate: 24g<br />
 Dietary Fiber: 2g<br />
 Sugar: 1g<br />
-Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
+Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
 

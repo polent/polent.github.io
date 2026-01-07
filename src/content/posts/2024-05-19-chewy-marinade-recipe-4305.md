@@ -46,5 +46,5 @@ Enjoy the rich flavors and chewy texture of this delectable marinade recipe. Per
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 14g, Protein: 15g, Fat: 7g, Saturated Fat: 1g, Sodium: 900mg, Fiber: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 14g, Protein: 15g, Fat: 7g, Saturated Fat: 1g, Sodium: 900mg, Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

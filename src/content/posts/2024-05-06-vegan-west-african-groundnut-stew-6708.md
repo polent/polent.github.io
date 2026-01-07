@@ -59,5 +59,5 @@ Enjoy the taste of West Africa with this hearty and satisfying Vegan Groundnut S
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 35g, Protein: 10g, Fat: 18g, Saturated Fat: 7g, Sodium: 480mg, Fiber: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 35g, Protein: 10g, Fat: 18g, Saturated Fat: 7g, Sodium: 480mg, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: peanuts&nbsp;</td></tr></table>
 

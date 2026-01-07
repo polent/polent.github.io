@@ -55,5 +55,5 @@ Enjoy this heartwarming Peppery African Vegan Pilaf, a dish that not only satisf
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 49g, Protein: 9g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include garlic and chickpeas.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 49g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and chickpeas.&nbsp;</td></tr></table>
 

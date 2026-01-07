@@ -49,5 +49,5 @@ Enjoy this flavorful and nourishing lunch that celebrates the rich tapestry of A
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 4g, Saturated Fat: 0.5g, Cholesterol: 0mg, Sodium: 560mg, Total Carbohydrates: 60g, Dietary Fiber: 12g, Sugars: 8g, Protein: 14g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 4g, Saturated Fat: 0.5g, Cholesterol: 0mg, Sodium: 560mg, Total Carbohydrates: 60g, Dietary Fiber: 12g, Sugars: 8g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

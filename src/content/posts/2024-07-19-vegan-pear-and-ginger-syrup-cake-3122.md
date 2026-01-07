@@ -58,5 +58,5 @@ Enjoy this delightful syrupy dessert that brings a perfect balance of flavor and
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Fat: 10g, Saturated Fat: 2g, Carbohydrates: 55g, Sugar: 35g, Protein: 3g, Sodium: 150mg&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains wheat, nuts (almond milk).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 10g, Saturated Fat: 2g, Carbohydrates: 55g, Sugar: 35g, Protein: 3g, Sodium: 150mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains wheat, nuts (almond milk).&nbsp;</td></tr></table>
 

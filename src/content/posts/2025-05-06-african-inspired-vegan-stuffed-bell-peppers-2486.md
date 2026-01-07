@@ -54,5 +54,5 @@ Serve these stuffed bell peppers warm, topped with fresh cilantro or parsley for
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 1.5g, Carbohydrates: 40g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains chickpeas; may affect those with legume allergies&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 1.5g, Carbohydrates: 40g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains chickpeas; may affect those with legume allergies&nbsp;</td></tr></table>
 

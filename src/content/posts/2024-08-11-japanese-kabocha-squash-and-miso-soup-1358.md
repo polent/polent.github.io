@@ -51,5 +51,5 @@ Serve this warm, comforting soup as a gentle start to your meal or as a light di
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120, Fat: 3g, Carbohydrates: 21g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Sesame, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 3g, Carbohydrates: 21g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame, Soy&nbsp;</td></tr></table>
 

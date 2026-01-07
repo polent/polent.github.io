@@ -53,7 +53,7 @@ I hope you enjoy this flavorful and nourishing Lemongrass Tofu Noodle Salad. It'
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350<br />
 Total Fat: 12g<br />
 Saturated Fat: 2g<br />
 Cholesterol: 0mg<br />
@@ -61,5 +61,5 @@ Sodium: 600mg<br />
 Carbohydrate: 50g<br />
 Fiber: 5g<br />
 Sugar: 8g<br />
-Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy and peanuts&nbsp;</td></tr></table>
+Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy and peanuts&nbsp;</td></tr></table>
 

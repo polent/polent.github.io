@@ -56,7 +56,7 @@ Enjoy the bold flavors of Africa in this spicy lunch. Whether you're a vegan or 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 serving<br />
 Calories: 320<br />
 Total Fat: 6g<br />
 Saturated Fat: 1g<br />
@@ -64,5 +64,5 @@ Sodium: 460mg<br />
 Total Carbohydrate: 58g<br />
 Fiber: 15g<br />
 Sugar: 11g<br />
-Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

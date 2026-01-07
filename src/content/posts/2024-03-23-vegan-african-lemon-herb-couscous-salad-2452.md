@@ -50,5 +50,5 @@ Enjoy the tangy goodness of this Lemon Herb Couscous Salad, a fusion of African 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 220, Total Fat: 7g, Saturated Fat: 1g, Sodium: 480mg, Total Carbohydrate: 34g, Dietary Fiber: 3g, Sugars: 1g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 7g, Saturated Fat: 1g, Sodium: 480mg, Total Carbohydrate: 34g, Dietary Fiber: 3g, Sugars: 1g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Nuts (almonds)&nbsp;</td></tr></table>
 

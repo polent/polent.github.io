@@ -54,5 +54,5 @@ Enjoy this delightful fusion dish as a celebration of flavors that transcend con
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 35g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, sesame, garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 35g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, garlic&nbsp;</td></tr></table>
 

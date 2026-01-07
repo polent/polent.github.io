@@ -48,5 +48,5 @@ Enjoy the fusion of flavors in this Vegan Mango and Coconut Rice Pudding, a swee
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 10g, Carbohydrates: 35g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>PT45M&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain tree nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 10g, Carbohydrates: 35g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>PT45M&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain tree nuts&nbsp;</td></tr></table>
 

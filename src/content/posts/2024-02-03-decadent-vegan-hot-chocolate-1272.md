@@ -46,7 +46,7 @@ Whether you're craving a comforting drink or looking to impress your guests, thi
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup<br />
 Calories: 180<br />
 Total Fat: 12g<br />
 Saturated Fat: 6g<br />
@@ -55,5 +55,5 @@ Sodium: 150mg<br />
 Carbohydrates: 18g<br />
 Fiber: 3g<br />
 Sugar: 12g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains tree nuts (almonds)&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (almonds)&nbsp;</td></tr></table>
 

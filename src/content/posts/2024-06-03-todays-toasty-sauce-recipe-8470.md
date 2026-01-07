@@ -46,5 +46,5 @@ Enjoy the comforting embrace of today's toasty sauce, a true culinary delight th
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 160 | Total Fat: 11g | Saturated Fat: 2g | Sodium: 80mg | Total Carbohydrate: 13g | Dietary Fiber: 2g | Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 160 | Total Fat: 11g | Saturated Fat: 2g | Sodium: 80mg | Total Carbohydrate: 13g | Dietary Fiber: 2g | Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
 

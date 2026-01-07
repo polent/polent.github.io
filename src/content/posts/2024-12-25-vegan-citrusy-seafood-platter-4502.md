@@ -50,5 +50,5 @@ Enjoy this refreshing and flavorful vegan citrusy 'seafood' platter, perfect for
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Protein: 18g, Fat: 10g, Carbohydrates: 20g, Sodium: 580mg&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Protein: 18g, Fat: 10g, Carbohydrates: 20g, Sodium: 580mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
 

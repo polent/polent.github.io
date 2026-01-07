@@ -46,5 +46,5 @@ Enjoy these Vegan BBQ Chickpea Poppers as a delicious and plant-based twist on c
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving: Calories: 150, Total Fat: 2g, Sodium: 350mg, Carbohydrates: 28g, Fiber: 5g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 150, Total Fat: 2g, Sodium: 350mg, Carbohydrates: 28g, Fiber: 5g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
 

@@ -49,5 +49,5 @@ Enjoy this dense bread warm with a spread of your choice for a delightful snack 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving: Calories: 220, Total Fat: 7g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 320mg, Total Carbohydrates: 35g, Dietary Fiber: 5g, Sugars: 9g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (almonds, walnuts). Can be made gluten-free by using gluten-free oats.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 220, Total Fat: 7g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 320mg, Total Carbohydrates: 35g, Dietary Fiber: 5g, Sugars: 9g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds, walnuts). Can be made gluten-free by using gluten-free oats.&nbsp;</td></tr></table>
 

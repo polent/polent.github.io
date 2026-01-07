@@ -55,5 +55,5 @@ Enjoy this delightful dish as a stand-alone meal or pair it with a light salad f
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 9g, Carbohydrates: 55g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains peanuts, possible gluten in broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 9g, Carbohydrates: 55g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, possible gluten in broth depending on brand&nbsp;</td></tr></table>
 

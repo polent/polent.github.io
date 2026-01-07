@@ -54,5 +54,5 @@ Serve this hearty vegan lasagna with a side of fresh basil leaves and a crisp gr
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450, Fat: 22g, Carbohydrates: 50g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten, and garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 22g, Carbohydrates: 50g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten, and garlic&nbsp;</td></tr></table>
 

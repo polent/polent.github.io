@@ -47,11 +47,11 @@ Enjoy this refreshing fruity dessert as a sweet ending to any meal. Its vibrant 
 
 *Isabella*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 bowl
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 bowl
 Calories: 120
 Total Fat: 0.5g
 Sodium: 1mg
 Total Carbohydrate: 30g
 Dietary Fiber: 6g
 Sugar: 22g
-Protein: 1g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>None</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>

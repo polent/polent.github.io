@@ -50,5 +50,5 @@ Enjoy the savory goodness of these Vegan BBQ Jackfruit Sliders that capture the 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 5g, Cholesterol: 0mg, Sodium: 600mg, Total Carbohydrates: 45g, Dietary Fiber: 5g, Sugars: 20g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of gluten.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 5g, Cholesterol: 0mg, Sodium: 600mg, Total Carbohydrates: 45g, Dietary Fiber: 5g, Sugars: 20g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten.&nbsp;</td></tr></table>
 

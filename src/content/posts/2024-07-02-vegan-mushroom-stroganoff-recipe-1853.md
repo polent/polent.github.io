@@ -51,5 +51,5 @@ Enjoy the rich and savory flavors of this Vegan Mushroom Stroganoff, a delightfu
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 56g, Protein: 11g, Fat: 14g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts (cashew)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 56g, Protein: 11g, Fat: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (cashew)&nbsp;</td></tr></table>
 

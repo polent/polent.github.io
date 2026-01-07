@@ -49,12 +49,12 @@ Treat yourself to this delectable dessert, and experience the vibrant flavors of
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180<br />
 Total Fat: 2g<br />
 Saturated Fat: 1g<br />
 Sodium: 5mg<br />
 Total Carbohydrate: 42g<br />
 Fiber: 6g<br />
 Sugar: 28g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe contains coconut.&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains coconut.&nbsp;</td></tr></table>
 

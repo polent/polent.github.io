@@ -52,5 +52,5 @@ Enjoy the harmonious blend of fresh vegetables, flavorful sauce, and aromatic ri
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>High in fiber, vitamins, and minerals. Low in saturated fat. Suitable for a vegan diet.&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. Gluten-free option available with tamari instead of soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, vitamins, and minerals. Low in saturated fat. Suitable for a vegan diet.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available with tamari instead of soy sauce.&nbsp;</td></tr></table>
 

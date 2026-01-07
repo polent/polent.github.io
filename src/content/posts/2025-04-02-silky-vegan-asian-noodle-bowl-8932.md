@@ -56,5 +56,5 @@ Enjoy this comforting bowl of silky vegan delight, perfect for a nourishing lunc
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbs: 50g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy, sesame, and gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbs: 50g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, sesame, and gluten&nbsp;</td></tr></table>
 

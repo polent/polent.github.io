@@ -47,7 +47,7 @@ Enjoy this creamy vegan coleslaw alongside your favorite BBQ dishes for a refres
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup<br />
 Calories: 150<br />
 Total Fat: 10g<br />
 Saturated Fat: 1g<br />
@@ -56,5 +56,5 @@ Sodium: 250mg<br />
 Total Carbohydrate: 15g<br />
 Dietary Fiber: 3g<br />
 Sugar: 10g<br />
-Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain soy (depending on the vegan mayonnaise used)&nbsp;</td></tr></table>
+Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy (depending on the vegan mayonnaise used)&nbsp;</td></tr></table>
 

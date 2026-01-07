@@ -51,5 +51,5 @@ Enjoy these BBQ Jackfruit Sliders at your next gathering for a flavorful and sat
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 5g, Sodium: 600mg, Carbohydrates: 45g, Fiber: 3g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (buns)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 5g, Sodium: 600mg, Carbohydrates: 45g, Fiber: 3g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (buns)&nbsp;</td></tr></table>
 

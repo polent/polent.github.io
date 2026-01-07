@@ -46,5 +46,5 @@ Enjoy this warm, buttery vegan hot chocolate on its own or paired with your favo
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 16g, Carbohydrates: 25g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (almond milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 16g, Carbohydrates: 25g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk)&nbsp;</td></tr></table>
 

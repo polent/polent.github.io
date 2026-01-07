@@ -52,5 +52,5 @@ Enjoy the rich and velvety flavors of this Vegan Mushroom Alfredo Pasta, a true 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 47g, Protein: 14g, Fat: 18g, Saturated Fat: 3g, Sodium: 250mg, Fiber: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 47g, Protein: 14g, Fat: 18g, Saturated Fat: 3g, Sodium: 250mg, Fiber: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
 

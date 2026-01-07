@@ -52,5 +52,5 @@ Enjoy your creation either as a warm breakfast, a satisfying lunch, or a comfort
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten, may contain nuts (in vegan cream)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, may contain nuts (in vegan cream)&nbsp;</td></tr></table>
 

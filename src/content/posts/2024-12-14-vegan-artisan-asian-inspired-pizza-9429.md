@@ -57,5 +57,5 @@ Enjoy this mouthwatering vegan artisan pizza warm, right out of the oven, and sh
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280 per slice, Fat: 9g, Carbs: 38g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>wheat, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per slice, Fat: 9g, Carbs: 38g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>wheat, soy&nbsp;</td></tr></table>
 

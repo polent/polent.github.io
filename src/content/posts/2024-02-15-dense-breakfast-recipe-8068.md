@@ -48,10 +48,10 @@ Enjoy this delicious and nutritious breakfast that will keep you satisfied until
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350<br />
 Total Fat: 12g<br />
 Saturated Fat: 1g<br />
 Carbohydrates: 52g<br />
 Fiber: 9g<br />
-Protein: 9g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe may contain nuts.&nbsp;</td></tr></table>
+Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe may contain nuts.&nbsp;</td></tr></table>
 

@@ -52,5 +52,5 @@ Serve this delectable Vegan BBQ Jackfruit Sandwich with a side of crispy sweet p
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 420, Fat: 10g, Saturated Fat: 1g, Carbohydrates: 75g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten, garlic, onion&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 420, Fat: 10g, Saturated Fat: 1g, Carbohydrates: 75g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, garlic, onion&nbsp;</td></tr></table>
 

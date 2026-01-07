@@ -47,5 +47,5 @@ Enjoy the vibrant taste of Africa with each sip of this robust drink. Perfect fo
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80, Total Fat: 0g, Sodium: 5mg, Total Carbohydrates: 20g, Sugars: 16g, Protein: 0g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe is free from common allergens, but individuals with sensitivity to hibiscus or citrus should exercise caution.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80, Total Fat: 0g, Sodium: 5mg, Total Carbohydrates: 20g, Sugars: 16g, Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is free from common allergens, but individuals with sensitivity to hibiscus or citrus should exercise caution.&nbsp;</td></tr></table>
 

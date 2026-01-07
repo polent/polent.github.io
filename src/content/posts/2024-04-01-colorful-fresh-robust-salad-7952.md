@@ -54,5 +54,5 @@ Enjoy this hearty and nutritious salad as a main dish or a side to complement yo
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>High in fiber, vitamins, and minerals. Low in saturated fat and cholesterol. Good source of plant-based protein.&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, vitamins, and minerals. Low in saturated fat and cholesterol. Good source of plant-based protein.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts.&nbsp;</td></tr></table>
 

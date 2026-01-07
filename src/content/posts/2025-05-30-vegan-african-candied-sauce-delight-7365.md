@@ -48,5 +48,5 @@ Serve this exquisite candied delight warm, as a splendid end to any meal, or as 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbohydrates: 50g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, possible gluten in dried fruits depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbohydrates: 50g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, possible gluten in dried fruits depending on brand&nbsp;</td></tr></table>
 

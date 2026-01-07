@@ -50,5 +50,5 @@ Enjoy these delicious vegan polenta fries as a delightful appetizer or snack, sh
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving: Calories: 120, Total Fat: 1g, Sodium: 600mg, Total Carbohydrates: 25g, Dietary Fiber: 3g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens: Corn (cornmeal)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 120, Total Fat: 1g, Sodium: 600mg, Total Carbohydrates: 25g, Dietary Fiber: 3g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens: Corn (cornmeal)&nbsp;</td></tr></table>
 

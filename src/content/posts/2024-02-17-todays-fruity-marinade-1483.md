@@ -49,7 +49,7 @@ Enjoy the vibrant and fruity flavors of this marinade as it transforms your vega
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 60<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60<br />
 Total Fat: 0g<br />
 Saturated Fat: 0g<br />
 Cholesterol: 0mg<br />
@@ -57,5 +57,5 @@ Sodium: 140mg<br />
 Total Carbohydrate: 15g<br />
 Fiber: 0g<br />
 Sugar: 12g<br />
-Protein: 0g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (in soy sauce)&nbsp;</td></tr></table>
+Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (in soy sauce)&nbsp;</td></tr></table>
 

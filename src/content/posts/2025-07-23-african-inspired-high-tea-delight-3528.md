@@ -53,5 +53,5 @@ Enjoy this warm, filling dish as a centerpiece at your next high tea gathering. 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 5g, Carbohydrates: 45g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 5g, Carbohydrates: 45g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

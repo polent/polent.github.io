@@ -50,5 +50,5 @@ Enjoy this indulgent yet entirely plant-based version of the classic Tiramisu. I
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbs: 40g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes plus chilling time&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbs: 40g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes plus chilling time&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy&nbsp;</td></tr></table>
 

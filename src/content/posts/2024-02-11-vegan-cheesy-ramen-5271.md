@@ -51,7 +51,7 @@ Savor every spoonful of this gooey, plant-based delight. Our Vegan Cheesy Ramen 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450<br />
 Total Fat: 8g<br />
 Saturated Fat: 1g<br />
 Cholesterol: 0mg<br />
@@ -59,5 +59,5 @@ Sodium: 1200mg<br />
 Carbohydrate: 78g<br />
 Fiber: 7g<br />
 Sugar: 3g<br />
-Protein: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

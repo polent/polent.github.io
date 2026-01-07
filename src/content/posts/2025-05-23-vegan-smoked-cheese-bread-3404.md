@@ -48,5 +48,5 @@ Serve this Vegan Smoked 'Cheese' Bread warm and let each bite transport you to a
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 10g, Carbs: 30g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>gluten, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 10g, Carbs: 30g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy&nbsp;</td></tr></table>
 

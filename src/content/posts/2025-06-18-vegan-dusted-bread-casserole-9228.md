@@ -52,5 +52,5 @@ Enjoy this comforting and hearty dish with family or friends, alongside a fresh 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbohydrates: 40g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (almond milk), gluten (bread), and possibly soy (depending on the vegan cheese used)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbohydrates: 40g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), gluten (bread), and possibly soy (depending on the vegan cheese used)&nbsp;</td></tr></table>
 

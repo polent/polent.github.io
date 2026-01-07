@@ -54,5 +54,5 @@ Serve this hearty stew warm, perhaps with a side of fresh bread or steamed rice,
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 290, Fat: 16g, Carbohydrates: 33g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Peanuts, possible gluten in broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 16g, Carbohydrates: 33g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Peanuts, possible gluten in broth depending on brand&nbsp;</td></tr></table>
 

@@ -58,5 +58,5 @@ Enjoy this delightful fusion of Italian technique and Asian flavors, a perfect e
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 14g, Carbohydrates: 50g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy, possible allergens include nuts (coconut)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 14g, Carbohydrates: 50g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, possible allergens include nuts (coconut)&nbsp;</td></tr></table>
 

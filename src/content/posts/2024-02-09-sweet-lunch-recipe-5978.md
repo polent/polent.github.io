@@ -48,10 +48,10 @@ Enjoy this heavenly sweet lunch that combines familiar flavors with a vegan twis
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250<br />
 Total Fat: 12g<br />
 Saturated Fat: 2g<br />
 Carbohydrates: 32g<br />
 Fiber: 5g<br />
-Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
+Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
 

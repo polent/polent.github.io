@@ -48,7 +48,7 @@ Enjoy the delightful combination of sweet and salty in this delectable dessert. 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 square<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 square<br />
 Calories: 180<br />
 Total Fat: 12g<br />
 Saturated Fat: 5g<br />
@@ -57,5 +57,5 @@ Sodium: 140mg<br />
 Carbohydrates: 17g<br />
 Fiber: 2g<br />
 Sugar: 8g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten and peanuts&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten and peanuts&nbsp;</td></tr></table>
 

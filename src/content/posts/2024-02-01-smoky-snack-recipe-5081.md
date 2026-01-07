@@ -50,10 +50,10 @@ Enjoy the smoky goodness of this snack, perfect for any occasion. Elevate your c
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Each serving of this smoky snack provides:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Each serving of this smoky snack provides:<br />
 - Calories: 150<br />
 - Fat: 8g<br />
 - Carbohydrates: 10g<br />
 - Protein: 12g<br />
-- Fiber: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+- Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

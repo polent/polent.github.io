@@ -54,7 +54,7 @@ Get ready to tantalize your taste buds with this spicy side dish. It's guarantee
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 serving<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 serving<br />
 Calories: 80<br />
 Total Fat: 5g<br />
 Saturated Fat: 1g<br />
@@ -62,5 +62,5 @@ Sodium: 150mg<br />
 Carbohydrates: 8g<br />
 Fiber: 2g<br />
 Sugar: 4g<br />
-Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

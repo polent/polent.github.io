@@ -55,5 +55,5 @@ Enjoy this heartwarming dish with family and friends, and let the rich flavors o
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbs: 40g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbs: 40g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, garlic&nbsp;</td></tr></table>
 

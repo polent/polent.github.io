@@ -49,9 +49,9 @@ I hope you enjoy this recipe and find creative ways to incorporate this grassy s
 
 *Hiroshi*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80
 Total Fat: 8g
 Sodium: 60mg
 Total Carbohydrate: 2g
-Protein: 1g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>None</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

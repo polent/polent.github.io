@@ -46,5 +46,5 @@ Drizzle this umami sauce over your favorite dishes to enhance their taste with a
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 43kcal, Fat: 2g, Sodium: 802mg, Carbohydrates: 3g, Fiber: 1g, Sugar: 1g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. Check miso paste for potential allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 43kcal, Fat: 2g, Sodium: 802mg, Carbohydrates: 3g, Fiber: 1g, Sugar: 1g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Check miso paste for potential allergens.&nbsp;</td></tr></table>
 

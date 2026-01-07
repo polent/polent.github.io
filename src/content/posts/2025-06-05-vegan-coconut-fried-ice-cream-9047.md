@@ -49,5 +49,5 @@ Serve this exquisite fried dessert immediately to enjoy the contrast between the
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280, Fat: 15g, Carbs: 35g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Prep time: 3 hours (includes freezing time)&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains coconut, gluten (can be made gluten-free), nuts (almond milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 15g, Carbs: 35g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Prep time: 3 hours (includes freezing time)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, gluten (can be made gluten-free), nuts (almond milk)&nbsp;</td></tr></table>
 

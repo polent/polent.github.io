@@ -50,5 +50,5 @@ Enjoy this delicious vegan dinner that pays homage to the diverse culinary tradi
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>High in fiber, protein, and essential nutrients. Low in saturated fat and cholesterol.&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain allergens. Please check ingredients for specific dietary needs.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, protein, and essential nutrients. Low in saturated fat and cholesterol.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain allergens. Please check ingredients for specific dietary needs.&nbsp;</td></tr></table>
 

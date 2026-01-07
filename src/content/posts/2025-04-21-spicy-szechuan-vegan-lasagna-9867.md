@@ -57,5 +57,5 @@ Enjoy this Spicy Szechuan Vegan Lasagna as a standout meal that's sure to impres
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320 kcal, Fat: 12g, Carbohydrates: 42g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy, nuts, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 kcal, Fat: 12g, Carbohydrates: 42g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, nuts, gluten&nbsp;</td></tr></table>
 

@@ -51,11 +51,11 @@ Serve these BBQ Jackfruit Sliders at your next gathering and watch as they disap
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200<br />
 Total Fat: 4g<br />
 Saturated Fat: 0.5g<br />
 Carbohydrates: 38g<br />
 Fiber: 3g<br />
 Sugar: 16g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

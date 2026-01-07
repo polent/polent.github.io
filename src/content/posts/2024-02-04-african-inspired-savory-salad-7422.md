@@ -55,7 +55,7 @@ Enjoy the explosion of flavors in this delicious savory salad, inspired by the d
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180<br />
 Total Fat: 14g<br />
 - Saturated Fat: 2g<br />
 - Trans Fat: 0g<br />
@@ -68,5 +68,5 @@ Protein: 3g<br />
 Vitamin D: 0%<br />
 Calcium: 30%<br />
 Iron: 4%<br />
-Potassium: 320mg&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains tree nuts (sunflower seeds)&nbsp;</td></tr></table>
+Potassium: 320mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (sunflower seeds)&nbsp;</td></tr></table>
 

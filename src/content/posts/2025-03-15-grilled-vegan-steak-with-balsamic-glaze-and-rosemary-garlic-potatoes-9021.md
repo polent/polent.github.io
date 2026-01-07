@@ -69,5 +69,5 @@ Enjoy this hearty, comforting dish that brings the cozy ambiance of a gastro pub
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 520, Fat: 15g, Carbohydrates: 64g, Protein: 35g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 520, Fat: 15g, Carbohydrates: 64g, Protein: 35g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy&nbsp;</td></tr></table>
 

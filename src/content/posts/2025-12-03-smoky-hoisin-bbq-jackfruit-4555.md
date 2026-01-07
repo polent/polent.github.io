@@ -55,5 +55,5 @@ Serve this Smoky Hoisin BBQ Jackfruit on warm, toasted buns with a side of wasab
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Fat: 4g, Carbs: 25g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Garlic, Gluten (hoisin sauce may contain gluten)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 4g, Carbs: 25g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Garlic, Gluten (hoisin sauce may contain gluten)&nbsp;</td></tr></table>
 

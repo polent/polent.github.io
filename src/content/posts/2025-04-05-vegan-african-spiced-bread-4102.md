@@ -52,5 +52,5 @@ Enjoy this delightful bread as a standalone treat or pair it with your favorite 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbs: 29g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (optional), gluten, and tree nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbs: 29g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (optional), gluten, and tree nuts&nbsp;</td></tr></table>
 

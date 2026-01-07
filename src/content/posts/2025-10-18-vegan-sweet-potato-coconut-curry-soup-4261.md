@@ -56,5 +56,5 @@ Enjoy this nourishing bowl of Sweet Potato and Coconut Curry Soup, perfect for w
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 27g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Coconut, possible gluten in vegetable broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 27g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, possible gluten in vegetable broth depending on brand&nbsp;</td></tr></table>
 

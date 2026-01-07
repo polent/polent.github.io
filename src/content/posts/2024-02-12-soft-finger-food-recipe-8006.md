@@ -47,7 +47,7 @@ Enjoy these scrumptious finger foods and savor the flavors of American BBQ, rein
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180<br />
 Total Fat: 6g<br />
 Saturated Fat: 1g<br />
 Cholesterol: 0mg<br />
@@ -55,5 +55,5 @@ Sodium: 430mg<br />
 Total Carbohydrate: 30g<br />
 Dietary Fiber: 2g<br />
 Sugar: 12g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe contains gluten. Please check the BBQ sauce and coleslaw ingredients for any potential allergens.&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please check the BBQ sauce and coleslaw ingredients for any potential allergens.&nbsp;</td></tr></table>
 

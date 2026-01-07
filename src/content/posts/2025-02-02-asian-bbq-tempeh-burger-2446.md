@@ -52,5 +52,5 @@ Serve this Asian BBQ Tempeh Burger with a side of sweet potato fries or a vibran
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 13g, Carbohydrates: 42g, Protein: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Wheat, Possible nuts in vegan mayonnaise&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 13g, Carbohydrates: 42g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Possible nuts in vegan mayonnaise&nbsp;</td></tr></table>
 

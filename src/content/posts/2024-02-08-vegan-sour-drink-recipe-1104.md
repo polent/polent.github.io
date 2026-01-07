@@ -44,10 +44,10 @@ Enjoy the zingy and invigorating flavors of this sour drink, a delightful way to
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 glass<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 glass<br />
 Calories: 45<br />
 Total Fat: 0g<br />
 Sodium: 0mg<br />
 Total Carbohydrate: 12g<br />
-Protein: 0g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

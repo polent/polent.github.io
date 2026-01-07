@@ -45,5 +45,5 @@ Enjoy this refreshing and tangy appetizer that's sure to impress your guests wit
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80, Total Fat: 0.5g, Sodium: 50mg, Total Carbohydrates: 20g, Fiber: 4g, Sugar: 14g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Citrus fruits&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80, Total Fat: 0.5g, Sodium: 50mg, Total Carbohydrates: 20g, Fiber: 4g, Sugar: 14g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Citrus fruits&nbsp;</td></tr></table>
 

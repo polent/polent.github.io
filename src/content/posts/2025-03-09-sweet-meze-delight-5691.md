@@ -48,5 +48,5 @@ Enjoy this Sweet Meze Delight as a standalone treat or as part of a larger feast
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Fat: 7g, Carbs: 20g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>nuts, dates&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 7g, Carbs: 20g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>nuts, dates&nbsp;</td></tr></table>
 

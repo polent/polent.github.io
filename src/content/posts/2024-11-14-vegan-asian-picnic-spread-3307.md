@@ -55,5 +55,5 @@ Enjoy this vibrant Vegan Asian Picnic Spread at your next outdoor gathering! It'
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 45g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame, Gluten (optional wasabi and pickled ginger)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 45g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten (optional wasabi and pickled ginger)&nbsp;</td></tr></table>
 

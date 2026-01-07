@@ -57,5 +57,5 @@ Enjoy this deliciously warm and gourmet sandwich that not only fills the belly b
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbs: 40g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>gluten, soy (in vegan mayonnaise), optional nuts (in vegan cheese)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbs: 40g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy (in vegan mayonnaise), optional nuts (in vegan cheese)&nbsp;</td></tr></table>
 

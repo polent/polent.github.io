@@ -46,5 +46,5 @@ Enjoy the decadent flavors of this dense sauce, elevating your vegan dishes to n
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 60 | Total Fat: 0g | Sodium: 1100mg | Total Carbohydrates: 14g | Sugars: 10g | Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Soy (soy sauce), Corn (cornstarch)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60 | Total Fat: 0g | Sodium: 1100mg | Total Carbohydrates: 14g | Sugars: 10g | Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy (soy sauce), Corn (cornstarch)&nbsp;</td></tr></table>
 

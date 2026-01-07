@@ -52,5 +52,5 @@ Enjoy this delightful Vegan Breakfast Risotto as a nourishing start to your day.
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 12g, Carbohydrates: 50g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains garlic, mushrooms, and possible gluten in broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 12g, Carbohydrates: 50g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains garlic, mushrooms, and possible gluten in broth depending on brand&nbsp;</td></tr></table>
 

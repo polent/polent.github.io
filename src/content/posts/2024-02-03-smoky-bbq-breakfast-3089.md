@@ -48,7 +48,7 @@ Enjoy this savory breakfast that is sure to satisfy your taste buds and fuel you
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320<br />
 Total Fat: 10g<br />
 Saturated Fat: 2g<br />
 Cholesterol: 0mg<br />
@@ -56,5 +56,5 @@ Sodium: 600mg<br />
 Total Carbohydrate: 50g<br />
 Fiber: 8g<br />
 Sugar: 12g<br />
-Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

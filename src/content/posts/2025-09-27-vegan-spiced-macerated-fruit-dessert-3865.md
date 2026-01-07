@@ -47,5 +47,5 @@ Enjoy this delightful concoction as a perfect ending to your day, or serve it at
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120, Fat: 0.5g, Carbohydrates: 29g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: none&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 0.5g, Carbohydrates: 29g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: none&nbsp;</td></tr></table>
 

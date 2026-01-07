@@ -53,5 +53,5 @@ Serve this delightful nut roast with your favorite sides for a complete holiday 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450, Fat: 27g, Carbs: 36g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten, and soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 27g, Carbs: 36g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten, and soy&nbsp;</td></tr></table>
 

@@ -47,9 +47,9 @@ Enjoy this grassy dessert as a playful and whimsical way to end your meal. Its v
 
 *Emily*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180
 Protein: 3g
 Fat: 8g
 Carbohydrates: 26g
-Fiber: 7g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>None</td></tr></table>
+Fiber: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

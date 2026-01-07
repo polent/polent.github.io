@@ -56,7 +56,7 @@ Enjoy this delightful appetizer that captures the essence of summer in every bit
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup<br />
 Calories: 150<br />
 Total Fat: 10g<br />
 Saturated Fat: 1.5g<br />
@@ -65,5 +65,5 @@ Sodium: 50mg<br />
 Total Carbohydrate: 16g<br />
 Dietary Fiber: 4g<br />
 Sugar: 4g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

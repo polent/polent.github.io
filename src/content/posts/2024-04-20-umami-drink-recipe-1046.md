@@ -46,5 +46,5 @@ Enjoy this Umami Drink as a refreshing and satisfying beverage that showcases th
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 40, Total Fat: 0g, Sodium: 600mg, Total Carbohydrates: 8g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 40, Total Fat: 0g, Sodium: 600mg, Total Carbohydrates: 8g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

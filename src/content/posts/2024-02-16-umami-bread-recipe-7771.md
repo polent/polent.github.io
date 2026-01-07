@@ -54,7 +54,7 @@ Savor the incredible umami taste of this bread, perfect for snacking or as an ac
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180<br />
 Total Fat: 4g<br />
 Saturated Fat: 0.5g<br />
 Cholesterol: 0mg<br />
@@ -62,5 +62,5 @@ Sodium: 220mg<br />
 Carbohydrate: 30g<br />
 Fiber: 2g<br />
 Sugar: 2g<br />
-Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
+Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
 

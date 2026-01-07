@@ -55,5 +55,5 @@ Enjoy this vibrant, healthful start to your day, perfect for a leisurely morning
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts (almond milk), Gluten (pie crust), Soy (tofu)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (almond milk), Gluten (pie crust), Soy (tofu)&nbsp;</td></tr></table>
 

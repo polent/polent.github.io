@@ -55,7 +55,7 @@ Enjoy the tantalizing flavors of this vegan Mushroom Risotto for a truly satisfy
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup<br />
 Calories: 350<br />
 Total Fat: 10g<br />
 Saturated Fat: 2g<br />
@@ -64,5 +64,5 @@ Sodium: 600mg<br />
 Carbohydrate: 55g<br />
 Fiber: 5g<br />
 Sugar: 3g<br />
-Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten-free (if using gluten-free vegetable broth), Soy-free&nbsp;</td></tr></table>
+Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free (if using gluten-free vegetable broth), Soy-free&nbsp;</td></tr></table>
 

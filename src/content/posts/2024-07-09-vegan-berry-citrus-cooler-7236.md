@@ -49,5 +49,5 @@ Enjoy this Vegan Berry Citrus Cooler as a midday refreshment or an evening relax
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 90, Sugar: 14g, Vitamin C: 90%&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: none&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 90, Sugar: 14g, Vitamin C: 90%&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: none&nbsp;</td></tr></table>
 

@@ -52,5 +52,5 @@ Enjoy this unique gourmet mashed sandwich as a delightful lunch or a comforting 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380, Fat: 18g, Carbohydrates: 48g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten, sesame, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Fat: 18g, Carbohydrates: 48g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, sesame, soy&nbsp;</td></tr></table>
 

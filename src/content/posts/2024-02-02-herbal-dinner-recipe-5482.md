@@ -47,7 +47,7 @@ We hope you enjoyed this herbal dinner recipe! Remember to experiment with diffe
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup (cooked pasta with sauce)<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup (cooked pasta with sauce)<br />
 Calories: 350<br />
 Total Fat: 10g<br />
 Saturated Fat: 1g<br />
@@ -56,5 +56,5 @@ Sodium: 400mg<br />
 Carbohydrates: 60g<br />
 Fiber: 5g<br />
 Sugar: 3g<br />
-Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

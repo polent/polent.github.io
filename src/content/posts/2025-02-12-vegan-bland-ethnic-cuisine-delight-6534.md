@@ -49,5 +49,5 @@ Enjoy this heartwarming dish that brings a new level of excitement to bland ethn
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbs: 40g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbs: 40g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
 

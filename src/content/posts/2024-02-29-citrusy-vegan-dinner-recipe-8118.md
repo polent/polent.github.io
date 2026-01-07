@@ -50,5 +50,5 @@ Indulge in the refreshing fusion of citrus flavors with this exquisite vegan din
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Sugars: 6g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Sugars: 6g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (almonds)&nbsp;</td></tr></table>
 

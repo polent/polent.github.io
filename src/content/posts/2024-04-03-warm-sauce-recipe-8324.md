@@ -44,5 +44,5 @@ Enjoy the delightful blend of ingredients in this warm sauce, adding a touch of 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 40, Total Fat: 1g, Sodium: 850mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. May contain traces of sesame.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 40, Total Fat: 1g, Sodium: 850mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. May contain traces of sesame.&nbsp;</td></tr></table>
 

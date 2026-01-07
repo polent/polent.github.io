@@ -51,5 +51,5 @@ Enjoy the depth of flavors and comforting textures in this Vegan Mushroom Risott
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Total Fat: 6g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 800mg, Total Carbohydrates: 62g, Dietary Fiber: 4g, Sugars: 3g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten (Arborio rice), may contain traces of nuts (depending on vegetable broth used)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Total Fat: 6g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 800mg, Total Carbohydrates: 62g, Dietary Fiber: 4g, Sugars: 3g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (Arborio rice), may contain traces of nuts (depending on vegetable broth used)&nbsp;</td></tr></table>
 

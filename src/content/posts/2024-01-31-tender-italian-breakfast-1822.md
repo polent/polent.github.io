@@ -44,12 +44,12 @@ Enjoy this delightful breakfast that combines the flavors of Italy with the heal
 
 *Isabella*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 220<br />
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220<br />
 Total Fat: 12g<br />
 Saturated Fat: 2g<br />
 Sodium: 240mg<br />
 Carbohydrate: 25g<br />
 Fiber: 7g<br />
 Sugar: 3g<br />
-Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (bread)&nbsp;</td></tr></table>
+Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (bread)&nbsp;</td></tr></table>
 

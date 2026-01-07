@@ -53,5 +53,5 @@ Enjoy this luscious, velvety bread as a standalone treat or pair it with your fa
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180 per serving, Fat: 3g, Carbohydrates: 34g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten, possible soy (check your brand of yeast)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 3g, Carbohydrates: 34g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, possible soy (check your brand of yeast)&nbsp;</td></tr></table>
 

@@ -46,5 +46,5 @@ Enjoy this inventive twist on a classic drink, packed with smoky BBQ goodness in
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Total Fat: 0g, Sodium: 800mg, Total Carbohydrates: 10g, Sugars: 6g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain soy (Worcestershire sauce), gluten (BBQ sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 0g, Sodium: 800mg, Total Carbohydrates: 10g, Sugars: 6g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy (Worcestershire sauce), gluten (BBQ sauce)&nbsp;</td></tr></table>
 

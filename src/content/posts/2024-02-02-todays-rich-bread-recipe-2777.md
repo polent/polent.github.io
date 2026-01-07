@@ -50,10 +50,10 @@ Enjoy this rich bread as a centerpiece of your next meal or share it with loved 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per Serving:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per Serving:<br />
 - Calories: 180<br />
 - Fat: 4g<br />
 - Carbohydrates: 32g<br />
 - Protein: 5g<br />
-- Fiber: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten. May contain traces of nuts and soy.&nbsp;</td></tr></table>
+- Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of nuts and soy.&nbsp;</td></tr></table>
 

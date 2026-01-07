@@ -52,5 +52,5 @@ Serve this vibrant pickled side dish alongside your favorite main courses. Its c
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 50, Fat: 0.5g, Carbs: 10g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Prep time: 15 minutes, Cook time: 5 minutes, Additional time: 24 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy, possible allergen for some individuals&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 50, Fat: 0.5g, Carbs: 10g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Prep time: 15 minutes, Cook time: 5 minutes, Additional time: 24 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, possible allergen for some individuals&nbsp;</td></tr></table>
 

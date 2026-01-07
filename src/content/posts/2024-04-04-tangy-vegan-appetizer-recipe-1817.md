@@ -52,5 +52,5 @@ Enjoy the burst of tangy flavors and zesty notes in this appetizer that will lea
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 6g, Sodium: 480mg, Carbohydrates: 10g, Fiber: 2g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 6g, Sodium: 480mg, Carbohydrates: 10g, Fiber: 2g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy&nbsp;</td></tr></table>
 
