@@ -47,12 +47,12 @@ Enjoy the zingy and invigorating flavors of this citrusy dessert. It's a delight
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 bowl (200g)<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 bowl (200g)<br />
 Calories: 220<br />
 Total Fat: 9g<br />
 Saturated Fat: 7g<br />
 Carbohydrate: 36g<br />
 Fiber: 5g<br />
 Sugar: 27g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe is free from gluten, soy, and nuts. However, individuals with coconut allergies should avoid this dessert.&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is free from gluten, soy, and nuts. However, individuals with coconut allergies should avoid this dessert.&nbsp;</td></tr></table>
 

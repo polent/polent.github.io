@@ -51,5 +51,5 @@ Enjoy this delightful vegan charcuterie experience, perfect for any occasion whe
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbs: 45g, Protein: 20g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Gluten, Nuts (check vegan cheese ingredients)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 15g, Carbs: 45g, Protein: 20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Nuts (check vegan cheese ingredients)&nbsp;</td></tr></table>
 

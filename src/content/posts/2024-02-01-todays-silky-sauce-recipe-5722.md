@@ -49,7 +49,7 @@ This silky sauce is a must-have in your vegan BBQ arsenal. Its smooth texture an
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 2 tablespoons<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 2 tablespoons<br />
 Calories: 110<br />
 Total Fat: 8g<br />
 Saturated Fat: 1g<br />
@@ -59,5 +59,5 @@ Sodium: 60mg<br />
 Total Carbohydrate: 7g<br />
 Dietary Fiber: 1g<br />
 Total Sugars: 1g<br />
-Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
 

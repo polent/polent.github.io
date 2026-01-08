@@ -50,7 +50,7 @@ Enjoy this tangy salad as a light and healthy meal on its own or as a refreshing
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150<br />
 Total Fat: 12g<br />
 - Saturated Fat: 2g<br />
 - Trans Fat: 0g<br />
@@ -59,5 +59,5 @@ Sodium: 300mg<br />
 Total Carbohydrate: 10g<br />
 - Dietary Fiber: 3g<br />
 - Sugars: 4g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy (vegan feta cheese)&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (vegan feta cheese)&nbsp;</td></tr></table>
 

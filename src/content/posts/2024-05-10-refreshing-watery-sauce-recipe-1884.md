@@ -44,5 +44,5 @@ Enjoy this watery sauce drizzled over your favorite BBQ dishes for a burst of fl
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 20, Total Fat: 0g, Sodium: 50mg, Total Carbohydrates: 5g, Sugars: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 20, Total Fat: 0g, Sodium: 50mg, Total Carbohydrates: 5g, Sugars: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

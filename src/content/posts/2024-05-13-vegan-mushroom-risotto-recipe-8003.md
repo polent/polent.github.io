@@ -53,5 +53,5 @@ Enjoy the rich flavors of this Vegan Mushroom Risotto, a perfect balance of umam
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Sodium: 780mg, Total Carbohydrates: 60g, Dietary Fiber: 5g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Contains gluten (Arborio rice)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Sodium: 780mg, Total Carbohydrates: 60g, Dietary Fiber: 5g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Contains gluten (Arborio rice)&nbsp;</td></tr></table>
 

@@ -26,15 +26,31 @@ Today's recipe is inspired by the delightful textures and flavors of a crunchy b
 
 ## Ingredients
 
-- 1 block of firm tofu, pressed and cut into cubes\n- 1 cup of shredded carrots\n- 1 cup of thinly sliced red cabbage\n- 1 small cucumber, sliced\n- 1 red bell pepper, thinly sliced\n- 1/4 cup of chopped scallions\n- 1 tablespoon sesame seeds\n- 2 tablespoons soy sauce\n- 1 tablespoon rice vinegar\n- 1 teaspoon sesame oil\n- 1 teaspoon maple syrup\n- 1 clove garlic, minced\n- 1 teaspoon grated ginger
+- 1 block of firm tofu, pressed and cut into cubes
+- 1 cup of shredded carrots
+- 1 cup of thinly sliced red cabbage
+- 1 small cucumber, sliced
+- 1 red bell pepper, thinly sliced
+- 1/4 cup of chopped scallions
+- 1 tablespoon sesame seeds
+- 2 tablespoons soy sauce
+- 1 tablespoon rice vinegar
+- 1 teaspoon sesame oil
+- 1 teaspoon maple syrup
+- 1 clove garlic, minced
+- 1 teaspoon grated ginger
 
 ## Instructions
 
-1. Start by marinating the tofu. In a bowl, mix soy sauce, rice vinegar, sesame oil, maple syrup, garlic, and ginger. Add the tofu cubes and let marinate for at least 30 minutes.\n2. Heat a non-stick pan over medium heat and cook the tofu until all sides are golden brown and crispy, about 5-7 minutes.\n3. In a large bowl, combine shredded carrots, sliced red cabbage, cucumber, red bell pepper, and chopped scallions.\n4. Add the cooked tofu to the vegetable mixture.\n5. Sprinkle sesame seeds over the top and drizzle with a bit more soy sauce and sesame oil if desired. Serve immediately.
+1. Start by marinating the tofu. In a bowl, mix soy sauce, rice vinegar, sesame oil, maple syrup, garlic, and ginger. Add the tofu cubes and let marinate for at least 30 minutes.
+2. Heat a non-stick pan over medium heat and cook the tofu until all sides are golden brown and crispy, about 5-7 minutes.
+3. In a large bowl, combine shredded carrots, sliced red cabbage, cucumber, red bell pepper, and chopped scallions.
+4. Add the cooked tofu to the vegetable mixture.
+5. Sprinkle sesame seeds over the top and drizzle with a bit more soy sauce and sesame oil if desired. Serve immediately.
 
 Enjoy this fresh, crunchy, and utterly delicious bento-style dish that's perfect for a quick lunch or a light dinner. It's sure to bring a touch of creativity and flavor to your day!
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Protein: 12g, Carbohydrates: 18g, Fat: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Protein: 12g, Carbohydrates: 18g, Fat: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
 

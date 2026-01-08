@@ -45,5 +45,5 @@ Get ready to impress your taste buds with this delightful treat that combines tr
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 220, Total Fat: 12g, Saturated Fat: 6g, Sodium: 20mg, Total Carbohydrates: 26g, Fiber: 5g, Sugar: 18g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 12g, Saturated Fat: 6g, Sodium: 20mg, Total Carbohydrates: 26g, Fiber: 5g, Sugar: 18g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts.&nbsp;</td></tr></table>
 

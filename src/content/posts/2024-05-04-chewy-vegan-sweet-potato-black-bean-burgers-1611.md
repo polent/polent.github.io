@@ -50,7 +50,7 @@ Enjoy the hearty goodness of these vegan sweet potato and black bean burgers, a 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving:<br />
 Calories: 280<br />
 Total Fat: 3g<br />
 Saturated Fat: 0.5g<br />
@@ -59,5 +59,5 @@ Sodium: 320mg<br />
 Total Carbohydrates: 54g<br />
 Dietary Fiber: 10g<br />
 Sugar: 6g<br />
-Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
+Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
 

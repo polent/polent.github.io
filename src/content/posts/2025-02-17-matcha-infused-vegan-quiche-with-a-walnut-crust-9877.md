@@ -58,5 +58,5 @@ Enjoy this exquisite Matcha Infused Vegan Quiche warm or cold, paired ideally wi
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280, Fat: 18g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>nuts, soy, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 18g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>nuts, soy, gluten&nbsp;</td></tr></table>
 

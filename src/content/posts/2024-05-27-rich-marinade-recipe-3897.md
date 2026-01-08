@@ -48,5 +48,5 @@ Get ready to impress your guests with this delectable marinade that will have ev
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 67kcal, Carbohydrates: 11g, Protein: 3g, Fat: 0g, Saturated Fat: 0g, Sodium: 1268mg, Fiber: 1g, Sugar: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 67kcal, Carbohydrates: 11g, Protein: 3g, Fat: 0g, Saturated Fat: 0g, Sodium: 1268mg, Fiber: 1g, Sugar: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

@@ -57,5 +57,5 @@ Enjoy these rich finger foods that celebrate the fusion of traditional Asian cui
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180 per serving, Protein: 3g, Carbs: 40g, Fat: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy (soy sauce), may contain gluten (tempura sweet potato)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Protein: 3g, Carbs: 40g, Fat: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce), may contain gluten (tempura sweet potato)&nbsp;</td></tr></table>
 

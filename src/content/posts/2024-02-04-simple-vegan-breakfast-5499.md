@@ -44,9 +44,9 @@ Enjoy this plant-based breakfast that will keep you energized and satisfied thro
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350<br />
 Carbohydrates: 60g<br />
 Protein: 8g<br />
 Fat: 10g<br />
-Fiber: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe contains nuts (almond milk) and may contain gluten (oats).&nbsp;</td></tr></table>
+Fiber: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains nuts (almond milk) and may contain gluten (oats).&nbsp;</td></tr></table>
 

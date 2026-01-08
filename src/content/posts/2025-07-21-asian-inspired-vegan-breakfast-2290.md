@@ -57,5 +57,5 @@ Enjoy this vibrant, flavor-packed breakfast that not only satisfies your morning
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, possible gluten in vegan egg substitute depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, possible gluten in vegan egg substitute depending on brand&nbsp;</td></tr></table>
 

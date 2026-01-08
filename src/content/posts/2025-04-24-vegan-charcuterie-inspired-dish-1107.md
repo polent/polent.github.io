@@ -53,5 +53,5 @@ Enjoy this beautiful, colorful display of vegan delicacies that not only looks s
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calorie dense, high in fiber, contains nuts, gluten-free options available&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten (optional)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calorie dense, high in fiber, contains nuts, gluten-free options available&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten (optional)&nbsp;</td></tr></table>
 

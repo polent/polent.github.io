@@ -53,5 +53,5 @@ Enjoy these delicious BBQ chickpea sliders as a hearty snack or a light meal. Th
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200 per slider, Protein: 6g, Fat: 4g, Carbohydrates: 35g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include gluten from buns and soy from vegan mayonnaise&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per slider, Protein: 6g, Fat: 4g, Carbohydrates: 35g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include gluten from buns and soy from vegan mayonnaise&nbsp;</td></tr></table>
 

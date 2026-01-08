@@ -51,5 +51,5 @@ Serve this decadent side dish at your next BBQ gathering and watch it disappear 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380, Total Fat: 14g, Saturated Fat: 7g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 52g, Dietary Fiber: 5g, Sugars: 2g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Total Fat: 14g, Saturated Fat: 7g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 52g, Dietary Fiber: 5g, Sugars: 2g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
 

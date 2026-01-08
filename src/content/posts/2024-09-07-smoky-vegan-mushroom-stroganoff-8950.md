@@ -54,5 +54,5 @@ Serve this hearty Smoky Vegan Mushroom Stroganoff with a side of steamed green b
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include soy and gluten depending on pasta or rice choice.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include soy and gluten depending on pasta or rice choice.&nbsp;</td></tr></table>
 

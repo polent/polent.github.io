@@ -55,5 +55,5 @@ Serve this Vegan Creamy Mushroom Risotto hot, garnished with fresh parsley and a
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 63g, Protein: 10g, Fat: 3g, Saturated Fat: 1g, Sodium: 800mg, Fiber: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: nuts (cashew)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 63g, Protein: 10g, Fat: 3g, Saturated Fat: 1g, Sodium: 800mg, Fiber: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: nuts (cashew)&nbsp;</td></tr></table>
 

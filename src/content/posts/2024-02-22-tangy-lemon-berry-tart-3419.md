@@ -49,5 +49,5 @@ Enjoy the zesty delight of this sharp dessert, a perfect ending to any meal that
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving - Calories: 280, Total Fat: 18g, Saturated Fat: 8g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrate: 28g, Dietary Fiber: 3g, Sugars: 14g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving - Calories: 280, Total Fat: 18g, Saturated Fat: 8g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrate: 28g, Dietary Fiber: 3g, Sugars: 14g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
 

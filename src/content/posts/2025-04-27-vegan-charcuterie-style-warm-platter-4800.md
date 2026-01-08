@@ -52,5 +52,5 @@ Serve this unique dish with a side of crusty bread and a selection of vegan wine
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 24g, Carbs: 20g, Protein: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Nuts (depending on vegan cheese used)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 24g, Carbs: 20g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Nuts (depending on vegan cheese used)&nbsp;</td></tr></table>
 

@@ -49,11 +49,11 @@ Enjoy this delicious and crumbly dinner that proves you can have all the flavors
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Servings: 2<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Servings: 2<br />
 Calories: 350<br />
 Total Fat: 12g<br />
 Sodium: 480mg<br />
 Carbohydrate: 30g<br />
 Fiber: 6g<br />
-Protein: 30g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+Protein: 30g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

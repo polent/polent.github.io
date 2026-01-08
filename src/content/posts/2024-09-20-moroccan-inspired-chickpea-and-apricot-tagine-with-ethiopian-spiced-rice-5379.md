@@ -65,5 +65,5 @@ Enjoy this comforting and nutritious meal that brings a piece of Africa to your 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include nuts and gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include nuts and gluten&nbsp;</td></tr></table>
 

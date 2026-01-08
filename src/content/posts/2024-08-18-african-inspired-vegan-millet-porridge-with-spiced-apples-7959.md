@@ -50,5 +50,5 @@ Enjoy this heartwarming dish on a chilly morning for a nutritious start to your 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 305, Fat: 5g, Carbohydrates: 58g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (almond milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 305, Fat: 5g, Carbohydrates: 58g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk)&nbsp;</td></tr></table>
 

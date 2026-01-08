@@ -51,5 +51,5 @@ Enjoy this delightful vegan twist on a charcuterie board, where every ingredient
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 500kcal, Fat: 25g, Carbs: 55g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 500kcal, Fat: 25g, Carbs: 55g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, peanuts&nbsp;</td></tr></table>
 

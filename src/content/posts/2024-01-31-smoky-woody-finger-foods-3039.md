@@ -48,10 +48,10 @@ These woody finger foods are sure to be a hit at any party or gathering. Enjoy t
 
 *Emily*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150
 Total Fat: 1g
 Sodium: 500mg
 Carbohydrates: 35g
 Fiber: 4g
-Protein: 2g</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 40 minutes</td></tr><tr><th>Allergy Information</th><td>Allergies: Gluten-free, soy-free</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergies: Gluten-free, soy-free</td></tr></table>
 

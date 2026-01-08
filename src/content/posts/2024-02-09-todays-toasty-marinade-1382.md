@@ -55,7 +55,7 @@ Enjoy the incredible depth of flavor that this toasty marinade brings to your di
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 tablespoon<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 tablespoon<br />
 Calories: 45<br />
 Total Fat: 3g<br />
 Saturated Fat: 0.4g<br />
@@ -63,5 +63,5 @@ Sodium: 173mg<br />
 Total Carbohydrate: 4.2g<br />
 Fiber: 1.1g<br />
 Sugar: 2.1g<br />
-Protein: 0.6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain soy&nbsp;</td></tr></table>
+Protein: 0.6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy&nbsp;</td></tr></table>
 

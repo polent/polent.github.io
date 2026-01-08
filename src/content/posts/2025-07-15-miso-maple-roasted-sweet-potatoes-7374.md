@@ -52,5 +52,5 @@ Serve this luscious side dish with your favorite vegan barbecue or as a standalo
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 237 per serving, Fat: 7g, Carbohydrates: 41g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 237 per serving, Fat: 7g, Carbohydrates: 41g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy&nbsp;</td></tr></table>
 

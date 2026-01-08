@@ -52,5 +52,5 @@ Enjoy your Vegan BBQ Bao Buns as a standout snack or a delightful addition to an
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150 per bun, Fat: 4g, Carbs: 20g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, gluten, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per bun, Fat: 4g, Carbs: 20g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten, sesame&nbsp;</td></tr></table>
 

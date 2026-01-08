@@ -47,5 +47,5 @@ Indulge in the simple pleasure of homemade bread with this easy-to-follow recipe
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 3g, Sodium: 200mg, Total Carbohydrates: 32g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain gluten. Please check ingredients for any specific allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 3g, Sodium: 200mg, Total Carbohydrates: 32g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten. Please check ingredients for any specific allergens.&nbsp;</td></tr></table>
 

@@ -54,7 +54,7 @@ Enjoy the bold flavors of this bitter marinade in your dishes and explore the vi
 
 *Nia*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 tablespoon
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 tablespoon
 Calories: 35
 Total Fat: 3g
 Saturated Fat: 0.4g
@@ -62,5 +62,5 @@ Sodium: 196mg
 Total Carbohydrate: 2g
 Fiber: 0.4g
 Sugar: 0.6g
-Protein: 0.4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This bitter marinade recipe is free from common allergens.&nbsp;</td></tr></table>
+Protein: 0.4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This bitter marinade recipe is free from common allergens.&nbsp;</td></tr></table>
 

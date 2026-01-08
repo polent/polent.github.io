@@ -56,7 +56,7 @@ Enjoy the vibrant flavors of Africa with this spicy marinade. Whether you're gri
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per Serving:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per Serving:<br />
 - Calories: 140<br />
 - Total Fat: 12g<br />
 - Saturated Fat: 2g<br />
@@ -64,5 +64,5 @@ Enjoy the vibrant flavors of Africa with this spicy marinade. Whether you're gri
 - Total Carbohydrate: 8g<br />
 - Fiber: 2g<br />
 - Sugar: 4g<br />
-- Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+- Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

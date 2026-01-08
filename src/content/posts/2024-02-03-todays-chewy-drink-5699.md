@@ -45,9 +45,9 @@ Enjoy this chewy drink and let its flavors transport you to a world of pure blis
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 300<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300<br />
 Carbohydrates: 60g<br />
 Protein: 2g<br />
 Fat: 6g<br />
-Sodium: 20mg&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain coconut and soy.&nbsp;</td></tr></table>
+Sodium: 20mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain coconut and soy.&nbsp;</td></tr></table>
 

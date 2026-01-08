@@ -50,5 +50,5 @@ Enjoy this luxurious vegan matcha cheesecake as a sophisticated end to any meal.
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per slice, Fat: 25g, Carbohydrates: 28g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes plus 4 hours freezing&nbsp;</td></tr><tr><th>Allergy Information</th><td>Tree nuts, Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per slice, Fat: 25g, Carbohydrates: 28g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes plus 4 hours freezing&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Tree nuts, Coconut&nbsp;</td></tr></table>
 

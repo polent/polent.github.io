@@ -49,5 +49,5 @@ Enjoy this flavorful breakfast dish that will leave you feeling energized and re
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 8g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 40g, Fiber: 6g, Sugars: 8g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Tree nuts (almonds, walnuts)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 8g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 40g, Fiber: 6g, Sugars: 8g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Tree nuts (almonds, walnuts)&nbsp;</td></tr></table>
 

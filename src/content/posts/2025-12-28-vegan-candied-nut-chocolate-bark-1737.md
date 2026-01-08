@@ -51,5 +51,5 @@ Enjoy this luscious vegan candied nut chocolate bark as a special treat to sweet
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280 per serving, Fat: 15g, Carbs: 32g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Nuts, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 15g, Carbs: 32g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy&nbsp;</td></tr></table>
 

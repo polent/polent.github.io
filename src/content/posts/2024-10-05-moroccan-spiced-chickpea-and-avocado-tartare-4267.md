@@ -53,5 +53,5 @@ Enjoy this vibrant, refreshing dish as a splendid start to your meal, perfect fo
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 12g, Carbs: 20g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include chickpeas and gluten (in pita chips, if used).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 12g, Carbs: 20g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include chickpeas and gluten (in pita chips, if used).&nbsp;</td></tr></table>
 

@@ -45,5 +45,5 @@ Enjoy this refreshing breakfast that's perfect for busy mornings or lazy weekend
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 45g, Protein: 9g, Fat: 20g, Saturated Fat: 12g, Fiber: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 45g, Protein: 9g, Fat: 20g, Saturated Fat: 12g, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain nuts&nbsp;</td></tr></table>
 

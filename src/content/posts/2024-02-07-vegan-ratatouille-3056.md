@@ -54,7 +54,7 @@ Enjoy the vibrant flavors of this vegan Ratatouille, and savor the taste of Ital
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup<br />
 Calories: 110<br />
 Total Fat: 6g<br />
 Saturated Fat: 1g<br />
@@ -63,5 +63,5 @@ Sodium: 300mg<br />
 Total Carbohydrate: 13g<br />
 Dietary Fiber: 4g<br />
 Sugars: 8g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

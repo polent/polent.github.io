@@ -55,5 +55,5 @@ Enjoy the harmonious blend of traditional Asian flavors in these delectable fing
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>High in fiber, vitamins, and antioxidants, low in saturated fat and cholesterol.&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy (tofu, tempeh), gluten (seitan), and may be prepared in facilities that also process nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, vitamins, and antioxidants, low in saturated fat and cholesterol.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (tofu, tempeh), gluten (seitan), and may be prepared in facilities that also process nuts.&nbsp;</td></tr></table>
 

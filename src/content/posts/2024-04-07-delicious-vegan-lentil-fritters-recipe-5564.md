@@ -50,5 +50,5 @@ Enjoy these flavorful lentil fritters as a snack or appetizer, showcasing the ri
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120, Total Fat: 5g, Saturated Fat: 1g, Sodium: 200mg, Total Carbohydrates: 15g, Fiber: 4g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain gluten (chickpea flour)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 5g, Saturated Fat: 1g, Sodium: 200mg, Total Carbohydrates: 15g, Fiber: 4g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten (chickpea flour)&nbsp;</td></tr></table>
 

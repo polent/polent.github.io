@@ -52,7 +52,7 @@ Enjoy the melt-in-your-mouth goodness of this buttery dessert, knowing that it's
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150 per serving<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving<br />
 Total Fat: 10g<br />
 Saturated Fat: 4g<br />
 Cholesterol: 0mg<br />
@@ -60,5 +60,5 @@ Sodium: 75mg<br />
 Carbohydrate: 14g<br />
 Fiber: 1g<br />
 Sugar: 4g<br />
-Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains almonds. May contain traces of other nuts.&nbsp;</td></tr></table>
+Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds. May contain traces of other nuts.&nbsp;</td></tr></table>
 

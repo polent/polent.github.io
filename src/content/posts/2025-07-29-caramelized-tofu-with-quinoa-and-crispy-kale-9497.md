@@ -37,5 +37,5 @@ Serve this delightful dish hot for a comforting lunch that not only satisfies yo
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Protein: 18g, Fats: 10g, Carbohydrates: 48g, Sugar: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, possible gluten in soy sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Protein: 18g, Fats: 10g, Carbohydrates: 48g, Sugar: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, possible gluten in soy sauce&nbsp;</td></tr></table>
 

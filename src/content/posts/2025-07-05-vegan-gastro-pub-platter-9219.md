@@ -53,5 +53,5 @@ Enjoy this delightful fusion of gastro pub flavors with a vegan and Asian twist!
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 40g, Protein: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy, gluten-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 40g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten-free&nbsp;</td></tr></table>
 

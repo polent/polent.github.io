@@ -49,7 +49,7 @@ Enjoy this rich appetizer as a delightful start to your meal or as a standalone 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 appetizer<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 appetizer<br />
 Calories: 80<br />
 Total Fat: 4g<br />
 Saturated Fat: 0.5g<br />
@@ -59,5 +59,5 @@ Sodium: 50mg<br />
 Total Carbohydrate: 9g<br />
 Dietary Fiber: 2g<br />
 Total Sugars: 1g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
 

@@ -47,7 +47,7 @@ Enjoy this refreshing Grassy Side Salad at your next BBQ gathering. Its crisp an
 
 *Emily*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 cup
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 cup
 Calories: 70
 Total Fat: 6g
 Saturated Fat: 1g
@@ -56,5 +56,5 @@ Sodium: 20mg
 Total Carbohydrate: 4g
 Dietary Fiber: 1g
 Sugar: 1g
-Protein: 2g</td></tr><tr><th>Preparation Time</th><td>10 minutes</td></tr><tr><th>Allergy Information</th><td>None</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

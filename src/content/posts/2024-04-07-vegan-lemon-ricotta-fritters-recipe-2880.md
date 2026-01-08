@@ -48,5 +48,5 @@ Enjoy these Vegan Lemon Ricotta Fritters as a sweet and tangy snack to satisfy y
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 6g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 14g, Dietary Fiber: 1g, Sugars: 6g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 6g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 14g, Dietary Fiber: 1g, Sugars: 6g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
 

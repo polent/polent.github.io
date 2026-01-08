@@ -46,5 +46,5 @@ Enjoy this unique umami drink as a refreshing start to your day or a soothing ev
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80, Fat: 0.5g, Carbohydrates: 18g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (from miso)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80, Fat: 0.5g, Carbohydrates: 18g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (from miso)&nbsp;</td></tr></table>
 

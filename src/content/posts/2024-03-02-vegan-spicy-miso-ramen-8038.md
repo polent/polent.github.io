@@ -52,5 +52,5 @@ Warm up with this satisfying Vegan Spicy Miso Ramen, packed with savory flavors 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 45g, Protein: 15g, Fat: 10g, Fiber: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (miso, soy sauce), Gluten (ramen noodles)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 45g, Protein: 15g, Fat: 10g, Fiber: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (miso, soy sauce), Gluten (ramen noodles)&nbsp;</td></tr></table>
 

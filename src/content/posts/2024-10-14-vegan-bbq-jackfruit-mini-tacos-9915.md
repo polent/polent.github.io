@@ -52,5 +52,5 @@ Enjoy these delightful Vegan BBQ Jackfruit Mini Tacos as a light snack or share 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150 per serving, Fat: 4.5g, Carbohydrates: 24g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include corn (tortillas) and avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 4.5g, Carbohydrates: 24g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include corn (tortillas) and avocado&nbsp;</td></tr></table>
 

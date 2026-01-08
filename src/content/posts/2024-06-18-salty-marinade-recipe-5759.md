@@ -42,5 +42,5 @@ Enjoy the rich flavor infusion that this salty marinade brings to your dishes. E
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 2g, Fat: 4g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 2g, Fat: 4g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
 

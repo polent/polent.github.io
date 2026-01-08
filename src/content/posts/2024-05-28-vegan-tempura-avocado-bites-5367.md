@@ -49,5 +49,5 @@ Enjoy these crispy and delicious bites as a delightful snack or appetizer, guara
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 10g, Saturated Fat: 1g, Sodium: 590mg, Total Carbohydrates: 20g, Dietary Fiber: 3g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 10g, Saturated Fat: 1g, Sodium: 590mg, Total Carbohydrates: 20g, Dietary Fiber: 3g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten&nbsp;</td></tr></table>
 

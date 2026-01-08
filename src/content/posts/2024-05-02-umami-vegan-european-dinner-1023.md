@@ -50,5 +50,5 @@ Enjoy this umami-packed dinner that celebrates the best of plant-based cuisine w
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 1g, Sodium: 780mg, Total Carbohydrates: 70g, Dietary Fiber: 4g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Mushrooms&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 1g, Sodium: 780mg, Total Carbohydrates: 70g, Dietary Fiber: 4g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Mushrooms&nbsp;</td></tr></table>
 

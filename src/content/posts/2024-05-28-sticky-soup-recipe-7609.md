@@ -49,5 +49,5 @@ Enjoy this Sticky Soup with your favorite crusty bread for a satisfying meal tha
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 45g, Dietary Fiber: 10g, Sugars: 10g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 45g, Dietary Fiber: 10g, Sugars: 10g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Peanuts&nbsp;</td></tr></table>
 

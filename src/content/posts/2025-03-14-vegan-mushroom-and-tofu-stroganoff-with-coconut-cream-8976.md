@@ -53,5 +53,5 @@ Enjoy this creamy, savory Vegan Mushroom and Tofu Stroganoff as a comforting mea
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 22g, Carbohydrates: 29g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, coconut, gluten (if using pasta)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 22g, Carbohydrates: 29g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, coconut, gluten (if using pasta)&nbsp;</td></tr></table>
 

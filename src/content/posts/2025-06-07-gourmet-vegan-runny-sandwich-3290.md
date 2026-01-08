@@ -54,5 +54,5 @@ Enjoy this delightful sandwich warm, letting each bite offer a burst of flavors 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 650, Fat: 35g, Carbs: 60g, Protein: 22g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Wheat, Nuts (from possible cross-contamination in vegan products)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 650, Fat: 35g, Carbs: 60g, Protein: 22g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Nuts (from possible cross-contamination in vegan products)&nbsp;</td></tr></table>
 

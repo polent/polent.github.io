@@ -55,5 +55,5 @@ Enjoy the burst of flavors in this Vegan Spicy Szechuan Noodle Bowl, which not o
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbohydrates: 53g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Peanuts, Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbohydrates: 53g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Peanuts, Soy, Sesame&nbsp;</td></tr></table>
 

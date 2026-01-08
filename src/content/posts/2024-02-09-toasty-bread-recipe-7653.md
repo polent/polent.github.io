@@ -48,7 +48,7 @@ Enjoy the simple pleasure of homemade bread with this easy toasty bread recipe. 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150<br />
 Total Fat: 3g<br />
 Saturated Fat: 0.5g<br />
 Cholesterol: 0mg<br />
@@ -56,5 +56,5 @@ Sodium: 200mg<br />
 Carbohydrates: 27g<br />
 Fiber: 1g<br />
 Sugar: 1g<br />
-Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
+Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
 

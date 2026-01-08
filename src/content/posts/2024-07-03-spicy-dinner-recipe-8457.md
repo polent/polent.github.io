@@ -45,5 +45,5 @@ Enjoy this spicy creation that brings a kick of flavor to your dinner table. Emb
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 3g, Sodium: 480mg, Total Carbohydrates: 32g, Dietary Fiber: 8g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 3g, Sodium: 480mg, Total Carbohydrates: 32g, Dietary Fiber: 8g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

@@ -47,5 +47,5 @@ Enjoy this velvety dip with your favorite veggies or pita chips for a satisfying
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Total Fat: 10g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 14g, Fiber: 6g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of sesame seeds.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 10g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 14g, Fiber: 6g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of sesame seeds.&nbsp;</td></tr></table>
 

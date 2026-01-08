@@ -55,5 +55,5 @@ Enjoy this delightful stir-fry as a standalone meal or pair it with a side of ja
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Protein: 12g, Fat: 10g, Carbohydrates: 18g, Sugars: 6g, Fiber: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame, Optional Peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Protein: 12g, Fat: 10g, Carbohydrates: 18g, Sugars: 6g, Fiber: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Optional Peanuts&nbsp;</td></tr></table>
 

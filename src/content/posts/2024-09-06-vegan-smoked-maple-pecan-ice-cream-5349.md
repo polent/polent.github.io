@@ -49,5 +49,5 @@ Enjoy this luscious Vegan Smoked Maple-Pecan Ice Cream as the perfect ending to 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280 per serving, Fat: 18g, Carbohydrates: 25g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes active, 4 hours freezing&nbsp;</td></tr><tr><th>Allergy Information</th><td>contains nuts, may contain traces of soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 18g, Carbohydrates: 25g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes active, 4 hours freezing&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>contains nuts, may contain traces of soy&nbsp;</td></tr></table>
 

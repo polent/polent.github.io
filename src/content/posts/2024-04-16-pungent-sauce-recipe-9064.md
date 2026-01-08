@@ -46,5 +46,5 @@ Experience the tantalizing aroma and taste of this pungent sauce, elevating your
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120, Total Fat: 10g, Sodium: 300mg, Total Carbohydrates: 7g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 10g, Sodium: 300mg, Total Carbohydrates: 7g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts&nbsp;</td></tr></table>
 

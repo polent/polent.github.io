@@ -53,5 +53,5 @@ Enjoy this beautifully balanced Vegan Asian Fusion Platter, where every bite off
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 500, Fat: 18g, Carbs: 72g, Protein: 25g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours 30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 500, Fat: 18g, Carbs: 72g, Protein: 25g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
 

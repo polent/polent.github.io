@@ -54,5 +54,5 @@ Enjoy this light yet satisfying Vegan Caesar Salad as a perfect end to your day.
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 12g, Carbohydrates: 18g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy (vegan mayonnaise), gluten-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 12g, Carbohydrates: 18g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (vegan mayonnaise), gluten-free&nbsp;</td></tr></table>
 

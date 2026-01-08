@@ -45,5 +45,5 @@ Get ready to impress your taste buds and guests with this bold and unforgettable
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 45kcal, Total Fat: 1g, Sodium: 960mg, Total Carbohydrates: 6g, Sugars: 3g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. Potential allergens: sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Total Fat: 1g, Sodium: 960mg, Total Carbohydrates: 6g, Sugars: 3g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Potential allergens: sesame&nbsp;</td></tr></table>
 

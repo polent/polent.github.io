@@ -50,5 +50,5 @@ Enjoy the taste of Africa in every bite with this satisfying and nourishing Vega
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 350kcal, Carbs: 35g, Protein: 15g, Fat: 18g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Carbs: 35g, Protein: 15g, Fat: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain peanuts&nbsp;</td></tr></table>
 

@@ -46,5 +46,5 @@ Enjoy these savory shortbread cookies as a sophisticated ending to your meal or 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 8g, Sodium: 150mg, Total Carbohydrates: 10g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Gluten (wheat), Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 8g, Sodium: 150mg, Total Carbohydrates: 10g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (wheat), Soy&nbsp;</td></tr></table>
 

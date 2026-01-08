@@ -50,5 +50,5 @@ Enjoy this Spicy Artisan Vegan Pizza as a vibrant addition to your culinary repe
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per slice, Fat: 8g, Carbs: 35g, Protein: 9g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>gluten, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Fat: 8g, Carbs: 35g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy&nbsp;</td></tr></table>
 

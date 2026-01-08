@@ -53,5 +53,5 @@ Enjoy the explosion of Korean flavors in this vegan rendition of a classic dish.
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 7g, Saturated Fat: 1g, Sodium: 780mg, Total Carbohydrates: 52g, Dietary Fiber: 3g, Sugars: 6g, Protein: 15g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy. Gluten-free option: use tamari instead of soy sauce and ensure seitan is gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 7g, Saturated Fat: 1g, Sodium: 780mg, Total Carbohydrates: 52g, Dietary Fiber: 3g, Sugars: 6g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option: use tamari instead of soy sauce and ensure seitan is gluten-free.&nbsp;</td></tr></table>
 

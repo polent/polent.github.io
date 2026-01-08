@@ -50,5 +50,5 @@ Enjoy these Vegan BBQ Jackfruit Tacos for a flavorful dinner that's both satisfy
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 280, Total Fat: 5g, Sodium: 620mg, Total Carbohydrates: 56g, Dietary Fiber: 8g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (corn tortillas)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Total Fat: 5g, Sodium: 620mg, Total Carbohydrates: 56g, Dietary Fiber: 8g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (corn tortillas)&nbsp;</td></tr></table>
 

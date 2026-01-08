@@ -51,5 +51,5 @@ Enjoy this vibrant, colorful salad as a perfect side to any vegan BBQ or as a wh
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbohydrates: 29g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains seeds and corn, possible gluten in fried onions depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbohydrates: 29g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains seeds and corn, possible gluten in fried onions depending on brand&nbsp;</td></tr></table>
 

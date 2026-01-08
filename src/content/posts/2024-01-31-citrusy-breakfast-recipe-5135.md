@@ -49,7 +49,7 @@ Enjoy the bright and refreshing flavors of this citrusy breakfast! With a mix of
 
 *Hiroshi*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 plate
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 plate
 Calories: 150
 Total Fat: 1g
 Saturated Fat: 0g
@@ -58,5 +58,5 @@ Sodium: 5mg
 Total Carbohydrate: 35g
 Dietary Fiber: 7g
 Sugar: 25g
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

@@ -52,5 +52,5 @@ Enjoy the smoky, savory goodness of this Vegan BBQ Jackfruit Sandwich that captu
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 65g, Protein: 4g, Fat: 4g, Saturated Fat: 1g, Sodium: 820mg, Fiber: 5g, Sugar: 30g&nbsp;</td></tr><tr><th>Preparation Time</th><td>Preparation Time: 45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Gluten (check burger bun ingredients for gluten-free option), Soy (check BBQ sauce for soy-free option)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 65g, Protein: 4g, Fat: 4g, Saturated Fat: 1g, Sodium: 820mg, Fiber: 5g, Sugar: 30g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (check burger bun ingredients for gluten-free option), Soy (check BBQ sauce for soy-free option)&nbsp;</td></tr></table>
 

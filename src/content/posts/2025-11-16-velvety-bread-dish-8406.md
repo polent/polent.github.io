@@ -53,5 +53,5 @@ Enjoy this Velvety Bread Dish as a sumptuous breakfast, a cozy midday treat, or 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 8g, Carbs: 38g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten, nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 8g, Carbs: 38g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts&nbsp;</td></tr></table>
 

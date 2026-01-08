@@ -59,7 +59,7 @@ Enjoy these woody fingerfoods as a unique and delicious appetizer, or serve them
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150<br />
 Total Fat: 7g<br />
 Saturated Fat: 1g<br />
 Cholesterol: 0mg<br />
@@ -67,5 +67,5 @@ Sodium: 300mg<br />
 Carbohydrate: 18g<br />
 Fiber: 4g<br />
 Sugar: 3g<br />
-Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten&nbsp;</td></tr></table>
+Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten&nbsp;</td></tr></table>
 

@@ -44,5 +44,5 @@ Enjoy this rich and flavorful sauce that will elevate your pasta dish to new hei
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1/4 cup. Calories: 120. Total Fat: 9g. Sodium: 150mg. Total Carbohydrates: 8g. Protein: 5g.&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews and almonds).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1/4 cup. Calories: 120. Total Fat: 9g. Sodium: 150mg. Total Carbohydrates: 8g. Protein: 5g.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews and almonds).&nbsp;</td></tr></table>
 

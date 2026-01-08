@@ -51,7 +51,7 @@ Enjoy these crispy zucchini fritters as a satisfying snack or appetizer, served 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 2 fritters<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 2 fritters<br />
 Calories: 180<br />
 Total Fat: 5g<br />
 Saturated Fat: 0.5g<br />
@@ -60,5 +60,5 @@ Sodium: 360mg<br />
 Carbohydrate: 30g<br />
 Fiber: 4g<br />
 Sugar: 3g<br />
-Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This recipe contains gluten. Please note that while this recipe is vegan, it may be necessary to check the labels of individual ingredients for potential allergens or contact the manufacturer for any specific concerns.&nbsp;</td></tr></table>
+Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please note that while this recipe is vegan, it may be necessary to check the labels of individual ingredients for potential allergens or contact the manufacturer for any specific concerns.&nbsp;</td></tr></table>
 

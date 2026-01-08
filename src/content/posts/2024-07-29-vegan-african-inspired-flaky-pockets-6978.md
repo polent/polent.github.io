@@ -54,5 +54,5 @@ Serve these warm, flaky pockets fresh out of the oven with a side of tangy chutn
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 25g, Protein: 8g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains gluten and possible traces of nuts in the pastry&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 25g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten and possible traces of nuts in the pastry&nbsp;</td></tr></table>
 

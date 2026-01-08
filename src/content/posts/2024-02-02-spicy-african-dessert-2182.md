@@ -48,11 +48,11 @@ Experience the vibrant and diverse flavors of Africa with this unique spicy dess
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150<br />
 Total Fat: 0.5g<br />
 Sodium: 5mg<br />
 Total Carbohydrate: 38g<br />
 Fiber: 4g<br />
 Sugar: 31g<br />
-Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

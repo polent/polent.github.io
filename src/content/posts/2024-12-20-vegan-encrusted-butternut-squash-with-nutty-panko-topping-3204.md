@@ -52,5 +52,5 @@ Enjoy this heartwarming dish as a standalone star or as a complementary side to 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 290 per serving, Fat: 15g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290 per serving, Fat: 15g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten&nbsp;</td></tr></table>
 

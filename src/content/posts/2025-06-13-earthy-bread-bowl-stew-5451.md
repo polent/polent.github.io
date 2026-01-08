@@ -58,5 +58,5 @@ Enjoy this Earthy Bread Bowl Stew as a delightful meal that will comfort you on 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 380, Fat: 12g, Carbohydrates: 55g, Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>gluten, possible nuts in bread&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Fat: 12g, Carbohydrates: 55g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, possible nuts in bread&nbsp;</td></tr></table>
 

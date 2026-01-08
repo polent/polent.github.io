@@ -55,5 +55,5 @@ Indulge in this bright and flavorful citrusy salad that is sure to tantalize you
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 30g, Dietary Fiber: 8g, Sugars: 15g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains tree nuts (almonds).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 30g, Dietary Fiber: 8g, Sugars: 15g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (almonds).&nbsp;</td></tr></table>
 

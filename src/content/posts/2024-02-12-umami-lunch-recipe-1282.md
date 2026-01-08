@@ -53,5 +53,5 @@ Treat yourself to this delightful umami lunch and experience the magic of plant-
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Servings: 2 | Calories: 350 | Total Fat: 12g | Carbohydrates: 38g | Fiber: 5g | Protein: 20g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Servings: 2 | Calories: 350 | Total Fat: 12g | Carbohydrates: 38g | Fiber: 5g | Protein: 20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
 

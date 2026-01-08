@@ -55,7 +55,7 @@ Indulge in the soothing flavors of this mellow soup and let it transport you to 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180<br />
 Total Fat: 6g<br />
 Saturated Fat: 1g<br />
 Cholesterol: 0mg<br />
@@ -63,5 +63,5 @@ Sodium: 800mg<br />
 Carbohydrate: 30g<br />
 Fiber: 6g<br />
 Sugar: 8g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

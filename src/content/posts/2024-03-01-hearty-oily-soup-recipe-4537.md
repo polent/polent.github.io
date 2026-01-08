@@ -52,5 +52,5 @@ Enjoy this delicious and satisfying oily soup that is packed with flavor and pla
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 4g, Sodium: 800mg, Carbohydrates: 30g, Fiber: 6g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 4g, Sodium: 800mg, Carbohydrates: 30g, Fiber: 6g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

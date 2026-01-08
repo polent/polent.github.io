@@ -58,5 +58,5 @@ I hope you enjoy this delicious and satisfying side dish! It's a wonderful way t
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210<br />Total Fat: 4g<br />Sodium: 320mg<br />Total Carbohydrate: 38g<br />Fiber: 4g<br />Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210<br />Total Fat: 4g<br />Sodium: 320mg<br />Total Carbohydrate: 38g<br />Fiber: 4g<br />Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

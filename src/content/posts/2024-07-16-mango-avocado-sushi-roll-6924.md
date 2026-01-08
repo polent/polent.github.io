@@ -54,5 +54,5 @@ Serve these delightful Mango Avocado Sushi Rolls as a fresh appetizer at your ne
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 240, Fat: 9g, Carbohydrates: 36g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (soy sauce), Avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 240, Fat: 9g, Carbohydrates: 36g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (soy sauce), Avocado&nbsp;</td></tr></table>
 

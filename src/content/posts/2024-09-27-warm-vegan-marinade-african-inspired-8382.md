@@ -49,5 +49,5 @@ Use this warm marinade to transform simple vegan dishes into delightful, flavor-
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 120, Fat: 10g, Carbs: 8g, Protein: 0g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains garlic, may contain traces of nuts and gluten depending on brand of spices used&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 10g, Carbs: 8g, Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains garlic, may contain traces of nuts and gluten depending on brand of spices used&nbsp;</td></tr></table>
 

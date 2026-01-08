@@ -58,7 +58,7 @@ Enjoy the explosion of flavors in this vegan noodle dish inspired by Thai cuisin
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 bowl<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 bowl<br />
 Calories: 380<br />
 Total Fat: 12g<br />
 Saturated Fat: 2g<br />
@@ -67,5 +67,5 @@ Sodium: 660mg<br />
 Carbohydrate: 60g<br />
 Fiber: 6g<br />
 Sugar: 9g<br />
-Protein: 12g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains peanuts. May contain gluten (depending on the rice noodles used).&nbsp;</td></tr></table>
+Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. May contain gluten (depending on the rice noodles used).&nbsp;</td></tr></table>
 

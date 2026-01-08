@@ -51,5 +51,5 @@ Enjoy the taste of Africa with this vegan buttery dinner that's both delicious a
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Total Fat: 15g, Saturated Fat: 10g, Sodium: 420mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 15g, Saturated Fat: 10g, Sodium: 420mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Coconut&nbsp;</td></tr></table>
 

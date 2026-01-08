@@ -54,5 +54,5 @@ Serve this delightful spiced dessert warm, ideally paired with a dollop of vegan
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210, Fat: 9g, Saturated Fat: 1g, Sodium: 320mg, Carbohydrates: 31g, Fiber: 1g, Sugar: 17g, Protein: 2g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten, possible nut contamination if processed in a facility that handles nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 9g, Saturated Fat: 1g, Sodium: 320mg, Carbohydrates: 31g, Fiber: 1g, Sugar: 17g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, possible nut contamination if processed in a facility that handles nuts&nbsp;</td></tr></table>
 

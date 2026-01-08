@@ -47,5 +47,5 @@ Indulge in this delectable dessert that will leave you craving for more. Get rea
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Total Fat: 7g, Carbohydrates: 23g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 7g, Carbohydrates: 23g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Coconut&nbsp;</td></tr></table>
 

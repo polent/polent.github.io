@@ -45,7 +45,7 @@ Enjoy this invigorating drink and savor the bold flavors it offers. Cheers to a 
 
 *Emily*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 80
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80
 Total Fat: 2g
 Saturated Fat: 0.2g
 Cholesterol: 0mg
@@ -53,5 +53,5 @@ Sodium: 50mg
 Total Carbohydrate: 15g
 Dietary Fiber: 2g
 Sugars: 10g
-Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains almonds&nbsp;</td></tr></table>
+Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds&nbsp;</td></tr></table>
 

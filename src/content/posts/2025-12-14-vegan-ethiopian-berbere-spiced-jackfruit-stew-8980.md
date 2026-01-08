@@ -54,5 +54,5 @@ Enjoy this delightful Vegan Ethiopian Berbere Spiced Jackfruit Stew as a centerp
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 210, Fat: 4g, Carbohydrates: 35g, Protein: 7g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include garlic and cilantro.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 4g, Carbohydrates: 35g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and cilantro.&nbsp;</td></tr></table>
 

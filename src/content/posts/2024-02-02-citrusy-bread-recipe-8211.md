@@ -54,9 +54,9 @@ I hope you enjoy making and savoring this citrusy bread. It's a wonderful way to
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per Serving:<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per Serving:<br />
 - Calories: 200<br />
 - Fat: 6g<br />
 - Carbohydrates: 34g<br />
-- Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergies: gluten&nbsp;</td></tr></table>
+- Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: gluten&nbsp;</td></tr></table>
 

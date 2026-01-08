@@ -50,5 +50,5 @@ Enjoy this zesty Spicy Bread as a standalone snack or as a side to complement yo
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Per serving: Calories: 180, Total Fat: 4g, Sodium: 290mg, Total Carbohydrates: 31g, Dietary Fiber: 2g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens: Wheat (gluten).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 180, Total Fat: 4g, Sodium: 290mg, Total Carbohydrates: 31g, Dietary Fiber: 2g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens: Wheat (gluten).&nbsp;</td></tr></table>
 

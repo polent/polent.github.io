@@ -48,5 +48,5 @@ Enjoy the sticky goodness of this bread with your loved ones and savor the flavo
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>High in carbohydrates, moderate in sugar, contains nuts and raisins.&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in carbohydrates, moderate in sugar, contains nuts and raisins.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, gluten&nbsp;</td></tr></table>
 

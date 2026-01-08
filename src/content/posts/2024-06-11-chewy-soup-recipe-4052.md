@@ -50,5 +50,5 @@ Enjoy a bowl of this chewy soup to experience a comforting and satisfying meal t
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 780mg, Total Carbohydrates: 42g, Dietary Fiber: 12g, Protein: 13g&nbsp;</td></tr><tr><th>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of gluten due to lentils. Check vegetable broth for allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 780mg, Total Carbohydrates: 42g, Dietary Fiber: 12g, Protein: 13g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten due to lentils. Check vegetable broth for allergens.&nbsp;</td></tr></table>
 

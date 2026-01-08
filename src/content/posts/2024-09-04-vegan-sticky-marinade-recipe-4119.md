@@ -46,5 +46,5 @@ Use this sticky marinade to transform simple ingredients into culinary masterpie
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 70, Fat: 2.5g, Carbohydrates: 10g, Protein: 1g&nbsp;</td></tr><tr><th>Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>soy, sesame, garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70, Fat: 2.5g, Carbohydrates: 10g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, garlic&nbsp;</td></tr></table>
 

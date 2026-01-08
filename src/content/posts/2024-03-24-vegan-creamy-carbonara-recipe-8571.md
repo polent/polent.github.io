@@ -51,5 +51,5 @@ Enjoy the rich flavors of Italy in this vegan Carbonara, a testament to traditio
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 450kcal, Carbohydrates: 65g, Protein: 20g, Fat: 14g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (cashews), soy (tempeh)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450kcal, Carbohydrates: 65g, Protein: 20g, Fat: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), soy (tempeh)&nbsp;</td></tr></table>
 

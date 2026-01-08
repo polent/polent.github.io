@@ -48,5 +48,5 @@ Enjoy this exquisite Whipped Avocado and Edamame Dip as a perfect start to your 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 150, Fat: 12g, Carbs: 9g, Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Soy (edamame)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 12g, Carbs: 9g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (edamame)&nbsp;</td></tr></table>
 

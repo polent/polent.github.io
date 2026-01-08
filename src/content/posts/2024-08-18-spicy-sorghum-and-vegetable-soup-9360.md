@@ -56,5 +56,5 @@ Serve this delicious soup hot, garnished with fresh herbs and a squeeze of lemon
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Fat: 4g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Possible allergens include garlic and onions&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 4g, Carbohydrates: 35g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and onions&nbsp;</td></tr></table>
 

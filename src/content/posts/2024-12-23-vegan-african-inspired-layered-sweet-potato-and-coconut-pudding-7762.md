@@ -53,5 +53,5 @@ Enjoy this delightful creation as a perfect ending to a meal or a sweet treat to
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 28g, Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>2 hours 45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains nuts (pecans), possible allergen for some individuals.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 28g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (pecans), possible allergen for some individuals.&nbsp;</td></tr></table>
 

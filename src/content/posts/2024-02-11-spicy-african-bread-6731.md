@@ -61,12 +61,12 @@ I hope you enjoy this Spicy African Bread recipe! It's a wonderful way to incorp
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 slice<br />
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 slice<br />
 Calories: 150<br />
 Total Fat: 6g<br />
 Saturated Fat: 1g<br />
 Carbohydrates: 20g<br />
 Fiber: 1g<br />
 Sugar: 2g<br />
-Protein: 3g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>This Spicy African Bread recipe contains gluten. It can be made dairy-free and vegan by using non-dairy milk.&nbsp;</td></tr></table>
+Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This Spicy African Bread recipe contains gluten. It can be made dairy-free and vegan by using non-dairy milk.&nbsp;</td></tr></table>
 

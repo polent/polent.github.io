@@ -51,5 +51,5 @@ Enjoy this beautifully balanced dish, where every bite is a testament to the fus
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320 kcal, Fat: 14g, Carbohydrates: 42g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th>Allergy Information</th><td>Coconut, Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 kcal, Fat: 14g, Carbohydrates: 42g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, Soy, Gluten&nbsp;</td></tr></table>
 

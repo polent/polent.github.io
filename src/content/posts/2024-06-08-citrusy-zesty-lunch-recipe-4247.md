@@ -46,5 +46,5 @@ Enjoy the refreshing burst of citrus in every bite of this vibrant dish, perfect
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 25g, Dietary Fiber: 7g, Protein: 5g&nbsp;</td></tr><tr><th>Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 25g, Dietary Fiber: 7g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
 

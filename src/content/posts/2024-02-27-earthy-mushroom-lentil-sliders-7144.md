@@ -50,5 +50,5 @@ Enjoy these wholesome mushroom and lentil sliders as a nutritious and satisfying
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 180, Total Fat: 2g, Saturated Fat: 0.3g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 32g, Dietary Fiber: 7g, Sugars: 4g, Protein: 9g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 2g, Saturated Fat: 0.3g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 32g, Dietary Fiber: 7g, Sugars: 4g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
 

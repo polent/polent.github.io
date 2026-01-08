@@ -53,5 +53,5 @@ Enjoy a bowl of this umami soup for a satisfying and flavorful meal that will ta
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 200, Total Fat: 8g, Sodium: 800mg, Total Carbohydrates: 25g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain soy due to soy sauce and miso paste. Check labels for allergen information.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Total Fat: 8g, Sodium: 800mg, Total Carbohydrates: 25g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy due to soy sauce and miso paste. Check labels for allergen information.&nbsp;</td></tr></table>
 

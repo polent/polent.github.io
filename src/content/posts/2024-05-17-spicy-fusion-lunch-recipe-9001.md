@@ -48,5 +48,5 @@ Enjoy this mouthwatering and zesty dish that's sure to add a kick to your day!
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 250, Total Fat: 2g, Sodium: 400mg, Total Carbohydrates: 45g, Fiber: 9g, Protein: 10g&nbsp;</td></tr><tr><th>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>May contain traces of gluten (depending on quinoa preparation)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 2g, Sodium: 400mg, Total Carbohydrates: 45g, Fiber: 9g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten (depending on quinoa preparation)&nbsp;</td></tr></table>
 

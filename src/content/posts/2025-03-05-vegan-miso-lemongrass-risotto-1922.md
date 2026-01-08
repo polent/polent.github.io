@@ -53,5 +53,5 @@ Enjoy this warm, comforting bowl of risotto that perfectly balances the essence 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th>Nutritionfacts</th><td>Calories: 320, Fat: 9g, Carbohydrates: 53g, Protein: 6g&nbsp;</td></tr><tr><th>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Contains coconut, possible soy from miso&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 9g, Carbohydrates: 53g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, possible soy from miso&nbsp;</td></tr></table>
 

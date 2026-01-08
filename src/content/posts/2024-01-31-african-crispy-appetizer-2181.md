@@ -51,11 +51,11 @@ Enjoy these crispy appetizers as a delightful way to start your meal or as a tas
 
 *Nia*
 
-<table><caption class="sr-only">Additional Information</caption><tr><th>Nutritionfacts</th><td>Serving Size: 1 fritter
+<table><caption class="sr-only">Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 fritter
 Calories: 80
 Total Fat: 3g
 Saturated Fat: 0.3g
 Carbohydrates: 10g
 Fiber: 2g
-Protein: 4g&nbsp;</td></tr><tr><th>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th>Allergy Information</th><td>Gluten-free&nbsp;</td></tr></table>
+Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free&nbsp;</td></tr></table>
 
