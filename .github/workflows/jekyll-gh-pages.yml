@@ -1,4 +1,4 @@
-# Sample workflow for building and deploying an Eleventy site to GitHub Pages
+# Workflow for building and deploying an Eleventy site to GitHub Pages
 name: Deploy Eleventy site to GitHub Pages
 
 on:
@@ -21,6 +21,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
+env:
+  NODE_VERSION: "22"
+
 jobs:
   # Build job
   build:
@@ -32,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
       
       - name: Cache Eleventy build artifacts
@@ -42,9 +45,9 @@ jobs:
             dist
             .cache
             _site
-          key: eleventy-build-${{ hashFiles('src/**/*', 'content/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+          key: eleventy-build-${{ runner.os }}-${{ hashFiles('src/**/*', 'content/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
           restore-keys: |
-            eleventy-build-${{ hashFiles('eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+            eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
       
       - name: Cache processed images
         uses: actions/cache@v4
@@ -52,17 +55,17 @@ jobs:
           path: |
             dist/img
             .cache/img
-          key: eleventy-img-${{ hashFiles('media/**/*', 'src/_11ty/shortcodes.js') }}
+          key: eleventy-img-${{ runner.os }}-${{ hashFiles('media/**/*', 'src/_11ty/shortcodes.js') }}
           restore-keys: |
-            eleventy-img-${{ hashFiles('media/**/*') }}
+            eleventy-img-${{ runner.os }}-${{ hashFiles('media/**/*') }}
       
       - name: Cache CSS build
         uses: actions/cache@v4
         with:
           path: dist/styles
-          key: css-build-${{ hashFiles('src/site.css', 'src/_styles/**/*', 'postcss.config.js') }}
+          key: css-build-${{ runner.os }}-${{ hashFiles('src/site.css', 'src/_styles/**/*', 'postcss.config.js') }}
           restore-keys: |
-            css-build-${{ hashFiles('postcss.config.js') }}
+            css-build-${{ runner.os }}-${{ hashFiles('postcss.config.js') }}
       
       - name: Install dependencies
         run: npm ci
@@ -74,7 +77,7 @@ jobs:
         uses: actions/configure-pages@v5
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
 
