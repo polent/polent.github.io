@@ -7,10 +7,10 @@
 		"clean": "rimraf dist",
 		"build:files": "npx @11ty/eleventy --incremental",
 		"build:styles": "postcss src/site.css -o dist/styles/site.css --config postcss.config.js",
-		"build": "run-p build:*",
+		"build": "npm-run-all2 --parallel build:*",
 		"serve:files": "npx @11ty/eleventy --quiet --serve",
 		"serve:styles": "postcss src/site.css --dir dist/styles/ --watch --config postcss.config.js",
-		"serve": "run-p serve:*"
+		"serve": "npm-run-all2 --parallel serve:*"
 	},
 	"keywords": [
 		"recipe",
@@ -24,23 +24,22 @@
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-		"cssnano": "^6.0.1",
-		"html-minifier": "^4.0.0",
-		"markdown-it": "^13.0.1",
+		"cssnano": "^7.1.0",
+		"markdown-it": "^14.0.0",
 		"markdown-it-deflist": "^2.1.0",
 		"markdown-it-footnote": "^3.0.3",
 		"markdown-it-sub": "^1.0.0",
 		"markdown-it-sup": "^1.0.0",
-		"npm-run-all": "^4.1.5",
-		"postcss": "^8.5.6",
-		"postcss-cli": "^11.0.1",
-		"postcss-custom-media": "^11.0.6 ",
+		"npm-run-all2": "^6.1.2",
+		"postcss": "^8.4.47",
+		"postcss-cli": "^11.0.0",
+		"postcss-custom-media": "^11.0.6",
 		"postcss-custom-selectors": "^8.0.5",
 		"postcss-easy-import": "^4.0.0",
 		"postcss-extend-rule": "^4.0.0"
 	},
 	"devDependencies": {
-		"prettier": "^2.8.0",
+		"prettier": "^3.4.2",
 		"rimraf": "^6.0.1"
 	}
 }
