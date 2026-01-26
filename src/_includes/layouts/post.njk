@@ -46,7 +46,10 @@
         "keywords": recipeKeywords,
         "recipeCuisine": recipeCuisine,
         "recipeIngredient": recipeData.ingredients,
-        "recipeInstructions": recipeData.instructions
+        "recipeInstructions": recipeData.instructions,
+        "suitableForDiet": "https://schema.org/VeganDiet",
+        "prepTime": recipeData.prepTime,
+        "nutrition": recipeData.nutrition
       } %}
       <script type="application/ld+json">{{ recipeSchema | toJson | safe }}</script>
     {% endif %}
