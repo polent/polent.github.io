@@ -42,6 +42,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPairedShortcode("figure", shortcodes.figure);
 
 	// Transforms
+	eleventyConfig.addTransform("addStepIds", transforms.addStepIds);
 	eleventyConfig.addTransform("htmlmin", transforms.htmlmin);
 
 	// Passthrough copies

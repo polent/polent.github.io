@@ -119,11 +119,53 @@ const extractListItems = sectionHtml => {
 	return items;
 };
 
-function extractRecipeData(html) {
+const extractListItemsWithIds = (sectionHtml, idPrefix = "step") => {
+	if (!sectionHtml) {
+		return { items: [], modifiedHtml: sectionHtml };
+	}
+	const items = [];
+	let modifiedHtml = sectionHtml;
+	let stepCounter = 1;
+	
+	const listItemRegex = /<li([^>]*)>([\s\S]*?)<\/li>/gi;
+	let match;
+	let offset = 0;
+	
+	while ((match = listItemRegex.exec(sectionHtml)) !== null) {
+		const cleaned = decodeHtmlEntities(stripHtml(match[2])).replace(/\s+/g, " ").trim();
+		if (cleaned) {
+			items.push(cleaned);
+		}
+		
+		const stepId = `${idPrefix}${stepCounter}`;
+		const originalLiTag = match[0];
+		let newLiTag;
+		
+		if (match[1].includes('id=')) {
+			// Replace existing id
+			newLiTag = originalLiTag.replace(/id=['"][^'"]*['"]/i, `id="${stepId}"`);
+		} else {
+			// Add id to existing attributes
+			newLiTag = originalLiTag.replace(/<li/, `<li id="${stepId}"`);
+		}
+		
+		const beforeMatch = sectionHtml.substring(0, match.index + offset);
+		const afterMatch = sectionHtml.substring(match.index + match[0].length);
+		modifiedHtml = beforeMatch + newLiTag + afterMatch;
+		offset += newLiTag.length - originalLiTag.length;
+		
+		stepCounter++;
+	}
+	
+	return { items, modifiedHtml };
+};
+
+function extractRecipeData(html, recipeUrl) {
 	const result = {
 		image: null,
 		ingredients: [],
 		instructions: [],
+		modifiedHtml: html,
 	};
 
 	if (!html) {
@@ -162,10 +204,21 @@ function extractRecipeData(html) {
 
 	const instructionsSection = headings.find(heading => heading.title === "instructions");
 	if (instructionsSection) {
-		result.instructions = extractListItems(instructionsSection.sectionHtml).map(text => ({
-			"@type": "HowToStep",
-			text,
-		}));
+		const { items: instructionTexts, modifiedHtml: modifiedInstructionsHtml } = extractListItemsWithIds(instructionsSection.sectionHtml, "step");
+		result.instructions = instructionTexts.map((text, index) => {
+			const stepNumber = index + 1;
+			const stepObject = {
+				"@type": "HowToStep",
+				text,
+			};
+			if (recipeUrl) {
+				stepObject.url = recipeUrl + `#step${stepNumber}`;
+			}
+			return stepObject;
+		});
+		
+		// Update the modified HTML in the result
+		result.modifiedHtml = result.modifiedHtml.replace(instructionsSection.sectionHtml, modifiedInstructionsHtml);
 	}
 
 	return result;

@@ -3,13 +3,24 @@
 {% block head %}
   {{ super() }}
   {% if isRecipe %}
-    {% set recipeData = content | extractRecipeData %}
+    {% set recipeUrl = meta.domain + page.url %}
+    {% set recipeData = content | extractRecipeData(recipeUrl) %}
     {% if (recipeData.ingredients | length) and (recipeData.instructions | length) %}
       {% set recipeAuthor = meta.author.name %}
+      {% set recipeCuisine = null %}
       {% if tags and (tags | length) %}
         {% set candidateAuthor = tags[tags | length - 1] %}
         {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
           {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
+          {% if candidateAuthor == "Hiroshi" %}
+            {% set recipeCuisine = "Asia" %}
+          {% elif candidateAuthor == "Emily" %}
+            {% set recipeCuisine = "North American" %}
+          {% elif candidateAuthor == "Isabella" %}
+            {% set recipeCuisine = "Italian" %}
+          {% elif candidateAuthor == "Nia" %}
+            {% set recipeCuisine = "African" %}
+          {% endif %}
         {% endif %}
       {% endif %}
       {% set recipeImage = null %}
@@ -25,7 +36,7 @@
         "@type": "Recipe",
         "name": title,
         "description": description or meta.description,
-        "url": meta.domain + page.url,
+        "url": recipeUrl,
         "datePublished": page.date | dateToYYYYMMDD,
         "author": {
           "@type": "Person",
@@ -33,6 +44,7 @@
         },
         "image": recipeImage,
         "keywords": recipeKeywords,
+        "recipeCuisine": recipeCuisine,
         "recipeIngredient": recipeData.ingredients,
         "recipeInstructions": recipeData.instructions
       } %}
@@ -53,7 +65,11 @@
           {% endfor %}
         </ul>
       {% endif %}      
-      {{ content | safe }}
+      {% if isRecipe and recipeData %}
+        {{ recipeData.modifiedHtml | safe }}
+      {% else %}
+        {{ content | safe }}
+      {% endif %}
     </div>
   </article>
 {% endblock %}
