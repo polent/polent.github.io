@@ -119,11 +119,146 @@ const extractListItems = sectionHtml => {
 	return items;
 };
 
-function extractRecipeData(html) {
+const extractListItemsWithIds = (sectionHtml, idPrefix = "step") => {
+	if (!sectionHtml) {
+		return { items: [], modifiedHtml: sectionHtml };
+	}
+	const items = [];
+	let modifiedHtml = sectionHtml;
+	let stepCounter = 1;
+	
+	const listItemRegex = /<li([^>]*)>([\s\S]*?)<\/li>/gi;
+	let match;
+	let offset = 0;
+	
+	while ((match = listItemRegex.exec(sectionHtml)) !== null) {
+		const cleaned = decodeHtmlEntities(stripHtml(match[2])).replace(/\s+/g, " ").trim();
+		if (cleaned) {
+			items.push(cleaned);
+		}
+		
+		const stepId = `${idPrefix}${stepCounter}`;
+		const originalLiTag = match[0];
+		let newLiTag;
+		
+		if (match[1].includes('id=')) {
+			// Replace existing id
+			newLiTag = originalLiTag.replace(/id=['"][^'"]*['"]/i, `id="${stepId}"`);
+		} else {
+			// Add id to existing attributes
+			newLiTag = originalLiTag.replace(/<li/, `<li id="${stepId}"`);
+		}
+		
+		const beforeMatch = sectionHtml.substring(0, match.index + offset);
+		const afterMatch = sectionHtml.substring(match.index + match[0].length);
+		modifiedHtml = beforeMatch + newLiTag + afterMatch;
+		offset += newLiTag.length - originalLiTag.length;
+		
+		stepCounter++;
+	}
+	
+	return { items, modifiedHtml };
+};
+
+// Extract preparation time from nutrition table and convert to ISO 8601 format
+const extractPrepTime = html => {
+	if (!html) return null;
+	
+	// Look for "Preparation Time" row in table
+	const prepTimeMatch = html.match(/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
+	if (!prepTimeMatch || !prepTimeMatch[1]) return null;
+	
+	const timeText = prepTimeMatch[1].trim().toLowerCase();
+	
+	// Convert text like "10 minutes" to "PT10M", "1 hour 30 minutes" to "PT1H30M"
+	let hours = 0;
+	let minutes = 0;
+	
+	// Extract hours
+	const hourMatch = timeText.match(/(\d+)\s*hours?/);
+	if (hourMatch) hours = parseInt(hourMatch[1]);
+	
+	// Extract minutes
+	const minuteMatch = timeText.match(/(\d+)\s*minutes?/);
+	if (minuteMatch) minutes = parseInt(minuteMatch[1]);
+	
+	if (hours === 0 && minutes === 0) return null;
+	
+	return `PT${hours > 0 ? hours + 'H' : ''}${minutes > 0 ? minutes + 'M' : ''}`;
+};
+
+// Extract nutrition information from nutrition table
+const extractNutrition = html => {
+	if (!html) return null;
+	
+	// Look for "Nutritionfacts" row in table
+	const nutritionMatch = html.match(/<th[^>]*>\s*Nutritionfacts\s*<\/th>\s*<td[^>]*>([\s\S]*?)<\/td>/i);
+	if (!nutritionMatch || !nutritionMatch[1]) return null;
+	
+	const nutritionText = stripHtml(nutritionMatch[1]).trim();
+	
+	// If nutrition info is empty, just says it's a source, or contains "None", return null
+	if (!nutritionText || nutritionText.toLowerCase() === "none" || nutritionText.includes("source of") || nutritionText.includes("rich in")) {
+		return null;
+	}
+	
+	const nutrition = {
+		"@type": "NutritionInformation"
+	};
+	
+	// Parse each nutrition field
+	const caloriesMatch = nutritionText.match(/calories[:\s]+(\d+(?:\.\d+)?)/i);
+	if (caloriesMatch) {
+		nutrition.calories = caloriesMatch[1];
+	}
+	
+	const proteinMatch = nutritionText.match(/protein[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	if (proteinMatch) {
+		nutrition.proteinContent = `${proteinMatch[1]} g`;
+	}
+	
+	const fatMatch = nutritionText.match(/total\s+fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) || 
+	                nutritionText.match(/fat[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	if (fatMatch) {
+		nutrition.fatContent = `${fatMatch[1]} g`;
+	}
+	
+	const carbMatch = nutritionText.match(/(?:total\s+)?carbohydrate[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	if (carbMatch) {
+		nutrition.carbohydrateContent = `${carbMatch[1]} g`;
+	}
+	
+	const fiberMatch = nutritionText.match(/(?:dietary\s+)?fiber[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	if (fiberMatch) {
+		nutrition.fiberContent = `${fiberMatch[1]} g`;
+	}
+	
+	const sodiumMatch = nutritionText.match(/sodium[:\s]+(\d+(?:\.\d+)?)\s*mg/i);
+	if (sodiumMatch) {
+		nutrition.sodiumContent = `${sodiumMatch[1]} mg`;
+	}
+	
+	const sugarMatch = nutritionText.match(/sugar[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	if (sugarMatch) {
+		nutrition.sugarContent = `${sugarMatch[1]} g`;
+	}
+	
+	// Return null if no nutrition fields were found
+	if (Object.keys(nutrition).length === 1) {
+		return null;
+	}
+	
+	return nutrition;
+};
+
+function extractRecipeData(html, recipeUrl) {
 	const result = {
 		image: null,
 		ingredients: [],
 		instructions: [],
+		prepTime: null,
+		nutrition: null,
+		modifiedHtml: html,
 	};
 
 	if (!html) {
@@ -134,6 +269,10 @@ function extractRecipeData(html) {
 	if (imageMatch) {
 		result.image = imageMatch[1];
 	}
+
+	// Extract prep time and nutrition early
+	result.prepTime = extractPrepTime(html);
+	result.nutrition = extractNutrition(html);
 
 	const headings = [];
 	const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
@@ -162,10 +301,21 @@ function extractRecipeData(html) {
 
 	const instructionsSection = headings.find(heading => heading.title === "instructions");
 	if (instructionsSection) {
-		result.instructions = extractListItems(instructionsSection.sectionHtml).map(text => ({
-			"@type": "HowToStep",
-			text,
-		}));
+		const { items: instructionTexts, modifiedHtml: modifiedInstructionsHtml } = extractListItemsWithIds(instructionsSection.sectionHtml, "step");
+		result.instructions = instructionTexts.map((text, index) => {
+			const stepNumber = index + 1;
+			const stepObject = {
+				"@type": "HowToStep",
+				text,
+			};
+			if (recipeUrl) {
+				stepObject.url = recipeUrl + `#step${stepNumber}`;
+			}
+			return stepObject;
+		});
+		
+		// Update the modified HTML in the result
+		result.modifiedHtml = result.modifiedHtml.replace(instructionsSection.sectionHtml, modifiedInstructionsHtml);
 	}
 
 	return result;
