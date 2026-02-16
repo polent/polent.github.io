@@ -47,5 +47,5 @@ Enjoy the burst of citrusy goodness in every bite of this delightful dessert. It
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 0g, Sodium: 5mg, Total Carbohydrates: 30g, Sugars: 25g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of corn due to cornstarch. Please check for citrus allergies.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 0g, Sodium: 5mg, Total Carbohydrates: 30g, Sugars: 25g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of corn due to cornstarch. Please check for citrus allergies.</td></tr></table>
 

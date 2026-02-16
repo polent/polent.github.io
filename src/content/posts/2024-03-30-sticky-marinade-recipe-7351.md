@@ -44,5 +44,5 @@ Experience the magic of this sticky marinade that will leave your taste buds wan
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60, Total Fat: 2g, Sodium: 800mg, Total Carbohydrates: 9g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60, Total Fat: 2g, Sodium: 800mg, Total Carbohydrates: 9g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

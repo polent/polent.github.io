@@ -54,5 +54,5 @@ Enjoy this warm, flaky delight fresh out of the oven, perfect for a cozy afterno
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 20g, Carbs: 27g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy (in vegan cheese)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 20g, Carbs: 27g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy (in vegan cheese)</td></tr></table>
 

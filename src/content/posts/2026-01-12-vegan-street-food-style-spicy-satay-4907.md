@@ -57,5 +57,5 @@ Enjoy the explosive flavors and satisfying textures of this unique vegan street 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 12g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy and peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 12g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy and peanuts</td></tr></table>
 

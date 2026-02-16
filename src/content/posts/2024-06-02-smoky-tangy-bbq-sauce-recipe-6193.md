@@ -45,5 +45,5 @@ Enjoy this robust sauce on your favorite vegan BBQ dishes and let the flavors tr
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 11g, Protein: 0.4g, Fat: 0.1g, Sodium: 375mg, Fiber: 0.3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy (soy sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 11g, Protein: 0.4g, Fat: 0.1g, Sodium: 375mg, Fiber: 0.3g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy (soy sauce)</td></tr></table>
 

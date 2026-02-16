@@ -54,5 +54,5 @@ Enjoy this delightful fusion of East and West at your next outdoor gathering. It
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 8g, Carbs: 35g, Protein: 8g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 8g, Carbs: 35g, Protein: 8g</td></tr><tr><th scope='row'>Preparation Time</th><td>20 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

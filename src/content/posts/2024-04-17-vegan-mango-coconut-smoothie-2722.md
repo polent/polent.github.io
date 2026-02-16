@@ -45,5 +45,5 @@ Enjoy this Vegan Mango Coconut Smoothie as a luscious dessert or a revitalizing 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 30g, Protein: 1g, Fat: 7g, Saturated Fat: 6g, Sodium: 60mg, Fiber: 3g, Sugar: 24g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Information: Contains coconut. Suitable for individuals following a vegan diet.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 30g, Protein: 1g, Fat: 7g, Saturated Fat: 6g, Sodium: 60mg, Fiber: 3g, Sugar: 24g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Information: Contains coconut. Suitable for individuals following a vegan diet.</td></tr></table>
 

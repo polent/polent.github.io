@@ -43,5 +43,5 @@ Savor the burst of citrus flavors in this unique snack that perfectly balances s
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 3g, Carbohydrates: 22g, Fiber: 4g, Sugar: 15g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Warning: Sesame seeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 3g, Carbohydrates: 22g, Fiber: 4g, Sugar: 15g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Warning: Sesame seeds</td></tr></table>
 

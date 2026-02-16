@@ -54,5 +54,5 @@ Enjoy this delightful dish alongside a fresh salad or a cup of warm soup to expe
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 9g, Carbohydrates: 28g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, seeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 9g, Carbohydrates: 28g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, seeds</td></tr></table>
 

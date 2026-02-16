@@ -64,5 +64,5 @@ Sodium: 600mg<br />
 Carbohydrate: 55g<br />
 Fiber: 5g<br />
 Sugar: 3g<br />
-Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free (if using gluten-free vegetable broth), Soy-free&nbsp;</td></tr></table>
+Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free (if using gluten-free vegetable broth), Soy-free</td></tr></table>
 

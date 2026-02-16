@@ -47,5 +47,5 @@ Enjoy this smoky side dish as a perfect accompaniment to your favorite main cour
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 8g, Saturated Fat: 1g, Sodium: 300mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 8g, Saturated Fat: 1g, Sodium: 300mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

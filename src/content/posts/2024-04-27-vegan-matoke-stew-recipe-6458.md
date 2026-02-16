@@ -48,5 +48,5 @@ Enjoy the rich flavors of this Vegan Matoke Stew, a dish that celebrates the fus
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 12g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 28g, Fiber: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain coconut allergens&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 12g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 28g, Fiber: 4g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain coconut allergens</td></tr></table>
 

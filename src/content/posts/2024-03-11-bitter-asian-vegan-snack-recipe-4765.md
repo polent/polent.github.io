@@ -49,5 +49,5 @@ Enjoy this innovative bitter snack that highlights the versatility of vegan ingr
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220kcal, Protein: 15g, Carbohydrates: 12g, Fat: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (soy sauce), Sesame (sesame oil)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220kcal, Protein: 15g, Carbohydrates: 12g, Fat: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (soy sauce), Sesame (sesame oil)</td></tr></table>
 

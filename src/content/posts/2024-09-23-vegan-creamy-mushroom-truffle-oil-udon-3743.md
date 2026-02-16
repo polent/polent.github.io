@@ -53,5 +53,5 @@ Enjoy this delectable dish that brings a touch of luxury to your dining table wi
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 580, Fat: 22g, Carbohydrates: 80g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Mushrooms&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 580, Fat: 22g, Carbohydrates: 80g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Mushrooms</td></tr></table>
 

@@ -56,5 +56,5 @@ Enjoy your Scorched Soup, a heartwarming dish that's perfect for any day that ca
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 7g, Carbs: 30g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 7g, Carbs: 30g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

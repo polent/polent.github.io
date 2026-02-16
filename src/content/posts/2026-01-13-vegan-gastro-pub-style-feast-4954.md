@@ -53,5 +53,5 @@ Enjoy this vibrant, flavor-packed dish that's sure to bring the gastro pub exper
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbohydrates: 45g, Protein: 10g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>soy, gluten, nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbohydrates: 45g, Protein: 10g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>soy, gluten, nuts</td></tr></table>
 

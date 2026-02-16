@@ -50,5 +50,5 @@ Enjoy this flavorful sauce served over your favorite grains or roasted vegetable
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 2g, Sodium: 480mg, Total Carbohydrates: 35g, Fiber: 10g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten due to vegetable broth. Check labels for specific allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 2g, Sodium: 480mg, Total Carbohydrates: 35g, Fiber: 10g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten due to vegetable broth. Check labels for specific allergens.</td></tr></table>
 

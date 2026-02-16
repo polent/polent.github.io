@@ -53,5 +53,5 @@ These vegan sushi rolls are a creative and nutritious take on traditional Asian 
 - Calories: 180<br />
 - Fat: 3g<br />
 - Carbohydrates: 35g<br />
-- Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+- Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

@@ -64,5 +64,5 @@ Enjoy this delightful creation as a standalone meal or pair it with fresh salads
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 9g, Saturated Fat: 1g, Carbohydrates: 49g, Fiber: 10g, Protein: 13g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, garlic, onions&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 9g, Saturated Fat: 1g, Carbohydrates: 49g, Fiber: 10g, Protein: 13g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, garlic, onions</td></tr></table>
 

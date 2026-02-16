@@ -55,5 +55,5 @@ Enjoy this fresh, nourishing dish that not only satisfies your palate but also p
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 420, Fat: 18g, Carbohydrates: 58g, Protein: 10g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Nuts (almonds), possible gluten in vegetable broth if not verified gluten-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 420, Fat: 18g, Carbohydrates: 58g, Protein: 10g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Nuts (almonds), possible gluten in vegetable broth if not verified gluten-free</td></tr></table>
 

@@ -54,5 +54,5 @@ Enjoy this unique vegan artisan pizza, perfect for a cozy evening or a festive g
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per slice, Total Fat: 12g, Saturated Fat: 3g, Trans Fat: 0g, Cholesterol: 0mg, Sodium: 500mg, Total Carbohydrates: 38g, Dietary Fiber: 5g, Total Sugars: 6g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per slice, Total Fat: 12g, Saturated Fat: 3g, Trans Fat: 0g, Cholesterol: 0mg, Sodium: 500mg, Total Carbohydrates: 38g, Dietary Fiber: 5g, Total Sugars: 6g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy</td></tr></table>
 

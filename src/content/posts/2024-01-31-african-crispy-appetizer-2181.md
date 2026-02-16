@@ -57,5 +57,5 @@ Total Fat: 3g
 Saturated Fat: 0.3g
 Carbohydrates: 10g
 Fiber: 2g
-Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free&nbsp;</td></tr></table>
+Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free</td></tr></table>
 

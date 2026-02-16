@@ -56,5 +56,5 @@ Enjoy this delightful fusion creation that not only satisfies your taste buds bu
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbs: 30g, Protein: 15g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>soy, sesame, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbs: 30g, Protein: 15g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>soy, sesame, gluten</td></tr></table>
 

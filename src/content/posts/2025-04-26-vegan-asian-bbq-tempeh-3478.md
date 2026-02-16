@@ -49,5 +49,5 @@ Enjoy this delightful fusion of East and West at your next meal, and let the uni
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250kcal, Fat: 10g, Carbohydrates: 20g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten (from tempeh, depending on brand), Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250kcal, Fat: 10g, Carbohydrates: 20g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten (from tempeh, depending on brand), Sesame</td></tr></table>
 

@@ -57,5 +57,5 @@ Sodium: 140mg<br />
 Total Carbohydrate: 15g<br />
 Fiber: 0g<br />
 Sugar: 12g<br />
-Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (in soy sauce)&nbsp;</td></tr></table>
+Protein: 0g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (in soy sauce)</td></tr></table>
 

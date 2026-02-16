@@ -49,5 +49,5 @@ Enjoy the explosion of African flavors in every bite of this dish. A true homage
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 8g, Saturated Fat: 1g, Sodium: 420mg, Total Carbohydrates: 50g, Dietary Fiber: 12g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 8g, Saturated Fat: 1g, Sodium: 420mg, Total Carbohydrates: 50g, Dietary Fiber: 12g, Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

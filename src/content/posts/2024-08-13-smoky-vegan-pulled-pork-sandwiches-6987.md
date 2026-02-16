@@ -53,5 +53,5 @@ Enjoy these smoky vegan 'pulled pork' sandwiches with a side of crispy sweet pot
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 390, Fat: 9g, Carbohydrates: 70g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (buns), Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 390, Fat: 9g, Carbohydrates: 70g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (buns), Garlic</td></tr></table>
 

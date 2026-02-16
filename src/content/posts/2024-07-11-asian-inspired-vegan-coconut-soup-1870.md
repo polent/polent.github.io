@@ -58,5 +58,5 @@ Enjoy this delightful soup as a light meal or as a starter to a larger feast. It
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 12g, Carbs: 16g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, soy. Gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 12g, Carbs: 16g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, soy. Gluten-free.</td></tr></table>
 

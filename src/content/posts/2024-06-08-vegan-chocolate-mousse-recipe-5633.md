@@ -43,5 +43,5 @@ Enjoy the velvety goodness of this Vegan Chocolate Mousse, guilt-free and full o
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 18g, Carbohydrates: 22g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Contains coconut and soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 18g, Carbohydrates: 22g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Contains coconut and soy</td></tr></table>
 

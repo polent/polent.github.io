@@ -51,5 +51,5 @@ Enjoy this vibrant, flavorful creation that reinvents the traditional charcuteri
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 10g, Carbohydrates: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds (nuts), might contain gluten in millet depending on cross-contamination.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 10g, Carbohydrates: 20g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds (nuts), might contain gluten in millet depending on cross-contamination.</td></tr></table>
 

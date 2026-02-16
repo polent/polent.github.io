@@ -51,5 +51,5 @@ Enjoy this warm, savory sandwich that brings a gourmet touch to your meal. Perfe
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 15g, Carbs: 45g, Protein: 22g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 15g, Carbs: 45g, Protein: 22g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

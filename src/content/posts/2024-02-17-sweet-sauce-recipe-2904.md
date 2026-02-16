@@ -45,5 +45,5 @@ Enjoy this sweet sauce as a versatile addition to your culinary creations, addin
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Carbohydrates: 14g, Fat: 0g, Protein: 0g, Sugar: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (from soy sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Carbohydrates: 14g, Fat: 0g, Protein: 0g, Sugar: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (from soy sauce)</td></tr></table>
 

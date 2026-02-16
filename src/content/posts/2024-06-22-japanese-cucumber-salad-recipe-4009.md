@@ -50,5 +50,5 @@ Enjoy this light and flavorful cucumber salad as a side dish for your next meal.
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 78kcal, Carbohydrates: 11g, Fat: 3g, Protein: 2g, Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 78kcal, Carbohydrates: 11g, Fat: 3g, Protein: 2g, Fiber: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy</td></tr></table>
 

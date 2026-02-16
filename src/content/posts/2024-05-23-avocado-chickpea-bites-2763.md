@@ -47,5 +47,5 @@ Enjoy this flavorful and nutritious appetizer that showcases the fusion of Afric
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 12g, Dietary Fiber: 5g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Saturated Fat: 1g, Sodium: 150mg, Total Carbohydrates: 12g, Dietary Fiber: 5g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

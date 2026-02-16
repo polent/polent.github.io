@@ -54,5 +54,5 @@ Enjoy the perfect blend of flavors and textures in this crumbly lunch recipe. It
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 portion, Calories: 320kcal, Total Fat: 20g, Saturated Fat: 2g, Sodium: 480mg, Total Carbohydrates: 18g, Dietary Fiber: 6g, Sugar: 8g, Protein: 22g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving Size: 1 portion, Calories: 320kcal, Total Fat: 20g, Saturated Fat: 2g, Sodium: 480mg, Total Carbohydrates: 18g, Dietary Fiber: 6g, Sugar: 8g, Protein: 22g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond)</td></tr></table>
 

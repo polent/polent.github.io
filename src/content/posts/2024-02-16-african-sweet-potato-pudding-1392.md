@@ -55,5 +55,5 @@ Enjoy the rich and comforting flavors of this African-inspired Sweet Potato Pudd
 - Fat: 4g<br />
 - Carbohydrates: 34g<br />
 - Protein: 2g<br />
-- Fiber: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+- Fiber: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

@@ -57,5 +57,5 @@ Enjoy this innovative dish that not only satisfies your taste buds but also brin
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 7g, Carbohydrates: 58g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), possible gluten in vegetable broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 7g, Carbohydrates: 58g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), possible gluten in vegetable broth depending on brand</td></tr></table>
 

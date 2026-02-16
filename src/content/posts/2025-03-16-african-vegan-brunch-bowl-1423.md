@@ -53,5 +53,5 @@ Enjoy this delicious and nourishing dish that's packed with flavors and perfect 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Protein: 9g, Fat: 10g, Carbohydrates: 55g, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Protein: 9g, Fat: 10g, Carbohydrates: 55g, Fiber: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of gluten</td></tr></table>
 

@@ -58,5 +58,5 @@ Enjoy these delightful Vegan Asian-Inspired Stuffed Peppers with a side of jasmi
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 6g, Carbohydrates: 34g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten (hoisin sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 6g, Carbohydrates: 34g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten (hoisin sauce)</td></tr></table>
 

@@ -45,5 +45,5 @@ Enjoy this unique woody drink as a refreshing and grounding beverage that connec
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 20kcal, Carbohydrates: 5g, Fiber: 1g, Protein: 0g, Fat: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies to mushrooms. Please consult with a healthcare provider if unsure.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 20kcal, Carbohydrates: 5g, Fiber: 1g, Protein: 0g, Fat: 0g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies to mushrooms. Please consult with a healthcare provider if unsure.</td></tr></table>
 

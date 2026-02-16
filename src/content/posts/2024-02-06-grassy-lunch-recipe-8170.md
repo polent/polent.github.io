@@ -55,5 +55,5 @@ Total Fat: 18g<br />
 Saturated Fat: 2.5g<br />
 Carbohydrates: 19g<br />
 Fiber: 8g<br />
-Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

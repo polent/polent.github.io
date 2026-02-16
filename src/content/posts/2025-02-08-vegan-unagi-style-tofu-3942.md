@@ -51,5 +51,5 @@ Enjoy this delightful vegan take on a classic dish, perfect for any occasion. Wh
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 245, Protein: 18g, Carbohydrates: 15g, Fat: 12g, Sodium: 870mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 245, Protein: 18g, Carbohydrates: 15g, Fat: 12g, Sodium: 870mg</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

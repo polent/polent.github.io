@@ -48,5 +48,5 @@ Enjoy a taste of the Mediterranean with this vibrant and flavorful vegan pizza. 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Total Fat: 8g, Cholesterol: 0mg, Sodium: 380mg, Total Carbohydrates: 35g, Dietary Fiber: 4g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Total Fat: 8g, Cholesterol: 0mg, Sodium: 380mg, Total Carbohydrates: 35g, Dietary Fiber: 4g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

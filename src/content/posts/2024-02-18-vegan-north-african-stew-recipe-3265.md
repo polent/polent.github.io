@@ -49,5 +49,5 @@ Enjoy the comforting flavors of North Africa with this vegan stew that will take
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, protein, and essential nutrients. Low in fat and calories.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains legumes. Please be cautious if you have allergies to chickpeas or lentils.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, protein, and essential nutrients. Low in fat and calories.</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains legumes. Please be cautious if you have allergies to chickpeas or lentils.</td></tr></table>
 

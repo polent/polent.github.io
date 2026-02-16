@@ -53,5 +53,5 @@ Serve these delicious sliders at your next party or gathering and watch them dis
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per slider, Fat: 4g, Carbohydrates: 38g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (from buns), may contain soy (depending on the brand of BBQ sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per slider, Fat: 4g, Carbohydrates: 38g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (from buns), may contain soy (depending on the brand of BBQ sauce)</td></tr></table>
 

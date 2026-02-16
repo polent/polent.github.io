@@ -56,5 +56,5 @@ Enjoy this delicious and dense vegan salad as a standalone meal or as a compleme
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 20g, Carbohydrates: 27g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts), possible allergens in mustard&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 20g, Carbohydrates: 27g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts), possible allergens in mustard</td></tr></table>
 

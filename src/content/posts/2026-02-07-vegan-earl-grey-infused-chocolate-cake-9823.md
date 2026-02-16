@@ -53,5 +53,5 @@ Enjoy this delightful cake with a cup of Earl Grey tea to fully experience its i
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 280, Total Fat: 14g, Saturated Fat: 10g, Trans Fat: 0g, Cholesterol: 0mg, Sodium: 210mg, Total Carbohydrate: 35g, Dietary Fiber: 3g, Total Sugars: 20g, Protein: 4g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts (almond milk), gluten, and soy (if using chocolate chips with soy lecithin)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 280, Total Fat: 14g, Saturated Fat: 10g, Trans Fat: 0g, Cholesterol: 0mg, Sodium: 210mg, Total Carbohydrate: 35g, Dietary Fiber: 3g, Total Sugars: 20g, Protein: 4g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts (almond milk), gluten, and soy (if using chocolate chips with soy lecithin)</td></tr></table>
 

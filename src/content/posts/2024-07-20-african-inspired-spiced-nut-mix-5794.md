@@ -51,5 +51,5 @@ Enjoy this delightful spiced nut mix as a healthy snack option or share it with 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 16g, Carbs: 9g, Protein: 6g per serving.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds, cashews, peanuts. May contain other nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 16g, Carbs: 9g, Protein: 6g per serving.</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds, cashews, peanuts. May contain other nuts.</td></tr></table>
 

@@ -51,5 +51,5 @@ Enjoy the rich, comforting flavors of this Vegan Caramelized Onion and Mushroom 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 340 per serving, Fat: 18g, Carbohydrates: 38g, Protein: 6g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains gluten, possible allergens include soy and nuts depending on the brand of vegan cheese and puff pastry used&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 340 per serving, Fat: 18g, Carbohydrates: 38g, Protein: 6g</td></tr><tr><th scope='row'>Preparation Time</th><td>55 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains gluten, possible allergens include soy and nuts depending on the brand of vegan cheese and puff pastry used</td></tr></table>
 

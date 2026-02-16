@@ -49,5 +49,5 @@ Enjoy this rich and tangy sauce with your favorite vegan dishes. Its versatility
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 78, Fat: 5g, Carbs: 6g, Protein: 3g per serving&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes plus 30 minutes chilling&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains: Cashews, Mustard&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 78, Fat: 5g, Carbs: 6g, Protein: 3g per serving</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes plus 30 minutes chilling</td></tr><tr><th scope="row">Allergy Information</th><td>Contains: Cashews, Mustard</td></tr></table>
 

@@ -48,5 +48,5 @@ Enjoy this nutritious and delicious Grilled Asparagus Salad as a refreshing snac
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, Vitamin C, and antioxidants. Low in calories. Suitable for a vegan diet.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Allergen information: None. Suitable for individuals with gluten, soy, nut, and dairy allergies.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, Vitamin C, and antioxidants. Low in calories. Suitable for a vegan diet.</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergen information: None. Suitable for individuals with gluten, soy, nut, and dairy allergies.</td></tr></table>
 

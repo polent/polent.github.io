@@ -59,5 +59,5 @@ Enjoy these spiced sweet potato sushi rolls as a delightful lunch or a light din
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 240 per serving, Fat: 9g, Carbohydrates: 36g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame seeds, Avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 240 per serving, Fat: 9g, Carbohydrates: 36g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame seeds, Avocado</td></tr></table>
 

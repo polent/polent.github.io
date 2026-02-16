@@ -56,5 +56,5 @@ Enjoy this African Fusion Vegan Burger as a standout meal that's sure to impress
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Protein: 9g, Fat: 7g, Carbohydrates: 45g, Fiber: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Protein: 9g, Fat: 7g, Carbohydrates: 45g, Fiber: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Garlic</td></tr></table>
 

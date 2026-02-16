@@ -54,5 +54,5 @@ Enjoy this delightful Vegan Mediterranean Picnic Tart at your next outdoor gathe
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 22g, Carbohydrates: 30g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 22g, Carbohydrates: 30g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts</td></tr></table>
 

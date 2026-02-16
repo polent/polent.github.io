@@ -52,5 +52,5 @@ Enjoy your Vegan BBQ Tempeh Sandwich with a side of homemade potato chips or a f
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Protein: 18g, Fat: 9g, Carbohydrates: 42g, Sodium: 590mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (optional), Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Protein: 18g, Fat: 9g, Carbohydrates: 42g, Sodium: 590mg</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (optional), Soy</td></tr></table>
 

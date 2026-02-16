@@ -47,5 +47,5 @@ Enjoy the soothing flavors and embrace the warmth of this delightful drink. Perf
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Sodium: 100mg, Total Carbohydrates: 13g, Sugars: 10g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk, coconut cream).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Sodium: 100mg, Total Carbohydrates: 13g, Sugars: 10g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk, coconut cream).</td></tr></table>
 

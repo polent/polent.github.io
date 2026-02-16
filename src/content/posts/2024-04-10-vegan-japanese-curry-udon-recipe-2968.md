@@ -53,5 +53,5 @@ Experience the fusion of traditional Japanese flavors and vegan ingredients in e
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbs: 55g, Protein: 9g, Fat: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbs: 55g, Protein: 9g, Fat: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce)</td></tr></table>
 

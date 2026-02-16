@@ -53,5 +53,5 @@ Enjoy this delightful fusion of African flavors with a modern vegan twist. It's 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 450, Protein: 18g, Carbs: 55g, Fat: 20g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, possible gluten in broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 450, Protein: 18g, Carbs: 55g, Fat: 20g</td></tr><tr><th scope='row'>Preparation Time</th><td>40 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, possible gluten in broth depending on brand</td></tr></table>
 

@@ -52,5 +52,5 @@ Enjoy this warming, nutritious meal that not only satisfies your hunger but also
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 14g, Carbohydrates: 50g, Protein: 8g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains coconut, possible allergen for some individuals&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 14g, Carbohydrates: 50g, Protein: 8g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains coconut, possible allergen for some individuals</td></tr></table>
 

@@ -48,5 +48,5 @@ Enjoy your Smoky Asian BBQ Tempeh with a side of jasmine rice or fresh greens fo
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbohydrates: 20g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, gluten</td></tr></table>
 

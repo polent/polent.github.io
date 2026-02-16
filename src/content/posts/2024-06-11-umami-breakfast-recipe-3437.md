@@ -49,5 +49,5 @@ Indulge in the delicious umami flavors of this breakfast dish that will tantaliz
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 800mg, Carbohydrates: 5g, Fiber: 2g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 800mg, Carbohydrates: 5g, Fiber: 2g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy</td></tr></table>
 

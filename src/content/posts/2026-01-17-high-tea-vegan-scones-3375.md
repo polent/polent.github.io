@@ -54,5 +54,5 @@ Serve these warm, fragrant scones with a variety of vegan spreads and a pot of y
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 210, Fat: 8g, Carbs: 30g, Protein: 4g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 210, Fat: 8g, Carbs: 30g, Protein: 4g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Nuts</td></tr></table>
 

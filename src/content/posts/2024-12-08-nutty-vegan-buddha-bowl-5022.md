@@ -55,5 +55,5 @@ Enjoy this warm and nourishing meal, perfect for a cozy lunch. It's sure to beco
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Protein: 18g, Fat: 40g, Carbohydrates: 50g, Fiber: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Protein: 18g, Fat: 40g, Carbohydrates: 50g, Fiber: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy, Sesame</td></tr></table>
 

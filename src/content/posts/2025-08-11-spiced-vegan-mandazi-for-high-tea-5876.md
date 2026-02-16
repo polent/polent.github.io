@@ -53,5 +53,5 @@ Enjoy these warm, spiced vegan Mandazi with your favorite tea or coffee, and let
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 10g, Carbohydrates: 35g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 10g, Carbohydrates: 35g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Coconut</td></tr></table>
 

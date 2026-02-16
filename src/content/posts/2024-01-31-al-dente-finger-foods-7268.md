@@ -63,5 +63,5 @@ Sodium: 250mg
 Total carbohydrates: 15g
 Dietary fiber: 3g
 Sugar: 2g
-Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (breadcrumbs)&nbsp;</td></tr></table>
+Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (breadcrumbs)</td></tr></table>
 

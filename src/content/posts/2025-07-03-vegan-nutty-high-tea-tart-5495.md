@@ -50,5 +50,5 @@ Enjoy this exquisite nutty tart as the perfect end to your high tea, pairing bea
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 20g, Carbohydrates: 18g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, may contain traces of gluten and soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 20g, Carbohydrates: 18g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, may contain traces of gluten and soy</td></tr></table>
 

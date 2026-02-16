@@ -48,5 +48,5 @@ Enjoy this delicious Vegan BBQ Toast as a snack or pair it with a side of vegan 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Approximately 250 calories per serving, 4g protein, 35g carbohydrates, 8g fat.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy (check your bread and BBQ sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Approximately 250 calories per serving, 4g protein, 35g carbohydrates, 8g fat.</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy (check your bread and BBQ sauce)</td></tr></table>
 

@@ -47,5 +47,5 @@ Enjoy this Crunchy Apple Cider Drink as a morning boost or a delightful afternoo
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Carbs: 22g, Fat: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: walnuts (tree nuts)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Carbs: 22g, Fat: 4g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: walnuts (tree nuts)</td></tr></table>
 

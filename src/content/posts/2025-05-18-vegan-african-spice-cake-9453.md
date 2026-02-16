@@ -55,5 +55,5 @@ Enjoy this deliciously spiced Vegan African Spice Cake as a perfect ending to yo
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 270 per serving, Fat: 11g, Carbohydrates: 39g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, wheat&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 270 per serving, Fat: 11g, Carbohydrates: 39g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, wheat</td></tr></table>
 

@@ -44,5 +44,5 @@ Elevate your dishes with this delicious Mellow Sauce, adding depth and richness 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 14g, Fat: 2g, Protein: 2g, Fiber: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Potential allergens: sesame.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 14g, Fat: 2g, Protein: 2g, Fiber: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Potential allergens: sesame.</td></tr></table>
 

@@ -51,5 +51,5 @@ Enjoy these Vegan African-inspired Plantain Fritters as a flavorful and satisfyi
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 2g, Sodium: 150mg, Carbohydrates: 25g, Fiber: 2g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (flour)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 2g, Sodium: 150mg, Carbohydrates: 25g, Fiber: 2g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (flour)</td></tr></table>
 

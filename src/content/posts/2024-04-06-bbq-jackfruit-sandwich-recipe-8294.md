@@ -49,5 +49,5 @@ Enjoy this delicious and satisfying plant-based BBQ jackfruit sandwich that's pe
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 65g, Dietary Fiber: 5g, Sugars: 30g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce. Gluten-free buns can be used for a gluten-free option.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 65g, Dietary Fiber: 5g, Sugars: 30g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce. Gluten-free buns can be used for a gluten-free option.</td></tr></table>
 

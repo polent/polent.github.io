@@ -53,5 +53,5 @@ Enjoy this delightful Vegan 'Street Style' Chickpea Pancake, where every bite of
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 9g, Carbohydrates: 23g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Chickpeas, coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 9g, Carbohydrates: 23g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Chickpeas, coconut</td></tr></table>
 

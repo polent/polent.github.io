@@ -44,5 +44,5 @@ Enjoy this delectable gooey sauce that will elevate your dish with its rich flav
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Sodium: 420mg, Total Carbohydrates: 15g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Sodium: 420mg, Total Carbohydrates: 15g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), soy</td></tr></table>
 

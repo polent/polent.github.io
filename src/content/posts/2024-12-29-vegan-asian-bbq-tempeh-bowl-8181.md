@@ -54,5 +54,5 @@ Enjoy this Vegan Asian BBQ Tempeh Bowl as a vibrant, nourishing option that brin
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 13g, Carbohydrates: 40g, Protein: 21g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, gluten (from tempeh depending on brand)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 13g, Carbohydrates: 40g, Protein: 21g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame, gluten (from tempeh depending on brand)</td></tr></table>
 

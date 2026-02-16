@@ -53,5 +53,5 @@ Serve this delightful spicy breakfast hot and enjoy a vibrant start to your day,
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Protein: 12g, Fat: 10g, Carbohydrates: 15g, Sodium: 400mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, possible gluten in soy sauce unless gluten-free variety is used&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Protein: 12g, Fat: 10g, Carbohydrates: 15g, Sodium: 400mg</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, possible gluten in soy sauce unless gluten-free variety is used</td></tr></table>
 

@@ -50,5 +50,5 @@ Enjoy the bold flavors of these Spicy BBQ Jackfruit Tacos and savor the plant-ba
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280kcal, Carbohydrates: 60g, Protein: 4g, Fat: 3g, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten (check BBQ sauce and tortillas for gluten-free options)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280kcal, Carbohydrates: 60g, Protein: 4g, Fat: 3g, Fiber: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten (check BBQ sauce and tortillas for gluten-free options)</td></tr></table>
 

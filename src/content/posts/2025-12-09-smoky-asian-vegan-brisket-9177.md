@@ -53,5 +53,5 @@ Enjoy this delightful fusion dish that brings a new twist to vegan BBQ, perfect 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Protein: 20g, Fat: 10g, Carbs: 15g, Sodium: 760mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Protein: 20g, Fat: 10g, Carbs: 15g, Sodium: 760mg</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame</td></tr></table>
 

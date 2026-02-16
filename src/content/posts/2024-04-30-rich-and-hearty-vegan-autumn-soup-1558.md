@@ -55,5 +55,5 @@ Enjoy this rich soup as a standalone meal or paired with your favorite crusty br
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 4g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 800mg, Total Carbohydrates: 38g, Dietary Fiber: 9g, Sugars: 8g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 4g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 800mg, Total Carbohydrates: 38g, Dietary Fiber: 9g, Sugars: 8g, Protein: 9g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None</td></tr></table>
 

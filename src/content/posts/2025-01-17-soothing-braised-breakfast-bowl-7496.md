@@ -52,5 +52,5 @@ Serve this warming dish on a quiet morning to revitalize your senses and nourish
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Carbs: 30g, Protein: 4g, Fat: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Carbs: 30g, Protein: 4g, Fat: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

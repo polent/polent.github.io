@@ -46,5 +46,5 @@ Enjoy this luscious dessert as the perfect finale to any meal. Its creamy textur
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 18g, Carbs: 20g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, Mango&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 18g, Carbs: 20g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, Mango</td></tr></table>
 

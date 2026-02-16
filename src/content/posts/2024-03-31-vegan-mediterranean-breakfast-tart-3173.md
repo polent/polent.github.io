@@ -50,5 +50,5 @@ Enjoy a taste of the Mediterranean for breakfast with this flavorful and satisfy
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 20g, Saturated Fat: 5g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 30g, Dietary Fiber: 3g, Sugars: 2g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (puff pastry)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 20g, Saturated Fat: 5g, Cholesterol: 0mg, Sodium: 450mg, Total Carbohydrates: 30g, Dietary Fiber: 3g, Sugars: 2g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (puff pastry)</td></tr></table>
 

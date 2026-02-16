@@ -62,5 +62,5 @@ Sodium: 196mg
 Total Carbohydrate: 2g
 Fiber: 0.4g
 Sugar: 0.6g
-Protein: 0.4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This bitter marinade recipe is free from common allergens.&nbsp;</td></tr></table>
+Protein: 0.4g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This bitter marinade recipe is free from common allergens.</td></tr></table>
 

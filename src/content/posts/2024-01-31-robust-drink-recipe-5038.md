@@ -53,5 +53,5 @@ Sodium: 50mg
 Total Carbohydrate: 15g
 Dietary Fiber: 2g
 Sugars: 10g
-Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds&nbsp;</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds</td></tr></table>
 

@@ -61,5 +61,5 @@ Enjoy this delightful fusion that brings a new twist to traditional BBQ. It's pe
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 5g, Carbs: 18g, Protein: 36g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Soy, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 5g, Carbs: 18g, Protein: 36g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Soy, Sesame, Gluten</td></tr></table>
 

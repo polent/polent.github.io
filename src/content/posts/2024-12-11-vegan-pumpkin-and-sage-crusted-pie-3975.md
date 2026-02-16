@@ -56,5 +56,5 @@ Serve this heartwarming pie with a side of fresh, tangy salad or simply enjoy it
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 15g, Carbs: 34g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 15g, Carbs: 34g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Nuts</td></tr></table>
 

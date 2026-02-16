@@ -65,5 +65,5 @@ Total Fat: 8g<br />
 Saturated Fat: 1g<br />
 Carbohydrates: 49g<br />
 Fiber: 4g<br />
-Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (seitan), soy&nbsp;</td></tr></table>
+Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (seitan), soy</td></tr></table>
 

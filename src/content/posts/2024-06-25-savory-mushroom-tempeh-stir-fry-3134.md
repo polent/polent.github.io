@@ -52,5 +52,5 @@ Elevate your dining experience with this decadent side dish that brings together
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in protein and fiber, low in saturated fats. Great source of iron, vitamins, and minerals.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in protein and fiber, low in saturated fats. Great source of iron, vitamins, and minerals.</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.</td></tr></table>
 

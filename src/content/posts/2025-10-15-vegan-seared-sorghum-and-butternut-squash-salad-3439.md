@@ -49,5 +49,5 @@ Enjoy this delightful Vegan Seared Sorghum and Butternut Squash Salad as a vibra
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 8g, Carbohydrates: 58g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>90 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 8g, Carbohydrates: 58g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>90 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)</td></tr></table>
 

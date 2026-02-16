@@ -49,5 +49,5 @@ Enjoy this gourmet treat with friends and family, perfect for special occasions 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 4g, Sodium: 220mg, Carbohydrates: 18g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains wheat (baguette), may contain soy (vegan cream cheese)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per serving, Total Fat: 4g, Sodium: 220mg, Carbohydrates: 18g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains wheat (baguette), may contain soy (vegan cream cheese)</td></tr></table>
 

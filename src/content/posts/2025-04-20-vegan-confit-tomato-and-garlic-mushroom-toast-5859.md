@@ -55,5 +55,5 @@ Enjoy this luxurious yet simple vegan confit breakfast that not only satisfies y
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 22g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can be substituted with gluten-free bread), Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbohydrates: 22g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can be substituted with gluten-free bread), Garlic</td></tr></table>
 

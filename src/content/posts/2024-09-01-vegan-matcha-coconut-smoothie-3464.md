@@ -45,5 +45,5 @@ Enjoy this delightful Vegan Matcha Coconut Smoothie as a nutritious start to you
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 25g, Carbs: 29g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include coconut and banana.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 25g, Carbs: 29g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include coconut and banana.</td></tr></table>
 

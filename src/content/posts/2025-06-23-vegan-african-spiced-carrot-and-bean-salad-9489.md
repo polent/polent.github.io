@@ -52,5 +52,5 @@ Enjoy this colorful, nutritious dish as a standalone meal or pair it with your f
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 10g, Carbohydrates: 23g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame seeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 10g, Carbohydrates: 23g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame seeds</td></tr></table>
 

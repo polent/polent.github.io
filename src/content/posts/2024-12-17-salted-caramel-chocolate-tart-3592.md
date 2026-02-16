@@ -54,5 +54,5 @@ Serve this luxurious tart as a perfect ending to a meal or as a special treat to
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Fat: 18g, Carbs: 36g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts (coconut), and soy (in some vegan chocolates)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Fat: 18g, Carbs: 36g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts (coconut), and soy (in some vegan chocolates)</td></tr></table>
 

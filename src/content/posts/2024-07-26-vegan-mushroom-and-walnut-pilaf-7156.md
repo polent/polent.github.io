@@ -52,5 +52,5 @@ Enjoy this delightful Vegan Mushroom and Walnut Pilaf, a dish that brings the es
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 310, Fat: 14g, Carbohydrates: 40g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (walnuts), Mushrooms&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 310, Fat: 14g, Carbohydrates: 40g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (walnuts), Mushrooms</td></tr></table>
 

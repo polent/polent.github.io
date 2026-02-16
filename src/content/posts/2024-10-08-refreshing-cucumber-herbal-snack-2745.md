@@ -47,5 +47,5 @@ Enjoy this refreshing herbal snack with a cup of tea or as a pre-dinner appetize
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 50 per serving, Fat: 4g, Carbohydrates: 4g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (check vegan cream cheese ingredients)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 50 per serving, Fat: 4g, Carbohydrates: 4g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (check vegan cream cheese ingredients)</td></tr></table>
 

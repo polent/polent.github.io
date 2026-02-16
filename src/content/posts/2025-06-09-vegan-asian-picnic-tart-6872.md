@@ -56,5 +56,5 @@ Enjoy this delightful Vegan Asian Picnic Tart at your next outdoor gathering. It
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per serving, Fat: 15g, Carbohydrates: 35g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten, and sesame.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per serving, Fat: 15g, Carbohydrates: 35g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten, and sesame.</td></tr></table>
 

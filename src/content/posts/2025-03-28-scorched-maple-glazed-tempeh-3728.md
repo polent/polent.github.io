@@ -49,5 +49,5 @@ Enjoy this Scorched Maple Glazed Tempeh as a standout main course or a hearty si
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 215 per serving, Fat: 10g, Carbohydrates: 19g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 215 per serving, Fat: 10g, Carbohydrates: 19g, Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten</td></tr></table>
 

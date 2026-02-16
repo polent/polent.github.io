@@ -47,5 +47,5 @@ Enjoy these Vegan Matcha Almond Energy Bites as a satisfying snack to fuel your 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 6g, Sodium: 30mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 10g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds. May contain traces of other nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 6g, Sodium: 30mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 10g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds. May contain traces of other nuts.</td></tr></table>
 

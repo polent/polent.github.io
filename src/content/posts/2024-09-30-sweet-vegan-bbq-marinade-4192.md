@@ -46,5 +46,5 @@ Use this marinade to transform your next BBQ into a sweet and savory feast. It's
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70, Fat: 0g, Carbohydrates: 17g, Protein: 0.5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70, Fat: 0g, Carbohydrates: 17g, Protein: 0.5g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, garlic</td></tr></table>
 

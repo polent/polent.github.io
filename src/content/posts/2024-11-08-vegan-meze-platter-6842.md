@@ -51,5 +51,5 @@ Enjoy the delightful variety of this Vegan Meze Platter. It's perfect for sharin
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200-300 per serving, Fat: 10-15g, Carbs: 20-30g, Protein: 5-10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include sesame (in hummus), nuts (in some baba ganoush recipes), and gluten (in pita bread).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200-300 per serving, Fat: 10-15g, Carbs: 20-30g, Protein: 5-10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include sesame (in hummus), nuts (in some baba ganoush recipes), and gluten (in pita bread).</td></tr></table>
 

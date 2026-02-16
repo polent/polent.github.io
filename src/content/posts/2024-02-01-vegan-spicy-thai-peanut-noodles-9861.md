@@ -67,5 +67,5 @@ Sodium: 660mg<br />
 Carbohydrate: 60g<br />
 Fiber: 6g<br />
 Sugar: 9g<br />
-Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. May contain gluten (depending on the rice noodles used).&nbsp;</td></tr></table>
+Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. May contain gluten (depending on the rice noodles used).</td></tr></table>
 

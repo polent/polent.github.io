@@ -55,5 +55,5 @@ Enjoy this Vegan Macerated Berry and Basil Tiramisu as the perfect end to your f
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbs: 40g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbs: 40g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten</td></tr></table>
 

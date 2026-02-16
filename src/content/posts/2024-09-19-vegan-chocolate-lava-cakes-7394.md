@@ -51,5 +51,5 @@ Enjoy these heavenly Vegan Chocolate Lava Cakes as a perfect end to any meal. Se
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbs: 50g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, nuts, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbs: 50g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, nuts, soy</td></tr></table>
 

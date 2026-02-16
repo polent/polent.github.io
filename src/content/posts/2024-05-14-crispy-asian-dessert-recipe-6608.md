@@ -46,5 +46,5 @@ Enjoy this delectable crispy dessert that brings together innovative ingredients
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Saturated Fat: 6g, Sodium: 150mg, Total Carbohydrates: 25g, Sugars: 10g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten from rice flour and cornstarch. It also includes coconut, which may trigger allergies in some individuals.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 8g, Saturated Fat: 6g, Sodium: 150mg, Total Carbohydrates: 25g, Sugars: 10g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten from rice flour and cornstarch. It also includes coconut, which may trigger allergies in some individuals.</td></tr></table>
 

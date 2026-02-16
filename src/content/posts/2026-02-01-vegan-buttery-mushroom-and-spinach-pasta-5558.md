@@ -51,5 +51,5 @@ Enjoy this heartwarming dish that not only fills your stomach but also soothes y
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 14g, Carbohydrates: 48g, Protein: 10g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 14g, Carbohydrates: 48g, Protein: 10g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Soy</td></tr></table>
 

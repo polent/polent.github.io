@@ -50,5 +50,5 @@ Enjoy the perfect marriage of Italian pasta tradition and Asian culinary innovat
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 82kcal, Carbohydrates: 10g, Protein: 2g, Fat: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 82kcal, Carbohydrates: 10g, Protein: 2g, Fat: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using tamari instead of soy sauce.</td></tr></table>
 

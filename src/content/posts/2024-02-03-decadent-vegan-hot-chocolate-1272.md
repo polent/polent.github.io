@@ -55,5 +55,5 @@ Sodium: 150mg<br />
 Carbohydrates: 18g<br />
 Fiber: 3g<br />
 Sugar: 12g<br />
-Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (almonds)&nbsp;</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (almonds)</td></tr></table>
 

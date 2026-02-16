@@ -48,5 +48,5 @@ Enjoy this delightful Vegan Pumpkin and Ginger Gnocchi, a dish that promises to 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 2g, Carbohydrates: 59g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can substitute with gluten-free flour), Nutritional Yeast&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Fat: 2g, Carbohydrates: 59g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can substitute with gluten-free flour), Nutritional Yeast</td></tr></table>
 

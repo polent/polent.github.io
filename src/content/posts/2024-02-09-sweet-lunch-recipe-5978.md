@@ -53,5 +53,5 @@ Total Fat: 12g<br />
 Saturated Fat: 2g<br />
 Carbohydrates: 32g<br />
 Fiber: 5g<br />
-Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
+Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts</td></tr></table>
 

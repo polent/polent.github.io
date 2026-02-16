@@ -36,5 +36,5 @@ Serve this beautifully marinated dish with a side of fluffy quinoa or fresh gree
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 13g, Carbohydrates: 10g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (tofu)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 13g, Carbohydrates: 10g, Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (tofu)</td></tr></table>
 

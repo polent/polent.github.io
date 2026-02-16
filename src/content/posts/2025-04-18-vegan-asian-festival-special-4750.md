@@ -55,5 +55,5 @@ Enjoy this festive dish that not only pays tribute to the essence of the food fe
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 12g, Carbohydrates: 54g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>3 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 12g, Carbohydrates: 54g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>3 hours</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten</td></tr></table>
 

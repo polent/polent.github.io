@@ -43,5 +43,5 @@ Enhance your cooking with this decadent marinade, guaranteed to impress your tas
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 10g, Sodium: 400mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 10g, Sodium: 400mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy</td></tr></table>
 

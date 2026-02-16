@@ -55,5 +55,5 @@ Enjoy this warm, sweet, and satisfying breakfast that brings a touch of indulgen
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbohydrates: 42g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), gluten (bread), and soy (nutritional yeast)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 18g, Carbohydrates: 42g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), gluten (bread), and soy (nutritional yeast)</td></tr></table>
 

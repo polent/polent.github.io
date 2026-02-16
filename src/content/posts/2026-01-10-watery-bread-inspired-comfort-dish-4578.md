@@ -51,5 +51,5 @@ Enjoy this heartwarming dish as a new favorite on your dining table. The subtle 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 200 per serving, Fat: 7g, Carbohydrates: 28g, Protein: 6g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 200 per serving, Fat: 7g, Carbohydrates: 28g, Protein: 6g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Gluten, Garlic</td></tr></table>
 

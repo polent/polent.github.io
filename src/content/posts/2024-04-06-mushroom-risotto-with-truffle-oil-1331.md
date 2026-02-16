@@ -54,5 +54,5 @@ Enjoy this comforting and flavorful Mushroom Risotto with Truffle Oil for a sati
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 8g, Carbs: 55g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (check vegetable broth), Soy (in vegan butter)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 8g, Carbs: 55g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (check vegetable broth), Soy (in vegan butter)</td></tr></table>
 

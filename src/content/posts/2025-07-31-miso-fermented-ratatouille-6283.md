@@ -57,5 +57,5 @@ Enjoy this Miso Fermented Ratatouille as a standalone dish or as part of a large
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 7g, Carbs: 13g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (miso)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 7g, Carbs: 13g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (miso)</td></tr></table>
 

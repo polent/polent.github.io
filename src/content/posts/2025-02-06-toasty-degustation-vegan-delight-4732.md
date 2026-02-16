@@ -57,5 +57,5 @@ Enjoy this delightful creation that not only satisfies the palate but also bring
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbs: 60g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbs: 60g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Avocado</td></tr></table>
 

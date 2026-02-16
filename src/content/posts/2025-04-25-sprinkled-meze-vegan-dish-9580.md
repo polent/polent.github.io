@@ -54,5 +54,5 @@ Enjoy this vibrant and healthful dish that not only satisfies your cravings but 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 6g, Carbohydrates: 30g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>24 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, Dairy-free, Nut-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 6g, Carbohydrates: 30g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>24 hours</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, Dairy-free, Nut-free</td></tr></table>
 

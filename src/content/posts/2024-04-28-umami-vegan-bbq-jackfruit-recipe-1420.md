@@ -47,5 +47,5 @@ Enjoy this plant-based twist on a classic BBQ favorite, perfect for any occasion
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 5g, Sodium: 800mg, Total Carbohydrates: 40g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 5g, Sodium: 800mg, Total Carbohydrates: 40g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce</td></tr></table>
 

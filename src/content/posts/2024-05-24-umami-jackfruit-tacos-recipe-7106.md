@@ -53,5 +53,5 @@ Elevate your dinner with these flavorful Umami Jackfruit Tacos, a vegan twist on
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 5g, Cholesterol: 0mg, Sodium: 400mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Sugars: 3g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy due to soy sauce. Check vegetable broth for allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 5g, Cholesterol: 0mg, Sodium: 400mg, Total Carbohydrates: 40g, Dietary Fiber: 8g, Sugars: 3g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy due to soy sauce. Check vegetable broth for allergens.</td></tr></table>
 

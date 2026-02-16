@@ -55,5 +55,5 @@ Enjoy this nourishing bowl of warmth and flavor, perfect for a cozy lunch or a c
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450 kcal, Protein: 12 g, Fat: 20 g, Carbohydrates: 58 g, Fiber: 8 g, Sugar: 10 g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, nuts (almond), and garlic.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450 kcal, Protein: 12 g, Fat: 20 g, Carbohydrates: 58 g, Fiber: 8 g, Sugar: 10 g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, nuts (almond), and garlic.</td></tr></table>
 

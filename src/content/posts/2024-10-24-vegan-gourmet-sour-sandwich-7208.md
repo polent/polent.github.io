@@ -52,5 +52,5 @@ Enjoy the burst of flavors in your mouth with this beautifully crafted vegan gou
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbs: 40g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Tree nuts, Gluten, Mustard&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbs: 40g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Tree nuts, Gluten, Mustard</td></tr></table>
 

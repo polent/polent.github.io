@@ -49,5 +49,5 @@ Enjoy this exquisite spiked vegan dessert that promises to be a memorable end to
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 18g, Carbs: 22g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), alcohol (rum)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 18g, Carbs: 22g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), alcohol (rum)</td></tr></table>
 

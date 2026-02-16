@@ -55,5 +55,5 @@ Enjoy this vegan Shawarma as a fulfilling meal that brings a taste of African st
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 440, Fat: 14g, Carbohydrates: 55g, Protein: 21g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten (in flatbread unless gluten-free option used)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 440, Fat: 14g, Carbohydrates: 55g, Protein: 21g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten (in flatbread unless gluten-free option used)</td></tr></table>
 

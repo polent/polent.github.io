@@ -45,5 +45,5 @@ Enjoy this nutty breakfast as a wholesome way to kickstart your day. With its bl
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Protein: 15g<br />Fat: 10g<br />Carbohydrates: 25g<br />Fiber: 8g<br />Calories: 250&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Protein: 15g<br />Fat: 10g<br />Carbohydrates: 25g<br />Fiber: 8g<br />Calories: 250</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts</td></tr></table>
 

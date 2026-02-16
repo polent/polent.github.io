@@ -53,5 +53,5 @@ Enjoy this delightful dish with friends and family, or savor it solo as a specia
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbs: 30g, Protein: 20g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Possible allergens include garlic and gluten (depending on the vegan beef substitute used).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbs: 30g, Protein: 20g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Possible allergens include garlic and gluten (depending on the vegan beef substitute used).</td></tr></table>
 

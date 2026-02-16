@@ -36,5 +36,5 @@ Enjoy this Vegan Garlic Herb Bread as a side to your favorite salads, soups, or 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 9g, Carbohydrates: 21g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten and garlic. Always check bread ingredients for additional allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 9g, Carbohydrates: 21g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten and garlic. Always check bread ingredients for additional allergens.</td></tr></table>
 

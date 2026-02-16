@@ -44,5 +44,5 @@ Enjoy the rich, dense texture of this thick bread that will satisfy your craving
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 4g, Carbohydrates: 30g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 4g, Carbohydrates: 30g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten</td></tr></table>
 

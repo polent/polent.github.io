@@ -54,5 +54,5 @@ Enjoy this creamy salad as a light and satisfying meal on its own or as a side d
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 25g, Dietary Fiber: 6g, Sugars: 5g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (almonds), Soy (mayonnaise)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 350mg, Total Carbohydrates: 25g, Dietary Fiber: 6g, Sugars: 5g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (almonds), Soy (mayonnaise)</td></tr></table>
 

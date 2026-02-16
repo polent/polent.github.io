@@ -59,5 +59,5 @@ Sodium: 300mg<br />
 Total Carbohydrate: 10g<br />
 - Dietary Fiber: 3g<br />
 - Sugars: 4g<br />
-Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (vegan feta cheese)&nbsp;</td></tr></table>
+Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (vegan feta cheese)</td></tr></table>
 

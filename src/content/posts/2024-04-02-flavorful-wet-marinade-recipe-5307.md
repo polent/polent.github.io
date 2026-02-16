@@ -44,5 +44,5 @@ Enhance your culinary creations with this flavorful wet marinade that will take 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Total Fat: 3g, Sodium: 920mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy and sesame. Check ingredients for specific allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Total Fat: 3g, Sodium: 920mg, Total Carbohydrates: 7g, Sugars: 4g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy and sesame. Check ingredients for specific allergens.</td></tr></table>
 

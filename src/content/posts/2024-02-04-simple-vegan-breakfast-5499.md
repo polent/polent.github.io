@@ -48,5 +48,5 @@ Enjoy this plant-based breakfast that will keep you energized and satisfied thro
 Carbohydrates: 60g<br />
 Protein: 8g<br />
 Fat: 10g<br />
-Fiber: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains nuts (almond milk) and may contain gluten (oats).&nbsp;</td></tr></table>
+Fiber: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains nuts (almond milk) and may contain gluten (oats).</td></tr></table>
 

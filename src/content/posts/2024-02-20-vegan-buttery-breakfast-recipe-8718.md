@@ -56,5 +56,5 @@ Enjoy this delicious vegan breakfast that's rich in flavor and perfect for a coz
 - Calories: 250<br />
 - Fat: 10g<br />
 - Carbohydrates: 35g<br />
-- Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
+- Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten</td></tr></table>
 

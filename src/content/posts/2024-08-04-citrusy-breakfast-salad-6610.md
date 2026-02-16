@@ -45,5 +45,5 @@ Enjoy this refreshing citrus salad as a bright start to your day. It's perfect f
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 4g, Carbs: 26g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 4g, Carbs: 26g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include nuts (almonds)</td></tr></table>
 

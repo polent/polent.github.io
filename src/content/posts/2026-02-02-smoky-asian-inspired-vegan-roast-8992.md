@@ -60,5 +60,5 @@ Serve this delightful Smoky Asian-Inspired Vegan Roast at your next holiday feas
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 320, Fat: 5g, Carbohydrates: 18g, Protein: 46g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Wheat, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 320, Fat: 5g, Carbohydrates: 18g, Protein: 46g</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour 30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Wheat, Gluten, Sesame</td></tr></table>
 

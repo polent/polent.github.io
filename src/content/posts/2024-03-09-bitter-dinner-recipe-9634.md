@@ -50,5 +50,5 @@ Indulge in the complex flavors of this bitter dinner recipe, inspired by traditi
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 25g, Fiber: 5g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (pine nuts)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Cholesterol: 0mg, Sodium: 150mg, Total Carbohydrates: 25g, Fiber: 5g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (pine nuts)</td></tr></table>
 

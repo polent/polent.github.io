@@ -47,5 +47,5 @@ Serve this luxurious crumbly drink chilled for a refreshing experience, or warm 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 3g, Carbs: 27g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, possible nut allergens from almond milk&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 3g, Carbs: 27g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, possible nut allergens from almond milk</td></tr></table>
 

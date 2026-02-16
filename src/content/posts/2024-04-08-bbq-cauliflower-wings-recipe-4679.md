@@ -52,5 +52,5 @@ These BBQ Cauliflower Wings are sure to be a hit at your next gathering, whether
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150kcal, Carbohydrates: 30g, Protein: 5g, Fat: 1g, Fiber: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (flour), Soy (BBQ sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150kcal, Carbohydrates: 30g, Protein: 5g, Fat: 1g, Fiber: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (flour), Soy (BBQ sauce)</td></tr></table>
 

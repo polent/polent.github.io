@@ -56,5 +56,5 @@ Enjoy this delightful culinary journey that not only satisfies your taste buds b
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 4g, Carbohydrates: 45g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 4g, Carbohydrates: 45g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

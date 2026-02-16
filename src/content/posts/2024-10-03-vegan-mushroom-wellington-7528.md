@@ -55,5 +55,5 @@ Serve this Vegan Mushroom Wellington with a side of steamed green beans or a fre
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 40g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, soy, nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 40g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, soy, nuts</td></tr></table>
 

@@ -46,5 +46,5 @@ Enjoy the zesty goodness of these citrusy finger foods, a delightful treat that 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 20g, Fiber: 3g, Sugar: 14g, Fat: 0.5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of citrus allergies.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 20g, Fiber: 3g, Sugar: 14g, Fat: 0.5g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of citrus allergies.</td></tr></table>
 

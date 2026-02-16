@@ -45,5 +45,5 @@ Serve up a taste of Italy with this chewy marinade that will leave your taste bu
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal | Carbohydrates: 8g | Protein: 2g | Fat: 0g | Sodium: 960mg | Fiber: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal | Carbohydrates: 8g | Protein: 2g | Fat: 0g | Sodium: 960mg | Fiber: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Soy</td></tr></table>
 

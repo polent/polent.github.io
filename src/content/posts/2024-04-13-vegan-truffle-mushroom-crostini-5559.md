@@ -49,5 +49,5 @@ Enjoy these Vegan Truffle Mushroom Crostini as a sophisticated snack or appetize
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 150, Total Fat: 5g, Saturated Fat: 1g, Sodium: 200mg, Total Carbohydrates: 20g, Fiber: 2g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 150, Total Fat: 5g, Saturated Fat: 1g, Sodium: 200mg, Total Carbohydrates: 20g, Fiber: 2g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten</td></tr></table>
 

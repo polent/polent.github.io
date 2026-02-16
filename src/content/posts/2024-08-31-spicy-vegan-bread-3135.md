@@ -54,5 +54,5 @@ Enjoy this deliciously spicy bread warm, straight from the oven, or as a bold ac
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 5g, Carbs: 34g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten and yeast&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 5g, Carbs: 34g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten and yeast</td></tr></table>
 

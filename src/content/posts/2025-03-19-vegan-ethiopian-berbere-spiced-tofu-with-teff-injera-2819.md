@@ -57,5 +57,5 @@ Enjoy this delicious and wholesome meal, bringing a taste of Africa to your tabl
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbohydrates: 40g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbohydrates: 40g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten-free</td></tr></table>
 

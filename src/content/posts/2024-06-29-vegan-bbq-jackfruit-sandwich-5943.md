@@ -49,5 +49,5 @@ Enjoy this flavorful and hearty meal that captures the essence of traditional BB
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 65g, Protein: 5g, Fat: 3g, Saturated Fat: 0.5g, Sodium: 800mg, Fiber: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 65g, Protein: 5g, Fat: 3g, Saturated Fat: 0.5g, Sodium: 800mg, Fiber: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

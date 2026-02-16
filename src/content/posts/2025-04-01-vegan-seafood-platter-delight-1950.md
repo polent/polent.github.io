@@ -51,5 +51,5 @@ Enjoy this delightful vegan seafood platter as a centerpiece for your next gathe
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbohydrates: 35g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 hours (including marinating time)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 5g, Carbohydrates: 35g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>5 hours (including marinating time)</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, sesame</td></tr></table>
 

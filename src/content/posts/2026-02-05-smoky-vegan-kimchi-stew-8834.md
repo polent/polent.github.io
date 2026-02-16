@@ -55,5 +55,5 @@ Enjoy this Smoky Vegan Kimchi Stew any day for a comforting, flavorful meal that
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbohydrates: 15g, Protein: 8g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Sesame, Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbohydrates: 15g, Protein: 8g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Sesame, Garlic</td></tr></table>
 

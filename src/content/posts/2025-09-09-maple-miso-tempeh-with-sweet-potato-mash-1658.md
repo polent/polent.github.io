@@ -50,5 +50,5 @@ Enjoy the rich layers of flavor in this Maple Miso Tempeh with Sweet Potato Mash
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 14g, Carbohydrates: 50g, Protein: 21g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Possible gluten in miso, depending on source&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 14g, Carbohydrates: 50g, Protein: 21g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Possible gluten in miso, depending on source</td></tr></table>
 
