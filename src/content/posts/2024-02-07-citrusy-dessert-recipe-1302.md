@@ -54,5 +54,5 @@ Saturated Fat: 7g<br />
 Carbohydrate: 36g<br />
 Fiber: 5g<br />
 Sugar: 27g<br />
-Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is free from gluten, soy, and nuts. However, individuals with coconut allergies should avoid this dessert.&nbsp;</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is free from gluten, soy, and nuts. However, individuals with coconut allergies should avoid this dessert.</td></tr></table>
 

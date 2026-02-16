@@ -48,5 +48,5 @@ Enjoy the smoky flavors of classic BBQ in a plant-based meal that's sure to impr
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 3g, Saturated Fat: 0.5g, Cholesterol: 0mg, Sodium: 820mg, Total Carbohydrates: 70g, Dietary Fiber: 5g, Sugars: 36g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten in the burger buns. Check BBQ sauce for allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 3g, Saturated Fat: 0.5g, Cholesterol: 0mg, Sodium: 820mg, Total Carbohydrates: 70g, Dietary Fiber: 5g, Sugars: 36g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten in the burger buns. Check BBQ sauce for allergens.</td></tr></table>
 

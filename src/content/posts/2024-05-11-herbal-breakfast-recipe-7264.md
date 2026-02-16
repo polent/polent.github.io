@@ -44,5 +44,5 @@ Enjoy this herbal breakfast as a refreshing and nutritious start to your day. Em
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Carbs: 40g, Protein: 7g, Fat: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain nuts (almond milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Carbs: 40g, Protein: 7g, Fat: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain nuts (almond milk)</td></tr></table>
 

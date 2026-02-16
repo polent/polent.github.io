@@ -52,5 +52,5 @@ Serve this aromatic Vegan Poached Sichuan Peppercorn Tofu with a side of jasmine
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Protein: 12g, Fat: 5g, Carbohydrates: 10g, Sodium: 500mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible gluten in soy sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Protein: 12g, Fat: 5g, Carbohydrates: 10g, Sodium: 500mg</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible gluten in soy sauce</td></tr></table>
 

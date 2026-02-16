@@ -43,5 +43,5 @@ Enjoy this matcha almond smoothie as a refreshing pick-me-up or post-workout tre
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 16g, Carbohydrates: 24g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 16g, Carbohydrates: 24g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)</td></tr></table>
 

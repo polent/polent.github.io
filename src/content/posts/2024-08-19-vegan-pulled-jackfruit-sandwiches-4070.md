@@ -54,5 +54,5 @@ Serve these delicious Vegan Pulled Jackfruit Sandwiches with a side of coleslaw 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 10g, Carbs: 75g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (buns), possible soy in BBQ sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 10g, Carbs: 75g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (buns), possible soy in BBQ sauce</td></tr></table>
 

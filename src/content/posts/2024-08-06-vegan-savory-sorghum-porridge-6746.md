@@ -53,5 +53,5 @@ Enjoy this wholesome and delicious start to your day. This Vegan Savory Sorghum 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 4g, Carbohydrates: 37g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>75 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 4g, Carbohydrates: 37g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>75 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

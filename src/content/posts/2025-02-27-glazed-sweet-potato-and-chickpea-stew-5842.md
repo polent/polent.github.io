@@ -57,5 +57,5 @@ Serve this delightful Glazed Sweet Potato and Chickpea Stew warm, garnished with
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per serving, Fat: 5g, Carbohydrates: 55g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible gluten in soy sauce&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300 per serving, Fat: 5g, Carbohydrates: 55g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible gluten in soy sauce</td></tr></table>
 

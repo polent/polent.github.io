@@ -49,5 +49,5 @@ Enjoy this delightful blend of heat and comfort - a perfect spicy dish to break 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 kcal, Protein: 10g, Fat: 8g, Carbohydrates: 60g, Fiber: 4g, Sugar: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can use gluten-free pasta), Nightshades&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 kcal, Protein: 10g, Fat: 8g, Carbohydrates: 60g, Fiber: 4g, Sugar: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (can use gluten-free pasta), Nightshades</td></tr></table>
 

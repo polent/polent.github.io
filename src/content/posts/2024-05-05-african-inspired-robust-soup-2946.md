@@ -51,5 +51,5 @@ Enjoy a taste of Africa with this delicious vegan soup, perfect for a cozy eveni
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 700mg, Total Carbohydrates: 45g, Fiber: 15g, Protein: 13g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 700mg, Total Carbohydrates: 45g, Fiber: 15g, Protein: 13g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

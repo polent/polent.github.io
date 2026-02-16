@@ -51,5 +51,5 @@ Enjoy the rich flavors of Africa in this plant-based soup that will leave you fe
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber and protein. Low in fat. Rich in vitamins and minerals.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber and protein. Low in fat. Rich in vitamins and minerals.</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free</td></tr></table>
 

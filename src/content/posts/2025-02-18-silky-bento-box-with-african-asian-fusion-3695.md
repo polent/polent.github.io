@@ -56,5 +56,5 @@ Enjoy this unique blend of cultures right in your bento box! This meal is not on
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 360, Fat: 8g, Carbs: 58g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 360, Fat: 8g, Carbs: 58g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

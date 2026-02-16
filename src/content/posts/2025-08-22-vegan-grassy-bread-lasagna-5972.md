@@ -51,5 +51,5 @@ Enjoy the wholesome goodness of this Vegan Grassy Bread Lasagna as a fulfilling 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 45g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 45g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, nuts (cashews)</td></tr></table>
 

@@ -47,5 +47,5 @@ Enjoy this plant-based twist on a classic BBQ favorite! It's a delicious and sat
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 65g, Dietary Fiber: 5g, Sugars: 25g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten. Check BBQ sauce ingredients for allergen information.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 780mg, Total Carbohydrates: 65g, Dietary Fiber: 5g, Sugars: 25g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of gluten. Check BBQ sauce ingredients for allergen information.</td></tr></table>
 

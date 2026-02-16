@@ -59,5 +59,5 @@ Sodium: 60mg<br />
 Total Carbohydrate: 7g<br />
 Dietary Fiber: 1g<br />
 Total Sugars: 1g<br />
-Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

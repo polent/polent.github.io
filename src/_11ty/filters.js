@@ -251,6 +251,24 @@ const extractNutrition = html => {
 	return nutrition;
 };
 
+// Extract yield information from nutrition table
+const extractYield = html => {
+	if (!html) return null;
+	
+	// Look for "Yield" row in table
+	const yieldMatch = html.match(/<th[^>]*>\s*Yield\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
+	if (!yieldMatch || !yieldMatch[1]) return null;
+	
+	const yieldText = stripHtml(yieldMatch[1]).trim();
+	
+	// If yield info is empty or "none", return null
+	if (!yieldText || yieldText.toLowerCase() === "none") {
+		return null;
+	}
+	
+	return yieldText;
+};
+
 function extractRecipeData(html, recipeUrl) {
 	const result = {
 		image: null,
@@ -258,6 +276,7 @@ function extractRecipeData(html, recipeUrl) {
 		instructions: [],
 		prepTime: null,
 		nutrition: null,
+		yield: null,
 		modifiedHtml: html,
 	};
 
@@ -273,6 +292,7 @@ function extractRecipeData(html, recipeUrl) {
 	// Extract prep time and nutrition early
 	result.prepTime = extractPrepTime(html);
 	result.nutrition = extractNutrition(html);
+	result.yield = extractYield(html);
 
 	const headings = [];
 	const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;

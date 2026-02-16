@@ -53,5 +53,5 @@ Enjoy this delightful fusion of East meets West in your brunch today. It's not j
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 35g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 35g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten</td></tr></table>
 

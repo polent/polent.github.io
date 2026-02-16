@@ -48,5 +48,5 @@ These avocado fries are a must-try for any food lover looking for a tasty and sa
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 150mg, Total Carbohydrates: 20g, Fiber: 7g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (breadcrumbs, flour)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 150mg, Total Carbohydrates: 20g, Fiber: 7g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (breadcrumbs, flour)</td></tr></table>
 

@@ -48,5 +48,5 @@ Enjoy these creamy finger foods that are not only delicious but also cruelty-fre
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 8g, Saturated Fat: 4g, Sodium: 200mg, Total Carbohydrates: 15g, Dietary Fiber: 5g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts and gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 8g, Saturated Fat: 4g, Sodium: 200mg, Total Carbohydrates: 15g, Dietary Fiber: 5g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts and gluten</td></tr></table>
 

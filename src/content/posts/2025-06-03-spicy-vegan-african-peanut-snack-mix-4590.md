@@ -52,5 +52,5 @@ Enjoy this Spicy Vegan African Peanut Snack Mix as a delightful midday snack or 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 16g, Carbs: 12g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. May contain traces of other nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 16g, Carbs: 12g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. May contain traces of other nuts.</td></tr></table>
 

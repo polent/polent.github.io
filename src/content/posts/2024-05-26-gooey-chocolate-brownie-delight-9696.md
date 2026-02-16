@@ -50,5 +50,5 @@ Enjoy the rich flavors and gooey goodness of this delightful dessert, a perfect 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 12g, Carbohydrates: 35g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Prep Time: 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy and wheat allergens&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 12g, Carbohydrates: 35g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>Prep Time: 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy and wheat allergens</td></tr></table>
 

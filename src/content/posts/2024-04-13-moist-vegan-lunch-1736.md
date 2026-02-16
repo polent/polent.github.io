@@ -47,5 +47,5 @@ Enjoy this mouthwatering vegan creation that celebrates the rich tapestry of Afr
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 2g, Saturated Fat: 0g, Cholesterol: 0mg, Sodium: 480mg, Total Carbohydrates: 67g, Dietary Fiber: 12g, Sugars: 6g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (sorghum)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 2g, Saturated Fat: 0g, Cholesterol: 0mg, Sodium: 480mg, Total Carbohydrates: 67g, Dietary Fiber: 12g, Sugars: 6g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>60 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (sorghum)</td></tr></table>
 

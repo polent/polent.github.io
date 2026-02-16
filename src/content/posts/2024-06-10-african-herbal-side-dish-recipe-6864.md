@@ -47,5 +47,5 @@ Enjoy this herbal side dish as a flavorful accompaniment to your favorite main c
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Carbohydrates: 4g, Protein: 1g, Fat: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 60kcal, Carbohydrates: 4g, Protein: 1g, Fat: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

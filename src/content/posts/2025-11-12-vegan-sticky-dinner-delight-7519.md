@@ -57,5 +57,5 @@ Enjoy this heartwarming dish with family or friends, and let the rich, sticky fl
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Fat: 9g, Carbohydrates: 50g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Fat: 9g, Carbohydrates: 50g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten</td></tr></table>
 

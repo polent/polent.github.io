@@ -52,5 +52,5 @@ Enjoy this heartwarming dish with freshly made injera or your favorite flatbread
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 4g, Carbs: 40g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains garlic and onions&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 4g, Carbs: 40g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains garlic and onions</td></tr></table>
 

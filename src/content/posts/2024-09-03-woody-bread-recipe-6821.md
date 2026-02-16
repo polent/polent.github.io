@@ -50,5 +50,5 @@ Enjoy this delightful woody bread fresh out of the oven, ideally while it's stil
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 3g, Carbohydrates: 34g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours and 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Possible traces of nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 3g, Carbohydrates: 34g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours and 30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Possible traces of nuts</td></tr></table>
 

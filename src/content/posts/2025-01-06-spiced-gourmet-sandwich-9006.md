@@ -53,5 +53,5 @@ Enjoy this unique and delicious spiced gourmet sandwich that will not only satis
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Fat: 25g, Carbs: 60g, Protein: 25g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy, nuts (avocado)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Fat: 25g, Carbs: 60g, Protein: 25g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, soy, nuts (avocado)</td></tr></table>
 

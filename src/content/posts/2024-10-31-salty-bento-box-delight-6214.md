@@ -52,5 +52,5 @@ Enjoy your 'Salty Bento Box Delight' as a fulfilling meal that brings a taste of
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 550, Fat: 10g, Carbs: 85g, Protein: 25g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 550, Fat: 10g, Carbs: 85g, Protein: 25g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame</td></tr></table>
 

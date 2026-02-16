@@ -52,5 +52,5 @@ Enjoy this delightful cold soup as a standalone meal or as a starter to a larger
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 12g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 12g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Avocado</td></tr></table>
 

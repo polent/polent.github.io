@@ -53,5 +53,5 @@ Total Fat: 0.5g<br />
 Sodium: 10mg<br />
 Total Carbohydrate: 31g<br />
 Sugar: 24g<br />
-Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

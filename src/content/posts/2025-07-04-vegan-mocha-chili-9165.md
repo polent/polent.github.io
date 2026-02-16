@@ -57,5 +57,5 @@ Enjoy this delightful Vegan Mocha Chili, a dish that perfectly encapsulates the 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 5g, Carbohydrates: 40g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains caffeine from coffee, possible allergens include cocoa&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 5g, Carbohydrates: 40g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains caffeine from coffee, possible allergens include cocoa</td></tr></table>
 

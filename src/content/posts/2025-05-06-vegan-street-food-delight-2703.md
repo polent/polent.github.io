@@ -52,5 +52,5 @@ Enjoy this delightful dish that brings the vibrant essence of street food right 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 35g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 35g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten</td></tr></table>
 

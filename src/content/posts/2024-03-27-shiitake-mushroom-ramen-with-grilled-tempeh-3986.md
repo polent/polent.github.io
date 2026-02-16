@@ -52,5 +52,5 @@ Experience the harmony of flavors and textures in this satisfying plant-based me
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Sodium: 800mg, Carbohydrates: 40g, Fiber: 5g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce), gluten (tempeh), and sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Sodium: 800mg, Carbohydrates: 40g, Fiber: 5g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce), gluten (tempeh), and sesame</td></tr></table>
 

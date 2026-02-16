@@ -52,5 +52,5 @@ Enjoy the perfect balance of flavors and textures in this Vegan Korean Bulgogi B
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 70g, Protein: 15g, Fat: 5g, Saturated Fat: 1g, Sodium: 800mg, Fiber: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 70g, Protein: 15g, Fat: 5g, Saturated Fat: 1g, Sodium: 800mg, Fiber: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

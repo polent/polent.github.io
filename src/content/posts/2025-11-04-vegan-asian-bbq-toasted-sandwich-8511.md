@@ -49,5 +49,5 @@ Enjoy your Vegan Asian BBQ Toasted Sandwich with a side of sweet potato fries or
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbs: 45g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains wheat, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 12g, Carbs: 45g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains wheat, soy</td></tr></table>
 

@@ -51,5 +51,5 @@ Enjoy this delightful salad as a standalone meal or pair it with your favorite v
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 40g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 40g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts</td></tr></table>
 

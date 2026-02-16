@@ -45,5 +45,5 @@ Get ready to impress your friends and family with this mouthwatering umami marin
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 40kcal, Total Fat: 0g, Sodium: 700mg, Total Carbohydrates: 8g, Sugars: 5g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free options available by using gluten-free soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 40kcal, Total Fat: 0g, Sodium: 700mg, Total Carbohydrates: 8g, Sugars: 5g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free options available by using gluten-free soy sauce.</td></tr></table>
 

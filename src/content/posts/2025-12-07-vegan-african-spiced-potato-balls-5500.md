@@ -53,5 +53,5 @@ Enjoy these warm, spiced potato balls as a perfect snack or appetizer. They're s
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 7g, Carbohydrates: 20g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and cilantro.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 7g, Carbohydrates: 20g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and cilantro.</td></tr></table>
 

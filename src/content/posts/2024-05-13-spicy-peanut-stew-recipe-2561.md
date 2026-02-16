@@ -56,5 +56,5 @@ Experience the fusion of bold spices and creamy textures in this vegan delight. 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber and protein. Good source of vitamins A and C. Contains nuts.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber and protein. Good source of vitamins A and C. Contains nuts.</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts</td></tr></table>
 

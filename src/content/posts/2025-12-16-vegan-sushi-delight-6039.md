@@ -58,5 +58,5 @@ Enjoy this delightful Vegan Sushi Delight, a true testament to the possibilities
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 45g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, wheat, possibly nuts (depending on brand of vegan cream cheese)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 9g, Carbs: 45g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, wheat, possibly nuts (depending on brand of vegan cream cheese)</td></tr></table>
 

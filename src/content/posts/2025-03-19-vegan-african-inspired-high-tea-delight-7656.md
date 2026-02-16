@@ -52,5 +52,5 @@ Enjoy this unique blend of flavors and textures, ideal for a sophisticated high 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 27g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, may contain gluten from cross-contamination&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 27g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, may contain gluten from cross-contamination</td></tr></table>
 

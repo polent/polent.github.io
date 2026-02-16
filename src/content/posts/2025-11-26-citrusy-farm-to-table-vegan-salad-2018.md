@@ -50,5 +50,5 @@ Enjoy this delightful blend of fresh ingredients that not only tantalizes your t
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 15g, Carbohydrates: 20g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Citrus, Avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 15g, Carbohydrates: 20g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Citrus, Avocado</td></tr></table>
 

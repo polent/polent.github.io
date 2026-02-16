@@ -52,5 +52,5 @@ Enjoy this comforting and hearty dish as a main course or a side. It’s perfect
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 4g, Carbohydrates: 38g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210 per serving, Fat: 4g, Carbohydrates: 38g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Garlic</td></tr></table>
 

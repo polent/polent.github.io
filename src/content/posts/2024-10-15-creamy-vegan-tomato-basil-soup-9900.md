@@ -51,5 +51,5 @@ Serve this delightful Creamy Vegan Tomato Basil Soup with a side of crusty bread
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 160, Fat: 9g, Carbs: 18g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 160, Fat: 9g, Carbs: 18g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut</td></tr></table>
 

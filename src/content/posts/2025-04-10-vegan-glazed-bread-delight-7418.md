@@ -54,5 +54,5 @@ Enjoy this delicious vegan glazed bread as a delightful breakfast, a sweet snack
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 50g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, nuts (almond milk), coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 50g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, nuts (almond milk), coconut</td></tr></table>
 

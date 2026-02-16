@@ -50,5 +50,5 @@ Enjoy this delightful crumbly dessert with a cup of tea or coffee for a truly co
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220 per serving, Total Fat: 12g, Sodium: 75mg, Total Carbohydrates: 26g, Sugars: 10g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten and nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220 per serving, Total Fat: 12g, Sodium: 75mg, Total Carbohydrates: 26g, Sugars: 10g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten and nuts.</td></tr></table>
 

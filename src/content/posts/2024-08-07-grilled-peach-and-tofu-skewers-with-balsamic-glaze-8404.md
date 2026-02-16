@@ -49,5 +49,5 @@ Serve these delicious skewers with a side of quinoa or a fresh green salad for a
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbohydrates: 35g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbohydrates: 35g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Garlic</td></tr></table>
 

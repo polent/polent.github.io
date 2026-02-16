@@ -50,5 +50,5 @@ Enjoy this flavorful and nutritious hot side dish that pays homage to the culina
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Nutrition per serving: Calories: 320kcal, Carbohydrates: 60g, Protein: 10g, Fat: 5g, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (couscous)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Nutrition per serving: Calories: 320kcal, Carbohydrates: 60g, Protein: 10g, Fat: 5g, Fiber: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (couscous)</td></tr></table>
 

@@ -45,5 +45,5 @@ Enjoy this versatile Vegan Walnut Pesto as a dip, spread, or pasta sauce. It's g
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 230 per serving, Fat: 22g, Carbs: 4g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts), garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 230 per serving, Fat: 22g, Carbs: 4g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts), garlic</td></tr></table>
 

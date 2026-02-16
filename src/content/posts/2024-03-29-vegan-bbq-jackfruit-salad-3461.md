@@ -47,5 +47,5 @@ Enjoy this satisfying and flavorful salad that captures the essence of BBQ in a 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 10g, Carbohydrates: 35g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 10g, Carbohydrates: 35g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy</td></tr></table>
 

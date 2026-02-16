@@ -43,5 +43,5 @@ Sip on this invigorating drink to spice up your day and add a burst of flavor to
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 20g, Fiber: 1g, Sugars: 16g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 80kcal, Carbohydrates: 20g, Fiber: 1g, Sugars: 16g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

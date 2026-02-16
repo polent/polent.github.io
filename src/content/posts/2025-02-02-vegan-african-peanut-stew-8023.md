@@ -56,5 +56,5 @@ Enjoy this Vegan African Peanut Stew as a standalone meal or serve it alongside 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 45g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 15g, Carbohydrates: 45g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of gluten</td></tr></table>
 

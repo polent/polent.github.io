@@ -60,5 +60,5 @@ Total Fat: 8g<br />
 Sodium: 680mg<br />
 Carbohydrates: 24g<br />
 Fiber: 6g<br />
-Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This soup is vegan and free of common allergens.&nbsp;</td></tr></table>
+Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This soup is vegan and free of common allergens.</td></tr></table>
 

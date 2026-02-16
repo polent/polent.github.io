@@ -47,5 +47,5 @@ Enjoy the burst of flavors and the harmonious blend of textures in each bite. Th
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300-500, Fat: 20-30g, Carbohydrates: 30-50g, Protein: 10-20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300-500, Fat: 20-30g, Carbohydrates: 30-50g, Protein: 10-20g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy</td></tr></table>
 

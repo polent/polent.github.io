@@ -48,5 +48,5 @@ Enjoy the comforting flavors of this vegan buttery dinner, a true delight for yo
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Total Fat: 18g, Saturated Fat: 4g, Sodium: 280mg, Carbohydrates: 42g, Fiber: 6g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (in vegan butter)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Total Fat: 18g, Saturated Fat: 4g, Sodium: 280mg, Carbohydrates: 42g, Fiber: 6g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (in vegan butter)</td></tr></table>
 

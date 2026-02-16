@@ -52,5 +52,5 @@ Elevate your dining experience with this decadent side dish that brings together
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Sodium: 780mg, Total Carbohydrates: 60g, Fiber: 3g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains alcohol (white wine)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 5g, Saturated Fat: 1g, Sodium: 780mg, Total Carbohydrates: 60g, Fiber: 3g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains alcohol (white wine)</td></tr></table>
 

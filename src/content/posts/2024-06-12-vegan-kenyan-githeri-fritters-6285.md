@@ -48,5 +48,5 @@ Enjoy these Githeri Fritters as a delightful appetizer, bursting with the authen
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 250mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 2g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten. Check breadcrumbs for allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 5g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 250mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 2g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten. Check breadcrumbs for allergens.</td></tr></table>
 

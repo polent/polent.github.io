@@ -62,5 +62,5 @@ Sodium: 200mg<br />
 Total Carbohydrate: 3g<br />
 Dietary Fiber: 0g<br />
 Sugar: 1g<br />
-Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This citrusy marinade is vegan and does not contain any common allergens.&nbsp;</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This citrusy marinade is vegan and does not contain any common allergens.</td></tr></table>
 

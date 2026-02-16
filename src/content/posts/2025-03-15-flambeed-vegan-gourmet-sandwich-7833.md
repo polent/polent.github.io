@@ -56,5 +56,5 @@ Enjoy the delightful crunch and the warm, smoky flavors of this flambéed vegan 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbohydrates: 50g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbohydrates: 50g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten, Soy</td></tr></table>
 

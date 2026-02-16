@@ -57,5 +57,5 @@ Enjoy this delightful twist on a classic, where traditional meets contemporary i
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 10g, Carbohydrates: 50g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, nuts (almond milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 10g, Carbohydrates: 50g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, nuts (almond milk)</td></tr></table>
 

@@ -50,5 +50,5 @@ Experience the depth of umami flavors in every bite of this exceptional bread. P
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 3g, Sodium: 400mg, Total Carbohydrates: 32g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. May contain gluten.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Total Fat: 3g, Sodium: 400mg, Total Carbohydrates: 32g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. May contain gluten.</td></tr></table>
 

@@ -49,5 +49,5 @@ Serve this delicious fruity soup chilled or at room temperature to enjoy its ful
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 8g, Carbohydrates: 20g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1h 15m&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 8g, Carbohydrates: 20g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>1h 15m</td></tr><tr><th scope="row">Allergy Information</th><td>coconut</td></tr></table>
 

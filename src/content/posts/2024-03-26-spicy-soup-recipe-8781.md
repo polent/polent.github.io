@@ -52,5 +52,5 @@ Enjoy a bowl of this delicious spicy soup to add some excitement to your day!
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 4g, Sodium: 800mg, Total Carbohydrates: 30g, Dietary Fiber: 8g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to vegetable broth. Check labels for specific allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 4g, Sodium: 800mg, Total Carbohydrates: 30g, Dietary Fiber: 8g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to vegetable broth. Check labels for specific allergens.</td></tr></table>
 

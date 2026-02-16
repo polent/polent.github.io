@@ -54,5 +54,5 @@ Enjoy the rich flavors of this Vegan BBQ Pineapple Upside-Down Cake that brings 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280kcal, Carbohydrates: 45g, Protein: 2g, Fat: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280kcal, Carbohydrates: 45g, Protein: 2g, Fat: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten</td></tr></table>
 

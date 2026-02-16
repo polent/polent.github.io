@@ -67,5 +67,5 @@ Elevate your dining experience with this umami-packed dinner that combines tradi
 Total Fat: 15g<br />
 Carbohydrates: 40g<br />
 Protein: 15g<br />
-Fiber: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+Fiber: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

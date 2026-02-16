@@ -53,5 +53,5 @@ Enjoy this innovative, vegan take on a classic fried seafood platter. Bursting w
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (in some vegan tartar sauces), Gluten (chickpea flour)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 15g, Carbs: 20g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy (in some vegan tartar sauces), Gluten (chickpea flour)</td></tr></table>
 

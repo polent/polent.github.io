@@ -49,5 +49,5 @@ Enjoy this Vegan Confit Root Vegetables dish as a warm, comforting side or a mai
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 14g, Carbs: 18g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 14g, Carbs: 18g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

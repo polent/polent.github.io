@@ -53,5 +53,5 @@ Enjoy this delightful Vegan Asian Fusion Runny Salad as a light lunch or a start
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 15g, Carbohydrates: 17g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Peanuts, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 15g, Carbohydrates: 17g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Peanuts, Sesame</td></tr></table>
 

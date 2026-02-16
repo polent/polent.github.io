@@ -55,5 +55,5 @@ Enjoy your delightful Sticky Asian-Inspired BBQ Jackfruit Slider! Perfect for ga
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Fat: 4g, Carbs: 40g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Fat: 4g, Carbs: 40g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Gluten</td></tr></table>
 

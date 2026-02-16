@@ -49,5 +49,5 @@ Enjoy the rich, savory flavors of this Vegan Mushroom Crostini that will impress
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 | Total Fat: 4g | Carbohydrates: 18g | Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 | Total Fat: 4g | Carbohydrates: 18g | Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

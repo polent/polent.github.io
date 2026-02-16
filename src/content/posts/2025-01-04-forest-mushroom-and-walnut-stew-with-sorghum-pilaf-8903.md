@@ -57,5 +57,5 @@ Enjoy this hearty, comforting stew as a tribute to the earthy, rich flavors of t
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten-Free&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbohydrates: 35g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten-Free</td></tr></table>
 

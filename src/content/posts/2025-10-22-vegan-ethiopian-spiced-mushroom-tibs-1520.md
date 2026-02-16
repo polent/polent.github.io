@@ -51,5 +51,5 @@ Enjoy this warm, aromatic dish that brings a piece of Africa to your plate with 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 5g, Carbs: 15g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include mushrooms and garlic.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 5g, Carbs: 15g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include mushrooms and garlic.</td></tr></table>
 

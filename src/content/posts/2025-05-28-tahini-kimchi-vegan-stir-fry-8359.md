@@ -53,5 +53,5 @@ Enjoy this fusion dish as a main course or a hearty side. Its vibrant flavors an
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 14g, Carbohydrates: 42g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame, Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 14g, Carbohydrates: 42g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame, Soy</td></tr></table>
 

@@ -56,5 +56,5 @@ Enjoy the delightful fusion of East meets West in this comforting, baked masterp
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 295, Fat: 13g, Carbs: 40g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 295, Fat: 13g, Carbs: 40g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, coconut</td></tr></table>
 

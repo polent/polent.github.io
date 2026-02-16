@@ -48,5 +48,5 @@ Experience the perfect balance of sweet and savory with our miso caramel ice cre
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Carbohydrates: 18g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut and almonds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Carbohydrates: 18g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut and almonds</td></tr></table>
 

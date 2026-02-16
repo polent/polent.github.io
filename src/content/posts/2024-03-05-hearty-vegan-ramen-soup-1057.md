@@ -51,5 +51,5 @@ Enjoy the comforting flavors of this vegan ramen soup, perfect for a cozy night 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 9g, Sodium: 1100mg, Total Carbohydrates: 45g, Dietary Fiber: 6g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>PT45M&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, wheat&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 9g, Sodium: 1100mg, Total Carbohydrates: 45g, Dietary Fiber: 6g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>PT45M</td></tr><tr><th scope="row">Allergy Information</th><td>soy, wheat</td></tr></table>
 

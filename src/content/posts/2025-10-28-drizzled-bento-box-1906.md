@@ -50,5 +50,5 @@ Enjoy your Drizzled Bento Box, a culinary journey that brings a unique twist to 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Fat: 5g, Carbs: 76g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame, Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380, Fat: 5g, Carbs: 76g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Sesame, Soy, Gluten</td></tr></table>
 

@@ -60,5 +60,5 @@ Enjoy this delightful Toasty Asian-Inspired Minestrone Soup as a standalone meal
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 6g, Carbohydrates: 28g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, sesame. Gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180 per serving, Fat: 6g, Carbohydrates: 28g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, sesame. Gluten-free.</td></tr></table>
 

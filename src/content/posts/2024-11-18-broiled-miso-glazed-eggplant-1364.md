@@ -50,5 +50,5 @@ Serve this Broiled Miso-Glazed Eggplant as a standout side or a main dish with s
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 5g, Carbohydrates: 18g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Fat: 5g, Carbohydrates: 18g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

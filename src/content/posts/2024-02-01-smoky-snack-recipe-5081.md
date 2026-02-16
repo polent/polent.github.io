@@ -55,5 +55,5 @@ Enjoy the smoky goodness of this snack, perfect for any occasion. Elevate your c
 - Fat: 8g<br />
 - Carbohydrates: 10g<br />
 - Protein: 12g<br />
-- Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+- Fiber: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

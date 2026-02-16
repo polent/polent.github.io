@@ -55,5 +55,5 @@ Serve these delightful sliders warm, and watch them disappear! They're perfect f
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 3g, Carbohydrates: 40g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include gluten in buns; always check individual product labels for specific allergens.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 3g, Carbohydrates: 40g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include gluten in buns; always check individual product labels for specific allergens.</td></tr></table>
 

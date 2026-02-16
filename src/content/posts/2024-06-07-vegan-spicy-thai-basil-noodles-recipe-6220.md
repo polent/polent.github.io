@@ -53,5 +53,5 @@ Enjoy the bold and aromatic flavors of this Vegan Spicy Thai Basil Noodles dish 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 650mg, Total Carbohydrates: 45g, Dietary Fiber: 3g, Sugars: 4g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using gluten-free soy sauce and rice noodles.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 650mg, Total Carbohydrates: 45g, Dietary Fiber: 3g, Sugars: 4g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Gluten-free option available by using gluten-free soy sauce and rice noodles.</td></tr></table>
 

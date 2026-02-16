@@ -48,5 +48,5 @@ Enjoy these irresistible syrupy finger foods that are sure to impress your guest
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150kcal, Carbohydrates: 25g, Protein: 3g, Fat: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150kcal, Carbohydrates: 25g, Protein: 3g, Fat: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of nuts.</td></tr></table>
 

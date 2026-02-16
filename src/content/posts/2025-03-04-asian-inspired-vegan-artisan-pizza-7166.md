@@ -50,5 +50,5 @@ Enjoy the fusion of East and West with each bite of this delightful vegan artisa
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Fat: 10g, Carbohydrates: 30g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Fat: 10g, Carbohydrates: 30g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy, Sesame</td></tr></table>
 

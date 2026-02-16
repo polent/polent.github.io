@@ -47,5 +47,5 @@ Enjoy these Airy Vegetable Tempura Bites as a perfect appetizer or snack that co
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Total Fat: 5g, Sodium: 200mg, Carbohydrates: 25g, Fiber: 2g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of soy due to frying oil.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Total Fat: 5g, Sodium: 200mg, Carbohydrates: 25g, Fiber: 2g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of soy due to frying oil.</td></tr></table>
 

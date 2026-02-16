@@ -50,5 +50,5 @@ Enjoy your colorful and nutritious vegan African-inspired Bento Box, a perfect m
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 12g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>peanut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 12g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>peanut</td></tr></table>
 

@@ -53,5 +53,5 @@ Enjoy this vegan barbecue delight that not only satisfies your cravings but also
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 9g, Carbohydrates: 58g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (seitan), Soy (depending on the brand of vegan barbecue sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 9g, Carbohydrates: 58g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten (seitan), Soy (depending on the brand of vegan barbecue sauce)</td></tr></table>
 

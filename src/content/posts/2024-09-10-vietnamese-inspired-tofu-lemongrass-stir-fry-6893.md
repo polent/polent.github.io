@@ -55,5 +55,5 @@ Enjoy this vibrant and healthful dish that not only satisfies your taste buds bu
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Protein: 12g, Fat: 10g, Carbohydrates: 20g, Sodium: 600mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Protein: 12g, Fat: 10g, Carbohydrates: 20g, Sodium: 600mg</td></tr><tr><th scope="row">Preparation Time</th><td>35 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten</td></tr></table>
 

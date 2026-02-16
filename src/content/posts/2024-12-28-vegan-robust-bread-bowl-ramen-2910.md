@@ -56,5 +56,5 @@ Enjoy your Robust Bread Bowl Ramen, a dish that not only satisfies your taste bu
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 480, Fat: 12g, Carbohydrates: 75g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, soy, and sesame. Possible allergens in bread depending on type used (nuts, seeds).&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 480, Fat: 12g, Carbohydrates: 75g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten, soy, and sesame. Possible allergens in bread depending on type used (nuts, seeds).</td></tr></table>
 

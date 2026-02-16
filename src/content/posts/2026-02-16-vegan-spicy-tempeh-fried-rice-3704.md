@@ -54,5 +54,5 @@ Enjoy this delightful Vegan Spicy Tempeh Fried Rice warm, topped with a sprinkle
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Protein: 18g, Carbohydrates: 45g, Fat: 12g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Protein: 18g, Carbohydrates: 45g, Fat: 12g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten</td></tr></table>
 

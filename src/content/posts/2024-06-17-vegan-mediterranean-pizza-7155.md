@@ -46,5 +46,5 @@ Enjoy the taste of the Mediterranean with every bite of this delightful vegan pi
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 10g, Sodium: 500mg, Carbohydrates: 30g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (in pizza dough), may contain nuts in vegan mozzarella&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Total Fat: 10g, Sodium: 500mg, Carbohydrates: 30g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten (in pizza dough), may contain nuts in vegan mozzarella</td></tr></table>
 

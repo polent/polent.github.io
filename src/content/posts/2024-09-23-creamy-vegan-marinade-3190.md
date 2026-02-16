@@ -46,5 +46,5 @@ This marinade is ideal for preparing in advance, allowing flavors to meld beauti
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 12g, Carbohydrates: 8g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 15 minutes (including soaking time)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 12g, Carbohydrates: 8g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 15 minutes (including soaking time)</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), garlic</td></tr></table>
 

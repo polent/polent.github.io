@@ -36,5 +36,5 @@ Enjoy this unique fusion dish that not only satisfies your salty cravings but al
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 8g, Carbs: 20g, Protein: 25g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 250, Fat: 8g, Carbs: 20g, Protein: 25g</td></tr><tr><th scope='row'>Preparation Time</th><td>20 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

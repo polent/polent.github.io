@@ -58,5 +58,5 @@ Enjoy this fresh, vibrant vegan artisan pizza as a testament to how versatile an
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Fat: 8g, Carbohydrates: 36g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours (including dough rising time)&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Gluten, Soy (in vegan cheese)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per slice, Fat: 8g, Carbohydrates: 36g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours (including dough rising time)</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Gluten, Soy (in vegan cheese)</td></tr></table>
 

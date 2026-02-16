@@ -53,5 +53,5 @@ Enjoy this comforting bowl of Vegan Shiitake Mushroom Udon Soup, where every sip
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 5g, Carbohydrates: 65g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 5g, Carbohydrates: 65g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten, sesame</td></tr></table>
 

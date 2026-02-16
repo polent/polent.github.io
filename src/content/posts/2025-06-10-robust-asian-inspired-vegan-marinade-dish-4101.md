@@ -54,5 +54,5 @@ Enjoy this delightful dish that not only satisfies your taste buds but also adds
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten (from soy sauce unless gluten-free)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 15g, Carbs: 20g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten (from soy sauce unless gluten-free)</td></tr></table>
 

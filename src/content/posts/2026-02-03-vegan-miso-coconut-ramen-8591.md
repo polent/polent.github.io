@@ -56,5 +56,5 @@ Enjoy this warming, savory dish that's perfect for a cozy evening or a special d
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 16g, Carbs: 44g, Protein: 8g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy, coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350 per serving, Fat: 16g, Carbs: 44g, Protein: 8g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy, coconut</td></tr></table>
 

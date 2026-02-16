@@ -53,5 +53,5 @@ Enjoy this comforting bowl of Asian-Inspired Vegan Mac and Cheese, perfect for a
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 40g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy, and coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Carbohydrates: 40g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy, and coconut</td></tr></table>
 

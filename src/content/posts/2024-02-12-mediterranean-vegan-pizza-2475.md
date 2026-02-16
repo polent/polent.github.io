@@ -56,5 +56,5 @@ Total Fat: 8g<br />
 Saturated Fat: 1g<br />
 Carbohydrates: 38g<br />
 Fiber: 4g<br />
-Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please note that the pizza dough may contain yeast.&nbsp;</td></tr></table>
+Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please note that the pizza dough may contain yeast.</td></tr></table>
 

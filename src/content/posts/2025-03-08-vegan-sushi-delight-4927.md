@@ -57,5 +57,5 @@ Enjoy this refreshing Vegan Sushi Delight, a true testament to the possibilities
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300-400 per serving, Fat: 9g, Carbs: 50g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300-400 per serving, Fat: 9g, Carbs: 50g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

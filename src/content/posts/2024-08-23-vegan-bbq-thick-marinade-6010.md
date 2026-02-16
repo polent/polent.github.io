@@ -49,5 +49,5 @@ This thick marinade is not only versatile but also stores well, so you can make 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70 per serving, Fat: 5g, Carbohydrates: 6g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70 per serving, Fat: 5g, Carbohydrates: 6g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy</td></tr></table>
 

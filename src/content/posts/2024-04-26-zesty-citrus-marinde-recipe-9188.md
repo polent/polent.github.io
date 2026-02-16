@@ -43,5 +43,5 @@ Infuse your meals with the vibrant essence of citrus using this versatile marina
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 82kcal, Carbohydrates: 3g, Protein: 1g, Fat: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 82kcal, Carbohydrates: 3g, Protein: 1g, Fat: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>5 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: garlic</td></tr></table>
 

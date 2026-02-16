@@ -52,5 +52,5 @@ Enjoy this delicious Vegan Spinach and Mushroom Pie hot, right out of the oven, 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Fat: 20g, Carbohydrates: 35g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy, Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Fat: 20g, Carbohydrates: 35g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, Soy, Nuts</td></tr></table>
 

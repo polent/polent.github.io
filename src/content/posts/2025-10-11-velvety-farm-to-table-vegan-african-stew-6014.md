@@ -55,5 +55,5 @@ Enjoy this delightful meal that not only tastes good but also respects the plane
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 12g, Fiber: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include chickpeas and garlic.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 9g, Carbohydrates: 58g, Protein: 12g, Fiber: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>55 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include chickpeas and garlic.</td></tr></table>
 

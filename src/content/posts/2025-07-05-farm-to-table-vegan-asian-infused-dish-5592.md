@@ -57,5 +57,5 @@ Enjoy this delightful dish as a testament to the power of fresh ingredients and 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbohydrates: 45g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 10g, Carbohydrates: 45g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>soy, sesame</td></tr></table>
 

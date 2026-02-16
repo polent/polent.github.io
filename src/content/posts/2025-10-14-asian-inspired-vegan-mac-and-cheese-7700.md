@@ -52,5 +52,5 @@ Enjoy this warm, comforting bowl of vegan mac and cheese, perfect for any day th
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 55g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 55g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy</td></tr></table>
 

@@ -54,5 +54,5 @@ Enjoy this delightful sandwich with a side of your favorite salad or soup for a 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbohydrates: 45g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 400, Fat: 20g, Carbohydrates: 45g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Gluten</td></tr></table>
 

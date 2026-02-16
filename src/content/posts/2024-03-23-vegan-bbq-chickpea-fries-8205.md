@@ -46,5 +46,5 @@ Enjoy these BBQ chickpea fries as a flavorful side dish or snack, guaranteed to 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 25g, Protein: 7g, Fat: 6g, Saturated Fat: 1g, Sodium: 380mg, Fiber: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180kcal, Carbohydrates: 25g, Protein: 7g, Fat: 6g, Saturated Fat: 1g, Sodium: 380mg, Fiber: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None</td></tr></table>
 

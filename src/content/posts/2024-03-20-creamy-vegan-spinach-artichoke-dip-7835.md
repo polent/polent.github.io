@@ -50,5 +50,5 @@ Enjoy this delectable dip with your favorite chips or veggies for a delightful s
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 2g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), soy (vegan mayo)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 12g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 15g, Dietary Fiber: 3g, Sugars: 2g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews), soy (vegan mayo)</td></tr></table>
 

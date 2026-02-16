@@ -53,5 +53,5 @@ Enjoy this heartwarming dish that's perfect for any day that calls for a special
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 510 per serving, Fat: 24g, Carbohydrates: 58g, Protein: 21g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>nuts, soy, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 510 per serving, Fat: 24g, Carbohydrates: 58g, Protein: 21g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>nuts, soy, gluten</td></tr></table>
 

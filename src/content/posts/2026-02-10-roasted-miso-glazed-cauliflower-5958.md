@@ -53,5 +53,5 @@ Serve this roasted miso-glazed cauliflower warm, garnished with fresh herbs or a
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 150, Fat: 9g, Carbohydrates: 15g, Protein: 4g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>35 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy (miso paste), possible gluten depending on miso brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 150, Fat: 9g, Carbohydrates: 15g, Protein: 4g</td></tr><tr><th scope='row'>Preparation Time</th><td>35 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy (miso paste), possible gluten depending on miso brand</td></tr></table>
 

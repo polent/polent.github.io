@@ -51,5 +51,5 @@ Enjoy this delightful fusion bowl as a standalone meal or pair it with a light, 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 8g, Saturated Fat: 3g, Carbohydrates: 60g, Protein: 12g, Fiber: 10g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour 20 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Sesame seeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 8g, Saturated Fat: 3g, Carbohydrates: 60g, Protein: 12g, Fiber: 10g</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour 20 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Sesame seeds</td></tr></table>
 

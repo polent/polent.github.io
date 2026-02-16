@@ -50,5 +50,5 @@ Serve this succulent Vegan Asian BBQ Tofu Steak with a side of steamed jasmine r
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbs: 8g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbs: 8g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy</td></tr></table>
 

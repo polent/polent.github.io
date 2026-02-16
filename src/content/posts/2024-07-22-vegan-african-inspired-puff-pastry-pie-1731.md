@@ -55,5 +55,5 @@ Serve this golden, flaky pie fresh out of the oven for a satisfying dinner that'
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 58g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, possible traces of nuts in puff pastry&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 58g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten, possible traces of nuts in puff pastry</td></tr></table>
 

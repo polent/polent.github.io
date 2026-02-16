@@ -50,5 +50,5 @@ Elevate your salad game with this delicious recipe that's sure to become a favor
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 25g, Dietary Fiber: 8g, Sugars: 5g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Total Fat: 15g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 300mg, Total Carbohydrates: 25g, Dietary Fiber: 8g, Sugars: 5g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts.</td></tr></table>
 

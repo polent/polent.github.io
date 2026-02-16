@@ -48,5 +48,5 @@ Enjoy these delectable Vegan Kimchi Pancakes as a delightful appetizer or snack,
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per pancake, Carbohydrates: 15g, Protein: 2g, Fat: 5g, Fiber: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Alert: Contains gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120 per pancake, Carbohydrates: 15g, Protein: 2g, Fat: 5g, Fiber: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergy Alert: Contains gluten</td></tr></table>
 

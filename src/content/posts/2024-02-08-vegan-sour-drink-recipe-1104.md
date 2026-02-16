@@ -49,5 +49,5 @@ Calories: 45<br />
 Total Fat: 0g<br />
 Sodium: 0mg<br />
 Total Carbohydrate: 12g<br />
-Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 0g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

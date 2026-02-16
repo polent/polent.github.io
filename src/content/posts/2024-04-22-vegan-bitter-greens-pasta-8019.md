@@ -48,5 +48,5 @@ Indulge in this vegan Italian creation that celebrates the complexity of bitter 
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Carbohydrates: 55g, Protein: 12g, Fat: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (pasta)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350kcal, Carbohydrates: 55g, Protein: 12g, Fat: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (pasta)</td></tr></table>
 

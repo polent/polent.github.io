@@ -48,5 +48,5 @@ Serve this delightful dish warm and watch as it becomes a new favorite, bringing
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 9g, Carbohydrates: 28g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts, optional)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 9g, Carbohydrates: 28g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (walnuts, optional)</td></tr></table>
 

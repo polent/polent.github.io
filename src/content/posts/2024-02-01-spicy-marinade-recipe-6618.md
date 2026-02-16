@@ -64,5 +64,5 @@ Enjoy the vibrant flavors of Africa with this spicy marinade. Whether you're gri
 - Total Carbohydrate: 8g<br />
 - Fiber: 2g<br />
 - Sugar: 4g<br />
-- Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+- Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

@@ -44,5 +44,5 @@ Indulge in the taste of the Mediterranean with every bite of this Vegan Mediterr
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving size: 1 slice. Calories: 250. Total Fat: 8g. Sodium: 450mg. Carbohydrates: 35g. Fiber: 4g. Protein: 6g.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (pizza dough)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving size: 1 slice. Calories: 250. Total Fat: 8g. Sodium: 450mg. Carbohydrates: 35g. Fiber: 4g. Protein: 6g.</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (pizza dough)</td></tr></table>
 

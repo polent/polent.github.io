@@ -52,5 +52,5 @@ Serve this creamy vegan corn and potato chowder hot, garnished with fresh parsle
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 9g, Carbohydrates: 22g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include coconut. Gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 9g, Carbohydrates: 22g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include coconut. Gluten-free.</td></tr></table>
 

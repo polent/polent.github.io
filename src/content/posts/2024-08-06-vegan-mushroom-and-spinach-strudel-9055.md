@@ -53,5 +53,5 @@ Enjoy this delightful Vegan Mushroom and Spinach Strudel with a side of mixed gr
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 18g, Carbohydrates: 35g, Protein: 7g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, mushrooms, possible nuts in vegan puff pastry&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 18g, Carbohydrates: 35g, Protein: 7g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>gluten, mushrooms, possible nuts in vegan puff pastry</td></tr></table>
 

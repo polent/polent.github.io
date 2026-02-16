@@ -50,5 +50,5 @@ Enjoy this delightful herbal tapas dish as a light meal or a part of a larger ta
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 9g, Carbohydrates: 15g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten from baguette and avocado&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 9g, Carbohydrates: 15g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include gluten from baguette and avocado</td></tr></table>
 

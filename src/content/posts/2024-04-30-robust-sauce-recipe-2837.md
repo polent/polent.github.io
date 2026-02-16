@@ -51,5 +51,5 @@ Enjoy this flavorful sauce served over your favorite pasta or as a topping on a 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Sodium: 480mg, Total Carbohydrates: 14g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 7g, Sodium: 480mg, Total Carbohydrates: 14g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of nuts</td></tr></table>
 

@@ -52,5 +52,5 @@ Enjoy this fresh, crunchy, and utterly delicious bento-style dish that's perfect
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Protein: 12g, Carbohydrates: 18g, Fat: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Protein: 12g, Carbohydrates: 18g, Fat: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

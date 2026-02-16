@@ -45,5 +45,5 @@ Enjoy this nutritious grassy snack that brings a burst of flavor and freshness t
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 10g, Sodium: 200mg, Total Carbohydrates: 15g, Dietary Fiber: 8g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Total Fat: 10g, Sodium: 200mg, Total Carbohydrates: 15g, Dietary Fiber: 8g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: None</td></tr></table>
 

@@ -52,5 +52,5 @@ Enjoy this vibrant Moroccan-inspired salad as a standalone meal or pair it with 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 8g, Carbs: 28g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds (nuts)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 8g, Carbs: 28g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds (nuts)</td></tr></table>
 

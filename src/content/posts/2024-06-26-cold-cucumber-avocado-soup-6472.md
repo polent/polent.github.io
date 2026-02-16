@@ -47,5 +47,5 @@ Enjoy this cooling soup as a light and healthy meal or starter. It's a delightfu
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 14g, Sodium: 450mg, Total Carbohydrates: 15g, Dietary Fiber: 8g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Total Fat: 14g, Sodium: 450mg, Total Carbohydrates: 15g, Dietary Fiber: 8g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

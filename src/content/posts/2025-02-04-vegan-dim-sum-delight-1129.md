@@ -52,5 +52,5 @@ Enjoy your homemade vegan dim sum as a wonderful start to your morning or a deli
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 5g, Carbs: 20g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, wheat, sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 5g, Carbs: 20g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, wheat, sesame</td></tr></table>
 

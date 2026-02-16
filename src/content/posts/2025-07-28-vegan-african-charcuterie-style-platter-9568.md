@@ -51,5 +51,5 @@ Enjoy this delightful charcuterie-style platter that beautifully brings together
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 10g, Carbohydrates: 13g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains sesame, gluten (optional based on choice of crackers or bread)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 10g, Carbohydrates: 13g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains sesame, gluten (optional based on choice of crackers or bread)</td></tr></table>
 

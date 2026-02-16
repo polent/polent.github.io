@@ -51,5 +51,5 @@ These BBQ Tempeh Lettuce Wraps are perfect for a casual lunch, dinner, or as a t
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 11g, Carbohydrates: 35g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 11g, Carbohydrates: 35g, Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

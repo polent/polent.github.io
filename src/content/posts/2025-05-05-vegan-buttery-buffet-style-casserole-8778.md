@@ -58,5 +58,5 @@ Enjoy this delightful dish with family and friends, and let it bring warmth and 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 12g, Carbohydrates: 30g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, possible gluten contamination from vegetable broth&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 12g, Carbohydrates: 30g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, possible gluten contamination from vegetable broth</td></tr></table>
 

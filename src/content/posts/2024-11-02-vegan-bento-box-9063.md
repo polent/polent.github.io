@@ -49,5 +49,5 @@ Enjoy your Vegan Bento Box as a beautiful, balanced meal that keeps you energize
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 550, Fat: 20g, Carbs: 70g, Protein: 25g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 550, Fat: 20g, Carbs: 70g, Protein: 25g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

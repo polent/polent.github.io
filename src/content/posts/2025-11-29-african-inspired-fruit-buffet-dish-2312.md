@@ -49,5 +49,5 @@ Enjoy this lush, flavorful dish that brings a piece of Africa's culinary magic t
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 4g, Carbohydrates: 28g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of other nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 4g, Carbohydrates: 28g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts, may contain traces of other nuts</td></tr></table>
 

@@ -54,5 +54,5 @@ Enjoy this comforting bowl of Vegan Sichuan Mapo Tofu, ideally accompanied by a 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbohydrates: 15g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 10g, Carbohydrates: 15g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten</td></tr></table>
 

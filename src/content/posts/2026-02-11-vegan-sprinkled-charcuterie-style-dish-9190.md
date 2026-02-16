@@ -51,5 +51,5 @@ Enjoy this beautifully arranged vegan charcuterie board as a centerpiece for you
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 50g, Protein: 20g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy, nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 450, Fat: 20g, Carbs: 50g, Protein: 20g</td></tr><tr><th scope='row'>Preparation Time</th><td>1 hour</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains soy, nuts</td></tr></table>
 

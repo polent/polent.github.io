@@ -51,5 +51,5 @@ Experience a burst of exciting flavors in every mouthful with this dish that wil
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 410mg, Total Carbohydrates: 45g, Dietary Fiber: 10g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy and gluten.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 1g, Sodium: 410mg, Total Carbohydrates: 45g, Dietary Fiber: 10g, Protein: 9g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy and gluten.</td></tr></table>
 

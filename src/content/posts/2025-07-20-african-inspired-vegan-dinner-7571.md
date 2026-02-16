@@ -56,5 +56,5 @@ Enjoy this delightful fusion of African culinary traditions and vegan innovation
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 5g, Carbohydrates: 60g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include cumin and chickpeas.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 5g, Carbohydrates: 60g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include cumin and chickpeas.</td></tr></table>
 

@@ -53,5 +53,5 @@ Enjoy this delightful moist snack as a mid-day treat or a companion to your even
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 6g, Carbohydrates: 21g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (walnuts), Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 6g, Carbohydrates: 21g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (walnuts), Coconut</td></tr></table>
 

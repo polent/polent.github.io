@@ -46,5 +46,5 @@ Serve this creamy side dish alongside your favorite main course for a truly memo
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 300mg, Carbohydrates: 18g, Fiber: 4g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 220, Total Fat: 15g, Saturated Fat: 2g, Sodium: 300mg, Carbohydrates: 18g, Fiber: 4g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

@@ -44,5 +44,5 @@ Enjoy this spicy drink as a refreshing and invigorating beverage that will trans
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 12g, Fiber: 1g, Sugar: 9g, Protein: 0g, Fat: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of pollen from hibiscus flowers. Please check for any allergies to cayenne pepper.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 45kcal, Carbohydrates: 12g, Fiber: 1g, Sugar: 9g, Protein: 0g, Fat: 0g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of pollen from hibiscus flowers. Please check for any allergies to cayenne pepper.</td></tr></table>
 

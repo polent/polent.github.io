@@ -55,5 +55,5 @@ Enjoy this Vegan Sticky Soba Noodle Bowl as a cozy dinner or a hearty lunch. Its
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 7g, Carbohydrates: 58g, Protein: 15g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 7g, Carbohydrates: 58g, Protein: 15g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame</td></tr></table>
 

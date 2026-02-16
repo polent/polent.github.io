@@ -52,5 +52,5 @@ Elevate your salad game with this innovative and nutritious dish that celebrates
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, protein, vitamins, and minerals. Low in saturated fat and calories.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Can be made gluten-free by using tamari instead of soy sauce.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in fiber, protein, vitamins, and minerals. Low in saturated fat and calories.</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy. Can be made gluten-free by using tamari instead of soy sauce.</td></tr></table>
 

@@ -49,5 +49,5 @@ Enjoy this luxurious vegan Tiramisu, a perfect ending to any meal. Treat yoursel
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Total Fat: 15g, Carbohydrates: 32g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond), gluten (ladyfingers)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280 per serving, Total Fat: 15g, Carbohydrates: 32g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond), gluten (ladyfingers)</td></tr></table>
 

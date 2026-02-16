@@ -51,5 +51,5 @@ Enjoy this delicious and nutritious African-inspired bento box, perfect for a fu
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 360, Fat: 15g, Carbohydrates: 50g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include seeds (pumpkin seeds) and nuts (avocado)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 360, Fat: 15g, Carbohydrates: 50g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include seeds (pumpkin seeds) and nuts (avocado)</td></tr></table>
 

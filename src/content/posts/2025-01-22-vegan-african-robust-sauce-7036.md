@@ -59,5 +59,5 @@ Serve this heartwarming sauce over a bed of steamed rice or with a side of fresh
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 5g, Carbohydrates: 24g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 5g, Carbohydrates: 24g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut</td></tr></table>
 

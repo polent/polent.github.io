@@ -56,5 +56,5 @@ Enjoy this delicious Vegan Ethiopian Berbere Spiced Chickpea Stew with a side of
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 265, Fat: 9g, Carbohydrates: 39g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and chickpeas&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 265, Fat: 9g, Carbohydrates: 39g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and chickpeas</td></tr></table>
 

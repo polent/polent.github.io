@@ -56,5 +56,5 @@ Enjoy these Vegan African Steamed Dumplings warm, straight from the steamer, acc
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 100 per serving, Fat: 2g, Carbohydrates: 18g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free ingredients, but check for cross-contamination if celiac.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 100 per serving, Fat: 2g, Carbohydrates: 18g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free ingredients, but check for cross-contamination if celiac.</td></tr></table>
 

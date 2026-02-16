@@ -50,5 +50,5 @@ Enjoy the delightful array of flavors and textures that this vegan warm charcute
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in dietary fiber, protein-rich, contains healthy fats.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, possible gluten in bread or crackers&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>High in dietary fiber, protein-rich, contains healthy fats.</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, possible gluten in bread or crackers</td></tr></table>
 

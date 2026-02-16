@@ -55,5 +55,5 @@ Enjoy this beautifully crafted bread with its soft texture and rich flavors. It'
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 4g, Carbohydrates: 46g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Almonds, Sunflower Seeds, Flaxseeds&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 4g, Carbohydrates: 46g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Almonds, Sunflower Seeds, Flaxseeds</td></tr></table>
 

@@ -51,5 +51,5 @@ Indulge in the vibrant flavors of this vegan noodle salad, ideal for a nutritiou
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Total Fat: 14g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 820mg, Total Carbohydrates: 22g, Dietary Fiber: 6g, Sugars: 10g, Protein: 20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts and soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Total Fat: 14g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 820mg, Total Carbohydrates: 22g, Dietary Fiber: 6g, Sugars: 10g, Protein: 20g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts and soy</td></tr></table>
 

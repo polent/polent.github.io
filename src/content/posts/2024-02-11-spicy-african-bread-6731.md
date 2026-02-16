@@ -68,5 +68,5 @@ Saturated Fat: 1g<br />
 Carbohydrates: 20g<br />
 Fiber: 1g<br />
 Sugar: 2g<br />
-Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This Spicy African Bread recipe contains gluten. It can be made dairy-free and vegan by using non-dairy milk.&nbsp;</td></tr></table>
+Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This Spicy African Bread recipe contains gluten. It can be made dairy-free and vegan by using non-dairy milk.</td></tr></table>
 

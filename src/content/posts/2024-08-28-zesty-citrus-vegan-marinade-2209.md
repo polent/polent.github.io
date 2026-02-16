@@ -47,5 +47,5 @@ Use this versatile marinade for tofu, tempeh, or even mixed vegetables to enhanc
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 50, Fat: 0g, Carbs: 12g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible citrus allergies&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 50, Fat: 0g, Carbs: 12g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy, possible citrus allergies</td></tr></table>
 

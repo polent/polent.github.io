@@ -49,5 +49,5 @@ Enjoy this luscious, heartwarming dessert that perfectly rounds off any meal wit
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbohydrates: 29g, Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, Nuts (optional)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 9g, Carbohydrates: 29g, Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Coconut, Nuts (optional)</td></tr></table>
 

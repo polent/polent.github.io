@@ -59,5 +59,5 @@ Enjoy this delightful bowl of Smoky Vegan Ramen, where every spoonful is packed 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 15g, Carbs: 65g, Protein: 20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 15g, Carbs: 65g, Protein: 20g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame</td></tr></table>
 

@@ -47,5 +47,5 @@ Serve up this bright and flavorful dish for a citrus-infused lunch that will lea
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 14g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 10mg, Total Carbohydrates: 46g, Dietary Fiber: 9g, Sugars: 16g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 14g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 10mg, Total Carbohydrates: 46g, Dietary Fiber: 9g, Sugars: 16g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

@@ -51,5 +51,5 @@ Enjoy the vibrant and innovative flavors of these Vegan Sushi Burrito Rolls, a t
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 8g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 480mg, Total Carbohydrates: 58g, Dietary Fiber: 6g, Sugars: 2g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce), may contain gluten (soy sauce)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 8g, Saturated Fat: 1g, Cholesterol: 0mg, Sodium: 480mg, Total Carbohydrates: 58g, Dietary Fiber: 6g, Sugars: 2g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (soy sauce), may contain gluten (soy sauce)</td></tr></table>
 

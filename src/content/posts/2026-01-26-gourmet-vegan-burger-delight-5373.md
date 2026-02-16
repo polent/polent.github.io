@@ -54,5 +54,5 @@ Enjoy your gourmet vegan burger with a side of sweet potato fries or a fresh sal
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 10g, Carbohydrates: 50g, Protein: 18g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts, gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 350, Fat: 10g, Carbohydrates: 50g, Protein: 18g</td></tr><tr><th scope='row'>Preparation Time</th><td>30 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts, gluten</td></tr></table>
 

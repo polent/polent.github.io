@@ -47,5 +47,5 @@ Enjoy this smoky dessert as a delightful ending to your meal, showcasing the ver
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Total Fat: 25g, Sodium: 300mg, Total Carbohydrates: 22g, Sugars: 15g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Total Fat: 25g, Sodium: 300mg, Total Carbohydrates: 22g, Sugars: 15g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)</td></tr></table>
 

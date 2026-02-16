@@ -54,5 +54,5 @@ Enjoy this delightful vegan butter tofu with a side of fragrant basmati rice or 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 285, Fat: 22g, Carbohydrates: 15g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (tofu), coconut (coconut milk)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 285, Fat: 22g, Carbohydrates: 15g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (tofu), coconut (coconut milk)</td></tr></table>
 

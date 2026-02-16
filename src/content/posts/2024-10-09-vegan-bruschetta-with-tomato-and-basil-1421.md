@@ -48,5 +48,5 @@ Serve this vibrant Vegan Bruschetta as a delightful start to your meal, or enjoy
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 5g, Carbohydrates: 20g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Gluten, Possible nuts in vegan parmesan&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150 per serving, Fat: 5g, Carbohydrates: 20g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Wheat, Gluten, Possible nuts in vegan parmesan</td></tr></table>
 

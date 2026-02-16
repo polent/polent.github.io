@@ -53,5 +53,5 @@ Enjoy your Vegan BBQ Tempeh Bun, a heartwarming dish that brings a unique twist 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 9g, Carbs: 44g, Protein: 18g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 9g, Carbs: 44g, Protein: 18g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

@@ -55,5 +55,5 @@ Enjoy your meal knowing you've indulged in a luxurious yet completely plant-base
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Fat: 30g, Carbohydrates: 58g, Protein: 22g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Possible nut contamination from vegan butter&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 600, Fat: 30g, Carbohydrates: 58g, Protein: 22g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Possible nut contamination from vegan butter</td></tr></table>
 

@@ -57,5 +57,5 @@ Enjoy the warmth and complexity of these vegan smoky tapas. Perfect for sharing,
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 13g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds, possible allergens include nuts and garlic&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 150, Fat: 10g, Carbohydrates: 13g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains almonds, possible allergens include nuts and garlic</td></tr></table>
 

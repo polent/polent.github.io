@@ -55,5 +55,5 @@ Enjoy this vibrant and spicy salad as a refreshing lunch or a light dinner. It's
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Nuts, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 10g, Carbs: 25g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Nuts, Sesame</td></tr></table>
 

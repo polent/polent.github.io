@@ -59,5 +59,5 @@ Enjoy this delightful plant-based feast that brings the warmth and richness of A
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 8g, Carbohydrates: 60g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. Gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350 per serving, Fat: 8g, Carbohydrates: 60g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains peanuts. Gluten-free.</td></tr></table>
 

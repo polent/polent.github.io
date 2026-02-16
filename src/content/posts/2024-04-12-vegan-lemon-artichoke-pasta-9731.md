@@ -51,5 +51,5 @@ Enjoy the burst of Mediterranean flavors in every bite of this Vegan Lemon Artic
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 65g, Protein: 10g, Fat: 10g, Saturated Fat: 1g, Sodium: 320mg, Fiber: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 65g, Protein: 10g, Fat: 10g, Saturated Fat: 1g, Sodium: 320mg, Fiber: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts</td></tr></table>
 

@@ -49,5 +49,5 @@ Serve up these BBQ Jackfruit Sliders at your next gathering and watch them disap
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 | Total Fat: 3g | Sodium: 600mg | Carbohydrates: 55g | Fiber: 5g | Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (check bun ingredients for gluten-free option)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 | Total Fat: 3g | Sodium: 600mg | Carbohydrates: 55g | Fiber: 5g | Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies: Gluten (check bun ingredients for gluten-free option)</td></tr></table>
 

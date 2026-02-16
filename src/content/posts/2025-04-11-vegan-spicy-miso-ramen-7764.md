@@ -57,5 +57,5 @@ Enjoy this heartwarming bowl of spicy miso ramen, a perfect blend of heat, flavo
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 540, Fat: 18g, Carbohydrates: 72g, Protein: 25g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 540, Fat: 18g, Carbohydrates: 72g, Protein: 25g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame</td></tr></table>
 

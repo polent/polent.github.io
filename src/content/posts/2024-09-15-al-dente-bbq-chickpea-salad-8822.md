@@ -54,5 +54,5 @@ Serve this scrumptious Al Dente BBQ Chickpea Salad at your next gathering and wa
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 6g, Carbs: 30g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 6g, Carbs: 30g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

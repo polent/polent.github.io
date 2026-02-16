@@ -35,5 +35,5 @@ Enjoy this delightful vegan minced barbecue as a highlight of your meal, serving
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 9g, Carbohydrates: 29g, Protein: 14g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (TVP)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 per serving, Fat: 9g, Carbohydrates: 29g, Protein: 14g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy (TVP)</td></tr></table>
 

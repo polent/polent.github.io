@@ -49,5 +49,5 @@ Enjoy the delightful fusion of flavors in this bitter lunch recipe, inspired by 
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 55g, Protein: 12g, Fat: 15g, Saturated Fat: 2g, Sodium: 360mg, Fiber: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 380kcal, Carbohydrates: 55g, Protein: 12g, Fat: 15g, Saturated Fat: 2g, Sodium: 360mg, Fiber: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

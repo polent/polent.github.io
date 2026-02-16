@@ -46,5 +46,5 @@ Enjoy this delightful Coconut Mango Panna Cotta as a refreshing end to any meal.
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 11g, Carbohydrates: 25g, Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergen: coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200, Fat: 11g, Carbohydrates: 25g, Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergen: coconut</td></tr></table>
 

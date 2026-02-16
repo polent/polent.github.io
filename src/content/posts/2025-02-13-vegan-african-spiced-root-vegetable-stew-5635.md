@@ -60,5 +60,5 @@ Enjoy this wholesome and hearty dish that not only satisfies your taste buds but
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 14g, Carbs: 30g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut. Gluten-free.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 14g, Carbs: 30g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>50 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut. Gluten-free.</td></tr></table>
 

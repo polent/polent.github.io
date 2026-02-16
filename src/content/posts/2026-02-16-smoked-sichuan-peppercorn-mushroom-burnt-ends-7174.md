@@ -61,5 +61,5 @@ There you have it—a dish that’s smoky, spicy, and soul-satisfying. These mus
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 195, Fat: 9g, Carbohydrates: 26g, Protein: 5g, Sodium: 480mg, Fiber: 4g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>2 hours 15 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten (use Tamari and GF Hoisin for gluten-free version), Sesame&nbsp;</td></tr><tr><th scope='row'>Yield</th><td>4 servings&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 195, Fat: 9g, Carbohydrates: 26g, Protein: 5g, Sodium: 480mg, Fiber: 4g</td></tr><tr><th scope='row'>Preparation Time</th><td>2 hours 15 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Soy, Gluten (use Tamari and GF Hoisin for gluten-free version), Sesame</td></tr><tr><th scope='row'>Yield</th><td>4 servings</td></tr></table>
 

@@ -53,5 +53,5 @@ Serve this delightful vegan umami charcuterie platter as the centerpiece of your
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450 per serving, Fat: 27g, Carbs: 35g, Protein: 22g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy, Gluten (if using baguette or some crackers)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450 per serving, Fat: 27g, Carbs: 35g, Protein: 22g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Soy, Gluten (if using baguette or some crackers)</td></tr></table>
 

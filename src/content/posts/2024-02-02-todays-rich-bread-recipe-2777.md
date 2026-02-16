@@ -55,5 +55,5 @@ Enjoy this rich bread as a centerpiece of your next meal or share it with loved 
 - Fat: 4g<br />
 - Carbohydrates: 32g<br />
 - Protein: 5g<br />
-- Fiber: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of nuts and soy.&nbsp;</td></tr></table>
+- Fiber: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours</td></tr><tr><th scope="row">Allergy Information</th><td>Contains gluten. May contain traces of nuts and soy.</td></tr></table>
 

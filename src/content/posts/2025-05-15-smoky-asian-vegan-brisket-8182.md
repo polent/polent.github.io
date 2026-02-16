@@ -57,5 +57,5 @@ Enjoy this delightful fusion dish that is sure to become a favorite in your culi
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 5g, Carbs: 18g, Protein: 35g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 280, Fat: 5g, Carbs: 18g, Protein: 35g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour 30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Wheat, Sesame, Gluten</td></tr></table>
 

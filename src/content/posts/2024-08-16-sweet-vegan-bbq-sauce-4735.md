@@ -53,5 +53,5 @@ Serve this sweet BBQ sauce with your favorite vegan meats or grilled vegetables.
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70 per serving, Fat: 0g, Carbohydrates: 18g, Protein: 0g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include tomatoes and soy (check ketchup and liquid smoke labels)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 70 per serving, Fat: 0g, Carbohydrates: 18g, Protein: 0g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include tomatoes and soy (check ketchup and liquid smoke labels)</td></tr></table>
 

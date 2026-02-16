@@ -53,5 +53,5 @@ Enjoy this delightful fusion salad that not only satiates your taste buds but al
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 9g, Carbs: 15g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 180, Fat: 9g, Carbs: 15g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame, Gluten</td></tr></table>
 

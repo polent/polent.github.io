@@ -53,5 +53,5 @@ Serve this delightful dish at your holiday table and watch it become a new favor
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 15g, Carbohydrates: 40g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (pecans)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 290, Fat: 15g, Carbohydrates: 40g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts (pecans)</td></tr></table>
 

@@ -54,5 +54,5 @@ Saturated Fat: 13g<br />
 Carbohydrates: 20g<br />
 Fiber: 3g<br />
 Sugar: 11g<br />
-Protein: 2g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains coconut and may contain traces of nuts.&nbsp;</td></tr></table>
+Protein: 2g</td></tr><tr><th scope="row">Preparation Time</th><td>2 hours</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains coconut and may contain traces of nuts.</td></tr></table>
 

@@ -36,5 +36,5 @@ Serve this delightful dish at your next holiday gathering and watch as it become
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 35g, Protein: 10g&nbsp;</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts (walnuts)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope='row'>Nutritionfacts</th><td>Calories: 300, Fat: 15g, Carbs: 35g, Protein: 10g</td></tr><tr><th scope='row'>Preparation Time</th><td>45 minutes</td></tr><tr><th scope='row'>Allergy Information</th><td>Contains nuts (walnuts)</td></tr></table>
 

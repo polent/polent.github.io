@@ -59,5 +59,5 @@ Sodium: 50mg<br />
 Total Carbohydrate: 9g<br />
 Dietary Fiber: 2g<br />
 Total Sugars: 1g<br />
-Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free&nbsp;</td></tr></table>
+Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Gluten-free, soy-free</td></tr></table>
 

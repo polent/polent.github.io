@@ -56,5 +56,5 @@ Sodium: 250mg<br />
 Total Carbohydrate: 15g<br />
 Dietary Fiber: 3g<br />
 Sugar: 10g<br />
-Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy (depending on the vegan mayonnaise used)&nbsp;</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy (depending on the vegan mayonnaise used)</td></tr></table>
 

@@ -48,5 +48,5 @@ Enjoy your meal with this unique marinade that ensures your vegan BBQ is as deli
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 90, Fat: 7g, Carbohydrates: 6g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, mustard&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 90, Fat: 7g, Carbohydrates: 6g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, mustard</td></tr></table>
 

@@ -50,5 +50,5 @@ Enjoy this thirst-quenching dry drink on a hot summer day and savor the refreshi
 Carbohydrates: 15g<br />
 Protein: 0g<br />
 Fat: 0g<br />
-Sugar: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+Sugar: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

@@ -49,5 +49,5 @@ Enjoy this delightful tart with a pot of your favorite tea, and let the flavors 
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 18g, Carbs: 36g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Coconut&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Fat: 18g, Carbs: 36g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>4 hours 20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Nuts, Coconut</td></tr></table>
 

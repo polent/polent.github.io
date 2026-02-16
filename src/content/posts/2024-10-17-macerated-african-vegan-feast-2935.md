@@ -53,5 +53,5 @@ Enjoy this heartwarming dish that not only satisfies your taste buds but also pa
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 9g, Carbs: 28g, Protein: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include garlic and mango sensitivity.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 200 per serving, Fat: 9g, Carbs: 28g, Protein: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergies include garlic and mango sensitivity.</td></tr></table>
 

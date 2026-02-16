@@ -43,5 +43,5 @@ Get ready to impress your guests with this flavorful marinade that's perfect for
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 0g, Sodium: 800mg, Total Carbohydrates: 30g, Sugars: 25g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 0g, Sodium: 800mg, Total Carbohydrates: 30g, Sugars: 25g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

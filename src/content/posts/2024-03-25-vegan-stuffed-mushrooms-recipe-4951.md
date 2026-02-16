@@ -48,5 +48,5 @@ These vegan Stuffed Mushrooms are sure to impress your guests with their delicio
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 92kcal, Carbohydrates: 10g, Protein: 3g, Fat: 5g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Per serving: Calories: 92kcal, Carbohydrates: 10g, Protein: 3g, Fat: 5g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain gluten</td></tr></table>
 

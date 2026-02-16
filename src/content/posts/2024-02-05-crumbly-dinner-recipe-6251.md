@@ -55,5 +55,5 @@ Total Fat: 12g<br />
 Sodium: 480mg<br />
 Carbohydrate: 30g<br />
 Fiber: 6g<br />
-Protein: 30g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy&nbsp;</td></tr></table>
+Protein: 30g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy</td></tr></table>
 

@@ -48,5 +48,5 @@ Enjoy this comforting and nutritious African-inspired porridge as a delightful s
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 5g, Carbs: 70g, Protein: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), may contain gluten&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 5g, Carbs: 70g, Protein: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almond milk), may contain gluten</td></tr></table>
 

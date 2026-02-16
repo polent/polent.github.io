@@ -51,5 +51,5 @@ Enjoy the nutty goodness of this dish that packs a flavorful punch. It's a perfe
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 18g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 670mg, Total Carbohydrates: 34g, Dietary Fiber: 6g, Sugars: 9g, Protein: 9g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320, Total Fat: 18g, Saturated Fat: 2g, Cholesterol: 0mg, Sodium: 670mg, Total Carbohydrates: 34g, Dietary Fiber: 6g, Sugars: 9g, Protein: 9g</td></tr><tr><th scope="row">Preparation Time</th><td>25 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts, soy</td></tr></table>
 

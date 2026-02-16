@@ -55,5 +55,5 @@ Enjoy your Spicy Asian BBQ Tofu Bowl, a vibrant and flavorful dish that's sure t
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Protein: 18g, Fat: 10g, Carbohydrates: 40g, Fibers: 6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Protein: 18g, Fat: 10g, Carbohydrates: 40g, Fibers: 6g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Sesame</td></tr></table>
 

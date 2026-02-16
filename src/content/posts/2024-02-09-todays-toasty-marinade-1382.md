@@ -63,5 +63,5 @@ Sodium: 173mg<br />
 Total Carbohydrate: 4.2g<br />
 Fiber: 1.1g<br />
 Sugar: 2.1g<br />
-Protein: 0.6g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy&nbsp;</td></tr></table>
+Protein: 0.6g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain soy</td></tr></table>
 

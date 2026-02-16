@@ -43,5 +43,5 @@ Elevate your meal with this silky side dish that is sure to impress your taste b
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 12g, Sodium: 10mg, Total Carbohydrates: 3g, Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of garlic. Suitable for a vegan diet.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 120, Total Fat: 12g, Sodium: 10mg, Total Carbohydrates: 3g, Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of garlic. Suitable for a vegan diet.</td></tr></table>
 

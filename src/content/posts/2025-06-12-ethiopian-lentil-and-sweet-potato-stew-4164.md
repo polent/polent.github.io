@@ -55,5 +55,5 @@ Enjoy this heartwarming stew with a side of fresh injera or steamed rice. It's a
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 5g, Carbohydrates: 50g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and onions&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 300, Fat: 5g, Carbohydrates: 50g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible allergens include garlic and onions</td></tr></table>
 

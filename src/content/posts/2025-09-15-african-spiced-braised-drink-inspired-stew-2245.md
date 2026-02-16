@@ -56,5 +56,5 @@ Enjoy this unique creation that brings a piece of African warmth to your table. 
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbohydrates: 35g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, possible allergen for some individuals.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250, Fat: 10g, Carbohydrates: 35g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains coconut, possible allergen for some individuals.</td></tr></table>
 

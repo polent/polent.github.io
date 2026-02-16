@@ -55,5 +55,5 @@ Sodium: 430mg<br />
 Total Carbohydrate: 30g<br />
 Dietary Fiber: 2g<br />
 Sugar: 12g<br />
-Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please check the BBQ sauce and coleslaw ingredients for any potential allergens.&nbsp;</td></tr></table>
+Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe contains gluten. Please check the BBQ sauce and coleslaw ingredients for any potential allergens.</td></tr></table>
 

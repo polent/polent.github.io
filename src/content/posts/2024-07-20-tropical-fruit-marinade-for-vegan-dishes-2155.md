@@ -48,5 +48,5 @@ Use this fruity marinade to add a vibrant twist to your dishes. It's especially 
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Low in fat, rich in vitamins C and A, contains natural sugars.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy (can substitute tamari for gluten-free option)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Low in fat, rich in vitamins C and A, contains natural sugars.</td></tr><tr><th scope="row">Preparation Time</th><td>40 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>soy (can substitute tamari for gluten-free option)</td></tr></table>
 

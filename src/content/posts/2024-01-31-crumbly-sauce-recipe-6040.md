@@ -48,5 +48,5 @@ Enjoy this crumbly sauce as a versatile condiment that elevates your favorite di
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving size: 2 tablespoons<br />Calories: 120<br />Total Fat: 9g<br />Saturated Fat: 1g<br />Trans Fat: 0g<br />Cholesterol: 0mg<br />Sodium: 125mg<br />Total Carbohydrate: 7g<br />Dietary Fiber: 2g<br />Total Sugars: 1g<br />Protein: 4g<br /><br />*Nutrition information is approximate and may vary depending on ingredients and serving size.&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Serving size: 2 tablespoons<br />Calories: 120<br />Total Fat: 9g<br />Saturated Fat: 1g<br />Trans Fat: 0g<br />Cholesterol: 0mg<br />Sodium: 125mg<br />Total Carbohydrate: 7g<br />Dietary Fiber: 2g<br />Total Sugars: 1g<br />Protein: 4g<br /><br />*Nutrition information is approximate and may vary depending on ingredients and serving size.</td></tr><tr><th scope="row">Preparation Time</th><td>10 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (cashews)</td></tr></table>
 

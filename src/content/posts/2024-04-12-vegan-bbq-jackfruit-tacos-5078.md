@@ -49,5 +49,5 @@ Enjoy the tantalizing flavors of BBQ in a vegan-friendly way with these mouthwat
 
 **
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 | Total Fat: 2g | Sodium: 650mg | Total Carbohydrates: 50g | Fiber: 5g | Protein: 3g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce. Check tortilla ingredients for gluten.&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 250 | Total Fat: 2g | Sodium: 650mg | Total Carbohydrates: 50g | Fiber: 5g | Protein: 3g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>May contain traces of soy due to BBQ sauce. Check tortilla ingredients for gluten.</td></tr></table>
 

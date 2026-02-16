@@ -52,5 +52,5 @@ Enjoy the ethereal beauty and exquisite taste of this floral snack, a testament 
 Carbohydrates: 25g<br />
 Protein: 2g<br />
 Fat: 5g<br />
-Fiber: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is gluten-free, dairy-free, and nut-free. However, please check the specific brands of ingredients used to ensure they are suitable for your dietary needs.&nbsp;</td></tr></table>
+Fiber: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>This recipe is gluten-free, dairy-free, and nut-free. However, please check the specific brands of ingredients used to ensure they are suitable for your dietary needs.</td></tr></table>
 

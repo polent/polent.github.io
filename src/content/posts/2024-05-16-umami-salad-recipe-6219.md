@@ -54,5 +54,5 @@ Indulge in this umami-filled salad that celebrates the diverse flavors of Africa
 
 *Nia*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 35g, Protein: 9g, Fat: 16g, Saturated Fat: 2g, Sodium: 420mg, Fiber: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320kcal, Carbohydrates: 35g, Protein: 9g, Fat: 16g, Saturated Fat: 2g, Sodium: 420mg, Fiber: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains nuts (almonds)</td></tr></table>
 

@@ -53,5 +53,5 @@ Enjoy this delightful Southern BBQ Salad Bowl as a wholesome lunch or a light di
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Saturated Fat: 3g, Carbs: 40g, Fiber: 10g, Protein: 10g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten (in some BBQ sauces and onion strings)&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 18g, Saturated Fat: 3g, Carbs: 40g, Fiber: 10g, Protein: 10g</td></tr><tr><th scope="row">Preparation Time</th><td>20 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains soy, gluten (in some BBQ sauces and onion strings)</td></tr></table>
 

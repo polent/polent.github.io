@@ -55,5 +55,5 @@ Enjoy your Vegan Bento-Inspired Pasta Box! This dish is not only a feast for the
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 15g, Carbohydrates: 65g, Protein: 20g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 450, Fat: 15g, Carbohydrates: 65g, Protein: 20g</td></tr><tr><th scope="row">Preparation Time</th><td>30 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Soy, Gluten, Sesame</td></tr></table>
 

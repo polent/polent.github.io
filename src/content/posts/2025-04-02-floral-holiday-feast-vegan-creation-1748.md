@@ -50,5 +50,5 @@ Enjoy this delightful dish as part of your floral holiday feast. Its combination
 
 *Hiroshi*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 15g, Carbs: 18g, Protein: 4g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Possible nut allergy due to pine nuts&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 210, Fat: 15g, Carbs: 18g, Protein: 4g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Possible nut allergy due to pine nuts</td></tr></table>
 

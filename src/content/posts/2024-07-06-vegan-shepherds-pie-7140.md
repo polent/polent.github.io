@@ -62,5 +62,5 @@ Serve this delightful Vegan Shepherd's Pie hot, and watch it become the centerpi
 
 *Emily*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 10g, Carbs: 55g, Protein: 12g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten-free options available&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 350, Fat: 10g, Carbs: 55g, Protein: 12g</td></tr><tr><th scope="row">Preparation Time</th><td>1 hour</td></tr><tr><th scope="row">Allergy Information</th><td>soy, gluten-free options available</td></tr></table>
 

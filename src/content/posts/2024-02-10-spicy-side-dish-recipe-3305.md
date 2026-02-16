@@ -62,5 +62,5 @@ Sodium: 150mg<br />
 Carbohydrates: 8g<br />
 Fiber: 2g<br />
 Sugar: 4g<br />
-Protein: 1g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>None&nbsp;</td></tr></table>
+Protein: 1g</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>None</td></tr></table>
 

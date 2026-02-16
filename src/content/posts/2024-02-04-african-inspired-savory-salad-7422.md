@@ -68,5 +68,5 @@ Protein: 3g<br />
 Vitamin D: 0%<br />
 Calcium: 30%<br />
 Iron: 4%<br />
-Potassium: 320mg&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (sunflower seeds)&nbsp;</td></tr></table>
+Potassium: 320mg</td></tr><tr><th scope="row">Preparation Time</th><td>15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains tree nuts (sunflower seeds)</td></tr></table>
 

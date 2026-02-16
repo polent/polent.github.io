@@ -52,5 +52,5 @@ Enjoy this warming, nutritious meal that brings a touch of Italian flair to your
 
 *Isabella*
 
-<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Fat: 5g, Carbohydrates: 58g, Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Contains yeast, possibly gluten in broth depending on brand&nbsp;</td></tr></table>
+<table><caption class='sr-only'>Additional Information</caption><tr><th scope="row">Nutritionfacts</th><td>Calories: 320 per serving, Fat: 5g, Carbohydrates: 58g, Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>45 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Contains yeast, possibly gluten in broth depending on brand</td></tr></table>
 

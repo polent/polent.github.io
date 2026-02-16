@@ -67,5 +67,5 @@ Indulge in the rich and robust flavors of this vegan tagine, inspired by the cul
 Total Fat: 8g<br />
 Sodium: 480mg<br />
 Total Carbohydrate: 40g<br />
-Protein: 8g&nbsp;</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes&nbsp;</td></tr><tr><th scope="row">Allergy Information</th><td>Allergies: None&nbsp;</td></tr></table>
+Protein: 8g</td></tr><tr><th scope="row">Preparation Time</th><td>Preparation Time: 15 minutes</td></tr><tr><th scope="row">Allergy Information</th><td>Allergies: None</td></tr></table>
 
