@@ -20,6 +20,10 @@
 	}
 }
 
+.main-nav img {
+	border-radius: 50%;
+}
+
 .main-nav-item--active {
 	color: var(--color-text-default);
 	text-decoration: none;

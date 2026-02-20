@@ -4,6 +4,8 @@
 {% set pageTitle = title + ': ' + meta.projectName %}
 {# Remove any title duplication #}
 {% if title === meta.projectName %} {% set pageTitle = title %} {% endif %}
+{# Use actual tag name on tag pages #}
+{% if tag %} {% set pageTitle = tag + ': ' + meta.projectName %} {% endif %}
 
 {# URL formats #}
 {% set thisUrl = meta.domain + page.url %}
