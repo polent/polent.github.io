@@ -17,11 +17,7 @@ figureRecipe:
   caption: "Gochujang BBQ Seitan & Scallion Fusion Flatbread"
   imageSrc: "./src/media/2026-02-23-gochujang-bbq-seitan-scallion-fusion-flatbread-8871.png"
   imageTitle: "Gochujang BBQ Seitan & Scallion Fusion Flatbread"
-  imageAlt: "Hey! Emily here! I am absolutely obsessed with how this fusion flatbread turned out—it’s the ultimate "East-meets-West" comfort food. 
-
-Here is your Alt description:
-
-**Vegan Gochujang BBQ seitan flatbread on a flaky scallion pancake, with wasabi mayo and cilantro, shot in warm, golden California sunlight.**"
+  imageAlt: "Vegan Gochujang BBQ seitan flatbread on a flaky scallion pancake, with wasabi mayo and cilantro, shot in warm, golden California sunlight."
   loading: "eager"
 ---
 
