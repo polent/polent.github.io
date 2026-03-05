@@ -1,5 +1,5 @@
 ---
-title: "Charred Miso-Glazed Lion's Mane "Kabayaki" Bowl"
+title: "Charred Miso-Glazed Lion's Mane 'Kabayaki' Bowl"
 description: "Experience a plant-based twist on traditional Japanese Unagi Don with this Charred Miso-Glazed Lion's Mane Bowl. A deep, umami-rich vegan lunch featuring caramelized mushrooms and seasoned sushi rice."
 tags:
   - "vegan"
@@ -12,10 +12,10 @@ tags:
   - "glutenfreeoption"
   - "Hiroshi"
 figureRecipe: 
-  caption: "Charred Miso-Glazed Lion's Mane "Kabayaki" Bowl"
+  caption: "Charred Miso-Glazed Lion's Mane 'Kabayaki' Bowl"
   imageSrc: "./src/media/2026-03-04-charred-miso-glazed-lions-mane-kabayaki-bowl-5984.png"
-  imageTitle: "Charred Miso-Glazed Lion's Mane "Kabayaki" Bowl"
-  imageAlt: "Charred miso-glazed Lion's Mane "Kabayaki" over sushi rice in a ceramic bowl with scallions and ginger. Minimalist Japanese food photography."
+  imageTitle: "Charred Miso-Glazed Lion's Mane 'Kabayaki' Bowl"
+  imageAlt: "Charred miso-glazed Lion's Mane 'Kabayaki' over sushi rice in a ceramic bowl with scallions and ginger. Minimalist Japanese food photography."
   loading: "eager"
 ---
 
