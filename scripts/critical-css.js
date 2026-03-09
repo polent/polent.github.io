@@ -2,7 +2,7 @@ const Critters = require("critters");
 const fs = require("node:fs");
 const path = require("node:path");
 
-const DIST = path.resolve(__dirname, "..", "dist");
+const DIST = path.resolve(process.cwd(), "dist");
 
 function getHtmlFiles(dir) {
 	const entries = fs.readdirSync(dir, { withFileTypes: true });
@@ -14,7 +14,7 @@ function getHtmlFiles(dir) {
 		} else if (entry.name.endsWith(".html")) {
 			// Only process files that look like full HTML documents
 			const content = fs.readFileSync(full, "utf-8");
-			if (content.includes("<link") && content.includes("</html>")) {
+			if (content.includes("<link") && content.includes("<head")) {
 				files.push(full);
 			}
 		}
@@ -53,4 +53,7 @@ async function run() {
 	);
 }
 
-await run();
+run().catch((err) => {
+	console.error(err);
+	process.exit(1);
+});
