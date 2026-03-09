@@ -4,19 +4,73 @@
 
 .site-pagination ul {
 	@extend %list-reset;
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--space-3xs);
+	justify-content: center;
 }
 
 .site-pagination ul li {
-	margin-inline-end: var(--space-xs-s);
 	display: inline-block;
 }
 
-.site-pagination a:focus-visible {
+/* Square button base */
+.pagination-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.5em;
+	height: 2.5em;
+	padding: 0;
+	border-radius: 0.4em;
+	border: 2px solid var(--color-border-default);
+	text-decoration: none;
+	font-weight: 500;
+	font-size: inherit;
+	line-height: 1;
+	color: var(--color-interactive-default);
+	background: transparent;
+	transition: background-color 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.pagination-btn:hover {
+	background-color: var(--color-surface-secondary);
+	color: var(--color-surface-default);
+	border-color: var(--color-surface-secondary);
+}
+
+.pagination-btn:focus-visible {
 	outline: 2px solid var(--color-interactive-focus-ring);
 	outline-offset: 2px;
 }
 
-.site-pagination a[aria-current="page"] {
+/* Current page highlight */
+.pagination-current {
+	background-color: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+	font-weight: 800;
+	pointer-events: none;
+}
+
+/* Disabled state */
+.pagination-disabled,
+a.pagination-btn[aria-disabled="true"] {
+	opacity: 0.35;
+	pointer-events: none;
+	cursor: default;
+}
+
+/* Ellipsis */
+.pagination-ellipsis {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 1.5em;
+	height: 2.5em;
 	color: var(--color-text-default);
-	text-decoration: none;
+	font-weight: 700;
+	letter-spacing: 0.1em;
 }
