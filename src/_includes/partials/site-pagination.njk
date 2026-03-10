@@ -1,18 +1,70 @@
-{# Uses Nunjucks special variable loop.index0 to target the current iteration of a loop #}
+{# Truncated pagination with window of 5 pages around current #}
+{% set currentIndex = pagination.pageNumber %}
+{% set totalPages = pagination.pages | length %}
+{% set windowSize = 2 %}
+{% set startPage = currentIndex - windowSize %}
+{% set endPage = currentIndex + windowSize %}
+
+{# Clamp to valid range #}
+{% if startPage < 0 %}{% set startPage = 0 %}{% endif %}
+{% if endPage >= totalPages %}{% set endPage = totalPages - 1 %}{% endif %}
+
 <h2 class="sr-only" id="pagination-h2">Recipe Pagination</h2>
 <nav class="site-pagination" aria-labelledby="pagination-h2">
   <ul>
-    <li><a href="{{ pagination.href.first }}">First</a></li>
+    <li>
+      <a href="{{ pagination.href.first }}" class="pagination-btn pagination-nav"
+        {% if currentIndex == 0 %} aria-disabled="true"{% endif %}
+        aria-label="First page">⏮</a>
+    </li>
+    <li>
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}" class="pagination-btn pagination-nav" aria-label="Previous page">⏴</a>
+      {% else %}
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Previous page">⏴</span>
+      {% endif %}
+    </li>
+
+    {% if startPage > 0 %}
+      <li>
+        <a href="{{ pagination.hrefs[0] }}" class="pagination-btn">1</a>
+      </li>
+      {% if startPage > 1 %}
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+      {% endif %}
+    {% endif %}
+
     {%- for pageEntry in pagination.pages %}
+      {% if loop.index0 >= startPage and loop.index0 <= endPage %}
         <li>
-          <a href="{{ pagination.hrefs[ loop.index0 ] }}"
-            {% if page.url == pagination.hrefs[ loop.index0 ] %} 
-              aria-current="page" 
-            {% endif %}>
+          <a href="{{ pagination.hrefs[ loop.index0 ] }}" class="pagination-btn{% if page.url == pagination.hrefs[ loop.index0 ] %} pagination-current{% endif %}"
+            {% if page.url == pagination.hrefs[ loop.index0 ] %}aria-current="page"{% endif %}>
             {{ loop.index }}
           </a>
         </li>
+      {% endif %}
     {%- endfor %}
-    <li><a href="{{ pagination.href.last }}">Last</a></li>
+
+    {% if endPage < totalPages - 1 %}
+      {% if endPage < totalPages - 2 %}
+        <li><span class="pagination-ellipsis">&hellip;</span></li>
+      {% endif %}
+      <li>
+        <a href="{{ pagination.hrefs[totalPages - 1] }}" class="pagination-btn">{{ totalPages }}</a>
+      </li>
+    {% endif %}
+
+    <li>
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}" class="pagination-btn pagination-nav" aria-label="Next page">⏵</a>
+      {% else %}
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Next page">⏵</span>
+      {% endif %}
+    </li>
+    <li>
+      <a href="{{ pagination.href.last }}" class="pagination-btn pagination-nav"
+        {% if currentIndex == totalPages - 1 %} aria-disabled="true"{% endif %}
+        aria-label="Last page">⏭</a>
+    </li>
   </ul>
 </nav>

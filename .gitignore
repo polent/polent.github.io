@@ -4,3 +4,4 @@ node_modules/
 dist
 temp-dist
 .ftp-deploy-sync-state.json
+.claude/settings.local.json

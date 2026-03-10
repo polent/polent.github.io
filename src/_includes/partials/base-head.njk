@@ -18,7 +18,9 @@
 
 <link rel="stylesheet" href="/styles/site.css" media="all">
 
-{# ------------ Prefetches? Place here ------------ #}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ pageTitle }}">
+<meta name="twitter:description" content="{{ pageDescription }}">
 {% if description %} {% set pageDescription = description %} {% else %} {% set pageDescription = meta.description %} {% endif %}
 
 <meta name="description" content="{{ pageDescription }}">

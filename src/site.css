@@ -22,6 +22,7 @@
 @import "./_styles/base/tables.css";
 @import "./_styles/base/interactive-elements.css";
 @import "./_styles/base/edits.css";
+@import "./_styles/base/print.css";
 
 /* Layout */
 @import "./_styles/layout/layout-grid.css";

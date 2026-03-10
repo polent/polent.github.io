@@ -24,6 +24,6 @@ Start typing and you get a list of results, or use the button to search with goo
 
 ## Search Results
 
-<ul id="results"><li>Nothing found yet</li></ul>
+<ul id="results" aria-live="polite"><li>Nothing found yet</li></ul>
 
 <script src="/js/search.js" async defer></script>

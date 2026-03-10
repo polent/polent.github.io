@@ -3,18 +3,18 @@
 {# We loop through eleventyNavigation and check if item.url e.g. /posts/ is in page.url and set active class. Stuck with this method for the moment until a relationship between Eleventy Navigation and Eleventy Pagination is figured out #}
 {# Recommend using aria-current="page" instead of active class if your project is surfacing all navigation items #}
 
-<a class="skip-link visually-hidden" href="#main-content">Skip to main content</a>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <header>
 	<nav class="main-nav">
-		<div class="wrapper layout-grid">
-			<ul class="layout-span">
-				<li><a href="/" {% if page.url == "/" %}class="main-nav-item--active"{% endif %}>
-					<img src="/favicon.jpg" width="75" height="75" alt="Main Chefs Recipe Logo" />
-				</a></li>
+		<div class="wrapper main-nav__inner">
+			<a class="main-nav__logo" href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>
+				<img src="/favicon.jpg" width="75" height="75" alt="Main Chefs Recipe Logo" />
+			</a>
+			<ul class="main-nav__links">
 				{% for item in collections.all | eleventyNavigation %}
 					<li>
-						<a id="nav-{{ item.key }}" href="{{ item.url }}" 
-							{% if item.url in page.url %} 
+						<a id="nav-{{ item.key }}" href="{{ item.url }}"
+							{% if item.url in page.url %}
 								aria-current="page"
 							{% endif %}
 						>{{ item.title }}</a>

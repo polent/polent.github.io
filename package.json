@@ -7,7 +7,8 @@
 		"clean": "rimraf dist",
 		"build:files": "npx @11ty/eleventy --incremental",
 		"build:styles": "postcss src/site.css -o dist/styles/site.css --config postcss.config.js",
-		"build": "npm-run-all2 --parallel build:*",
+		"build:critical": "node scripts/critical-css.js",
+		"build": "npm-run-all2 --parallel build:files build:styles && npm run build:critical",
 		"serve:files": "npx @11ty/eleventy --quiet --serve",
 		"serve:styles": "postcss src/site.css --dir dist/styles/ --watch --config postcss.config.js",
 		"serve": "npm-run-all2 --parallel serve:*"
@@ -24,6 +25,7 @@
 		"@11ty/eleventy-navigation": "^0.3.5",
 		"@11ty/eleventy-plugin-rss": "^1.2.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+		"critters": "^0.0.23",
 		"cssnano": "^7.1.0",
 		"html-minifier-next": "^4.18.0",
 		"markdown-it": "^14.0.0",

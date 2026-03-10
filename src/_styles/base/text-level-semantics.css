@@ -39,7 +39,7 @@ code {
 b,
 strong {
 	font-weight: 800;
-	color: var(--color-grey-80);
+	color: var(--color-text-default);
 }
 
 sub {

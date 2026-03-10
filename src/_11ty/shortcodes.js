@@ -5,7 +5,8 @@ const picture = async function (
 	title,
 	alt,
 	loading = "lazy",
-	sizes = "(min-width: 64rem) 1024px, 100vw"
+	sizes = "(min-width: 64rem) 1024px, 100vw",
+	fetchpriority = undefined
 ) {
 	const metadata = await Image(src, {
 		widths: [250, 440, 600, 1024, 1600, 2150],
@@ -13,10 +14,10 @@ const picture = async function (
 		urlPath: "/img/",
 		outputDir: "./dist/img/",
 		sharpAvifOptions: {
-			quality: 40,
+			quality: 60,
 		},
 		sharpJpegOptions: {
-			quality: 40,
+			quality: 60,
 		},
 	});
 
@@ -26,6 +27,10 @@ const picture = async function (
 		sizes,
 		loading,
 	};
+
+	if (fetchpriority) {
+		imageAttributes.fetchpriority = fetchpriority;
+	}
 
 	return Image.generateHTML(metadata, imageAttributes);
 };
