@@ -1,5 +1,5 @@
 ---
-title: "Smoky Yuzu & Charred Seitan "Brisket" Ramen-Chowder"
+title: "Smoky Yuzu & Charred Seitan 'Brisket' Ramen-Chowder"
 description: "Experience a vibrant fusion of smoky American BBQ and zesty Asian citrus with this vegan Smoky Yuzu & Charred Seitan Brisket soup. A bold, umami-packed delight."
 tags:
   - "vegan"
@@ -12,9 +12,9 @@ tags:
   - "citrus"
   - "Emily"
 figureRecipe: 
-  caption: "Smoky Yuzu & Charred Seitan "Brisket" Ramen-Chowder"
+  caption: "Smoky Yuzu & Charred Seitan 'Brisket' Ramen-Chowder"
   imageSrc: "./src/media/2026-03-11-smoky-yuzu-and-charred-seitan-brisket-ramen-chowder-9983.png"
-  imageTitle: "Smoky Yuzu & Charred Seitan "Brisket" Ramen-Chowder"
+  imageTitle: "Smoky Yuzu & Charred Seitan 'Brisket' Ramen-Chowder"
   imageAlt: "Smoky Yuzu Ramen-Chowder with charred seitan brisket, roasted corn & bok choy in a dark bowl. Soft morning light & steam on a light-wood table."
   loading: "eager"
 ---
