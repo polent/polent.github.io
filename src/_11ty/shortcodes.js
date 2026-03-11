@@ -9,15 +9,15 @@ const picture = async function (
 	fetchpriority = undefined
 ) {
 	const metadata = await Image(src, {
-		widths: [250, 440, 600, 1024, 1600, 2150],
-		formats: ["avif", "jpeg"],
+		widths: [320, 640, 960, 1280, 1600],
+		formats: ["avif", "webp"],
 		urlPath: "/img/",
 		outputDir: "./dist/img/",
 		sharpAvifOptions: {
-			quality: 60,
+			quality: 50,
 		},
-		sharpJpegOptions: {
-			quality: 60,
+		sharpWebpOptions: {
+			quality: 65,
 		},
 	});
 
@@ -26,6 +26,7 @@ const picture = async function (
 		alt,
 		sizes,
 		loading,
+		decoding: "async",
 	};
 
 	if (fetchpriority) {

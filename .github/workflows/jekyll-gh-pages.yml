@@ -71,7 +71,7 @@ jobs:
         run: npm ci
       
       - name: Build site
-        run: npm run build:files && npm run build:styles
+        run: npm run build
       
       - name: Setup Pages
         uses: actions/configure-pages@v5
