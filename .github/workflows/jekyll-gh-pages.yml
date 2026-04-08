@@ -21,6 +21,7 @@ concurrency:
 
 env:
   NODE_VERSION: "22"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build-deploy:
@@ -70,3 +71,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          force_orphan: true
+          cname: recipe.polente.de

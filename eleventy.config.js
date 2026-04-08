@@ -54,6 +54,7 @@ module.exports = function (eleventyConfig) {
 	});
 	eleventyConfig.addPassthroughCopy({ "src/static/robots.txt": "/robots.txt" });
 	eleventyConfig.addPassthroughCopy({ "src/static/google354922043c8d9d58.html": "/google354922043c8d9d58.html" });
+	eleventyConfig.addPassthroughCopy({ "CNAME": "/CNAME" });
 
 	// Watch targets
 	eleventyConfig.addWatchTarget("./src/_styles/**/*.css");
