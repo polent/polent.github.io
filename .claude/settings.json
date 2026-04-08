@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ':*)",
+      "Read(//c/Projekte/XE/recipe/{split\\($1, a, \"M\"\\); total=a[1]; print \"Total in dist/**)",
+      "Read(//c/Projekte/XE/recipe/{split\\($1, a, \"M\"\\); images=a[1]; print \"Total in dist/img/**)"
+    ]
+  }
+}
