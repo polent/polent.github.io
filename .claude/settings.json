@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ':*)",
+      "Read(//c/Projekte/XE/recipe/{split\\($1, a, \"M\"\\); total=a[1]; print \"Total in dist/**)",
+      "Read(//c/Projekte/XE/recipe/{split\\($1, a, \"M\"\\); images=a[1]; print \"Total in dist/img/**)",
+      "Bash(gh run:*)",
+      "Bash(gh api:*)",
+      "Bash(node -e \"const d=require\\('fs'\\).readFileSync\\('/dev/stdin','utf8'\\); const j=JSON.parse\\(d\\); console.log\\('source:', JSON.stringify\\(j.source\\)\\); console.log\\('build_type:', j.build_type\\); console.log\\('cname:', j.cname\\);\")",
+      "Bash(node -p \"JSON.parse\\(require\\('fs'\\).readFileSync\\(0,'utf8'\\)\\).tree.map\\(t=>t.path\\).join\\('\\\\n'\\)\")"
+    ]
+  }
+}

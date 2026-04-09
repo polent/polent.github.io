@@ -5,3 +5,4 @@ dist
 temp-dist
 .ftp-deploy-sync-state.json
 .claude/settings.local.json
+.claude/settings.json

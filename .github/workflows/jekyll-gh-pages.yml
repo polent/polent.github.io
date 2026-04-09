@@ -11,9 +11,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -23,72 +21,55 @@ concurrency:
 
 env:
   NODE_VERSION: "22"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  # Build job
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
-      
-      - name: Cache Eleventy build artifacts
+
+      - name: Cache Eleventy incremental build state
         uses: actions/cache@v4
         with:
-          path: |
-            dist
-            .cache
-            _site
-          key: eleventy-build-${{ runner.os }}-${{ hashFiles('src/**/*', 'content/**/*', 'media/**/*', 'eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
+          path: .cache
+          key: eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'package-lock.json') }}-${{ github.sha }}
           restore-keys: |
-            eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'postcss.config.js', 'package-lock.json') }}
-      
+            eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'package-lock.json') }}-
+
       - name: Cache processed images
         uses: actions/cache@v4
         with:
-          path: |
-            dist/img
-            .cache/img
-          key: eleventy-img-${{ runner.os }}-${{ hashFiles('media/**/*', 'src/_11ty/shortcodes.js') }}
+          path: dist/img
+          key: eleventy-img-${{ runner.os }}-${{ hashFiles('src/_11ty/shortcodes.js') }}-${{ github.sha }}
           restore-keys: |
-            eleventy-img-${{ runner.os }}-${{ hashFiles('media/**/*') }}
-      
+            eleventy-img-${{ runner.os }}-${{ hashFiles('src/_11ty/shortcodes.js') }}-
+
       - name: Cache CSS build
         uses: actions/cache@v4
         with:
           path: dist/styles
-          key: css-build-${{ runner.os }}-${{ hashFiles('src/site.css', 'src/_styles/**/*', 'postcss.config.js') }}
+          key: css-build-${{ runner.os }}-${{ hashFiles('postcss.config.js') }}-${{ github.sha }}
           restore-keys: |
-            css-build-${{ runner.os }}-${{ hashFiles('postcss.config.js') }}
-      
+            css-build-${{ runner.os }}-${{ hashFiles('postcss.config.js') }}-
+
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Build site
         run: npm run build
-      
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: ./dist
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
+          cname: recipe.polente.de
