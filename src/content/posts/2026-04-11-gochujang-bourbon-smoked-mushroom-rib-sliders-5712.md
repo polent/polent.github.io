@@ -14,7 +14,7 @@ figureRecipe:
   caption: "Gochujang-Bourbon Smoked Mushroom 'Rib' Sliders"
   imageSrc: "./src/media/2026-04-11-gochujang-bourbon-smoked-mushroom-rib-sliders-5712.png"
   imageTitle: "Gochujang-Bourbon Smoked Mushroom 'Rib' Sliders"
-  imageAlt: "Vegan Gochujang-Bourbon mushroom sliders with charred "ribs," pickled cucumber, and sesame seeds on toasted buns in bright California sunlight."
+  imageAlt: "Vegan Gochujang-Bourbon mushroom sliders with charred 'ribs', pickled cucumber, and sesame seeds on toasted buns in bright California sunlight."
   loading: "eager"
 ---
 
