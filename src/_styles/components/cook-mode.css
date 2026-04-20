@@ -2,16 +2,25 @@
 
 .cook-mode {
 	/* Reset <dialog> defaults */
-	padding: 0;
+	box-sizing: border-box;
+	padding: 10px;
 	margin: 0;
 	border: none;
 	background: var(--color-surface-default);
 	color: var(--color-text-default);
-	width: 100%;
-	max-width: 100%;
+	inset: 0;
+	width: 100dvw;
+	max-width: 100dvw;
 	height: 100dvh;
 	max-height: 100dvh;
 	overflow: hidden;
+}
+
+.cook-mode *,
+.cook-mode *::before,
+.cook-mode *::after {
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 .cook-mode::backdrop {
@@ -20,11 +29,15 @@
 
 .cook-mode__frame {
 	display: grid;
+	grid-template-columns: minmax(0, 1fr);
 	grid-template-rows: auto auto 1fr auto auto;
 	height: 100%;
+	width: 100%;
 	max-width: 48rem;
+	min-width: 0;
 	margin-inline: auto;
 	padding: var(--space-m) var(--space-s-m) 0;
+	overflow-x: hidden;
 }
 
 .cook-mode__header {
@@ -86,12 +99,16 @@
 	justify-items: center;
 	text-align: center;
 	overflow-y: auto;
+	overflow-x: hidden;
 	padding: var(--space-m) 0;
 	font-size: var(--step-3);
 	font-weight: 400;
 	line-height: var(--leading-loose);
+	width: 100%;
 	max-width: var(--measure-default);
+	min-width: 0;
 	margin-inline: auto;
+	overflow-wrap: anywhere;
 }
 
 .cook-mode__step p {
