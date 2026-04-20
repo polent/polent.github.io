@@ -119,55 +119,82 @@ const extractListItems = sectionHtml => {
 	return items;
 };
 
+const wrapListItemsWithCheckboxes = sectionHtml => {
+	if (!sectionHtml) {
+		return { items: [], modifiedHtml: sectionHtml };
+	}
+	const items = [];
+	let ingredientCounter = 0;
+
+	let modifiedHtml = sectionHtml.replace(/<li([^>]*)>([\s\S]*?)<\/li>/gi, (full, attrs, inner) => {
+		const cleaned = decodeHtmlEntities(stripHtml(inner)).replace(/\s+/g, " ").trim();
+		if (!cleaned) return full;
+		items.push(cleaned);
+		const idx = ingredientCounter++;
+		let newAttrs = attrs || "";
+		if (/class=/.test(newAttrs)) {
+			newAttrs = newAttrs.replace(/class=(['"])([^'"]*)\1/, (_, q, cls) => `class=${q}${cls} ingredient${q}`);
+		} else {
+			newAttrs = `${newAttrs} class="ingredient"`;
+		}
+		return `<li${newAttrs}><label class="ingredient-label"><input type="checkbox" class="ingredient-check" data-ingredient-index="${idx}" aria-label="Mark ingredient as acquired"><span class="ingredient-text">${inner}</span></label></li>`;
+	});
+
+	modifiedHtml = modifiedHtml.replace(/<ul(\s[^>]*)?>/i, (m, attrs = "") => {
+		if (/class=/.test(attrs)) {
+			return m.replace(/class=(['"])([^'"]*)\1/, (_, q, cls) => `class=${q}${cls} ingredients-list${q}`);
+		}
+		return `<ul${attrs || ""} class="ingredients-list">`;
+	});
+
+	return { items, modifiedHtml };
+};
+
 const extractListItemsWithIds = (sectionHtml, idPrefix = "step") => {
 	if (!sectionHtml) {
 		return { items: [], modifiedHtml: sectionHtml };
 	}
 	const items = [];
-	let modifiedHtml = sectionHtml;
-	let stepCounter = 1;
-	
-	const listItemRegex = /<li([^>]*)>([\s\S]*?)<\/li>/gi;
-	let match;
-	let offset = 0;
-	
-	while ((match = listItemRegex.exec(sectionHtml)) !== null) {
-		const cleaned = decodeHtmlEntities(stripHtml(match[2])).replace(/\s+/g, " ").trim();
-		if (cleaned) {
-			items.push(cleaned);
-		}
-		
+	let stepCounter = 0;
+
+	let modifiedHtml = sectionHtml.replace(/<li([^>]*)>([\s\S]*?)<\/li>/gi, (full, attrs, inner) => {
+		const cleaned = decodeHtmlEntities(stripHtml(inner)).replace(/\s+/g, " ").trim();
+		if (!cleaned) return full;
+		items.push(cleaned);
+		stepCounter += 1;
 		const stepId = `${idPrefix}${stepCounter}`;
-		const originalLiTag = match[0];
-		let newLiTag;
-		
-		if (match[1].includes('id=')) {
-			// Replace existing id
-			newLiTag = originalLiTag.replace(/id=['"][^'"]*['"]/i, `id="${stepId}"`);
+		let newAttrs = attrs || "";
+		if (/id=/i.test(newAttrs)) {
+			newAttrs = newAttrs.replace(/id=(['"])[^'"]*\1/i, `id="${stepId}"`);
 		} else {
-			// Add id to existing attributes
-			newLiTag = originalLiTag.replace(/<li/, `<li id="${stepId}"`);
+			newAttrs = ` id="${stepId}"${newAttrs}`;
 		}
-		
-		const beforeMatch = sectionHtml.substring(0, match.index + offset);
-		const afterMatch = sectionHtml.substring(match.index + match[0].length);
-		modifiedHtml = beforeMatch + newLiTag + afterMatch;
-		offset += newLiTag.length - originalLiTag.length;
-		
-		stepCounter++;
-	}
-	
+		return `<li${newAttrs}>${inner}</li>`;
+	});
+
+	// Promote <ul> to <ol> so the instructions list is semantically ordered.
+	// The recipe authoring convention uses * bullets, but steps are inherently ordered.
+	modifiedHtml = modifiedHtml.replace(/<ul(\s[^>]*)?>([\s\S]*?)<\/ul>/i, (_, attrs, inner) => `<ol${attrs || ""}>${inner}</ol>`);
+
 	return { items, modifiedHtml };
+};
+
+// Extract raw preparation time text from nutrition table (e.g. "1 hour 30 minutes")
+const extractPrepTimeText = html => {
+	if (!html) return null;
+	const prepTimeMatch = html.match(/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
+	if (!prepTimeMatch || !prepTimeMatch[1]) return null;
+	return prepTimeMatch[1].trim();
 };
 
 // Extract preparation time from nutrition table and convert to ISO 8601 format
 const extractPrepTime = html => {
 	if (!html) return null;
-	
+
 	// Look for "Preparation Time" row in table
 	const prepTimeMatch = html.match(/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
 	if (!prepTimeMatch || !prepTimeMatch[1]) return null;
-	
+
 	const timeText = prepTimeMatch[1].trim().toLowerCase();
 	
 	// Convert text like "10 minutes" to "PT10M", "1 hour 30 minutes" to "PT1H30M"
@@ -275,6 +302,7 @@ function extractRecipeData(html, recipeUrl) {
 		ingredients: [],
 		instructions: [],
 		prepTime: null,
+		prepTimeText: null,
 		nutrition: null,
 		yield: null,
 		modifiedHtml: html,
@@ -291,6 +319,7 @@ function extractRecipeData(html, recipeUrl) {
 
 	// Extract prep time and nutrition early
 	result.prepTime = extractPrepTime(html);
+	result.prepTimeText = extractPrepTimeText(html);
 	result.nutrition = extractNutrition(html);
 	result.yield = extractYield(html);
 
@@ -316,7 +345,9 @@ function extractRecipeData(html, recipeUrl) {
 
 	const ingredientsSection = headings.find(heading => heading.title === "ingredients");
 	if (ingredientsSection) {
-		result.ingredients = extractListItems(ingredientsSection.sectionHtml);
+		const { items: ingredientItems, modifiedHtml: modifiedIngredientsHtml } = wrapListItemsWithCheckboxes(ingredientsSection.sectionHtml);
+		result.ingredients = ingredientItems;
+		result.modifiedHtml = result.modifiedHtml.replace(ingredientsSection.sectionHtml, modifiedIngredientsHtml);
 	}
 
 	const instructionsSection = headings.find(heading => heading.title === "instructions");

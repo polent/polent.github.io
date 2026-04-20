@@ -1,79 +1,147 @@
-{% extends "layouts/base.njk" %} 
+{% extends "layouts/base.njk" %}
+
+{# Compute recipe data once at template scope so both head and content can use it #}
+{% set recipeUrl = meta.domain + page.url %}
+{% set recipeData = content | extractRecipeData(recipeUrl) %}
+{% set isRenderableRecipe = isRecipe and (recipeData.ingredients | length) and (recipeData.instructions | length) %}
 
 {% block head %}
   {{ super() }}
-  {% if isRecipe %}
-    {% set recipeUrl = meta.domain + page.url %}
-    {% set recipeData = content | extractRecipeData(recipeUrl) %}
-    {% if (recipeData.ingredients | length) and (recipeData.instructions | length) %}
-      {% set recipeAuthor = meta.author.name %}
-      {% set recipeCuisine = null %}
-      {% if tags and (tags | length) %}
-        {% set candidateAuthor = tags[tags | length - 1] %}
-        {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
-          {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
-          {% if candidateAuthor == "Hiroshi" %}
-            {% set recipeCuisine = "Asia" %}
-          {% elif candidateAuthor == "Emily" %}
-            {% set recipeCuisine = "North American" %}
-          {% elif candidateAuthor == "Isabella" %}
-            {% set recipeCuisine = "Italian" %}
-          {% elif candidateAuthor == "Nia" %}
-            {% set recipeCuisine = "African" %}
-          {% endif %}
+  {% if isRenderableRecipe %}
+    {% set recipeAuthor = meta.author.name %}
+    {% set recipeCuisine = null %}
+    {% if tags and (tags | length) %}
+      {% set candidateAuthor = tags[tags | length - 1] %}
+      {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
+        {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
+        {% if candidateAuthor == "Hiroshi" %}
+          {% set recipeCuisine = "Asia" %}
+        {% elif candidateAuthor == "Emily" %}
+          {% set recipeCuisine = "North American" %}
+        {% elif candidateAuthor == "Isabella" %}
+          {% set recipeCuisine = "Italian" %}
+        {% elif candidateAuthor == "Nia" %}
+          {% set recipeCuisine = "African" %}
         {% endif %}
       {% endif %}
-      {% set recipeImage = null %}
-      {% if recipeData.image %}
-        {% set recipeImage = meta.domain + recipeData.image %}
-      {% endif %}
-      {% set recipeKeywords = null %}
-      {% if tags and (tags | length) %}
-        {% set recipeKeywords = tags | join(', ') %}
-      {% endif %}
-      {% set recipeSchema = {
-        "@context": "https://schema.org",
-        "@type": "Recipe",
-        "name": title,
-        "description": description or meta.description,
-        "url": recipeUrl,
-        "datePublished": page.date | dateToYYYYMMDD,
-        "author": {
-          "@type": "Person",
-          "name": recipeAuthor
-        },
-        "image": recipeImage,
-        "keywords": recipeKeywords,
-        "recipeYield": recipeData.yield,
-        "recipeCuisine": recipeCuisine,
-        "recipeIngredient": recipeData.ingredients,
-        "recipeInstructions": recipeData.instructions,
-        "suitableForDiet": "https://schema.org/VeganDiet",
-        "prepTime": recipeData.prepTime,
-        "nutrition": recipeData.nutrition
-      } %}
-      <script type="application/ld+json">{{ recipeSchema | toJson | safe }}</script>
     {% endif %}
+    {% set recipeImage = null %}
+    {% if recipeData.image %}
+      {% set recipeImage = meta.domain + recipeData.image %}
+    {% endif %}
+    {% set recipeKeywords = null %}
+    {% if tags and (tags | length) %}
+      {% set recipeKeywords = tags | join(', ') %}
+    {% endif %}
+    {% set recipeSchema = {
+      "@context": "https://schema.org",
+      "@type": "Recipe",
+      "name": title,
+      "description": description or meta.description,
+      "url": recipeUrl,
+      "datePublished": page.date | dateToYYYYMMDD,
+      "author": {
+        "@type": "Person",
+        "name": recipeAuthor
+      },
+      "image": recipeImage,
+      "keywords": recipeKeywords,
+      "recipeYield": recipeData.yield,
+      "recipeCuisine": recipeCuisine,
+      "recipeIngredient": recipeData.ingredients,
+      "recipeInstructions": recipeData.instructions,
+      "suitableForDiet": "https://schema.org/VeganDiet",
+      "prepTime": recipeData.prepTime,
+      "nutrition": recipeData.nutrition
+    } %}
+    <script type="application/ld+json">{{ recipeSchema | toJson | safe }}</script>
   {% endif %}
 {% endblock %}
 
 {% block content %}
-  <article class="wrapper layout-grid">
-    <h1 class="page-header layout-span">{{ title }}</h1>
-    <div class="layout-span | content-main flow">
-      <time datetime="{{ page.date | dateToYYYYMMDD }}"> {{ page.date | dateToDMY }}</time>
+  <article class="wrapper layout-grid recipe{% if isRenderableRecipe %} recipe--enhanced{% endif %}"
+    {% if isRenderableRecipe %}data-recipe-slug="{{ page.fileSlug }}" data-recipe-title="{{ title }}"{% endif %}>
+    <header class="layout-span recipe-header">
+      <h1 class="page-header">{{ title }}</h1>
+      <p class="recipe-byline">
+        <time datetime="{{ page.date | dateToYYYYMMDD }}">{{ page.date | dateToDMY }}</time>
+      </p>
       {% if tags %}
         <ul class="tags-list">
           {% for item in tags %}
             <li><a href="/tag/{{ item | slug }}/">{{ item }}</a></li>
           {% endfor %}
         </ul>
-      {% endif %}      
-      {% if isRecipe and recipeData %}
+      {% endif %}
+      {% if isRenderableRecipe %}
+        <dl class="recipe-meta" aria-label="Recipe summary">
+          {% if recipeData.prepTimeText %}
+            <dt>Prep</dt>
+            <dd>{{ recipeData.prepTimeText }}</dd>
+          {% endif %}
+          {% if recipeData.yield %}
+            <dt>Yield</dt>
+            <dd>{{ recipeData.yield }}</dd>
+          {% endif %}
+          {% if recipeData.nutrition and recipeData.nutrition.calories %}
+            <dt>Calories</dt>
+            <dd>{{ recipeData.nutrition.calories }} kcal</dd>
+          {% endif %}
+        </dl>
+        <div class="recipe-actions" role="group" aria-label="Recipe actions">
+          <button type="button" class="recipe-action recipe-action--primary" data-action="cook-start" hidden>
+            <span aria-hidden="true">▶</span> Start cooking
+          </button>
+          <button type="button" class="recipe-action" data-action="print-shopping" hidden>
+            Print shopping list
+          </button>
+          <button type="button" class="recipe-action" data-action="print-full">
+            Print recipe
+          </button>
+        </div>
+      {% endif %}
+    </header>
+
+    <div class="layout-span | content-main flow recipe-body">
+      {% if isRenderableRecipe %}
         {{ recipeData.modifiedHtml | safe }}
       {% else %}
         {{ content | safe }}
       {% endif %}
     </div>
   </article>
+
+  {% if isRenderableRecipe %}
+    <dialog id="cook-mode" class="cook-mode" aria-labelledby="cook-mode-title">
+      <div class="cook-mode__frame">
+        <header class="cook-mode__header">
+          <p class="cook-mode__title" id="cook-mode-title">{{ title }}</p>
+          <button type="button" class="cook-mode__close" data-action="cook-close" aria-label="Exit cook mode">
+            <span aria-hidden="true">×</span>
+          </button>
+        </header>
+
+        <p class="cook-mode__progress">
+          Step <span data-cook-step-current>1</span> of <span data-cook-step-total>–</span>
+        </p>
+
+        <div class="cook-mode__step" data-cook-step aria-live="polite" aria-atomic="true"></div>
+
+        <nav class="cook-mode__nav" aria-label="Step navigation">
+          <button type="button" class="cook-mode__nav-btn" data-action="cook-prev">
+            <span aria-hidden="true">←</span> Previous
+          </button>
+          <button type="button" class="cook-mode__nav-btn cook-mode__nav-btn--next" data-action="cook-next">
+            Next <span aria-hidden="true">→</span>
+          </button>
+        </nav>
+
+        <details class="cook-mode__drawer">
+          <summary class="cook-mode__drawer-summary">Ingredients</summary>
+          <ul class="cook-mode__ingredients" data-cook-ingredients></ul>
+        </details>
+      </div>
+    </dialog>
+    <script src="/js/cook-mode.js" defer></script>
+  {% endif %}
 {% endblock %}

@@ -1,0 +1,242 @@
+/* Recipe page presentation — minimalist, uses existing tokens only */
+
+/* Header */
+
+.recipe-header {
+	--flow-space: var(--space-2xs-xs);
+}
+
+.recipe-byline {
+	margin: var(--space-xs) 0 0;
+	max-width: none;
+	color: var(--color-text-default);
+	font-size: var(--step-0);
+	opacity: 0.7;
+}
+
+/* Meta summary bar (Prep · Yield · Calories) — pairs laid out inline; wraps on narrow viewports */
+
+.recipe-meta {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	row-gap: var(--space-2xs);
+	margin: var(--space-m) 0 0;
+	padding: var(--space-s) 0;
+	border-block: 1px solid var(--color-border-default);
+}
+
+.recipe-meta dt {
+	margin: 0 var(--space-2xs) 0 0;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.65;
+	line-height: var(--leading-tight);
+}
+
+.recipe-meta dd {
+	margin: 0 var(--space-m) 0 0;
+	font-size: var(--step-1);
+	font-weight: 500;
+	line-height: var(--leading-tight);
+}
+
+.recipe-meta dd:last-child {
+	margin-inline-end: 0;
+}
+
+/* Action buttons */
+
+.recipe-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-xs);
+	margin: var(--space-s-m) 0 0;
+}
+
+.recipe-action {
+	appearance: none;
+	background: transparent;
+	color: var(--color-interactive-default);
+	border: 1px solid var(--color-border-default);
+	padding: var(--space-2xs) var(--space-s);
+	font: inherit;
+	font-size: var(--step-0);
+	line-height: 1.2;
+	cursor: pointer;
+	transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.recipe-action:hover,
+.recipe-action:focus-visible {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+	outline: none;
+}
+
+.recipe-action:focus-visible {
+	box-shadow: 0 0 0 2px var(--color-interactive-focus-ring);
+}
+
+.recipe-action--primary {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+}
+
+.recipe-action--primary:hover,
+.recipe-action--primary:focus-visible {
+	background: var(--color-interactive-hover);
+	border-color: var(--color-interactive-hover);
+}
+
+/* Ingredients list — checkbox-enabled */
+
+.ingredients-list {
+	--flow-space: var(--space-xs-s);
+	list-style: none;
+	margin-inline-start: 0;
+	padding: 0;
+	border-block: 1px solid var(--color-border-default);
+}
+
+.ingredients-list > .ingredient {
+	margin: 0;
+	border-block-end: 1px solid var(--color-border-default);
+}
+
+.ingredients-list > .ingredient:last-child {
+	border-block-end: none;
+}
+
+.ingredient-label {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--space-s);
+	padding: var(--space-2xs) 0;
+	cursor: pointer;
+	user-select: none;
+}
+
+.ingredient-check {
+	appearance: none;
+	flex-shrink: 0;
+	width: 1.15em;
+	height: 1.15em;
+	margin: 0.15em 0 0;
+	border: 1px solid var(--color-border-default);
+	background: transparent;
+	display: grid;
+	place-content: center;
+	cursor: pointer;
+}
+
+.ingredient-check:checked {
+	background: var(--color-interactive-default);
+	border-color: var(--color-interactive-default);
+}
+
+.ingredient-check:checked::after {
+	content: "";
+	width: 0.4em;
+	height: 0.7em;
+	border: solid var(--color-surface-default);
+	border-width: 0 0.15em 0.15em 0;
+	transform: translateY(-0.07em) rotate(45deg);
+}
+
+.ingredient-check:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
+}
+
+.ingredient-check:checked + .ingredient-text {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.ingredient-text {
+	flex: 1;
+	line-height: var(--leading-default);
+}
+
+/* Instructions — numbered step cards, still semantic <ol><li id="stepN"> */
+
+.recipe-body ol {
+	--flow-space: var(--space-xs-s);
+	list-style: none;
+	counter-reset: recipe-step;
+	margin-inline-start: 0;
+	padding: 0;
+}
+
+.recipe-body ol > li {
+	counter-increment: recipe-step;
+	position: relative;
+	padding: var(--space-s) 0 var(--space-s) calc(2.25em + var(--space-s));
+	border-block-end: 1px solid var(--color-border-default);
+	scroll-margin-block-start: var(--space-m);
+}
+
+.recipe-body ol > li:last-child {
+	border-block-end: none;
+}
+
+.recipe-body ol > li::before {
+	content: counter(recipe-step);
+	position: absolute;
+	inset-inline-start: 0;
+	top: var(--space-s);
+	width: 2.25em;
+	height: 2.25em;
+	display: grid;
+	place-content: center;
+	border: 1px solid var(--color-border-default);
+	border-radius: 50%;
+	font-weight: 700;
+	font-size: var(--step-0);
+	font-variant-numeric: tabular-nums;
+	line-height: 1;
+	color: var(--color-text-default);
+}
+
+.recipe-body ol > li:target::before {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+}
+
+/* Info table at the bottom — cleaner minimalist presentation */
+
+.recipe-body > table {
+	width: 100%;
+	margin-block-start: var(--space-l) !important;
+	border-block: 1px solid var(--color-border-default);
+	border-collapse: collapse;
+}
+
+.recipe-body > table th,
+.recipe-body > table td {
+	border-inline: none;
+	border-block: none;
+	border-block-end: 1px solid var(--color-border-default);
+	padding: var(--space-2xs) var(--space-xs);
+	vertical-align: top;
+}
+
+.recipe-body > table tr:last-child th,
+.recipe-body > table tr:last-child td {
+	border-block-end: none;
+}
+
+.recipe-body > table th {
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.65;
+	width: 35%;
+}

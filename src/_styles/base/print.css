@@ -3,7 +3,9 @@
 	.main-nav,
 	.site-footer,
 	.site-pagination,
-	.search {
+	.search,
+	.recipe-actions,
+	.cook-mode {
 		display: none;
 	}
 
@@ -42,5 +44,59 @@
 
 	ul, ol {
 		break-inside: avoid;
+	}
+
+	/* Hide custom checkbox boxes in print (show simple bullets) */
+	.ingredient-check {
+		appearance: auto;
+		border: 1px solid black;
+		background: transparent !important;
+	}
+	.ingredient-check:checked::after {
+		border-color: black !important;
+	}
+
+	/* Shopping-list print mode: show only the ingredients list and a header */
+	body.print-shopping > *:not(main),
+	body.print-shopping main > *:not(.recipe),
+	body.print-shopping .recipe > *:not(.recipe-header):not(.recipe-body),
+	body.print-shopping .recipe-header > *:not(.page-header),
+	body.print-shopping .recipe-body > *:not(.ingredients-list):not(h2) {
+		display: none !important;
+	}
+
+	body.print-shopping .recipe-body > h2:not(:has(+ .ingredients-list)) {
+		display: none !important;
+	}
+
+	body.print-shopping .page-header {
+		font-size: 1.8rem;
+	}
+
+	body.print-shopping .ingredients-list {
+		border: none;
+		margin-top: 1rem;
+	}
+
+	body.print-shopping .ingredient {
+		break-inside: avoid;
+		padding: 0.15rem 0;
+	}
+
+	/* In shopping mode, hide items already ticked off (already owned) */
+	body.print-shopping .ingredient:has(.ingredient-check:checked) {
+		display: none !important;
+	}
+
+	body.print-shopping .ingredient-label {
+		padding: 0.1rem 0;
+	}
+
+	body.print-shopping::after {
+		content: "Shopping list — printed from recipe.polente.de";
+		display: block;
+		margin-top: 2rem;
+		font-size: 0.75rem;
+		opacity: 0.6;
 	}
 }

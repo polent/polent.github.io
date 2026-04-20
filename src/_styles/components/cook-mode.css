@@ -1,0 +1,273 @@
+/* Cook mode — full-screen step-by-step overlay */
+
+.cook-mode {
+	/* Reset <dialog> defaults */
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: var(--color-surface-default);
+	color: var(--color-text-default);
+	width: 100%;
+	max-width: 100%;
+	height: 100dvh;
+	max-height: 100dvh;
+	overflow: hidden;
+}
+
+.cook-mode::backdrop {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.cook-mode__frame {
+	display: grid;
+	grid-template-rows: auto auto 1fr auto auto;
+	height: 100%;
+	max-width: 48rem;
+	margin-inline: auto;
+	padding: var(--space-m) var(--space-s-m) 0;
+}
+
+.cook-mode__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-s);
+	padding-block-end: var(--space-s);
+	border-block-end: 1px solid var(--color-border-default);
+}
+
+.cook-mode__title {
+	margin: 0;
+	font-size: var(--step-1);
+	font-weight: 600;
+	line-height: var(--leading-tight);
+	max-width: 40ch;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.cook-mode__close {
+	appearance: none;
+	background: transparent;
+	border: 1px solid var(--color-border-default);
+	color: inherit;
+	font: inherit;
+	font-size: var(--step-2);
+	line-height: 1;
+	width: 2.5em;
+	height: 2.5em;
+	cursor: pointer;
+	display: grid;
+	place-content: center;
+	flex-shrink: 0;
+}
+
+.cook-mode__close:hover,
+.cook-mode__close:focus-visible {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+	outline: none;
+}
+
+.cook-mode__progress {
+	margin: var(--space-m) 0 0;
+	font-size: 0.75rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.65;
+	text-align: center;
+}
+
+.cook-mode__step {
+	display: grid;
+	align-content: center;
+	justify-items: center;
+	text-align: center;
+	overflow-y: auto;
+	padding: var(--space-m) 0;
+	font-size: var(--step-3);
+	font-weight: 400;
+	line-height: var(--leading-loose);
+	max-width: var(--measure-default);
+	margin-inline: auto;
+}
+
+.cook-mode__step p {
+	margin: 0;
+	max-width: none;
+}
+
+.cook-mode__nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--space-xs);
+	padding-block: var(--space-s);
+	border-block-start: 1px solid var(--color-border-default);
+}
+
+.cook-mode__nav-btn {
+	appearance: none;
+	background: transparent;
+	color: var(--color-interactive-default);
+	border: 1px solid var(--color-border-default);
+	padding: var(--space-s) var(--space-m);
+	font: inherit;
+	font-size: var(--step-1);
+	cursor: pointer;
+	line-height: 1;
+	min-height: 3.25rem;
+}
+
+.cook-mode__nav-btn:hover,
+.cook-mode__nav-btn:focus-visible {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+	outline: none;
+}
+
+.cook-mode__nav-btn:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+.cook-mode__nav-btn--next {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+}
+
+.cook-mode__nav-btn--next:hover:not(:disabled),
+.cook-mode__nav-btn--next:focus-visible:not(:disabled) {
+	background: var(--color-interactive-hover);
+	border-color: var(--color-interactive-hover);
+}
+
+/* Ingredients drawer */
+
+.cook-mode__drawer {
+	border-block-start: 1px solid var(--color-border-default);
+	padding-block: var(--space-2xs);
+}
+
+.cook-mode__drawer[open] {
+	max-height: 40dvh;
+	overflow-y: auto;
+}
+
+.cook-mode__drawer-summary {
+	cursor: pointer;
+	padding: var(--space-xs) 0;
+	font-size: var(--step-0);
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cook-mode__drawer-summary::-webkit-details-marker {
+	display: none;
+}
+
+.cook-mode__drawer-summary::after {
+	content: "▾";
+	font-size: 0.85em;
+	transition: transform 0.2s ease;
+}
+
+.cook-mode__drawer[open] .cook-mode__drawer-summary::after {
+	transform: rotate(180deg);
+}
+
+.cook-mode__ingredients {
+	list-style: none;
+	margin: 0;
+	padding: 0 0 var(--space-s);
+}
+
+.cook-mode__ingredients li {
+	margin: 0;
+	max-width: none;
+	padding: var(--space-2xs) 0;
+	border-block-end: 1px solid var(--color-border-default);
+}
+
+.cook-mode__ingredients li:last-child {
+	border-block-end: none;
+}
+
+.cook-mode__ingredients label {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--space-s);
+	cursor: pointer;
+}
+
+.cook-mode__ingredients input[type="checkbox"]:checked + span {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+/* Inline timer button rendered into step text by JS */
+
+.cook-timer {
+	appearance: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.4ch;
+	background: transparent;
+	color: var(--color-interactive-default);
+	border: 1px solid var(--color-border-default);
+	padding: 0.1em 0.6em;
+	font: inherit;
+	font-size: 0.75em;
+	line-height: 1.3;
+	vertical-align: baseline;
+	cursor: pointer;
+	border-radius: 999px;
+}
+
+.cook-timer:hover,
+.cook-timer:focus-visible {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+	outline: none;
+}
+
+.cook-timer--running {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	border-color: var(--color-interactive-default);
+}
+
+.cook-timer--done {
+	animation: cook-timer-pulse 1s ease-in-out 3;
+}
+
+@keyframes cook-timer-pulse {
+	0%, 100% { opacity: 1; }
+	50% { opacity: 0.5; }
+}
+
+/* Prevent body scroll while dialog is open */
+
+body:has(dialog.cook-mode[open]) {
+	overflow: hidden;
+}
+
+/* Shrink step text on very small viewports */
+
+@media (--upto-small-viewport) {
+	.cook-mode__step {
+		font-size: var(--step-2);
+	}
+
+	.cook-mode__frame {
+		padding: var(--space-s);
+	}
+}
