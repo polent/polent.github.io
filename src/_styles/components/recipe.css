@@ -28,6 +28,7 @@
 
 .recipe-meta dt {
 	margin: 0 var(--space-2xs) 0 0;
+	color: var(--color-text-default);
 	font-size: 0.75rem;
 	font-weight: 600;
 	letter-spacing: 0.08em;
@@ -38,6 +39,7 @@
 
 .recipe-meta dd {
 	margin: 0 var(--space-m) 0 0;
+	color: var(--color-text-default);
 	font-size: var(--step-1);
 	font-weight: 500;
 	line-height: var(--leading-tight);
