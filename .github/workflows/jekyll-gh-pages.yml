@@ -66,6 +66,9 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Prune stale images
+        run: node scripts/prune-images.js
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
