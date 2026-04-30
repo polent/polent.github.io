@@ -1,0 +1,68 @@
+# Manual cleanup: purges GitHub Actions caches, then runs a fresh build + deploy.
+# Use when stale entries (e.g. removed source images) might be lingering in the
+# image cache and you want to be sure the live site reflects the current repo.
+name: Cleanup caches and redeploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: "22"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  cleanup-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Delete all Actions caches for this repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          echo "Listing caches before cleanup:"
+          gh cache list --repo "$REPO" --limit 100 || true
+
+          ids=$(gh cache list --repo "$REPO" --limit 100 --json id --jq '.[].id')
+          if [ -z "$ids" ]; then
+            echo "No caches to delete."
+          else
+            for id in $ids; do
+              echo "Deleting cache $id"
+              gh cache delete "$id" --repo "$REPO"
+            done
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build site (no cache restore)
+        run: npm run build
+
+      - name: Prune stale images
+        run: node scripts/prune-images.js
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
+          cname: recipe.polente.de
