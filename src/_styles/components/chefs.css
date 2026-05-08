@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	display: grid;
-	gap: var(--space-m);
+	gap: var(--space-l);
 	grid-template-columns: 1fr;
 }
 
@@ -17,6 +17,7 @@
 @media only screen and (min-width: 60rem) {
 	.chef-grid {
 		grid-template-columns: repeat(4, 1fr);
+		gap: var(--space-m);
 	}
 }
 
@@ -24,24 +25,44 @@
 	margin: 0;
 }
 
+/* ---------- Card ---------- */
 .chef-card {
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-2xs);
 	color: inherit;
 	text-decoration: none;
-	border-block-end: 1px solid var(--color-border-default);
-	padding-block-end: var(--space-s);
 }
 
 .chef-card figure {
 	margin: 0 0 var(--space-2xs) 0;
+	overflow: hidden;
+}
+
+.chef-card figure img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 250ms ease;
+}
+
+.chef-card:hover figure img,
+.chef-card:focus-visible figure img {
+	transform: translateY(-2px) scale(1.01);
 }
 
 .chef-card__name {
 	margin: 0;
 	font-size: var(--step-2);
 	line-height: var(--leading-tight);
+	transition: text-decoration 150ms ease;
+}
+
+.chef-card:hover .chef-card__name,
+.chef-card:focus-visible .chef-card__name {
+	text-decoration: underline;
+	text-underline-offset: 0.15em;
+	text-decoration-thickness: 1px;
 }
 
 .chef-card__tagline {
@@ -52,13 +73,7 @@
 .chef-card__region {
 	margin: 0;
 	font-size: 0.85em;
-	opacity: 0.75;
-}
-
-.chef-card:hover .chef-card__name,
-.chef-card:focus-visible .chef-card__name {
-	text-decoration: underline;
-	text-underline-offset: 0.15em;
+	opacity: 0.65;
 }
 
 .chef-card:focus-visible {
@@ -102,8 +117,7 @@
 	margin-block-start: var(--space-l);
 }
 
-/* ---------- legacy classes from the old prose chefs page ---------- */
-/* Kept in case any old link still renders the old layout — visually neutral. */
+/* ---------- Legacy classes kept for /our-chefs/ in case caching matters ---------- */
 .recipe-chefs-figure {
 	margin: 0 0 1em 0;
 }

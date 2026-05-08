@@ -1,26 +1,87 @@
-{# Skip to main content https://design-system.service.gov.uk/components/skip-link/ #}
-{# We'll render home "/" manually to avoid any navigation headaches for rendering active class #}
-{# We loop through eleventyNavigation and check if item.url e.g. /posts/ is in page.url and set active class. Stuck with this method for the moment until a relationship between Eleventy Navigation and Eleventy Pagination is figured out #}
-{# Recommend using aria-current="page" instead of active class if your project is surfacing all navigation items #}
-
+{# Skip-link target lives on <main id="main-content"> in base.njk #}
 <a class="skip-link" href="#main-content">Skip to main content</a>
-<header>
-	<nav class="main-nav">
-		<div class="wrapper main-nav__inner">
-			<a class="main-nav__logo" href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>
-				<img src="/favicon.jpg" width="75" height="75" alt="Main Chefs Recipe Logo" />
-			</a>
-			<ul class="main-nav__links">
-				{% for item in collections.all | eleventyNavigation %}
-					<li>
-						<a id="nav-{{ item.key }}" href="{{ item.url }}"
-							{% if item.url in page.url %}
-								aria-current="page"
-							{% endif %}
-						>{{ item.title }}</a>
-					</li>
-				{% endfor %}
-			</ul>
-		</div>
-	</nav>
+
+<header class="site-header">
+  <div class="wrapper site-header__inner">
+    <a class="site-header__brand" href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>
+      <img class="site-header__logo" src="/favicon.jpg" width="48" height="48" alt="" />
+      <span class="site-header__wordmark">{{ meta.shortName }}</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main">
+      <ul class="main-nav__links">
+        {%- for item in collections.all | eleventyNavigation -%}
+          {%- if item.key != "search" -%}
+            <li>
+              <a id="nav-{{ item.key }}" href="{{ item.url }}"
+                {% if item.url in page.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+            </li>
+          {%- endif -%}
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <a class="site-header__search" id="nav-search" href="/search/"
+      {% if "/search/" in page.url %}aria-current="page"{% endif %}
+      aria-label="Search recipes">
+      <svg class="site-header__search-icon" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+        <circle cx="9" cy="9" r="6" fill="none" stroke="currentColor" stroke-width="1.75"/>
+        <path d="M13.5 13.5l4 4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+      <span class="site-header__search-label">Search</span>
+    </a>
+
+    <button class="site-header__menu-toggle" type="button"
+      aria-expanded="false"
+      aria-controls="main-nav"
+      aria-label="Open menu">
+      <svg class="site-header__menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+      <svg class="site-header__close-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </div>
 </header>
+
+<script>
+(function () {
+  const toggle = document.querySelector('.site-header__menu-toggle');
+  const nav = document.getElementById('main-nav');
+  if (!toggle || !nav) return;
+
+  const setOpen = function (open, opts) {
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    nav.classList.toggle('main-nav--open', open);
+    if (open && opts && opts.moveFocus) {
+      // Move focus into the menu so Tab continues through the links naturally.
+      // preventScroll avoids the page jumping when the focus ring lands.
+      const firstLink = nav.querySelector('a');
+      if (firstLink) firstLink.focus({ preventScroll: true });
+    }
+  };
+
+  toggle.addEventListener('click', function () {
+    const willOpen = toggle.getAttribute('aria-expanded') !== 'true';
+    setOpen(willOpen, { moveFocus: willOpen });
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
+      setOpen(false);
+      toggle.focus();
+    }
+  });
+
+  document.addEventListener('click', function (e) {
+    if (toggle.getAttribute('aria-expanded') !== 'true') return;
+    if (!e.target.closest('.site-header')) setOpen(false);
+  });
+
+  nav.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () { setOpen(false); });
+  });
+})();
+</script>

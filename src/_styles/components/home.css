@@ -1,6 +1,6 @@
 /* ---------- Homepage hero ---------- */
 .home-hero {
-	margin-block-end: var(--space-l);
+	margin-block: var(--space-l) clamp(3rem, 6vw, 5rem);
 }
 
 .home-hero__link {
@@ -9,8 +9,6 @@
 	gap: var(--space-m);
 	color: inherit;
 	text-decoration: none;
-	border-block-end: 1px solid var(--color-border-default);
-	padding-block-end: var(--space-l);
 }
 
 @media only screen and (min-width: 48rem) {
@@ -23,12 +21,19 @@
 
 .home-hero__media {
 	margin: 0;
+	overflow: hidden;
 }
 
 .home-hero__media img {
 	width: 100%;
 	height: auto;
 	display: block;
+	transition: transform 400ms ease;
+}
+
+.home-hero__link:hover .home-hero__media img,
+.home-hero__link:focus-visible .home-hero__media img {
+	transform: scale(1.02);
 }
 
 .home-hero__copy {
@@ -69,26 +74,25 @@
 	font-size: var(--step-0);
 	font-weight: 600;
 	color: var(--color-interactive-default);
-	text-decoration: underline;
-	text-underline-offset: 0.2em;
-	text-decoration-thickness: 1px;
 }
 
 .home-hero__link:hover .home-hero__title,
-.home-hero__link:focus-visible .home-hero__title {
+.home-hero__link:focus-visible .home-hero__title,
+.home-hero__link:hover .home-hero__cta,
+.home-hero__link:focus-visible .home-hero__cta {
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
-	text-underline-offset: 0.15em;
+	text-underline-offset: 0.2em;
 }
 
 .home-hero__link:focus-visible {
 	outline: 2px solid var(--color-interactive-focus-ring);
-	outline-offset: 4px;
+	outline-offset: 6px;
 }
 
-/* ---------- Section header (title + "more" link) ---------- */
+/* ---------- Section: title row + content. No underlines, only space. ---------- */
 .home-section {
-	margin-block-end: var(--space-xl);
+	margin-block-end: clamp(3rem, 6vw, 5rem);
 }
 
 .home-section__head {
@@ -97,9 +101,7 @@
 	align-items: baseline;
 	justify-content: space-between;
 	gap: var(--space-2xs);
-	margin-block-end: var(--space-s);
-	padding-block-end: var(--space-2xs);
-	border-block-end: 1px solid var(--color-border-default);
+	margin-block-end: var(--space-m);
 }
 
 .home-section__title {
@@ -112,6 +114,7 @@
 	font-size: var(--step-0);
 	color: var(--color-interactive-default);
 	text-decoration: none;
+	transition: text-decoration 150ms ease;
 }
 
 .home-section__more:hover,
@@ -120,14 +123,19 @@
 	text-underline-offset: 0.2em;
 }
 
-/* ---------- About strip ---------- */
+/* ---------- About strip — borderless footnote at the very bottom ---------- */
 .home-about {
-	margin-block-end: var(--space-l);
-	padding-block: var(--space-m);
-	border-block: 1px solid var(--color-border-default);
+	margin-block: clamp(2rem, 5vw, 4rem) var(--space-m);
+	max-width: var(--measure-default);
+	font-size: 0.9em;
+	opacity: 0.8;
+}
+
+.home-about .home-section__title {
+	font-size: var(--step-1);
+	opacity: 1;
 }
 
 .home-about p {
 	margin: var(--space-2xs) 0 0;
-	max-width: var(--measure-default);
 }

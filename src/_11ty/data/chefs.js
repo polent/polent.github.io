@@ -11,7 +11,7 @@ module.exports = [
 		region: "California, USA",
 		cuisine: "North American",
 		cuisineSchema: "American",
-		portrait: "./src/media/chefs/Emily.png",
+		portrait: "./src/media/chefs/emily.jpg",
 		portraitAlt:
 			"Emily in a modern kitchen with rustic elements, grilling smoky BBQ tempeh ribs.",
 		tagline: "Smoky, spicy, plant-powered BBQ",
@@ -26,7 +26,7 @@ module.exports = [
 		region: "Japan",
 		cuisine: "Asian",
 		cuisineSchema: "Japanese",
-		portrait: "./src/media/chefs/Hiroshi.png",
+		portrait: "./src/media/chefs/hiroshi.jpg",
 		portraitAlt:
 			"Hiroshi in a sleek, minimalist kitchen, preparing a vegan sushi platter.",
 		tagline: "Modern vegan takes on Asian classics",
@@ -41,7 +41,7 @@ module.exports = [
 		region: "Italy",
 		cuisine: "Italian",
 		cuisineSchema: "Italian",
-		portrait: "./src/media/chefs/Isabella.png",
+		portrait: "./src/media/chefs/isabella.jpg",
 		portraitAlt:
 			"Isabella in a cozy, sunlit kitchen, tossing vegan pizza dough in a rustic setting.",
 		tagline: "European comfort food, reimagined vegan",
@@ -56,7 +56,7 @@ module.exports = [
 		region: "Kenya",
 		cuisine: "African",
 		cuisineSchema: "African",
-		portrait: "./src/media/chefs/Nia.png",
+		portrait: "./src/media/chefs/nia.jpg",
 		portraitAlt:
 			"Nia in a colorful kitchen adorned with African art, preparing a vegan Ethiopian lentil stew.",
 		tagline: "Vibrant, hearty African plates",
