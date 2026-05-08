@@ -1,23 +1,128 @@
-.recipe-chefs-figure {
-	margin: 0 0 1em 0;
+/* ---------- /our-chefs/ directory grid ---------- */
+.chef-grid {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	display: grid;
-	column-gap: 1em;
+	gap: var(--space-l);
+	grid-template-columns: 1fr;
+}
 
-	figcaption {
-		padding: 0;
+@media only screen and (min-width: 30rem) {
+	.chef-grid {
+		grid-template-columns: 1fr 1fr;
 	}
 }
+
+@media only screen and (min-width: 60rem) {
+	.chef-grid {
+		grid-template-columns: repeat(4, 1fr);
+		gap: var(--space-m);
+	}
+}
+
+.chef-grid__item {
+	margin: 0;
+}
+
+/* ---------- Card ---------- */
+.chef-card {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-2xs);
+	color: inherit;
+	text-decoration: none;
+}
+
+.chef-card figure {
+	margin: 0 0 var(--space-2xs) 0;
+	overflow: hidden;
+}
+
+.chef-card figure img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 250ms ease;
+}
+
+.chef-card:hover figure img,
+.chef-card:focus-visible figure img {
+	transform: translateY(-2px) scale(1.01);
+}
+
+.chef-card__name {
+	margin: 0;
+	font-size: var(--step-2);
+	line-height: var(--leading-tight);
+	transition: text-decoration 150ms ease;
+}
+
+.chef-card:hover .chef-card__name,
+.chef-card:focus-visible .chef-card__name {
+	text-decoration: underline;
+	text-underline-offset: 0.15em;
+	text-decoration-thickness: 1px;
+}
+
+.chef-card__tagline {
+	margin: 0;
+	font-size: var(--step-0);
+}
+
+.chef-card__region {
+	margin: 0;
+	font-size: 0.85em;
+	opacity: 0.65;
+}
+
+.chef-card:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 4px;
+}
+
+/* ---------- /chefs/<slug>/ detail page ---------- */
+.chef-page__header {
+	margin-block-end: var(--space-m);
+}
+
+.chef-page__tagline {
+	font-size: var(--step-1);
+	margin-block: var(--space-3xs) var(--space-s);
+}
+
+.chef-page__meta {
+	display: grid;
+	grid-template-columns: max-content auto;
+	gap: var(--space-3xs) var(--space-s);
+	margin: 0;
+	font-size: 0.95em;
+}
+
+.chef-page__meta dt {
+	font-weight: 600;
+	opacity: 0.75;
+}
+
+.chef-page__meta dd {
+	margin: 0;
+}
+
+.chef-page__portrait {
+	margin: 0 0 var(--space-m) 0;
+}
+
+.chef-page__body h2 {
+	font-size: var(--step-2);
+	margin-block-start: var(--space-l);
+}
+
+/* ---------- Legacy classes kept for /our-chefs/ in case caching matters ---------- */
+.recipe-chefs-figure {
+	margin: 0 0 1em 0;
+}
+
 .recipe-chefs-container {
 	display: grid;
 	gap: 1em;
-
-	h2 {
-		margin-bottom: 0.5em;
-	}
-}
-@media only screen and (min-width: 720px) {
-	.recipe-chefs-container,
-	.recipe-chefs-figure {
-		grid-template-columns: 1fr 1fr;
-	}
 }

@@ -1,0 +1,141 @@
+/* ---------- Homepage hero ---------- */
+.home-hero {
+	margin-block: var(--space-l) clamp(3rem, 6vw, 5rem);
+}
+
+.home-hero__link {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: var(--space-m);
+	color: inherit;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 48rem) {
+	.home-hero__link {
+		grid-template-columns: 3fr 2fr;
+		align-items: center;
+		gap: var(--space-l);
+	}
+}
+
+.home-hero__media {
+	margin: 0;
+	overflow: hidden;
+}
+
+.home-hero__media img {
+	width: 100%;
+	height: auto;
+	display: block;
+	transition: transform 400ms ease;
+}
+
+.home-hero__link:hover .home-hero__media img,
+.home-hero__link:focus-visible .home-hero__media img {
+	transform: scale(1.02);
+}
+
+.home-hero__copy {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-2xs);
+}
+
+.home-hero__eyebrow {
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.65;
+	margin: 0;
+}
+
+.home-hero__title {
+	font-size: var(--step-4);
+	line-height: var(--leading-tight);
+	margin: 0;
+}
+
+.home-hero__lede {
+	font-size: var(--step-1);
+	margin: var(--space-2xs) 0 0;
+	max-width: 38ch;
+}
+
+.home-hero__byline {
+	margin: 0;
+	font-size: var(--step-0);
+	opacity: 0.85;
+}
+
+.home-hero__cta {
+	margin-block-start: var(--space-s);
+	font-size: var(--step-0);
+	font-weight: 600;
+	color: var(--color-interactive-default);
+}
+
+.home-hero__link:hover .home-hero__title,
+.home-hero__link:focus-visible .home-hero__title,
+.home-hero__link:hover .home-hero__cta,
+.home-hero__link:focus-visible .home-hero__cta {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
+
+.home-hero__link:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 6px;
+}
+
+/* ---------- Section: title row + content. No underlines, only space. ---------- */
+.home-section {
+	margin-block-end: clamp(3rem, 6vw, 5rem);
+}
+
+.home-section__head {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	gap: var(--space-2xs);
+	margin-block-end: var(--space-m);
+}
+
+.home-section__title {
+	margin: 0;
+	font-size: var(--step-2);
+	line-height: var(--leading-tight);
+}
+
+.home-section__more {
+	font-size: var(--step-0);
+	color: var(--color-interactive-default);
+	text-decoration: none;
+	transition: text-decoration 150ms ease;
+}
+
+.home-section__more:hover,
+.home-section__more:focus-visible {
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+
+/* ---------- About strip — borderless footnote at the very bottom ---------- */
+.home-about {
+	margin-block: clamp(2rem, 5vw, 4rem) var(--space-m);
+	max-width: var(--measure-default);
+	font-size: 0.9em;
+	opacity: 0.8;
+}
+
+.home-about .home-section__title {
+	font-size: var(--step-1);
+	opacity: 1;
+}
+
+.home-about p {
+	margin: var(--space-2xs) 0 0;
+}

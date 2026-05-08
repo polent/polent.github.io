@@ -303,6 +303,8 @@ function extractRecipeData(html, recipeUrl) {
 		instructions: [],
 		prepTime: null,
 		prepTimeText: null,
+		totalTime: null,
+		cookTime: null,
 		nutrition: null,
 		yield: null,
 		modifiedHtml: html,
@@ -320,6 +322,11 @@ function extractRecipeData(html, recipeUrl) {
 	// Extract prep time and nutrition early
 	result.prepTime = extractPrepTime(html);
 	result.prepTimeText = extractPrepTimeText(html);
+	// AI-generated recipes only emit "Preparation Time" — that single value covers
+	// the end-to-end time (there is no separate cook-time field). Mirror it as
+	// totalTime so Google's Recipe rich result has the field it needs. cookTime
+	// stays null and toJson strips it out of the JSON-LD.
+	result.totalTime = result.prepTime;
 	result.nutrition = extractNutrition(html);
 	result.yield = extractYield(html);
 

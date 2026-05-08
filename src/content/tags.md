@@ -9,5 +9,7 @@ pagination:
     - "all"
     - "posts"
     - "latest"
+    - "featured"
+    - "feed"
 permalink: "/tag/{{ tag | slug }}/"
 ---

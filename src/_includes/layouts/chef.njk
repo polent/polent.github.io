@@ -1,0 +1,83 @@
+{% extends "layouts/base.njk" %}
+
+{% set chefUrl = meta.domain + "/chefs/" + chef.slug + "/" %}
+{% set chefRecipes = collections[chef.tagName] or [] %}
+
+{% block head %}
+  {{ super() }}
+  {% set personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": chefUrl,
+    "name": chef.name,
+    "url": chefUrl,
+    "description": chef.bio,
+    "knowsAbout": chef.cuisine + " cuisine",
+    "homeLocation": {
+      "@type": "Place",
+      "name": chef.region
+    }
+  } %}
+  <script type="application/ld+json">{{ personSchema | toJson | safe }}</script>
+
+  {% set breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.domain + "/" },
+      { "@type": "ListItem", "position": 2, "name": "Chefs", "item": meta.domain + "/our-chefs/" },
+      { "@type": "ListItem", "position": 3, "name": chef.name, "item": chefUrl }
+    ]
+  } %}
+  <script type="application/ld+json">{{ breadcrumbSchema | toJson | safe }}</script>
+{% endblock %}
+
+{% block content %}
+  <article class="wrapper layout-grid chef-page" data-pagefind-body>
+    <span data-pagefind-ignore data-pagefind-filter="chef:{{ chef.name }}" hidden></span>
+    <span data-pagefind-ignore data-pagefind-meta="chef:{{ chef.name }}" hidden></span>
+
+    <header class="layout-span chef-page__header">
+      <h1 class="page-header">{{ chef.name }}</h1>
+      <p class="chef-page__tagline">{{ chef.tagline }}</p>
+      <dl class="chef-page__meta" aria-label="Chef summary">
+        <dt>Region</dt>
+        <dd>{{ chef.region }}</dd>
+        <dt>Cuisine</dt>
+        <dd>{{ chef.cuisine }}</dd>
+        <dt>Recipes</dt>
+        <dd>{{ chefRecipes | length }}</dd>
+      </dl>
+    </header>
+
+    <div class="layout-span | content-main flow chef-page__body">
+      <figure class="chef-page__portrait">
+        {% picture chef.portrait, chef.portraitAlt, chef.portraitAlt, "eager", "(min-width: 60rem) 480px, 100vw" %}
+      </figure>
+
+      <h2>About {{ chef.name }}</h2>
+      <p>{{ chef.bio }}</p>
+
+      <h2>Signature style</h2>
+      <p>{{ chef.signature }}</p>
+
+      <h2>{{ chef.name }}'s recipes</h2>
+      {% if chefRecipes | length %}
+        <ul class="recipe-ul">
+          {% for item in chefRecipes | reverse %}
+            <li>
+              <a href="{{ item.url }}">
+                {% figure %}
+                  {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
+                {% endfigure %}
+                {{ item.data.title }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No recipes published yet — check back soon.</p>
+      {% endif %}
+    </div>
+  </article>
+{% endblock %}

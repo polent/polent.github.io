@@ -1,0 +1,81 @@
+---
+layout: "layouts/home"
+permalink: "/index.html"
+eleventyImport:
+  collections: ["featured", "posts"]
+---
+
+{# ---------------------- Hero: featured recipe ---------------------- #}
+{% set hero = collections.featured[0] %}
+{% if hero %}
+  {% set heroChef = hero.data.tags[hero.data.tags | length - 1] %}
+  {% set heroChefIsName = heroChef and heroChef != (heroChef | lower) %}
+  <section class="home-hero" aria-labelledby="hero-title">
+    <a class="home-hero__link" href="{{ hero.url }}">
+      <div class="home-hero__media">
+        {% picture hero.data.figureRecipe.imageSrc, hero.data.figureRecipe.imageTitle, hero.data.figureRecipe.imageAlt, "eager", "(min-width: 64rem) 1200px, 100vw" %}
+      </div>
+      <div class="home-hero__copy">
+        <p class="home-hero__eyebrow">Recipe of the day · <time datetime="{{ hero.date | dateToYYYYMMDD }}">{{ hero.date | dateToDMY }}</time></p>
+        <h1 class="home-hero__title" id="hero-title">{{ hero.data.title }}</h1>
+        <p class="home-hero__lede">{{ hero.data.description }}</p>
+        {% if heroChefIsName %}
+          <p class="home-hero__byline">By <strong>{{ heroChef }}</strong></p>
+        {% endif %}
+        <span class="home-hero__cta">Open recipe →</span>
+      </div>
+    </a>
+  </section>
+{% endif %}
+
+{# ---------------------- Browse by chef ---------------------- #}
+<section class="home-section" aria-labelledby="chefs-title">
+  <header class="home-section__head">
+    <h2 class="home-section__title" id="chefs-title">Browse by chef</h2>
+    <a class="home-section__more" href="/our-chefs/">All chefs →</a>
+  </header>
+  <ul class="chef-grid" role="list">
+    {% for chef in chefs %}
+      <li class="chef-grid__item">
+        <a class="chef-card" href="/chefs/{{ chef.slug }}/">
+          {% figure %}
+            {% picture chef.portrait, chef.portraitAlt, chef.portraitAlt, "lazy", "(min-width: 60rem) 280px, (min-width: 30rem) 50vw, 100vw" %}
+          {% endfigure %}
+          <h3 class="chef-card__name">{{ chef.name }}</h3>
+          <p class="chef-card__tagline">{{ chef.tagline }}</p>
+          <p class="chef-card__region"><span class="visually-hidden">Region: </span>{{ chef.region }} · {{ chef.cuisine }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{# ---------------------- Latest 12 recipes ---------------------- #}
+{# Nunjucks `slice` chunks into N — not Python-style index slicing — so we cap with loop.index instead. #}
+<section class="home-section" aria-labelledby="latest-title">
+  <header class="home-section__head">
+    <h2 class="home-section__title" id="latest-title">Latest recipes</h2>
+    <a class="home-section__more" href="/recipes/">All recipes →</a>
+  </header>
+  <ul class="recipe-ul">
+    {% for item in collections.posts %}
+      {% if loop.index <= 12 %}
+        <li>
+          <a href="{{ item.url }}">
+            {% figure %}
+              {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 280px, (min-width: 30rem) 440px, 100vw" %}
+            {% endfigure %}
+            {{ item.data.title }}
+          </a>
+          <time datetime="{{ item.date | dateToYYYYMMDD }}">{{ item.date | dateToDMY }}</time>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+
+{# ---------------------- About strip ---------------------- #}
+<section class="home-about" aria-labelledby="about-title">
+  <h2 class="home-section__title" id="about-title">AI-generated, human-tasted</h2>
+  <p>Every recipe on this site is generated daily by a Gemini cron — ingredients, method, and image. We taste-test the ones that look promising. <a href="/how-is-it-done/">How it's done →</a></p>
+</section>

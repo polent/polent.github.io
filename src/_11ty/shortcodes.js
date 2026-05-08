@@ -3,14 +3,21 @@ const fs = require("fs");
 
 const imageOptions = {
 	widths: [320, 640, 960, 1280, 1600],
-	formats: ["avif", "webp"],
+	// JPEG kept as a final fallback for the rare browser without AVIF/WebP support.
+	// Order matters — browsers pick the first <source> they understand.
+	formats: ["avif", "webp", "jpeg"],
 	urlPath: "/img/",
 	outputDir: "./dist/img/",
 	sharpAvifOptions: {
-		quality: 50,
+		quality: 60,
 	},
 	sharpWebpOptions: {
-		quality: 65,
+		quality: 75,
+	},
+	sharpJpegOptions: {
+		quality: 78,
+		progressive: true,
+		mozjpeg: true,
 	},
 };
 
@@ -31,6 +38,10 @@ const picture = async function (
 	// Skip expensive Sharp processing if all output files already exist (e.g. from CI cache)
 	const metadata = allExist ? stats : await Image(src, imageOptions);
 
+	// Eager-loaded images are LCP candidates — auto-prioritise them so callers don't
+	// have to remember to pass fetchpriority="high" alongside loading="eager".
+	const resolvedFetchPriority = fetchpriority || (loading === "eager" ? "high" : undefined);
+
 	const imageAttributes = {
 		title,
 		alt,
@@ -39,8 +50,8 @@ const picture = async function (
 		decoding: "async",
 	};
 
-	if (fetchpriority) {
-		imageAttributes.fetchpriority = fetchpriority;
+	if (resolvedFetchPriority) {
+		imageAttributes.fetchpriority = resolvedFetchPriority;
 	}
 
 	return Image.generateHTML(metadata, imageAttributes);

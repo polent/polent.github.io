@@ -5,13 +5,15 @@
     <h1 class="page-header layout-span">Recipes tagged with “{{ tag }}”</h1>
     <div class="layout-span | content-main flow">
       <ul class="recipe-ul">
-        {% for item in collections[tag] | reverse %}          
-          <a href="{{ item.url }}">
+        {% for item in collections[tag] | reverse %}
+          <li>
+            <a href="{{ item.url }}">
               {% figure %}
-                  {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
+                {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
               {% endfigure %}
               {{ item.data.title }}
-          </a>
+            </a>
+          </li>
         {% endfor %}
       </ul>
     </div>

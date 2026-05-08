@@ -1,0 +1,12 @@
+---
+layout: layouts/chef
+pagination:
+  data: chefs
+  size: 1
+  alias: chef
+  addAllPagesToCollections: true
+permalink: "/chefs/{{ chef.slug }}/"
+eleventyComputed:
+  title: "{{ chef.name }} — vegan {{ chef.cuisine }} recipes"
+  description: "{{ chef.tagline }}. Browse {{ chef.name }}'s vegan recipes inspired by {{ chef.cuisine | lower }} cuisine."
+---

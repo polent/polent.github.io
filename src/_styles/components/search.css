@@ -1,10 +1,53 @@
-ul#results,
-ul#results li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+/* Pagefind UI overrides — map to the site's existing tokens so search inherits the
+   minimalist palette/typography rather than Pagefind's default styling. */
+
+.recipe-search-intro {
+	max-width: var(--measure-default);
+	margin-block-end: var(--space-m);
 }
 
-ul#results li {
-	margin-bottom: 1em;
+.recipe-search {
+	--pagefind-ui-scale: 0.9;
+	--pagefind-ui-primary: var(--color-interactive-default);
+	--pagefind-ui-text: var(--color-text-default);
+	--pagefind-ui-background: var(--color-surface-default);
+	--pagefind-ui-border: var(--color-border-default);
+	--pagefind-ui-tag: var(--color-highlight);
+	--pagefind-ui-border-width: 1px;
+	--pagefind-ui-border-radius: 0;
+	--pagefind-ui-image-border-radius: 0;
+	--pagefind-ui-image-box-ratio: 4 / 3;
+	--pagefind-ui-font: var(--font-family-sans);
+
+	margin-block-start: var(--space-s);
+}
+
+/* Match focus styling to the rest of the site */
+.recipe-search .pagefind-ui__search-input:focus,
+.recipe-search .pagefind-ui__search-input:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
+}
+
+/* Result titles use the site's link colour */
+.recipe-search .pagefind-ui__result-link {
+	color: var(--color-interactive-default);
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.15em;
+}
+
+.recipe-search .pagefind-ui__result-link:hover {
+	color: var(--color-interactive-hover);
+}
+
+/* Tighter result spacing */
+.recipe-search .pagefind-ui__result {
+	padding-block: var(--space-xs);
+	border-block-end: 1px solid var(--color-border-default);
+}
+
+/* Filters panel: keep the chef/cuisine facets restrained */
+.recipe-search .pagefind-ui__filter-panel {
+	margin-block-end: var(--space-m);
 }

@@ -1,0 +1,9 @@
+{% extends "layouts/base.njk" %}
+
+{% set title = meta.projectName %}
+
+{% block content %}
+  <div class="wrapper home">
+    {{ content | safe }}
+  </div>
+{% endblock %}
