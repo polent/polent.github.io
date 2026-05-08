@@ -5,26 +5,29 @@
 {% set recipeData = content | extractRecipeData(recipeUrl) %}
 {% set isRenderableRecipe = isRecipe and (recipeData.ingredients | length) and (recipeData.instructions | length) %}
 
+{# Resolve chef + cuisine at template scope so head block AND body can both use them #}
+{% set recipeAuthor = meta.author.name %}
+{% set recipeCuisine = null %}
+{% if tags and (tags | length) %}
+  {% set candidateAuthor = tags[tags | length - 1] %}
+  {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
+    {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
+    {% if candidateAuthor == "Hiroshi" %}
+      {% set recipeCuisine = "Asia" %}
+    {% elif candidateAuthor == "Emily" %}
+      {% set recipeCuisine = "North American" %}
+    {% elif candidateAuthor == "Isabella" %}
+      {% set recipeCuisine = "Italian" %}
+    {% elif candidateAuthor == "Nia" %}
+      {% set recipeCuisine = "African" %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% set recipeAuthorSlug = recipeAuthor | slug %}
+
 {% block head %}
   {{ super() }}
   {% if isRenderableRecipe %}
-    {% set recipeAuthor = meta.author.name %}
-    {% set recipeCuisine = null %}
-    {% if tags and (tags | length) %}
-      {% set candidateAuthor = tags[tags | length - 1] %}
-      {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
-        {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
-        {% if candidateAuthor == "Hiroshi" %}
-          {% set recipeCuisine = "Asia" %}
-        {% elif candidateAuthor == "Emily" %}
-          {% set recipeCuisine = "North American" %}
-        {% elif candidateAuthor == "Isabella" %}
-          {% set recipeCuisine = "Italian" %}
-        {% elif candidateAuthor == "Nia" %}
-          {% set recipeCuisine = "African" %}
-        {% endif %}
-      {% endif %}
-    {% endif %}
     {% set recipeImage = null %}
     {% if recipeData.image %}
       {% set recipeImage = meta.domain + recipeData.image %}
@@ -42,25 +45,54 @@
       "datePublished": page.date | dateToYYYYMMDD,
       "author": {
         "@type": "Person",
-        "name": recipeAuthor
+        "@id": meta.domain + "/chefs/" + recipeAuthorSlug + "/",
+        "name": recipeAuthor,
+        "url": meta.domain + "/chefs/" + recipeAuthorSlug + "/"
       },
       "image": recipeImage,
-      "keywords": recipeKeywords,
       "recipeYield": recipeData.yield,
       "recipeCuisine": recipeCuisine,
       "recipeIngredient": recipeData.ingredients,
       "recipeInstructions": recipeData.instructions,
       "suitableForDiet": "https://schema.org/VeganDiet",
       "prepTime": recipeData.prepTime,
-      "nutrition": recipeData.nutrition
+      "cookTime": recipeData.cookTime,
+      "totalTime": recipeData.totalTime,
+      "nutrition": recipeData.nutrition,
+      "keywords": recipeKeywords
     } %}
     <script type="application/ld+json">{{ recipeSchema | toJson | safe }}</script>
+
+    {# BreadcrumbList: Home → Recipes → Recipe #}
+    {% set breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.domain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Recipes", "item": meta.domain + "/recipes/" },
+        { "@type": "ListItem", "position": 3, "name": title, "item": recipeUrl }
+      ]
+    } %}
+    <script type="application/ld+json">{{ breadcrumbSchema | toJson | safe }}</script>
   {% endif %}
 {% endblock %}
 
 {% block content %}
   <article class="wrapper layout-grid recipe{% if isRenderableRecipe %} recipe--enhanced{% endif %}"
-    {% if isRenderableRecipe %}data-recipe-slug="{{ page.fileSlug }}" data-recipe-title="{{ title }}"{% endif %}>
+    {% if isRenderableRecipe %}
+      data-pagefind-body
+      data-recipe-slug="{{ page.fileSlug }}"
+      data-recipe-title="{{ title }}"
+    {% endif %}>
+    {% if isRenderableRecipe %}
+      {# Pagefind facets — one element per attribute (HTML disallows duplicate attribute names) #}
+      <span data-pagefind-ignore data-pagefind-filter="chef:{{ recipeAuthor }}" hidden></span>
+      <span data-pagefind-ignore data-pagefind-meta="chef:{{ recipeAuthor }}" hidden></span>
+      {% if recipeCuisine %}
+        <span data-pagefind-ignore data-pagefind-filter="cuisine:{{ recipeCuisine }}" hidden></span>
+        <span data-pagefind-ignore data-pagefind-meta="cuisine:{{ recipeCuisine }}" hidden></span>
+      {% endif %}
+    {% endif %}
     <header class="layout-span recipe-header">
       <h1 class="page-header">{{ title }}</h1>
       <p class="recipe-byline">

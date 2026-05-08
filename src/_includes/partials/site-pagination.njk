@@ -9,19 +9,27 @@
 {% if startPage < 0 %}{% set startPage = 0 %}{% endif %}
 {% if endPage >= totalPages %}{% set endPage = totalPages - 1 %}{% endif %}
 
+{# Reusable chevron SVGs — inline so they inherit currentColor and never depend on an emoji font #}
+{% set svgChevronFirst %}<svg class="pagination-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M13 4l-4 4 4 4M7 4l-4 4 4 4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endset %}
+{% set svgChevronPrev %}<svg class="pagination-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M10 4l-4 4 4 4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endset %}
+{% set svgChevronNext %}<svg class="pagination-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M6 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endset %}
+{% set svgChevronLast %}<svg class="pagination-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 4l4 4-4 4M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>{% endset %}
+
 <h2 class="sr-only" id="pagination-h2">Recipe Pagination</h2>
 <nav class="site-pagination" aria-labelledby="pagination-h2">
   <ul>
     <li>
-      <a href="{{ pagination.href.first }}" class="pagination-btn pagination-nav"
-        {% if currentIndex == 0 %} aria-disabled="true"{% endif %}
-        aria-label="First page">⏮</a>
+      {% if currentIndex == 0 %}
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="First page">{{ svgChevronFirst | safe }}</span>
+      {% else %}
+        <a href="{{ pagination.href.first }}" class="pagination-btn pagination-nav" aria-label="First page">{{ svgChevronFirst | safe }}</a>
+      {% endif %}
     </li>
     <li>
       {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}" class="pagination-btn pagination-nav" aria-label="Previous page">⏴</a>
+        <a href="{{ pagination.href.previous }}" class="pagination-btn pagination-nav" aria-label="Previous page" rel="prev">{{ svgChevronPrev | safe }}</a>
       {% else %}
-        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Previous page">⏴</span>
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Previous page">{{ svgChevronPrev | safe }}</span>
       {% endif %}
     </li>
 
@@ -30,7 +38,7 @@
         <a href="{{ pagination.hrefs[0] }}" class="pagination-btn">1</a>
       </li>
       {% if startPage > 1 %}
-        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><span class="pagination-ellipsis" aria-hidden="true">&hellip;</span></li>
       {% endif %}
     {% endif %}
 
@@ -47,7 +55,7 @@
 
     {% if endPage < totalPages - 1 %}
       {% if endPage < totalPages - 2 %}
-        <li><span class="pagination-ellipsis">&hellip;</span></li>
+        <li><span class="pagination-ellipsis" aria-hidden="true">&hellip;</span></li>
       {% endif %}
       <li>
         <a href="{{ pagination.hrefs[totalPages - 1] }}" class="pagination-btn">{{ totalPages }}</a>
@@ -56,15 +64,17 @@
 
     <li>
       {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}" class="pagination-btn pagination-nav" aria-label="Next page">⏵</a>
+        <a href="{{ pagination.href.next }}" class="pagination-btn pagination-nav" aria-label="Next page" rel="next">{{ svgChevronNext | safe }}</a>
       {% else %}
-        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Next page">⏵</span>
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Next page">{{ svgChevronNext | safe }}</span>
       {% endif %}
     </li>
     <li>
-      <a href="{{ pagination.href.last }}" class="pagination-btn pagination-nav"
-        {% if currentIndex == totalPages - 1 %} aria-disabled="true"{% endif %}
-        aria-label="Last page">⏭</a>
+      {% if currentIndex == totalPages - 1 %}
+        <span class="pagination-btn pagination-nav pagination-disabled" aria-disabled="true" aria-label="Last page">{{ svgChevronLast | safe }}</span>
+      {% else %}
+        <a href="{{ pagination.href.last }}" class="pagination-btn pagination-nav" aria-label="Last page">{{ svgChevronLast | safe }}</a>
+      {% endif %}
     </li>
   </ul>
 </nav>

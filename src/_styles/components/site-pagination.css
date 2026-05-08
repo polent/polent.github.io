@@ -74,3 +74,12 @@ a.pagination-btn[aria-disabled="true"] {
 	font-weight: 700;
 	letter-spacing: 0.1em;
 }
+
+/* Inline SVG chevrons inherit colour and size 1em — guarantees identical rendering
+   across browsers/OS where transport-control unicode glyphs would render as emoji. */
+.pagination-icon {
+	width: 1em;
+	height: 1em;
+	display: block;
+	flex: 0 0 auto;
+}

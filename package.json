@@ -8,7 +8,8 @@
 		"build:files": "npx @11ty/eleventy --incremental",
 		"build:styles": "postcss src/site.css -o dist/styles/site.css --config postcss.config.js",
 		"build:critical": "node scripts/critical-css.js",
-		"build": "npm-run-all2 --parallel build:files build:styles && npm run build:critical",
+		"build:pagefind": "pagefind --site dist",
+		"build": "npm-run-all2 --parallel build:files build:styles && npm run build:critical && npm run build:pagefind",
 		"serve:files": "npx @11ty/eleventy --quiet --serve",
 		"serve:styles": "postcss src/site.css --dir dist/styles/ --watch --config postcss.config.js",
 		"serve": "npm-run-all2 --parallel serve:*"
@@ -42,6 +43,7 @@
 		"postcss-extend-rule": "^4.0.0"
 	},
 	"devDependencies": {
+		"pagefind": "^1.5.2",
 		"prettier": "^3.4.2",
 		"rimraf": "^6.0.1"
 	}

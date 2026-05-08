@@ -18,12 +18,15 @@
 
 <link rel="stylesheet" href="/styles/site.css" media="all">
 
+{# Resolve description first so it can be reused for description, og:description and twitter:description #}
+{% if description %}{% set pageDescription = description %}{% else %}{% set pageDescription = meta.description %}{% endif %}
+
+<meta name="description" content="{{ pageDescription }}">
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ pageTitle }}">
 <meta name="twitter:description" content="{{ pageDescription }}">
-{% if description %} {% set pageDescription = description %} {% else %} {% set pageDescription = meta.description %} {% endif %}
 
-<meta name="description" content="{{ pageDescription }}">
 <meta property="og:description" content="{{ pageDescription }}">
 
 <link rel="canonical" href="{{ thisUrl }}">
@@ -76,3 +79,21 @@
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.jpg">
+
+{# Site-level JSON-LD: enables Google's sitelinks searchbox by declaring the search endpoint #}
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ meta.domain }}/",
+  "name": {{ meta.projectName | dump | safe }},
+  "description": {{ meta.description | dump | safe }},
+  "inLanguage": "en",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ meta.domain }}/search/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}</script>
