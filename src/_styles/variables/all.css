@@ -1,4 +1,6 @@
 :root {
+	color-scheme: light dark;
+
 	/* Colour */
 	--color-surface-default: hsl(55, 94%, 93%);
 	--color-surface-secondary: #cb9173;

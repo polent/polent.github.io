@@ -22,6 +22,18 @@
 	margin-block-start: var(--space-s);
 }
 
+/* Pagefind's stylesheet sets background-color but no color on the input, so the
+   text falls back to the UA default and disappears against the dark surface in
+   dark mode. Set it explicitly. */
+.recipe-search .pagefind-ui__search-input {
+	color: var(--color-text-default);
+}
+
+.recipe-search .pagefind-ui__search-input::placeholder {
+	color: var(--color-text-default);
+	opacity: 0.6;
+}
+
 /* Match focus styling to the rest of the site */
 .recipe-search .pagefind-ui__search-input:focus,
 .recipe-search .pagefind-ui__search-input:focus-visible {
