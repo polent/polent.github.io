@@ -34,6 +34,11 @@ code {
 	font-family: var(--font-family-code);
 	font-size: 95%;
 	color: var(--color-text-code-default);
+	margin-inline: 0.25em;
+}
+
+pre code {
+	margin-inline: 0;
 }
 
 b,
