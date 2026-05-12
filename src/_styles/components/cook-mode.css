@@ -46,7 +46,6 @@
 	justify-content: space-between;
 	gap: var(--space-s);
 	padding-block-end: var(--space-s);
-	border-block-end: 1px solid var(--color-border-default);
 }
 
 .cook-mode__title {
@@ -63,10 +62,10 @@
 .cook-mode__close {
 	appearance: none;
 	background: transparent;
-	border: 1px solid var(--color-border-default);
+	border: none;
 	color: inherit;
 	font: inherit;
-	font-size: var(--step-2);
+	font-size: var(--step-3);
 	line-height: 1;
 	width: 2.5em;
 	height: 2.5em;
@@ -74,14 +73,20 @@
 	display: grid;
 	place-content: center;
 	flex-shrink: 0;
+	opacity: 0.7;
+	transition: opacity 0.15s ease, background-color 0.15s ease;
 }
 
 .cook-mode__close:hover,
 .cook-mode__close:focus-visible {
-	background: var(--color-interactive-default);
-	color: var(--color-surface-default);
-	border-color: var(--color-interactive-default);
+	opacity: 1;
+	background: color-mix(in oklab, var(--color-text-default) 8%, transparent);
 	outline: none;
+}
+
+.cook-mode__close:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
 }
 
 .cook-mode__progress {
@@ -121,28 +126,31 @@
 	grid-template-columns: 1fr 1fr;
 	gap: var(--space-xs);
 	padding-block: var(--space-s);
-	border-block-start: 1px solid var(--color-border-default);
 }
 
 .cook-mode__nav-btn {
 	appearance: none;
-	background: transparent;
+	background: color-mix(in oklab, var(--color-text-default) 8%, transparent);
 	color: var(--color-interactive-default);
-	border: 1px solid var(--color-border-default);
+	border: none;
 	padding: var(--space-s) var(--space-m);
 	font: inherit;
 	font-size: var(--step-1);
 	cursor: pointer;
 	line-height: 1;
 	min-height: 3.25rem;
+	transition: background-color 0.15s ease;
 }
 
-.cook-mode__nav-btn:hover,
-.cook-mode__nav-btn:focus-visible {
-	background: var(--color-interactive-default);
-	color: var(--color-surface-default);
-	border-color: var(--color-interactive-default);
+.cook-mode__nav-btn:hover:not(:disabled),
+.cook-mode__nav-btn:focus-visible:not(:disabled) {
+	background: color-mix(in oklab, var(--color-text-default) 14%, transparent);
 	outline: none;
+}
+
+.cook-mode__nav-btn:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
 }
 
 .cook-mode__nav-btn:disabled {
@@ -153,19 +161,17 @@
 .cook-mode__nav-btn--next {
 	background: var(--color-interactive-default);
 	color: var(--color-surface-default);
-	border-color: var(--color-interactive-default);
 }
 
 .cook-mode__nav-btn--next:hover:not(:disabled),
 .cook-mode__nav-btn--next:focus-visible:not(:disabled) {
 	background: var(--color-interactive-hover);
-	border-color: var(--color-interactive-hover);
+	color: var(--color-surface-default);
 }
 
 /* Ingredients drawer */
 
 .cook-mode__drawer {
-	border-block-start: 1px solid var(--color-border-default);
 	padding-block: var(--space-2xs);
 }
 
@@ -210,11 +216,10 @@
 	margin: 0;
 	max-width: none;
 	padding: var(--space-2xs) 0;
-	border-block-end: 1px solid var(--color-border-default);
 }
 
-.cook-mode__ingredients li:last-child {
-	border-block-end: none;
+.cook-mode__ingredients li + li {
+	margin-block-start: var(--space-3xs);
 }
 
 .cook-mode__ingredients label {

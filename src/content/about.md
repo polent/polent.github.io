@@ -10,7 +10,7 @@ permalink: "/how-is-it-done/index.html"
 figureAbout: 
   caption: "Vegan Food Blog Technology Workflow"
   className: "about-figure"
-  imageSrc: "./src/media/about/vegan_blog_workflow.png"
+  imageSrc: "./src/media/about/Gemini_Generated_Image_7zyx1r7zyx1r7zyx.png"
   imageTitle: "Vegan Food Blog Technology Workflow"
   imageAlt: "flow chart illustrating the multi-step process used by your vegan food blog, detailing each stage from initiating the process with gemini-3-flash-preview to the automated deployment of content. This visual representation helps in understanding the sequence and interactions of the various steps involved in your sophisticated AI-driven recipe generation and posting."
   loading: "lazy"
@@ -25,7 +25,7 @@ This blog employs a sophisticated multi-step process to generate unique and visu
 3. **Image Prompt Creation:** Using the information from the generated recipe, we craft a specific prompt to guide the creation of a corresponding image. This prompt is designed to capture the essence of the recipe in a visually compelling way.
 4. **Visual Realization with Nano Banana:** With the prompt ready, we turn to `gemini-3.1-flash-image-preview`, an advanced AI image generation model. Dall-E interprets our prompt and creates a stunning, high-quality image that represents the recipe.
 5. **Creating the Recipe Post:** Once we have both the recipe and its image, we compose a complete recipe post. This post is then committed and pushed to our GitHub repository, which can be found at [https://github.com/polent/polent.github.io](https://github.com/polent/polent.github.io).
-6. **Automated Deployment:** Finally, a GitHub Action takes over. This automated process builds the code from the repository and deploys it onto our web space. This ensures that our blog is consistently updated with fresh content, seamlessly and efficiently.
+6. **Automated Deployment:** Finally, a GitHub Action takes over. This automated process builds the code from the repository and deploys it to github pages. This ensures that our blog is consistently updated with fresh content, seamlessly and efficiently.
 7. **Start over:** The steps start again, 1 times a day initiated by a conjob.
 
 {% figure figureAbout.caption, figureAbout.className %}
