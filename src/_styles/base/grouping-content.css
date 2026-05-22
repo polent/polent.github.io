@@ -38,10 +38,6 @@ figure {
 	margin: 0;
 	padding: 0;
 }
-figure.about-figure {
-	max-width: var(--measure-default);
-}
-
 figcaption {
 	@extend %body;
 	padding: var(--space-xs-s) 0;

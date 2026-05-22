@@ -5,7 +5,7 @@ eleventyNavigation:
   title: How is it done
   order: 3
 title: "How is it done"
-description: "Discover our AI-driven process for creating unique vegan recipes. We use gpt- 4o for content framework and gemini-2.5-flash-image for stunning images, seamlessly updating our blog with fresh, enticing vegan dishes."
+description: "Discover our AI-driven process for creating unique vegan recipes. We use gemini-3-flash-preview for the recipe and gemini-3.1-flash-image-preview for the image, seamlessly updating our blog with fresh, enticing vegan dishes."
 permalink: "/how-is-it-done/index.html"
 figureAbout: 
   caption: "Vegan Food Blog Technology Workflow"
@@ -20,13 +20,14 @@ figureAbout:
 
 This blog employs a sophisticated multi-step process to generate unique and visually appealing vegan recipes, utilizing cutting-edge AI technology. Here's how it works:
 
-1. **Initiating the Process:** We start by using `gemini-3-flash-preview` to establish ourselves as a Vegan food blog. This AI model helps us define the framework and theme for our content, focusing on vegan cuisine.
-2. **Recipe Generation:** Next, we prompt `gemini-3-flash-preview` again, this time inputting a set of random keywords related to vegan cooking. The AI then generates a unique recipe, complete with a detailed description that aligns with these keywords.
-3. **Image Prompt Creation:** Using the information from the generated recipe, we craft a specific prompt to guide the creation of a corresponding image. This prompt is designed to capture the essence of the recipe in a visually compelling way.
-4. **Visual Realization with Nano Banana:** With the prompt ready, we turn to `gemini-3.1-flash-image-preview`, an advanced AI image generation model. Dall-E interprets our prompt and creates a stunning, high-quality image that represents the recipe.
-5. **Creating the Recipe Post:** Once we have both the recipe and its image, we compose a complete recipe post. This post is then committed and pushed to our GitHub repository, which can be found at [https://github.com/polent/polent.github.io](https://github.com/polent/polent.github.io).
-6. **Automated Deployment:** Finally, a GitHub Action takes over. This automated process builds the code from the repository and deploys it to github pages. This ensures that our blog is consistently updated with fresh content, seamlessly and efficiently.
-7. **Start over:** The steps start again, 1 times a day initiated by a conjob.
+1. **Picking a Chef and a Theme:** We randomly choose one of four vegan chef personas — Emily (Northern California), Hiroshi (Kyoto shojin ryori), Isabella (Tuscany), or Nia (Swahili coast) — and pair them with a random style adjective and a random kind of dish drawn from curated lists.
+2. **Recipe Generation:** We send a single prompt to `gemini-3-flash-preview` that combines the chef persona, the style and kind, and a strict JSON template. The model returns the title, intro, outro, ingredients, instructions, tags, SEO description, nutrition facts, allergies, preparation time, yield, an image prompt, and an image alt text — all in one structured response.
+3. **Validation and Sanitization:** The JSON is parsed and checked for required keys. The slug is normalized to lowercase ASCII letters, digits, and hyphens before it touches the filesystem or git.
+4. **Visual Realization with Nano Banana:** The image prompt produced in step 2 is sent to `gemini-3.1-flash-image-preview` (Nano Banana) at 3:2 aspect ratio and 2K size. The call is retried up to three times in case the response is missing image data.
+5. **Assembling the Post:** The base64 image is decoded and saved into `src/media/`. Front matter (title, description, tags, figure metadata including the alt text) and the body (intro, ingredients, instructions, outro, chef signature, and an additional-info table) are written to a markdown file in `src/content/posts/` using {% raw %}`{% figure %}`{% endraw %} and {% raw %}`{% picture %}`{% endraw %} shortcodes for responsive images.
+6. **Commit and Push:** The image and markdown file are staged, committed with a slug-based message, and pushed to [https://github.com/polent/recipe](https://github.com/polent/recipe).
+7. **Automated Deployment:** A GitHub Action builds the Eleventy site and deploys it to GitHub Pages.
+8. **Start over:** A cronjob triggers the script once per day, so the cycle repeats.
 
 {% figure figureAbout.caption, figureAbout.className %}
 {% picture figureAbout.imageSrc, figureAbout.imageTitle, figureAbout.imageAlt, figureAbout.loading %}
