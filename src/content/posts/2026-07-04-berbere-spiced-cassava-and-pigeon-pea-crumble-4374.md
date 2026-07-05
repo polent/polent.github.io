@@ -53,7 +53,7 @@ Habari! Today the Indian Ocean breeze brought a craving for something that feels
 * Pour in the thick coconut milk and let it simmer for 3-5 minutes until the liquid is absorbed and the flavors have melded into a thick, textured coating.
 * In a small dry pan, quickly toast the crushed groundnuts with a pinch of salt until they are aromatic.
 * Spoon the cassava and pea mixture into bowls and generously scatter the toasted groundnut crumble over the top for that essential crunch.
-* Finish each bowl with a drizzle of the tamarind water, a squeeze of fresh lime juice, and a handful of coriander.
+* Finish each bowl with a drizzle of the tamarind water, a squeeze fresh lime juice, and a handful of coriander.
 
 Serve this while the steam still carries the scent of berbere and cumin. It is a dish that bridges the gap between the ancient spice routes and the modern vegan table. Take a moment to feel the warmth of the clay pot in your hands. Enjoy every bite of this coastal sunshine!
 
