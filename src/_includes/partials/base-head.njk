@@ -4,8 +4,6 @@
 {% set pageTitle = title + ': ' + meta.projectName %}
 {# Remove any title duplication #}
 {% if title === meta.projectName %} {% set pageTitle = title %} {% endif %}
-{# Use actual tag name on tag pages #}
-{% if tag %} {% set pageTitle = tag + ': ' + meta.projectName %} {% endif %}
 
 {# URL formats #}
 {% set thisUrl = meta.domain + page.url %}
@@ -60,7 +58,8 @@
 
 <meta name="generator" content="{{ eleventy.generator }}">
 
-<meta name="robots" content="{{ meta.robots }}">
+{# Per-page `robots` front matter wins; otherwise fall back to the site default #}
+<meta name="robots" content="{{ robots if robots else meta.robots }}">
 
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ meta.projectName }}">
 <link rel="webmention" href="https://webmention.io/recipe.polente.de/webmention" />

@@ -4,8 +4,10 @@
   <section class="wrapper layout-grid">
     <h1 class="page-header layout-span">Recipes tagged with “{{ tag }}”</h1>
     <div class="layout-span | content-main flow">
+      {%- set tagged = collections[tag] | reverse -%}
+      <p class="tag-intro">{{ tagged | length }} vegan {{ tag }} {{ "recipe" if tagged | length == 1 else "recipes" }}, each with a full ingredient list, step-by-step instructions and nutrition.</p>
       <ul class="recipe-ul">
-        {% for item in collections[tag] | reverse %}
+        {% for item in tagged %}
           <li>
             <a href="{{ item.url }}">
               {% figure %}

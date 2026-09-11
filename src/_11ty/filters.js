@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const { execFileSync } = require("node:child_process");
 
 // Add ordinal suffix to day
 const addSuffix = i => {
@@ -379,6 +380,125 @@ function extractRecipeData(html, recipeUrl) {
 	return result;
 }
 
+// --- Sitemap -----------------------------------------------------------------
+
+// Built once per build from a single `git log` pass: repo-relative path ->
+// date of the most recent commit touching it. Shelling out per file instead
+// costs ~25s on a repo this size.
+let gitDates = null;
+
+function loadGitDates() {
+	if (gitDates) {
+		return gitDates;
+	}
+	gitDates = new Map();
+	try {
+		const stdout = execFileSync(
+			"git",
+			["log", "--format=%cI", "--name-only", "--no-renames", "--diff-filter=d"],
+			{
+				encoding: "utf8",
+				maxBuffer: 256 * 1024 * 1024,
+				stdio: ["ignore", "pipe", "ignore"],
+			},
+		);
+		let commitDate = null;
+		for (const line of stdout.split("\n")) {
+			const value = line.trim();
+			if (!value) {
+				continue;
+			}
+			if (/^\d{4}-\d{2}-\d{2}T/.test(value)) {
+				commitDate = value;
+			} else if (commitDate && !gitDates.has(value)) {
+				// Commits are newest-first, so the first hit is the last change.
+				gitDates.set(value, new Date(commitDate));
+			}
+		}
+	} catch {
+		// Not a git checkout (or git unavailable): callers fall back to page dates.
+	}
+	return gitDates;
+}
+
+// Last commit date of a source file, or null when git cannot tell us (shallow
+// clone, untracked file, no checkout), in which case the caller uses Eleventy's
+// own page date.
+function gitLastModified(inputPath) {
+	if (!inputPath) {
+		return null;
+	}
+	const repoPath = inputPath.split("\\").join("/").replace(/^\.\//, "");
+	return loadGitDates().get(repoPath) || null;
+}
+
+// Coerce whatever a pagination chunk holds into a date, so a generated list
+// page can report when its *content* last changed rather than when its template
+// file was last touched.
+function entryDate(entry, collections) {
+	if (!entry) {
+		return null;
+	}
+	// Paginating over `collections` yields the collection name (a string).
+	if (typeof entry === "string") {
+		const tagged = collections && collections[entry];
+		return Array.isArray(tagged) ? newestDate(tagged, collections) : null;
+	}
+	// `pagination.size > 1` yields an array of items per page.
+	if (Array.isArray(entry)) {
+		return newestDate(entry, collections);
+	}
+	const date = entry.date || (entry.data && entry.data.date);
+	if (!date) {
+		return null;
+	}
+	const parsed = date instanceof Date ? date : new Date(date);
+	return Number.isNaN(parsed.valueOf()) ? null : parsed;
+}
+
+function newestDate(entries, collections) {
+	let newest = null;
+	for (const entry of entries) {
+		const date = entryDate(entry, collections);
+		if (date && (!newest || date > newest)) {
+			newest = date;
+		}
+	}
+	return newest;
+}
+
+// Turn `collections.all` into the deduplicated list of indexable URLs for the
+// sitemap. Paginated templates only contribute their first page to a
+// collection, so expand `pagination.hrefs` to reach every list/tag/chef page.
+// Anything marked `robots: noindex` is skipped so the sitemap never advertises
+// a URL the page itself tells Google to drop.
+function sitemapUrls(collection, collections) {
+	const seen = new Map();
+	for (const item of collection || []) {
+		const data = item.data || {};
+		if (typeof data.robots === "string" && /noindex/i.test(data.robots)) {
+			continue;
+		}
+		const fileDate = gitLastModified(item.inputPath) || item.date;
+		const pagination = data.pagination;
+		const hrefs = pagination && pagination.hrefs;
+		if (!Array.isArray(hrefs) || !hrefs.length) {
+			if (item.url && !seen.has(item.url)) {
+				seen.set(item.url, fileDate);
+			}
+			continue;
+		}
+		const pages = Array.isArray(pagination.pages) ? pagination.pages : [];
+		hrefs.forEach((url, index) => {
+			if (!url || seen.has(url)) {
+				return;
+			}
+			seen.set(url, entryDate(pages[index], collections) || fileDate);
+		});
+	}
+	return [...seen].map(([url, date]) => ({ url, date }));
+}
+
 function toJson(value) {
 	if (value === undefined) {
 		return "";
@@ -401,5 +521,6 @@ module.exports = {
 	dateToUNIX,
 	squash,
 	extractRecipeData,
+	sitemapUrls,
 	toJson,
 };
