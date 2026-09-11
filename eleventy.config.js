@@ -36,6 +36,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("squash", filters.squash);
 	eleventyConfig.addFilter("extractRecipeData", filters.extractRecipeData);
 	eleventyConfig.addFilter("sitemapUrls", filters.sitemapUrls);
+	eleventyConfig.addFilter("tagIsIndexable", filters.tagIsIndexable);
 	eleventyConfig.addFilter("toJson", filters.toJson);
 
 	// Shortcodes

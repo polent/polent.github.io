@@ -32,7 +32,10 @@ jobs:
         with:
           # Full history: the sitemap derives <lastmod> from each file's
           # last commit date, which a shallow clone cannot provide.
+          # blob:none keeps that cheap -- the pack is 5.2 GiB of committed
+          # images, and `git log --name-only` reads commits and trees only.
           fetch-depth: 0
+          filter: blob:none
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

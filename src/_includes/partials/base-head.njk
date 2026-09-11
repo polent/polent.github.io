@@ -58,8 +58,12 @@
 
 <meta name="generator" content="{{ eleventy.generator }}">
 
-{# Per-page `robots` front matter wins; otherwise fall back to the site default #}
-<meta name="robots" content="{{ robots if robots else meta.robots }}">
+{# Per-page `robots` front matter wins; otherwise fall back to the site default.
+   Thin and duplicate tag pages are held back from the index -- the same rule the
+   sitemap applies, so the two never contradict each other. #}
+{% set pageRobots = robots if robots else meta.robots %}
+{% if tag and not (tag | tagIsIndexable(collections)) %}{% set pageRobots = "noindex, follow" %}{% endif %}
+<meta name="robots" content="{{ pageRobots }}">
 
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ meta.projectName }}">
 <link rel="webmention" href="https://webmention.io/recipe.polente.de/webmention" />

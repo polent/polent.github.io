@@ -4,6 +4,9 @@ module.exports = {
 	description:
 		"Recipes are full AI Generated - let me know if you have tried them, I tried some of them and they were delicious.",
 	shortName: "Recipes @ Polente",
+	// Always the live origin. The sitemap must use this: `domain` below switches to
+	// localhost under `serve`, and a sitemap of localhost URLs is rejected wholesale.
+	canonicalDomain: "https://recipe.polente.de",
 	domain:
 		process.env.ELEVENTY_RUN_MODE == "serve"
 			? "http://localhost:8080"

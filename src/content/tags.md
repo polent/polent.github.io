@@ -1,6 +1,5 @@
 ---
 layout: "layouts/tag-results"
-title: "Tags"
 pagination:
   data: "collections"
   size: 1
@@ -13,6 +12,7 @@ pagination:
     - "feed"
 permalink: "/tag/{{ tag | slug }}/"
 eleventyComputed:
-  title: "{{ tag }} recipes"
-  description: "Every vegan {{ tag }} recipe on Recipes by our chefs — AI-generated plant-based dishes with full ingredient lists, step-by-step instructions and nutrition."
+  # `| safe` stops the tag being escaped here and again when base-head prints it.
+  title: "{{ tag | replace(\"-\", \" \") | safe }} recipes"
+  description: "Browse every {{ tag | replace(\"-\", \" \") | safe }} recipe on Recipes by our chefs: AI-generated plant-based dishes with full ingredient lists, step-by-step instructions and nutrition."
 ---
