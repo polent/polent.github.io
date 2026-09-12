@@ -1,4 +1,6 @@
 const { DateTime } = require("luxon");
+const { execFileSync } = require("node:child_process");
+const chefs = require("./data/chefs.js");
 
 // Add ordinal suffix to day
 const addSuffix = i => {
@@ -379,6 +381,186 @@ function extractRecipeData(html, recipeUrl) {
 	return result;
 }
 
+// --- Tag page indexing rule ----------------------------------------------------
+
+// Tags are AI-generated per recipe, so most of them end up naming a single dish.
+// A page listing one recipe adds nothing over the recipe itself, and the four
+// chef tags duplicate /chefs/<slug>/ (which alone carries the Person schema and
+// bio). Both are kept crawlable but told not to index, and both are withheld
+// from the sitemap so the two signals never disagree.
+const MIN_TAG_RECIPES = 2;
+const CHEF_TAGS = new Set(chefs.map(chef => chef.tagName));
+
+function tagIsIndexable(tag, collections) {
+	if (!tag || CHEF_TAGS.has(tag)) {
+		return false;
+	}
+	const tagged = collections && collections[tag];
+	return Array.isArray(tagged) && tagged.length >= MIN_TAG_RECIPES;
+}
+
+// --- Sitemap -----------------------------------------------------------------
+
+// Built once per build from a single `git log` pass: repo-relative path ->
+// date of the most recent commit touching it. Shelling out per file instead
+// costs ~25s on a repo this size.
+let gitDates = null;
+
+function loadGitDates() {
+	if (gitDates) {
+		return gitDates;
+	}
+	gitDates = new Map();
+	try {
+		const stdout = execFileSync(
+			"git",
+			[
+				// core.quotePath=false keeps non-ASCII paths (AI-generated slugs) literal
+				// instead of octal-escaped, so they still match Eleventy's inputPath.
+				"-c",
+				"core.quotePath=false",
+				"log",
+				// A NUL prefix marks commit lines; a path can never contain one, so the
+				// parser never has to guess whether a line is a date or a filename.
+				"--format=%x00%cI",
+				"--name-only",
+				"--no-renames",
+				"--diff-filter=d",
+			],
+			{
+				encoding: "utf8",
+				maxBuffer: 64 * 1024 * 1024,
+				stdio: ["ignore", "pipe", "pipe"],
+			},
+		);
+		let commitDate = null;
+		for (const line of stdout.split("\n")) {
+			if (line.startsWith("\0")) {
+				commitDate = new Date(line.slice(1).trim());
+				if (Number.isNaN(commitDate.valueOf())) {
+					commitDate = null;
+				}
+			} else if (commitDate && line && !gitDates.has(line)) {
+				// Commits are newest-first, so the first hit is the last change.
+				gitDates.set(line, commitDate);
+			}
+		}
+	} catch (error) {
+		// Degrading silently here would quietly republish every lastmod as the build
+		// date -- the exact signal this filter exists to stop sending. Say so loudly.
+		console.warn(`[sitemap] git log failed, falling back to page dates: ${error.message}`);
+	}
+	if (gitDates.size === 0) {
+		console.warn("[sitemap] no git dates resolved; is this a shallow clone (fetch-depth)?");
+	}
+	return gitDates;
+}
+
+// Last commit date of a source file, or null when git cannot tell us (shallow
+// clone, untracked file, no checkout), in which case the caller uses Eleventy's
+// own page date.
+function gitLastModified(inputPath) {
+	if (!inputPath) {
+		return null;
+	}
+	const repoPath = inputPath.split("\\").join("/").replace(/^\.\//, "");
+	return loadGitDates().get(repoPath) || null;
+}
+
+// Coerce whatever a pagination chunk holds into a date, so a generated list
+// page can report when its *content* last changed rather than when its template
+// file was last touched.
+function entryDate(entry, collections) {
+	if (!entry) {
+		return null;
+	}
+	// Paginating over `collections` yields the collection name (a string).
+	if (typeof entry === "string") {
+		const tagged = collections && collections[entry];
+		return Array.isArray(tagged) ? newestDate(tagged, collections) : null;
+	}
+	// `pagination.size > 1` yields an array of items per page.
+	if (Array.isArray(entry)) {
+		return newestDate(entry, collections);
+	}
+	const date = entry.date || (entry.data && entry.data.date);
+	if (!date) {
+		return null;
+	}
+	const parsed = date instanceof Date ? date : new Date(date);
+	return Number.isNaN(parsed.valueOf()) ? null : parsed;
+}
+
+function newestDate(entries, collections) {
+	let newest = null;
+	for (const entry of entries) {
+		const date = entryDate(entry, collections);
+		if (date && (!newest || date > newest)) {
+			newest = date;
+		}
+	}
+	return newest;
+}
+
+// Format for <lastmod>. Always UTC: the same commit instant must yield the same
+// calendar day on a CI runner (UTC) and a dev machine (Europe/Berlin), or the
+// sitemap churns on every build. The daily cron commits near midnight UTC, so
+// roughly a sixth of files would otherwise disagree by a day.
+function sitemapDate(value) {
+	const date = value instanceof Date ? value : new Date(value);
+	if (!value || Number.isNaN(date.valueOf())) {
+		return null;
+	}
+	return DateTime.fromJSDate(date, { zone: "utc" }).toFormat("yyyy-MM-dd");
+}
+
+// Turn `collections.all` into the deduplicated list of indexable URLs for the
+// sitemap. Paginated templates only contribute their first page to a
+// collection, so expand `pagination.hrefs` to reach every list/tag/chef page.
+// Anything marked `robots: noindex` is skipped so the sitemap never advertises
+// a URL the page itself tells Google to drop.
+function sitemapUrls(collection, collections) {
+	const seen = new Map();
+	for (const item of collection || []) {
+		const data = item.data || {};
+		if (typeof data.robots === "string" && /noindex/i.test(data.robots)) {
+			continue;
+		}
+		// A page may name the collection that drives its content (the home page
+		// lists the newest recipes, a chef page that chef's) so its lastmod tracks
+		// what it actually shows rather than when its template was last edited.
+		const declared = data.sitemapFreshFrom
+			? newestDate(collections && collections[data.sitemapFreshFrom], collections)
+			: null;
+		const fileDate = declared || gitLastModified(item.inputPath) || item.date;
+		const pagination = data.pagination;
+		const hrefs = pagination && pagination.hrefs;
+		// With addAllPagesToCollections every page is already its own collection
+		// item, so expanding hrefs here would only re-stamp them all with page 1's
+		// data. Let each page speak for itself.
+		if (!Array.isArray(hrefs) || !hrefs.length || pagination.addAllPagesToCollections) {
+			if (item.url && !seen.has(item.url)) {
+				seen.set(item.url, fileDate);
+			}
+			continue;
+		}
+		const pages = Array.isArray(pagination.pages) ? pagination.pages : [];
+		hrefs.forEach((url, index) => {
+			const entry = pages[index];
+			if (!url || seen.has(url)) {
+				return;
+			}
+			// A string entry means the template paginates over collection names,
+			// i.e. the tag pages -- skip the ones we tell Google not to index.
+			if (typeof entry === "string" && !tagIsIndexable(entry, collections)) {
+				return;
+			}
+			seen.set(url, declared || entryDate(entry, collections) || fileDate);
+		});
+	}
+	return Array.from(seen, ([url, date]) => ({ url, lastmod: sitemapDate(date) }));
+}
+
 function toJson(value) {
 	if (value === undefined) {
 		return "";
@@ -401,5 +583,7 @@ module.exports = {
 	dateToUNIX,
 	squash,
 	extractRecipeData,
+	sitemapUrls,
+	tagIsIndexable,
 	toJson,
 };

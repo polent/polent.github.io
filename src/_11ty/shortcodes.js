@@ -1,5 +1,14 @@
-const Image = require("@11ty/eleventy-img");
 const fs = require("fs");
+
+// eleventy-img v7 is ESM-only; this config is CommonJS. Load it on first use and
+// cache the promise so the dynamic import happens once per build.
+let imagePromise = null;
+const loadImage = () => {
+	if (!imagePromise) {
+		imagePromise = import("@11ty/eleventy-img").then(mod => mod.default);
+	}
+	return imagePromise;
+};
 
 const imageOptions = {
 	widths: [320, 640, 960, 1280, 1600],
@@ -29,8 +38,11 @@ const picture = async function (
 	sizes = "(min-width: 64rem) 1024px, 100vw",
 	fetchpriority = undefined
 ) {
-	// Use statsSync to compute expected output filenames without processing
-	const stats = Image.statsSync(src, imageOptions);
+	const Image = await loadImage();
+
+	// statsOnly computes the expected output filenames without touching sharp
+	// (v7 replaced the synchronous statsSync with this).
+	const stats = await Image(src, { ...imageOptions, statsOnly: true });
 	const allExist = Object.values(stats)
 		.flat()
 		.every((s) => fs.existsSync(`${imageOptions.outputDir}${s.filename}`));

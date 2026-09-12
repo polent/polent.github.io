@@ -35,6 +35,8 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter("dateToUNIX", filters.dateToUNIX);
 	eleventyConfig.addFilter("squash", filters.squash);
 	eleventyConfig.addFilter("extractRecipeData", filters.extractRecipeData);
+	eleventyConfig.addFilter("sitemapUrls", filters.sitemapUrls);
+	eleventyConfig.addFilter("tagIsIndexable", filters.tagIsIndexable);
 	eleventyConfig.addFilter("toJson", filters.toJson);
 
 	// Shortcodes
@@ -55,6 +57,11 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({ "src/static/robots.txt": "/robots.txt" });
 	eleventyConfig.addPassthroughCopy({ "src/static/google354922043c8d9d58.html": "/google354922043c8d9d58.html" });
 	eleventyConfig.addPassthroughCopy({ "CNAME": "/CNAME" });
+
+	// Everything in src/static is copied verbatim above. Without this, Eleventy
+	// would *also* render src/static/*.html as templates (templateFormats includes
+	// "html"), publishing e.g. an empty /static/google.../ page into the sitemap.
+	eleventyConfig.ignores.add("src/static/**");
 
 	// Watch targets
 	eleventyConfig.addWatchTarget("./src/_styles/**/*.css");

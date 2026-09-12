@@ -12,7 +12,7 @@ AI-generated vegan recipe blog built with **Eleventy v3** and deployed to GitHub
 - **Production build:** `npm run build` (runs `build:files` + `build:styles` in parallel)
 - **Clean dist:** `npm run clean`
 - **Format:** `npx prettier --write .`
-- Node version: v20.19.0 (see `.nvmrc`)
+- Node version: v22.11.0 (see `.nvmrc`) — `@11ty/eleventy-img` v7 requires Node >= 22
 
 ## Architecture
 

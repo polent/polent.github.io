@@ -24,6 +24,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Full history: the sitemap derives <lastmod> from each file's
+          # last commit date, which a shallow clone cannot provide.
+          # blob:none keeps that cheap -- the pack is 5.2 GiB of committed
+          # images, and `git log --name-only` reads commits and trees only.
+          fetch-depth: 0
+          filter: blob:none
 
       - name: Delete all Actions caches for this repo
         env:

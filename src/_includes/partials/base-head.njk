@@ -4,8 +4,6 @@
 {% set pageTitle = title + ': ' + meta.projectName %}
 {# Remove any title duplication #}
 {% if title === meta.projectName %} {% set pageTitle = title %} {% endif %}
-{# Use actual tag name on tag pages #}
-{% if tag %} {% set pageTitle = tag + ': ' + meta.projectName %} {% endif %}
 
 {# URL formats #}
 {% set thisUrl = meta.domain + page.url %}
@@ -60,7 +58,12 @@
 
 <meta name="generator" content="{{ eleventy.generator }}">
 
-<meta name="robots" content="{{ meta.robots }}">
+{# Per-page `robots` front matter wins; otherwise fall back to the site default.
+   Thin and duplicate tag pages are held back from the index -- the same rule the
+   sitemap applies, so the two never contradict each other. #}
+{% set pageRobots = robots if robots else meta.robots %}
+{% if tag and not (tag | tagIsIndexable(collections)) %}{% set pageRobots = "noindex, follow" %}{% endif %}
+<meta name="robots" content="{{ pageRobots }}">
 
 <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ meta.projectName }}">
 <link rel="webmention" href="https://webmention.io/recipe.polente.de/webmention" />

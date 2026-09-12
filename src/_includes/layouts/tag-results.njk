@@ -1,11 +1,16 @@
 {% extends "layouts/base.njk" %}
 
 {% block content %}
+  {%- set tagged = collections[tag] | reverse -%}
+  {%- set count = tagged | length -%}
+  {#- Tags are slugs ("lions-mane"); show them as words in prose. -#}
+  {%- set tagLabel = tag | replace("-", " ") -%}
   <section class="wrapper layout-grid">
-    <h1 class="page-header layout-span">Recipes tagged with “{{ tag }}”</h1>
+    <h1 class="page-header layout-span">Recipes tagged with “{{ tagLabel }}”</h1>
     <div class="layout-span | content-main flow">
+      <p class="tag-intro">{{ count }} {{ tagLabel }} recipe{{ "s" if count != 1 }}, each with a full ingredient list, step-by-step instructions and nutrition.</p>
       <ul class="recipe-ul">
-        {% for item in collections[tag] | reverse %}
+        {% for item in tagged %}
           <li>
             <a href="{{ item.url }}">
               {% figure %}
