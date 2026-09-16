@@ -35,18 +35,62 @@ const SENTENCE_FLOOR = 0.6; // keep a sentence-boundary cut only if it retains t
 const DEFAULT_MAX_POSTS = 5;
 const DEFAULT_MAX_AGE_DAYS = 7;
 const RATE_LIMIT_DELAY_MS = 3000;
+const BACKOFFS_MS = [2000, 8000];
+const MAX_RATE_LIMIT_WAIT_MS = 60000;
 const VISIBILITIES = new Set(["public", "unlisted", "private", "direct"]);
 
+/**
+ * @typedef {"public" | "unlisted" | "private" | "direct"} Visibility
+ */
+
+/**
+ * @typedef {object} Options
+ * @property {boolean} dryRun compose and print, never call the API
+ * @property {string | null} file a single post path, bypassing git detection
+ * @property {string | null} since explicit diff base, overriding the marker tag
+ * @property {number} max most recipes to post in one run
+ * @property {number} maxAgeDays ignore recipes whose filename date is older than this
+ * @property {Visibility} visibility
+ */
+
+/**
+ * @typedef {object} Recipe
+ * @property {string} file repo-relative path to the markdown source
+ * @property {string} slug filename minus the date prefix; the URL segment
+ * @property {string} title
+ * @property {string[]} tags in frontmatter order, the chef's name last
+ * @property {string} intro the Introduction paragraph, as plain text
+ * @property {string} url canonical URL on the live site
+ */
+
+/**
+ * @typedef {object} Composed
+ * @property {string} status the full text to post
+ * @property {number} weight Mastodon-counted length, guaranteed <= MAX_CHARS
+ * @property {number} budget code points the body was allowed
+ * @property {boolean} truncated whether the intro had to be cut
+ */
+
+/** @type {(ms: number) => Promise<void>} */
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Code points, matching Ruby's String#length that Mastodon validates with.
 // String#length would over-count astral characters.
+/** @type {(s: string) => number} */
 const countChars = s => Array.from(s).length;
 
+/**
+ * @param {...string} args
+ * @returns {string} stdout, trimmed
+ */
 function git(...args) {
 	return execFileSync("git", args, { encoding: "utf8" }).trim();
 }
 
+/**
+ * @param {string[]} argv
+ * @returns {Options}
+ */
 function parseArgs(argv) {
 	const opts = {
 		dryRun: false,
@@ -75,9 +119,14 @@ function parseArgs(argv) {
 	if (!VISIBILITIES.has(opts.visibility)) {
 		throw new Error(`--visibility must be one of: ${[...VISIBILITIES].join(", ")}`);
 	}
-	return opts;
+	// The check above is what narrows `visibility` from string to Visibility.
+	return /** @type {Options} */ (opts);
 }
 
+/**
+ * @param {string} raw value of MASTODON_SERVER, with or without a trailing slash
+ * @returns {string} the bare origin, e.g. "https://hellinger.wtf"
+ */
 function normaliseServer(raw) {
 	let url;
 	try {
@@ -92,6 +141,10 @@ function normaliseServer(raw) {
 	return url.origin;
 }
 
+/**
+ * @param {string} ref
+ * @returns {boolean} whether the ref resolves to a commit in this clone
+ */
 function commitExists(ref) {
 	try {
 		execFileSync("git", ["cat-file", "-e", `${ref}^{commit}`], { stdio: "ignore" });
@@ -101,7 +154,13 @@ function commitExists(ref) {
 	}
 }
 
-// Never guess. A wrong base is the difference between one toot and the whole back catalogue.
+/**
+ * Never guess. A wrong base is the difference between one toot and the whole
+ * back catalogue, so an unresolvable base yields null rather than a fallback.
+ *
+ * @param {Options} opts
+ * @returns {{base: string, source: string} | {base: null, source: null}}
+ */
 function resolveBase(opts) {
 	if (opts.since) {
 		if (!commitExists(opts.since)) throw new Error(`--since ref not found: ${opts.since}`);
@@ -121,28 +180,58 @@ function resolveBase(opts) {
 	return { base: null, source: null };
 }
 
+/**
+ * Byte-wise, not locale-aware: the YYYY-MM-DD- filename prefix makes that
+ * chronological, and a locale comparator could reorder it.
+ *
+ * @param {string} a
+ * @param {string} b
+ * @returns {number}
+ */
+function byPath(a, b) {
+	if (a < b) return -1;
+	return a > b ? 1 : 0;
+}
+
+/**
+ * @param {string} base commit-ish to diff from
+ * @returns {string[]} recipe paths added between base and HEAD, oldest first
+ */
 function changedRecipeFiles(base) {
 	const out = git("diff", "--diff-filter=A", "--name-only", base, "HEAD", "--", POSTS_DIR);
 	if (!out) return [];
 	const files = out.split("\n").map(line => line.trim().replace(/\\/g, "/"));
 	// existsSync drops anything added and then deleted within the range.
-	return files.filter(file => POST_RE.test(file) && fs.existsSync(file)).sort();
+	return files.filter(file => POST_RE.test(file) && fs.existsSync(file)).sort(byPath);
 }
 
+/**
+ * @param {string} file a path matching POST_RE
+ * @returns {number} days since the date encoded in the filename
+ */
 function ageInDays(file) {
 	const [, y, m, d] = POST_RE.exec(file);
 	const posted = Date.UTC(Number(y), Number(m) - 1, Number(d));
 	return (Date.now() - posted) / 86400000;
 }
 
+/**
+ * @param {string} text the full markdown file
+ * @returns {{frontmatter: string, body: string}} both raw; the frontmatter is not parsed
+ */
 function splitFrontmatter(text) {
 	const match = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(text);
 	if (!match) throw new Error("no frontmatter block");
 	return { frontmatter: match[1], body: match[2] };
 }
 
-// The corpus has no inline markdown in any introduction, but stripping is cheap
-// insurance against a future recipe that does.
+/**
+ * The corpus has no inline markdown in any introduction, but stripping is cheap
+ * insurance against a future recipe that does.
+ *
+ * @param {string} md
+ * @returns {string} single-spaced plain text
+ */
 function toPlainText(md) {
 	return md
 		.replace(/\{[%{][\s\S]*?[%}]\}/g, "")
@@ -152,6 +241,11 @@ function toPlainText(md) {
 		.trim();
 }
 
+/**
+ * @param {string} file repo-relative path to a recipe markdown file
+ * @returns {Recipe}
+ * @throws if the frontmatter or the Introduction section is missing
+ */
 function parsePost(file) {
 	const { frontmatter, body } = splitFrontmatter(fs.readFileSync(file, "utf8"));
 
@@ -174,6 +268,10 @@ function parsePost(file) {
 	return { file, slug, title: titleMatch[1], tags, intro, url: `${SITE}/recipes/${slug}/` };
 }
 
+/**
+ * @param {string[]} tags frontmatter tags, chef's name last
+ * @returns {string} up to MAX_TAGS space-separated hashtags, or ""
+ */
 function buildHashtags(tags) {
 	// The last tag is always the chef's capitalised name, and a personal name is
 	// noise as a hashtag. Mastodon also terminates a hashtag at "-", so
@@ -186,6 +284,14 @@ function buildHashtags(tags) {
 		.join(" ");
 }
 
+/**
+ * Cuts at the last sentence boundary if that keeps enough of the budget,
+ * otherwise the last word boundary. Never mid-word.
+ *
+ * @param {string} text
+ * @param {number} budget code points available, ellipsis included
+ * @returns {string} text unchanged if it already fits
+ */
 function truncate(text, budget) {
 	const cp = Array.from(text);
 	if (cp.length <= budget) return text;
@@ -197,6 +303,11 @@ function truncate(text, budget) {
 	return `${slice.replace(/\s+\S*$/, "").trimEnd()}…`;
 }
 
+/**
+ * @param {Recipe} post
+ * @returns {Composed}
+ * @throws if the result would exceed MAX_CHARS, which would be a bug here
+ */
 function compose(post) {
 	const hashtags = buildHashtags(post.tags);
 	const tail = hashtags ? `\n\n${hashtags}\n` : "\n\n";
@@ -215,180 +326,327 @@ function compose(post) {
 	return { status, weight, budget, truncated: body !== post.intro };
 }
 
-async function postStatus({ server, token, status, url, visibility }) {
-	const body = JSON.stringify({ status, visibility, language: "en" });
-	const headers = {
-		Authorization: `Bearer ${token}`,
-		"Content-Type": "application/json",
-		// Deterministic per recipe: a re-run inside Mastodon's window returns the
-		// existing status instead of creating a duplicate.
-		"Idempotency-Key": crypto.createHash("sha256").update(url).digest("hex"),
-		"User-Agent": `recipe.polente.de syndication (+${SITE})`,
-	};
+/**
+ * @param {string} message
+ * @returns {Error & {fatal: boolean}} an error the caller should not keep retrying past
+ */
+function fatalError(message) {
+	const err = /** @type {Error & {fatal: boolean}} */ (new Error(message));
+	err.fatal = true;
+	return err;
+}
 
-	const backoffs = [2000, 8000];
-	let rateLimitRetried = false;
-
-	for (let attempt = 0; ; attempt++) {
-		let res;
-		try {
-			res = await fetch(`${server}/api/v1/statuses`, { method: "POST", headers, body });
-		} catch (err) {
-			if (attempt < backoffs.length) {
-				console.warn(`${LOG} network error (${err.message}), retrying`);
-				await sleep(backoffs[attempt]);
-				continue;
-			}
-			throw err;
-		}
-
-		if (res.ok) return res.json();
-
-		const text = await res.text();
-		const detail = (() => {
-			try {
-				return JSON.parse(text).error || text;
-			} catch {
-				return text;
-			}
-		})();
-
-		if (res.status === 401 || res.status === 403) {
-			const err = new Error(`${res.status}: ${detail} — check the MASTODON token scope`);
-			err.fatal = true; // config problem: the remaining posts would fail identically
-			throw err;
-		}
-		if (res.status === 429 && !rateLimitRetried) {
-			rateLimitRetried = true;
-			const reset = Date.parse(res.headers.get("x-ratelimit-reset") || "");
-			const wait = Math.min(Math.max(reset - Date.now(), 1000) || 1000, 60000);
-			console.warn(`${LOG} rate limited, waiting ${Math.round(wait / 1000)}s`);
-			await sleep(wait);
-			continue;
-		}
-		if (res.status >= 500 && attempt < backoffs.length) {
-			console.warn(`${LOG} ${res.status} from server, retrying`);
-			await sleep(backoffs[attempt]);
-			continue;
-		}
-		throw new Error(`${res.status}: ${detail}`);
+/**
+ * Pulls Mastodon's `error` field out of a response body, falling back to the
+ * raw text when it is not JSON.
+ *
+ * @param {string} text
+ * @returns {string}
+ */
+function errorDetail(text) {
+	try {
+		return JSON.parse(text).error || text;
+	} catch {
+		return text;
 	}
 }
 
+/**
+ * @param {string} target
+ * @param {RequestInit} init
+ * @param {number} attempt
+ * @returns {Promise<Response | null>} null when a network error was retried
+ * @throws the original error once the backoffs are exhausted
+ */
+async function attemptFetch(target, init, attempt) {
+	try {
+		return await fetch(target, init);
+	} catch (err) {
+		if (attempt >= BACKOFFS_MS.length) throw err;
+		console.warn(`${LOG} network error (${err.message}), retrying`);
+		await sleep(BACKOFFS_MS[attempt]);
+		return null;
+	}
+}
+
+/**
+ * @param {Response} res
+ * @param {number} attempt
+ * @param {boolean} rateLimited whether a 429 has already been waited out
+ * @returns {number | null} milliseconds to wait, or null if not worth retrying
+ */
+function retryDelayFor(res, attempt, rateLimited) {
+	if (res.status === 429 && !rateLimited) {
+		const reset = Date.parse(res.headers.get("x-ratelimit-reset") || "");
+		const wait = Math.max(reset - Date.now(), 1000) || 1000;
+		return Math.min(wait, MAX_RATE_LIMIT_WAIT_MS);
+	}
+	if (res.status >= 500 && attempt < BACKOFFS_MS.length) return BACKOFFS_MS[attempt];
+	return null;
+}
+
+/**
+ * Retries 5xx and network errors, waits out a single 429, and marks 401/403
+ * fatal so the caller stops rather than repeating a config error per recipe.
+ *
+ * @param {object} args
+ * @param {string} args.server normalised origin, no trailing slash
+ * @param {string} args.token Mastodon access token with write:statuses
+ * @param {string} args.status composed text, already known to fit
+ * @param {string} args.url canonical recipe URL; also keys the idempotency header
+ * @param {Visibility} args.visibility
+ * @returns {Promise<{id: string, url: string}>} the created status
+ * @throws {Error & {fatal?: boolean}}
+ */
+async function postStatus({ server, token, status, url, visibility }) {
+	const target = `${server}/api/v1/statuses`;
+	const init = {
+		method: "POST",
+		headers: {
+			Authorization: `Bearer ${token}`,
+			"Content-Type": "application/json",
+			// Deterministic per recipe: a re-run inside Mastodon's window returns the
+			// existing status instead of creating a duplicate.
+			"Idempotency-Key": crypto.createHash("sha256").update(url).digest("hex"),
+			"User-Agent": `recipe.polente.de syndication (+${SITE})`,
+		},
+		body: JSON.stringify({ status, visibility, language: "en" }),
+	};
+
+	let rateLimited = false;
+
+	for (let attempt = 0; ; attempt++) {
+		const res = await attemptFetch(target, init, attempt);
+		if (!res) continue; // network error, already waited
+
+		if (res.ok) return res.json();
+
+		const detail = errorDetail(await res.text());
+		// A bad token would fail identically for every remaining recipe.
+		if (res.status === 401 || res.status === 403) {
+			throw fatalError(`${res.status}: ${detail} — check the MASTODON token scope`);
+		}
+
+		const delay = retryDelayFor(res, attempt, rateLimited);
+		if (delay === null) throw new Error(`${res.status}: ${detail}`);
+
+		rateLimited = rateLimited || res.status === 429;
+		console.warn(`${LOG} ${res.status} from server, retrying in ${Math.round(delay / 1000)}s`);
+		await sleep(delay);
+	}
+}
+
+/**
+ * Tells the workflow how far to advance the syndication marker. A no-op
+ * outside Actions.
+ *
+ * @param {string} sha
+ * @returns {void}
+ */
 function emitOutput(sha) {
 	if (!process.env.GITHUB_OUTPUT) return;
 	fs.appendFileSync(process.env.GITHUB_OUTPUT, `syndicated_sha=${sha}\n`);
 }
 
-async function run() {
-	const opts = parseArgs(process.argv.slice(2));
+/**
+ * @param {string} heading
+ * @param {string[]} files
+ * @returns {void}
+ */
+function warnList(heading, files) {
+	console.warn(`${LOG} ${heading}`);
+	for (const file of files) console.warn(`${LOG}   ${path.basename(file)}`);
+}
 
-	let files;
+/**
+ * Bounds the blast radius if the marker ever goes stale. Whatever is dropped
+ * here is dropped for good: the marker still advances, so a backlog cannot
+ * loop forever.
+ *
+ * @param {string[]} files oldest first
+ * @param {Options} opts
+ * @returns {string[]} the newest survivors, still oldest first
+ */
+function applyClamps(files, opts) {
+	const fresh = files.filter(file => ageInDays(file) <= opts.maxAgeDays);
+	const stale = files.filter(file => !fresh.includes(file));
+	if (stale.length > 0) {
+		warnList(`skipping ${stale.length} recipe(s) older than ${opts.maxAgeDays} days:`, stale);
+	}
+	if (fresh.length <= opts.max) return fresh;
+
+	const heading = `${fresh.length} new recipes exceeds --max ${opts.max}; skipping:`;
+	warnList(heading, fresh.slice(0, -opts.max));
+	return fresh.slice(-opts.max);
+}
+
+/**
+ * @param {Options} opts
+ * @returns {string[] | null} null when there is no usable diff base
+ */
+function selectFiles(opts) {
 	if (opts.file) {
 		const file = opts.file.replace(/\\/g, "/");
 		if (!fs.existsSync(file)) throw new Error(`file not found: ${file}`);
-		files = [file];
-	} else {
-		const { base, source } = resolveBase(opts);
-		if (!base) {
-			console.warn(`${LOG} no syndication base found — nothing posted.`);
-			console.warn(`${LOG} seed it with: git tag -f ${SYNC_TAG} HEAD`);
-			console.warn(`${LOG}               git push -f origin ${SYNC_TAG}`);
-			return;
-		}
-		console.log(`${LOG} diffing ${base}..HEAD (base from ${source})`);
-		files = changedRecipeFiles(base);
-
-		const fresh = files.filter(file => ageInDays(file) <= opts.maxAgeDays);
-		if (fresh.length < files.length) {
-			const stale = files.filter(file => !fresh.includes(file));
-			console.warn(`${LOG} skipping ${stale.length} recipe(s) older than ${opts.maxAgeDays} days:`);
-			for (const file of stale) console.warn(`${LOG}   ${path.basename(file)}`);
-		}
-		files = fresh;
-
-		if (files.length > opts.max) {
-			const dropped = files.slice(0, files.length - opts.max);
-			console.warn(`${LOG} ${files.length} new recipes exceeds --max ${opts.max}; skipping:`);
-			for (const file of dropped) console.warn(`${LOG}   ${path.basename(file)}`);
-			files = files.slice(-opts.max);
-		}
+		return [file];
 	}
+	const { base, source } = resolveBase(opts);
+	if (!base) return null;
 
-	if (files.length === 0) {
-		console.log(`${LOG} no new recipes.`);
-		// Nothing to post is a success: advance the marker so the range stays short.
-		if (!opts.dryRun && !opts.file) emitOutput(git("rev-parse", "HEAD"));
-		return;
+	console.log(`${LOG} diffing ${base}..HEAD (base from ${source})`);
+	return applyClamps(changedRecipeFiles(base), opts);
+}
+
+/**
+ * @param {Options} opts
+ * @returns {{server: string, token: string} | null} null on a dry run, which needs neither
+ */
+function loadConfig(opts) {
+	if (opts.dryRun) return null;
+
+	const token = process.env.MASTODON;
+	if (!token) throw new Error("MASTODON is not set (Mastodon access token)");
+	const server = normaliseServer(process.env.MASTODON_SERVER || "");
+	console.log(`${LOG} server ${server}, visibility ${opts.visibility}`);
+	return { server, token };
+}
+
+/**
+ * @param {string} file
+ * @returns {{post: Recipe, composed: Composed} | null} null if it could not be read
+ */
+function prepare(file) {
+	try {
+		const post = parsePost(file);
+		return { post, composed: compose(post) };
+	} catch (err) {
+		console.error(`${LOG} ${path.basename(file)}: ${err.message}`);
+		return null;
 	}
-	console.log(`${LOG} ${files.length} new recipe(s) to post.`);
+}
 
-	let server = null;
-	let token = null;
-	if (!opts.dryRun) {
-		token = process.env.MASTODON;
-		if (!token) throw new Error("MASTODON is not set (Mastodon access token)");
-		server = normaliseServer(process.env.MASTODON_SERVER || "");
-		console.log(`${LOG} server ${server}, visibility ${opts.visibility}`);
+/**
+ * @param {Recipe} post
+ * @param {Composed} composed
+ * @returns {void}
+ */
+function reportDryRun(post, composed) {
+	const from = countChars(post.intro);
+	const note = composed.truncated ? `truncated from ${from}` : "untruncated";
+	const fit = `weight ${composed.weight}/${MAX_CHARS}, budget ${composed.budget}`;
+	console.log(`${LOG} ${post.url}`);
+	console.log(`${LOG} ${fit}, ${note}`);
+	console.log("--- 8< ---");
+	console.log(composed.status);
+	console.log("--- >8 ---\n");
+}
+
+/**
+ * @param {{server: string, token: string}} config
+ * @param {Recipe} post
+ * @param {Composed} composed
+ * @param {Visibility} visibility
+ * @returns {Promise<(Error & {fatal?: boolean}) | null>} null on success
+ */
+async function publish(config, post, composed, visibility) {
+	try {
+		const created = await postStatus({
+			...config,
+			status: composed.status,
+			url: post.url,
+			visibility,
+		});
+		console.log(`${LOG} posted ${post.slug} -> ${created.url}`);
+		return null;
+	} catch (err) {
+		console.error(`${LOG} failed to post ${post.slug}: ${err.message}`);
+		return err;
 	}
+}
 
+/**
+ * @param {string[]} files
+ * @param {Options} opts
+ * @param {{server: string, token: string} | null} config null for a dry run
+ * @returns {Promise<{lastOk: string | null, failed: string[]}>}
+ */
+async function syndicate(files, opts, config) {
+	/** @type {string | null} */
 	let lastOk = null;
+	/** @type {string[]} */
 	const failed = [];
 
 	for (const [index, file] of files.entries()) {
-		let post;
-		let composed;
-		try {
-			post = parsePost(file);
-			composed = compose(post);
-		} catch (err) {
-			console.error(`${LOG} ${path.basename(file)}: ${err.message}`);
+		const prepared = prepare(file);
+		if (!prepared) {
 			failed.push(file);
 			continue;
 		}
 
-		if (opts.dryRun) {
-			const from = countChars(post.intro);
-			const note = composed.truncated ? `truncated from ${from}` : "untruncated";
-			const fit = `weight ${composed.weight}/${MAX_CHARS}, budget ${composed.budget}`;
-			console.log(`${LOG} ${post.url}`);
-			console.log(`${LOG} ${fit}, ${note}`);
-			console.log("--- 8< ---");
-			console.log(composed.status);
-			console.log("--- >8 ---\n");
+		if (!config) {
+			reportDryRun(prepared.post, prepared.composed);
 			lastOk = file;
 			continue;
 		}
 
 		if (index > 0) await sleep(RATE_LIMIT_DELAY_MS);
 
-		try {
-			const created = await postStatus({
-				server,
-				token,
-				status: composed.status,
-				url: post.url,
-				visibility: opts.visibility,
-			});
-			console.log(`${LOG} posted ${post.slug} -> ${created.url}`);
+		const err = await publish(config, prepared.post, prepared.composed, opts.visibility);
+		if (!err) {
 			lastOk = file;
-		} catch (err) {
-			console.error(`${LOG} failed to post ${post.slug}: ${err.message}`);
-			failed.push(file);
-			if (err.fatal) break;
+			continue;
 		}
+		failed.push(file);
+		if (err.fatal) break;
 	}
 
-	if (!opts.dryRun && !opts.file) {
-		// Advance only as far as the last consecutive success, so a failed recipe
-		// is retried on the next run and nothing already posted is re-surfaced.
-		if (failed.length === 0) {
-			emitOutput(git("rev-parse", "HEAD"));
-		} else if (lastOk) {
-			emitOutput(git("log", "-1", "--format=%H", "--", lastOk));
-		}
+	return { lastOk, failed };
+}
+
+/**
+ * Advances only as far as the last consecutive success, so a failed recipe is
+ * retried next run and nothing already posted is re-surfaced.
+ *
+ * @param {string | null} lastOk
+ * @param {string[]} failed
+ * @returns {string} empty when nothing posted, which tells the workflow to skip the tag
+ */
+function markerSha(lastOk, failed) {
+	if (failed.length === 0) return git("rev-parse", "HEAD");
+	if (lastOk) return git("log", "-1", "--format=%H", "--", lastOk);
+	return "";
+}
+
+/**
+ * @returns {Promise<void>}
+ * @throws if any selected recipe failed to parse or post
+ */
+async function run() {
+	const opts = parseArgs(process.argv.slice(2));
+	const files = selectFiles(opts);
+
+	if (files === null) {
+		console.warn(`${LOG} no syndication base found — nothing posted.`);
+		console.warn(`${LOG} seed it with: git tag -f ${SYNC_TAG} HEAD`);
+		console.warn(`${LOG}               git push -f origin ${SYNC_TAG}`);
+		return;
 	}
 
+	// Only a real CI run may move the marker; --file and --dry-run must not.
+	const live = !opts.dryRun && !opts.file;
+
+	if (files.length === 0) {
+		console.log(`${LOG} no new recipes.`);
+		// Nothing to post is a success: advance so the range stays short.
+		if (live) emitOutput(git("rev-parse", "HEAD"));
+		return;
+	}
+	console.log(`${LOG} ${files.length} new recipe(s) to post.`);
+
+	const config = loadConfig(opts);
+	const { lastOk, failed } = await syndicate(files, opts, config);
+
+	if (live) emitOutput(markerSha(lastOk, failed));
 	if (failed.length > 0) {
 		throw new Error(`${failed.length} of ${files.length} recipe(s) failed`);
 	}
