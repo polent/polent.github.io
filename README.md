@@ -25,8 +25,8 @@ chef is the last, capitalised entry in a post's `tags`.
 
 ## Running it locally
 
-Requires Node v22.11.0 (see [`.nvmrc`](.nvmrc)) — `@11ty/eleventy-img` v7 needs Node 22 or
-newer.
+Requires Node v24.18.0 (see [`.nvmrc`](.nvmrc)). The hard floor is Node 22, which
+`@11ty/eleventy-img` v7 needs; 24 is what CI builds with.
 
 ```bash
 npm install

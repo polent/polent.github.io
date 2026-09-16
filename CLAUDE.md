@@ -12,7 +12,8 @@ AI-generated vegan recipe blog built with **Eleventy v3** and deployed to GitHub
 - **Production build:** `npm run build` (runs `build:files` + `build:styles` in parallel)
 - **Clean dist:** `npm run clean`
 - **Format:** `npx prettier --write .`
-- Node version: v22.11.0 (see `.nvmrc`) — `@11ty/eleventy-img` v7 requires Node >= 22
+- Node version: v24.18.0 (see `.nvmrc`), matched by `NODE_VERSION` in both workflows. Hard floor
+  is Node 22 (`@11ty/eleventy-img` v7); no dependency declares an upper bound.
 
 ## Architecture
 
