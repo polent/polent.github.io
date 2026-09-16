@@ -4,15 +4,16 @@
   <section class="wrapper layout-grid">
     <h1 class="page-header layout-span">{{ title }}</h1>
     <div class="layout-span | content-main flow">
-      <ul class="recipe-ul">
-        {% for item in pagination.items %} 
-        <li>
-          <a href="{{ item.url }}">         
+      <ul class="recipe-ul h-feed">
+        {% for item in pagination.items %}
+        <li class="h-entry">
+          <a class="u-url" href="{{ item.url }}">
           {% figure %}
               {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
           {% endfigure %}
-          {{ item.data.title }}
+          <span class="p-name">{{ item.data.title }}</span>
           </a>
+          <data class="dt-published" value="{{ item.date | dateToYYYYMMDD }}"></data>
         </li>
         {% endfor %}
       </ul>

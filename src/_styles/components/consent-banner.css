@@ -1,0 +1,115 @@
+/* Consent banner — sits above the header, so it is inlined as critical CSS and is
+   styled from the first paint. Uses existing tokens only. */
+
+.consent-banner {
+	background: var(--color-surface-secondary);
+	border-block-end: 1px solid var(--color-border-default);
+	padding-block: var(--space-s);
+}
+
+.consent-banner__inner {
+	display: grid;
+	row-gap: var(--space-2xs);
+}
+
+.consent-banner__title {
+	@extend %heading-small;
+	margin: 0;
+}
+
+.consent-banner__text {
+	margin: 0;
+	max-width: var(--measure-default);
+	font-size: var(--step-0);
+	line-height: var(--leading-default);
+}
+
+.consent-banner__service {
+	font-family: var(--font-family-code);
+}
+
+/* The gap is load-bearing: html-minifier-next collapses the whitespace between two
+   adjacent <button>s, and htmlmin is skipped under `serve`, so relying on a space
+   would look correct in dev and wrong in production. */
+.consent-banner__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-xs);
+	margin-block-start: var(--space-2xs);
+}
+
+/* Mirrors the .recipe-action vocabulary so the site keeps one button language. */
+
+.consent-banner__btn {
+	appearance: none;
+	background: transparent;
+	color: var(--color-interactive-default);
+	border: none;
+	padding: var(--space-2xs) 0;
+	font: inherit;
+	font-size: var(--step-0);
+	line-height: 1.2;
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+	transition: color 0.15s ease;
+}
+
+.consent-banner__btn:hover,
+.consent-banner__btn:focus-visible {
+	color: var(--color-interactive-hover);
+	outline: none;
+}
+
+.consent-banner__btn:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
+}
+
+.consent-banner__btn--accept {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	padding: var(--space-2xs) var(--space-s);
+	text-decoration: none;
+}
+
+.consent-banner__btn--accept:hover,
+.consent-banner__btn--accept:focus-visible {
+	background: var(--color-interactive-hover);
+	color: var(--color-surface-default);
+}
+
+/* Reset control in the footer — same button language, minus the footer's italics. */
+
+.site-footer__privacy {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: var(--space-xs);
+}
+
+.site-footer__revoke {
+	appearance: none;
+	background: transparent;
+	color: var(--color-interactive-default);
+	border: none;
+	padding: 0;
+	font: inherit;
+	font-style: normal;
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 0.2em;
+}
+
+.site-footer__revoke:hover,
+.site-footer__revoke:focus-visible {
+	color: var(--color-interactive-hover);
+	outline: none;
+}
+
+.site-footer__revoke:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
+}

@@ -5,7 +5,9 @@
 	.site-pagination,
 	.search,
 	.recipe-actions,
-	.cook-mode {
+	.cook-mode,
+	.consent-banner,
+	.webmentions {
 		display: none;
 	}
 
