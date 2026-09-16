@@ -41,6 +41,8 @@
 @import "./_styles/components/recipe.css";
 @import "./_styles/components/home.css";
 @import "./_styles/components/cook-mode.css";
+@import "./_styles/components/consent-banner.css";
+@import "./_styles/components/webmentions.css";
 
 /* Vendor */
 @import "./_styles/vendor/prism.css";

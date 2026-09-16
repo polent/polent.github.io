@@ -24,6 +24,8 @@
   {% endif %}
 {% endif %}
 {% set recipeAuthorSlug = recipeAuthor | slug %}
+{# Only a matched chef has a /chefs/<slug>/ page; the meta.author fallback does not. #}
+{% set recipeAuthorIsChef = recipeAuthor != meta.author.name %}
 
 {% block head %}
   {{ super() }}
@@ -78,7 +80,7 @@
 {% endblock %}
 
 {% block content %}
-  <article class="wrapper layout-grid recipe{% if isRenderableRecipe %} recipe--enhanced{% endif %}"
+  <article class="wrapper layout-grid recipe h-entry{% if isRenderableRecipe %} recipe--enhanced{% endif %}"
     {% if isRenderableRecipe %}
       data-pagefind-body
       data-recipe-slug="{{ page.fileSlug }}"
@@ -94,14 +96,21 @@
       {% endif %}
     {% endif %}
     <header class="layout-span recipe-header">
-      <h1 class="page-header">{{ title }}</h1>
+      <h1 class="page-header p-name">{{ title }}</h1>
       <p class="recipe-byline">
-        <time datetime="{{ page.date | dateToYYYYMMDD }}">{{ page.date | dateToDMY }}</time>
+        <time class="dt-published" datetime="{{ page.date | dateToYYYYMMDD }}">{{ page.date | dateToDMY }}</time>
+        {% if recipeAuthorIsChef %}
+          <span class="p-author h-card">by <a class="p-name u-url" href="/chefs/{{ recipeAuthorSlug }}/">{{ recipeAuthor }}</a></span>
+        {% endif %}
       </p>
+      {# Microformats values that carry no visible text of their own. #}
+      <data class="u-url" value="{{ meta.domain }}{{ page.url }}"></data>
+      {% if description %}<data class="p-summary" value="{{ description }}"></data>{% endif %}
+      {% if recipeData.image %}<data class="u-photo" value="{{ meta.domain }}{{ recipeData.image }}"></data>{% endif %}
       {% if tags %}
         <ul class="tags-list">
           {% for item in tags %}
-            <li><a href="/tag/{{ item | slug }}/">{{ item }}</a></li>
+            <li><a class="p-category" href="/tag/{{ item | slug }}/">{{ item }}</a></li>
           {% endfor %}
         </ul>
       {% endif %}
@@ -134,7 +143,7 @@
       {% endif %}
     </header>
 
-    <div class="layout-span | content-main flow recipe-body">
+    <div class="layout-span | content-main flow recipe-body e-content">
       {% if isRenderableRecipe %}
         {{ recipeData.modifiedHtml | safe }}
       {% else %}
@@ -142,6 +151,17 @@
       {% endif %}
     </div>
   </article>
+
+  {# Ships hidden. /js/webmentions.js either unhides and fills it (consent granted) or
+     removes it outright, so the no-JS and not-consented paths need no cleanup. Sits
+     outside the article, and so outside data-pagefind-body. #}
+  <section class="wrapper webmentions" id="responses" aria-labelledby="webmentions-title"
+    data-pagefind-ignore
+    data-webmentions-target="{{ meta.canonicalDomain }}{{ page.url }}" hidden>
+    <h2 class="webmentions__title" id="webmentions-title">Responses from the web</h2>
+    <div class="webmentions__results" aria-live="polite" aria-busy="false"></div>
+  </section>
+  <script src="/js/webmentions.js" defer></script>
 
   {% if isRenderableRecipe %}
     <dialog id="cook-mode" class="cook-mode" aria-labelledby="cook-mode-title">

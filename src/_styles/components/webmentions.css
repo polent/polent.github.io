@@ -1,0 +1,141 @@
+/* Responses from other sites. Likes and reposts are counts only and no avatar image is
+   ever requested — the initial-letter badge below is drawn entirely in CSS. Uses
+   existing tokens only. */
+
+.webmentions {
+	margin-block-start: var(--space-2xl);
+	padding-block-start: var(--space-l);
+	border-block-start: 1px solid var(--color-border-default);
+}
+
+.webmentions__title {
+	@extend %heading-2;
+	margin: 0;
+}
+
+.webmentions__results {
+	margin-block-start: var(--space-m);
+}
+
+.webmentions__status {
+	margin: 0;
+	max-width: var(--measure-default);
+	font-size: var(--step-0);
+	opacity: 0.7;
+}
+
+.webmentions__status--error {
+	color: var(--color-border-default);
+	opacity: 1;
+}
+
+/* Counts — the .recipe-meta label/value vocabulary, laid out in a row. */
+
+.webmentions__counts {
+	@extend %list-reset;
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: var(--space-l);
+	row-gap: var(--space-s);
+	margin-block-end: var(--space-m);
+}
+
+.webmentions__count {
+	display: grid;
+	row-gap: var(--space-3xs);
+}
+
+.webmentions__count-value {
+	color: var(--color-interactive-default);
+	font-size: var(--step-2);
+	font-weight: 700;
+	font-variant-numeric: tabular-nums;
+	line-height: var(--leading-tight);
+}
+
+.webmentions__count-label {
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.6;
+	line-height: var(--leading-tight);
+}
+
+@media (--upto-small-viewport) {
+	.webmentions__counts {
+		column-gap: var(--space-m);
+	}
+}
+
+/* Replies */
+
+.webmentions__replies {
+	@extend %list-reset;
+}
+
+.webmentions__reply {
+	padding-block: var(--space-s);
+}
+
+.webmentions__reply + .webmentions__reply {
+	border-block-start: 1px solid color-mix(in oklab, var(--color-text-default) 12%, transparent);
+}
+
+.webmentions__reply-meta {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: var(--space-xs);
+	row-gap: var(--space-3xs);
+}
+
+/* Letter avatar. Replaces the remote profile picture the stock webmention.io
+   renderer would load from whichever host the author happens to use. */
+.webmentions__reply-meta::before {
+	content: attr(data-initial);
+	display: inline-grid;
+	place-content: center;
+	flex-shrink: 0;
+	inline-size: 2em;
+	block-size: 2em;
+	border-radius: 999px;
+	background: color-mix(in oklab, var(--color-interactive-default) 14%, transparent);
+	color: var(--color-interactive-default);
+	font-size: 0.8em;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.webmentions__author {
+	color: var(--color-interactive-default);
+	font-weight: 600;
+}
+
+.webmentions__date {
+	font-size: 0.75rem;
+	opacity: 0.6;
+}
+
+.webmentions__permalink {
+	color: var(--color-interactive-default);
+	font-size: 0.75rem;
+	opacity: 0.7;
+}
+
+.webmentions__reply-body {
+	margin-block-start: var(--space-2xs);
+	max-width: var(--measure-default);
+	font-size: var(--step-0);
+	line-height: var(--leading-default);
+	overflow-wrap: anywhere;
+}
+
+.webmentions__reply-body p {
+	margin: 0;
+}
+
+.webmentions__reply-body p + p {
+	margin-block-start: var(--space-2xs);
+}

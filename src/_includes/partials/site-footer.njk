@@ -1,5 +1,13 @@
 <footer class="site-footer wrapper layout-grid flow">
   <div class="layout-span">
-    <p>Last update on {{ helpers.dateNow | dateToDMY }} at {{ helpers.dateNow | dateToTime }} by AI and <a href="https://github.com/polent" rel="me">HH</a></p>    
+    <p>Last update on {{ helpers.dateNow | dateToDMY }} at {{ helpers.dateNow | dateToTime }} by AI and <a href="https://github.com/polent" rel="me">HH</a></p>
+    <p class="site-footer__privacy">
+      <a href="/privacy/">Privacy</a>
+      {# Revealed by the inline script in consent-banner.njk once a choice exists. #}
+      <button type="button" class="site-footer__revoke" data-consent-reset hidden>Reset my choice</button>
+    </p>
+    {# Representative h-card, so webmention.io and IndieAuth can resolve an identity
+       for this domain. #}
+    <p class="h-card"><a class="p-name u-url" href="{{ meta.domain }}/" rel="me">{{ meta.projectName }}</a></p>
   </div>
 </footer>

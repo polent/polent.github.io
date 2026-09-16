@@ -9,15 +9,16 @@
     <h1 class="page-header layout-span">Recipes tagged with “{{ tagLabel }}”</h1>
     <div class="layout-span | content-main flow">
       <p class="tag-intro">{{ count }} {{ tagLabel }} recipe{{ "s" if count != 1 }}, each with a full ingredient list, step-by-step instructions and nutrition.</p>
-      <ul class="recipe-ul">
+      <ul class="recipe-ul h-feed">
         {% for item in tagged %}
-          <li>
-            <a href="{{ item.url }}">
+          <li class="h-entry">
+            <a class="u-url" href="{{ item.url }}">
               {% figure %}
                 {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 250px, (min-width: 30rem) 440px, 430px" %}
               {% endfigure %}
-              {{ item.data.title }}
+              <span class="p-name">{{ item.data.title }}</span>
             </a>
+            <data class="dt-published" value="{{ item.date | dateToYYYYMMDD }}"></data>
           </li>
         {% endfor %}
       </ul>

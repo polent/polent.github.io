@@ -45,7 +45,13 @@ const htmlmin = async function (content, outputPath) {
 				useShortDoctype: true,
 				removeComments: true,
 				collapseWhitespace: true,
-				collapseInlineTagWhitespace: true,
+				// Deliberately off: it strips the spaces *around* inline elements that are
+				// not on html-minifier's keep-whitespace-within list — notably <code> and
+				// <button>. That turns "Values are `granted` or `denied` here" into
+				// "Values are`granted`or`denied`here" in production only, since this whole
+				// transform is skipped under `serve`. The byte saving is not worth
+				// corrupting rendered text.
+				collapseInlineTagWhitespace: false,
 				removeAttributeQuotes: true,
 				removeRedundantAttributes: true,
 				removeEmptyAttributes: true,

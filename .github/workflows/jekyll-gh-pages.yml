@@ -20,15 +20,14 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  NODE_VERSION: "22"
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  NODE_VERSION: "24"
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Full history: the sitemap derives <lastmod> from each file's
           # last commit date, which a shallow clone cannot provide.
@@ -38,13 +37,13 @@ jobs:
           filter: blob:none
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
 
       - name: Cache Eleventy incremental build state
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: .cache
           key: eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'package-lock.json') }}-${{ github.sha }}
@@ -52,7 +51,7 @@ jobs:
             eleventy-build-${{ runner.os }}-${{ hashFiles('eleventy.config.js', 'package-lock.json') }}-
 
       - name: Cache processed images
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: dist/img
           key: eleventy-img-${{ runner.os }}-${{ hashFiles('src/_11ty/shortcodes.js') }}-${{ github.sha }}
@@ -60,7 +59,7 @@ jobs:
             eleventy-img-${{ runner.os }}-${{ hashFiles('src/_11ty/shortcodes.js') }}-
 
       - name: Cache CSS build
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: dist/styles
           key: css-build-${{ runner.os }}-${{ hashFiles('postcss.config.js') }}-${{ github.sha }}
@@ -83,3 +82,49 @@ jobs:
           publish_dir: ./dist
           force_orphan: true
           cname: recipe.polente.de
+
+  # Announces recipes on Mastodon once they are actually live. `needs` means a
+  # failed build or deploy posts nothing, and the script only picks up posts
+  # *added* since the `mastodon-syndicated` tag, so edits and non-recipe pushes
+  # are no-ops. See scripts/post-to-mastodon.js.
+  post-mastodon:
+    needs: build-deploy
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    # Syndication is not worth reddening a deploy that already succeeded.
+    continue-on-error: true
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          # Full history: the script diffs against the syndication marker tag,
+          # which can be many commits back. blob:none keeps that cheap.
+          fetch-depth: 0
+          filter: blob:none
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      # No `npm ci`: the script uses only Node builtins and global fetch.
+      # The guard is step-level because `secrets` is not an allowed context
+      # in a job-level `if`.
+      - name: Post new recipes to Mastodon
+        id: post
+        if: env.MASTODON != ''
+        env:
+          MASTODON: ${{ secrets.MASTODON }}
+          MASTODON_SERVER: ${{ vars.MASTODON_SERVER }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: node scripts/post-to-mastodon.js
+
+      # Only advances as far as the last recipe that actually posted, so a
+      # failure is retried next run. Pushing a tag does not retrigger this
+      # workflow: the trigger is branch-filtered, and GITHUB_TOKEN pushes
+      # never trigger workflows.
+      - name: Advance syndication marker
+        if: steps.post.outputs.syndicated_sha != ''
+        run: |
+          git tag -f mastodon-syndicated ${{ steps.post.outputs.syndicated_sha }}
+          git push -f origin mastodon-syndicated

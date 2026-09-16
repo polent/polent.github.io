@@ -11,16 +11,16 @@
     <div class="layout-span layout-span--aside">
       <aside class="content-aside flow">
         <h2>Latest recipes</h2>
-        <ul class="recipe-ul">
+        <ul class="recipe-ul h-feed">
           {% for item in collections.latest %}
-            <li>
-              <a href="{{ item.url }}">
+            <li class="h-entry">
+              <a class="u-url" href="{{ item.url }}">
                   {% figure %}
                       {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, item.data.figureRecipe.loading, "(min-width: 60rem) 260px, 340px" %}
                   {% endfigure %}
-                  {{ item.data.title }}
+                  <span class="p-name">{{ item.data.title }}</span>
               </a>
-              <time datetime="{{ item.date | dateToYYYYMMDD }}"> {{ item.date | dateToDMY }}</time>
+              <time class="dt-published" datetime="{{ item.date | dateToYYYYMMDD }}"> {{ item.date | dateToDMY }}</time>
           </li>
           {% endfor %}
         </ul>

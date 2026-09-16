@@ -1,0 +1,106 @@
+{# Consent gate for webmention.io.
+
+   The banner ships `hidden` and the script below reveals it synchronously. Both sit
+   at the very top of <body>, before the header, so an undecided visitor sees the
+   banner in the first paint rather than watching it pop in and shove the page down.
+   That is why this script is inline and not deferred — the same reasoning behind the
+   inline nav-toggle IIFE in site-header.njk.
+
+   Accepting reloads the page so the mentions load through the normal path in
+   /js/webmentions.js, which reads the same cookie. Declining removes the mentions
+   section outright. #}
+<aside class="consent-banner" id="consent-banner" aria-labelledby="consent-banner-title" hidden>
+  <div class="wrapper consent-banner__inner">
+    <p class="consent-banner__title" id="consent-banner-title">Responses from other websites</p>
+    <p class="consent-banner__text">
+      Recipes here can be replied to from elsewhere on the web. Showing those replies means your
+      browser contacts <span class="consent-banner__service">webmention.io</span>, which sees your
+      IP address. Likes and reposts are only ever shown as a number, and no profile pictures are
+      loaded from anyone else&rsquo;s server. <a href="/privacy/">What this means</a>.
+    </p>
+    <div class="consent-banner__actions">
+      <button type="button" class="consent-banner__btn consent-banner__btn--accept" data-action="consent-accept">
+        Show responses
+      </button>
+      <button type="button" class="consent-banner__btn" data-action="consent-decline">
+        No thanks
+      </button>
+    </div>
+  </div>
+</aside>
+<script>
+  (() => {
+    "use strict";
+
+    const NAME = "wm-consent";
+    const MAX_AGE = 15552000; /* 180 days */
+
+    const suffix = () => "; path=/; SameSite=Lax" + (location.protocol === "https:" ? "; Secure" : "");
+
+    /* Cookie access throws in a sandboxed frame or with site data blocked. Reading
+       falls back to null, which means "undecided" and so shows the banner and keeps
+       the mentions off — the safe direction when consent cannot be proved. Writing
+       cannot succeed in that state either; the accept handler below checks whether
+       the value stuck rather than assuming it did. */
+    const read = () => {
+      try {
+        const match = /(?:^|;\s*)wm-consent=(granted|denied)(?:;|$)/.exec(document.cookie);
+        return match ? match[1] : null;
+      } catch {
+        return null;
+      }
+    };
+
+    const write = value => {
+      try {
+        document.cookie = NAME + "=" + value + "; max-age=" + MAX_AGE + suffix();
+      } catch {
+        /* Ignored: the caller verifies with read() instead of trusting the write. */
+      }
+    };
+
+    const forget = () => {
+      try {
+        document.cookie = NAME + "=; max-age=0" + suffix();
+      } catch {
+        /* Ignored: if the cookie cannot be cleared there is nothing to reset, and
+           the reload below leaves the visitor exactly where they already were. */
+      }
+    };
+
+    const banner = document.getElementById("consent-banner");
+
+    if (banner && !read()) {
+      banner.hidden = false;
+
+      banner.addEventListener("click", e => {
+        const btn = e.target.closest("[data-action]");
+        if (!btn) return;
+
+        if (btn.dataset.action === "consent-accept") {
+          write("granted");
+          /* If cookies are blocked the write silently fails. Reloading anyway would
+             bring the banner straight back, so bail out instead of looping. */
+          if (read() === "granted") location.reload();
+          else banner.remove();
+        } else if (btn.dataset.action === "consent-decline") {
+          write("denied");
+          banner.remove();
+          const mentions = document.querySelector(".webmentions");
+          if (mentions) mentions.remove();
+        }
+      });
+    }
+
+    /* The footer has not been parsed yet at this point. */
+    document.addEventListener("DOMContentLoaded", () => {
+      const reset = document.querySelector("[data-consent-reset]");
+      if (!reset || !read()) return;
+      reset.hidden = false;
+      reset.addEventListener("click", () => {
+        forget();
+        location.reload();
+      });
+    });
+  })();
+</script>

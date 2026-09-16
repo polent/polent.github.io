@@ -58,17 +58,17 @@ sitemapFreshFrom: "posts"
     <h2 class="home-section__title" id="latest-title">Latest recipes</h2>
     <a class="home-section__more" href="/recipes/">All recipes →</a>
   </header>
-  <ul class="recipe-ul">
+  <ul class="recipe-ul h-feed">
     {% for item in collections.posts %}
       {% if loop.index <= 12 %}
-        <li>
-          <a href="{{ item.url }}">
+        <li class="h-entry">
+          <a class="u-url" href="{{ item.url }}">
             {% figure %}
               {% picture item.data.figureRecipe.imageSrc, item.data.figureRecipe.imageTitle, item.data.figureRecipe.imageAlt, "lazy", "(min-width: 60rem) 280px, (min-width: 30rem) 440px, 100vw" %}
             {% endfigure %}
-            {{ item.data.title }}
+            <span class="p-name">{{ item.data.title }}</span>
           </a>
-          <time datetime="{{ item.date | dateToYYYYMMDD }}">{{ item.date | dateToDMY }}</time>
+          <time class="dt-published" datetime="{{ item.date | dateToYYYYMMDD }}">{{ item.date | dateToDMY }}</time>
         </li>
       {% endif %}
     {% endfor %}
