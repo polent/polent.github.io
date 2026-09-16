@@ -116,6 +116,43 @@ which builds and publishes `dist/` to GitHub Pages. The custom domain comes from
 [`CNAME`](CNAME) file. Because Pages serves no custom response headers, anything
 header-shaped has to be done in markup.
 
+## Syndication to Mastodon
+
+Once a deploy succeeds, a second job in the same workflow runs
+[`scripts/post-to-mastodon.js`](scripts/post-to-mastodon.js), which announces any recipe
+that was *added* in that push. The post is the recipe's introduction paragraph, truncated
+on a sentence boundary to fit Mastodon's 500 characters alongside the title, three
+hashtags and the URL. (Mastodon counts every URL as 23 characters whatever its length,
+which is what makes the budget workable.)
+
+It needs two repository settings, neither of which lives in the repo:
+
+- secret `MASTODON` — an access token from **Preferences → Development → New application**
+  on the instance, scope `write:statuses`
+- variable `MASTODON_SERVER` — e.g. `https://hellinger.wtf/`
+
+Without the secret the job is skipped, so forks and local clones are unaffected.
+
+What stops it double-posting, or posting the back catalogue, is a `mastodon-syndicated`
+git tag: the script diffs from that tag to `HEAD` with `--diff-filter=A` and advances it
+only as far as the last recipe that actually posted. A failed run, a Mastodon outage or a
+deploy dropped by the `pages` concurrency group therefore leaves the tag alone and is
+picked up by the next run. **Seed it once before the first live run**, or the script finds
+no base and does nothing:
+
+```sh
+git tag -f mastodon-syndicated HEAD && git push -f origin mastodon-syndicated
+```
+
+To see what would be posted without posting anything — no token required:
+
+```sh
+node scripts/post-to-mastodon.js --dry-run --since HEAD~10
+node scripts/post-to-mastodon.js --dry-run --file src/content/posts/<a-recipe>.md
+```
+
+`--visibility direct` posts for real but only to you, which is the safest smoke test.
+
 ## Contributing
 
 Issues and pull requests are welcome, but note that `src/content/posts/` and `src/media/`

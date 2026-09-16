@@ -66,3 +66,22 @@ Entry point: `src/site.css` → PostCSS processes imports from `src/_styles/` �
 
 ### Deployment
 Push to `main` triggers GitHub Actions workflow that builds and deploys to GitHub Pages.
+
+### Mastodon syndication
+After a successful deploy, the `post-mastodon` job in `jekyll-gh-pages.yml` runs
+`scripts/post-to-mastodon.js` (CommonJS, zero dependencies — Node builtins and global `fetch` only).
+
+- Posts only recipes **added** since the `mastodon-syndicated` git tag (`git diff --diff-filter=A`,
+  two-dot so merge commits are included). The tag is the durable high-water mark and advances only
+  to the last recipe that actually posted, which is what makes a dropped or failed run self-heal.
+  `BEFORE_SHA` is a fallback; with no base at all the script exits 0 rather than guessing.
+- Config is env-only: `MASTODON` (token, repo secret) and `MASTODON_SERVER` (repo variable). The job
+  is skipped when the secret is absent.
+- The recipe URL is `{canonicalDomain}/recipes/{fileSlug}/` where **`fileSlug` strips the
+  `YYYY-MM-DD-` prefix** — the live URL carries no date. `SITE` in the script duplicates
+  `meta.canonicalDomain` deliberately; `meta.domain` flips to localhost under `serve`.
+- Character budget assumes Mastodon's rule that any URL counts as 23 characters. Count code points
+  (`Array.from(s).length`), not `.length`. Hashtags strip non-alphanumerics because Mastodon
+  terminates a tag at `-`.
+- Guardrails against mass-posting the 226-post back catalogue: `--max` (5) and `--max-age-days` (7).
+  Verify any change with `--dry-run` across every post before touching the live path.
