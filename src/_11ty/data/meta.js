@@ -23,6 +23,10 @@ module.exports = {
 			rel: "me",
 			url: "https://polente.de",
 		},
+		{
+			rel: "me",
+			url: "https://hellinger.wtf/@recipes",
+		},
 	],
 	og: {
 		locale: "en_GB",
