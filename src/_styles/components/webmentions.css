@@ -1,6 +1,7 @@
-/* Responses from other sites. Likes and reposts are counts only and no avatar image is
-   ever requested — the initial-letter badge below is drawn entirely in CSS. Uses
-   existing tokens only. */
+/* Responses from other sites. Likes, reposts, bookmarks and RSVPs are facepiles; replies
+   are a list. A profile picture is only ever requested from avatars.webmention.io — see
+   photoUrl() in static/js/webmentions.js — and everyone else gets the initial-letter badge
+   below, which is drawn entirely in CSS. Uses existing tokens only. */
 
 .webmentions {
 	margin-block-start: var(--space-2xl);
@@ -13,12 +14,8 @@
 	margin: 0;
 }
 
-.webmentions__results {
-	margin-block-start: var(--space-m);
-}
-
 .webmentions__status {
-	margin: 0;
+	margin-block: var(--space-m) 0;
 	max-width: var(--measure-default);
 	font-size: var(--step-0);
 	opacity: 0.7;
@@ -29,31 +26,19 @@
 	opacity: 1;
 }
 
-/* Counts — the .recipe-meta label/value vocabulary, laid out in a row. */
-
-.webmentions__counts {
-	@extend %list-reset;
-	display: flex;
-	flex-wrap: wrap;
-	column-gap: var(--space-l);
-	row-gap: var(--space-s);
-	margin-block-end: var(--space-m);
+.webmentions__results {
+	margin-block-start: var(--space-m);
 }
 
-.webmentions__count {
-	display: grid;
-	row-gap: var(--space-3xs);
+/* Groups — one per response type, labelled in the small-caps vocabulary the counts used. */
+
+.webmentions__group + .webmentions__group {
+	margin-block-start: var(--space-m);
 }
 
-.webmentions__count-value {
-	color: var(--color-interactive-default);
-	font-size: var(--step-2);
-	font-weight: 700;
-	font-variant-numeric: tabular-nums;
-	line-height: var(--leading-tight);
-}
-
-.webmentions__count-label {
+/* Semantically an <h3>; %heading-3 would shout at this size and this density. */
+.webmentions__group-title {
+	margin: 0 0 var(--space-2xs);
 	font-size: 0.7rem;
 	font-weight: 600;
 	letter-spacing: 0.08em;
@@ -62,10 +47,64 @@
 	line-height: var(--leading-tight);
 }
 
-@media (--upto-small-viewport) {
-	.webmentions__counts {
-		column-gap: var(--space-m);
-	}
+.webmentions__group-count {
+	color: var(--color-interactive-default);
+	font-variant-numeric: tabular-nums;
+	opacity: 1;
+}
+
+/* Facepile */
+
+.webmentions__facepile {
+	@extend %list-reset;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-3xs);
+}
+
+.webmentions__face-link {
+	display: block;
+	border-radius: 999px;
+}
+
+.webmentions__face-link:focus-visible {
+	outline: 2px solid var(--color-interactive-focus-ring);
+	outline-offset: 2px;
+}
+
+/* Avatar. Both branches are the same circle, so swapping a broken image for the badge
+   cannot shift the layout. The tint sits on the base rule on purpose: a lazy or not yet
+   loaded <img> is then a tinted circle rather than a hole. */
+
+.webmentions__avatar {
+	flex-shrink: 0;
+	inline-size: 2.5rem;
+	block-size: 2.5rem;
+	border-radius: 999px;
+	background: color-mix(in oklab, var(--color-interactive-default) 14%, transparent);
+}
+
+.webmentions__avatar--photo {
+	display: block;
+	object-fit: cover;
+	/* The same hairline as the reply divider below. --color-border-default is the accent
+	   colour and reads as a warning ring at this size. */
+	border: 1px solid color-mix(in oklab, var(--color-text-default) 12%, transparent);
+}
+
+.webmentions__avatar--letter {
+	display: inline-grid;
+	place-content: center;
+	color: var(--color-interactive-default);
+	font-size: 0.8rem;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.webmentions__avatar--more {
+	font-size: 0.7rem;
+	font-weight: 600;
+	opacity: 0.7;
 }
 
 /* Replies */
@@ -89,23 +128,6 @@
 	align-items: center;
 	column-gap: var(--space-xs);
 	row-gap: var(--space-3xs);
-}
-
-/* Letter avatar. Replaces the remote profile picture the stock webmention.io
-   renderer would load from whichever host the author happens to use. */
-.webmentions__reply-meta::before {
-	content: attr(data-initial);
-	display: inline-grid;
-	place-content: center;
-	flex-shrink: 0;
-	inline-size: 2em;
-	block-size: 2em;
-	border-radius: 999px;
-	background: color-mix(in oklab, var(--color-interactive-default) 14%, transparent);
-	color: var(--color-interactive-default);
-	font-size: 0.8em;
-	font-weight: 700;
-	line-height: 1;
 }
 
 .webmentions__author {

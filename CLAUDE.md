@@ -55,7 +55,8 @@ Recipe pages can display responses collected by webmention.io. Because that mean
 
 - `src/_includes/partials/consent-banner.njk` — included as the first child of `<body>` in `layouts/base.njk`. Ships `hidden`; its **inline, non-deferred** script reveals it before the header paints (deferring it would cause layout shift). Accepting writes the `wm-consent` cookie (`granted`/`denied`, 180 days, `SameSite=Lax`) and reloads; declining removes the mentions section. The footer's `[data-consent-reset]` button clears the cookie.
 - `src/static/js/webmentions.js` — on post pages only. Reads the same cookie; unless it is `granted`, it removes `.webmentions` and stops. Otherwise it fetches `mentions.jf2` and renders.
-- **Privacy rules baked into the renderer:** likes/reposts/bookmarks/RSVPs are shown as aggregate counts only; replies show name, date and *plain text*; `author.photo` is never requested (a CSS letter-avatar stands in); reply content is never inserted as HTML.
+- **Privacy rules baked into the renderer:** likes/reposts/bookmarks/RSVPs are a facepile of linked avatars, deduplicated per person per pile and capped at `MAX_FACES`; replies show name, date and *plain text*; `author.photo` is requested **only** when its host is exactly `avatars.webmention.io` (`photoUrl()` — anything else falls back to the CSS letter badge, so no new third party is ever contacted); reply content is never inserted as HTML.
+- The live region is the `[data-webmentions-status]` line in `post.njk`, **not** `.webmentions__results` — announcing the results would read every name and reply body aloud.
 - The mount point in `post.njk` uses `meta.canonicalDomain` (not `meta.domain`), so `serve` queries the production target instead of `localhost`.
 - `src/content/privacy.md` documents all of the above for readers and must stay in sync.
 

@@ -44,15 +44,22 @@ responses section is removed from the page.
 
 ### What is shown, and what is not
 
-Someone who likes a recipe from their own site or from the Fediverse has not thereby agreed
-to have their name and photograph republished here. So:
+Liking or replying to a recipe from your own site or from the Fediverse is a public gesture,
+so it is shown as one — but nothing about it reaches a server this page has not already
+named. So:
 
-- **Likes, reposts, bookmarks and RSVPs** are shown only as a total number. No names, no
-  links to individuals.
+- **Likes, reposts, bookmarks and RSVPs** are shown as a row of small round pictures with a
+  total. Each one links back to the profile the response came from and carries that
+  profile's name for screen readers.
 - **Replies and mentions** are shown with the author's name, the date and the text, because
   writing a public reply to this page is a deliberate act.
-- **No profile pictures are ever loaded**, from webmention.io or from anywhere else. The
-  coloured initial next to a reply is drawn by this site, not fetched.
+- **Profile pictures are loaded only from `avatars.webmention.io`**, the copy webmention.io
+  already keeps. When a response carries a picture hosted anywhere else — a personal site, a
+  social network's own image server — it is simply not requested, and a coloured initial
+  drawn by this site stands in. Accepting the banner therefore still means exactly one
+  third party: the one the banner names.
+- Those pictures are requested without a referrer, and only once they have scrolled into
+  view. Long lists are capped, so a popular recipe cannot turn into hundreds of requests.
 - Reply text is displayed as plain text. Any images or markup in the original are dropped,
   so reading a reply cannot cause your browser to contact a third site.
 
