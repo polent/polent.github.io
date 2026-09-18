@@ -159,7 +159,12 @@
     data-pagefind-ignore
     data-webmentions-target="{{ meta.canonicalDomain }}{{ page.url }}" hidden>
     <h2 class="webmentions__title" id="webmentions-title">Responses from the web</h2>
-    <div class="webmentions__results" aria-live="polite" aria-busy="false"></div>
+    {# The live region is this one line, not the results — announcing the results would read
+       two dozen names and every reply body aloud. It ships empty rather than being created
+       by the script, because a live region has to exist before its text changes to be
+       announced reliably. #}
+    <p class="webmentions__status" data-webmentions-status role="status" aria-live="polite" aria-busy="false"></p>
+    <div class="webmentions__results"></div>
   </section>
   <script src="/js/webmentions.js" defer></script>
 

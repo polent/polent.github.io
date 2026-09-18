@@ -10,15 +10,35 @@
 	const MAX_TEXT = 600;
 	const MAX_PARAGRAPHS = 6;
 
-	/* Likes, reposts, bookmarks and RSVPs are only ever shown as a number. Nobody who
-	   hearts a post on Mastodon agreed to have their name republished here, and an RSVP
-	   names a person just as plainly as a like does. */
-	const COUNT_LABELS = {
-		"like-of": "Likes",
-		"repost-of": "Reposts",
-		"bookmark-of": "Bookmarks",
-		rsvp: "RSVPs",
-	};
+	/* The only host a profile picture may come from. See photoUrl(). */
+	const AVATAR_HOST = "avatars.webmention.io";
+	const AVATAR_PX = 40; /* matches 2.5rem in _styles/components/webmentions.css */
+
+	/* Uncapped, a recipe syndicated to Mastodon can carry hundreds of likes — that many
+	   third-party image requests from somebody who asked to "see the responses", and six
+	   rows of circles. The heading still reports the honest total above the pile. */
+	const MAX_FACES = 24;
+
+	/* Ordered lists, not objects, so the render order is ours and not whatever order the
+	   API happened to return. */
+	const FACEPILE_GROUPS = [
+		{ key: "like-of", label: "Likes" },
+		{ key: "repost-of", label: "Reposts" },
+		{ key: "bookmark-of", label: "Bookmarks" },
+	];
+
+	/* An RSVP answers a question, so the answer belongs in the heading rather than next to
+	   each face — that keeps every face's accessible name down to just the person. */
+	const RSVP_GROUPS = [
+		{ key: "rsvp:yes", label: "Going" },
+		{ key: "rsvp:no", label: "Not going" },
+		{ key: "rsvp:maybe", label: "Maybe" },
+		{ key: "rsvp:interested", label: "Interested" },
+		{ key: "rsvp:other", label: "RSVPs" },
+	];
+
+	const GROUPS = FACEPILE_GROUPS.concat(RSVP_GROUPS);
+	const FACEPILE_PROPERTIES = new Set(FACEPILE_GROUPS.map(group => group.key));
 	const REPLY_PROPERTIES = new Set(["in-reply-to", "mention-of"]);
 
 	/* Same three lines as the inline script in consent-banner.njk. Sharing them would
@@ -37,9 +57,10 @@
 
 	const target = section.dataset.webmentionsTarget || "";
 	const results = section.querySelector(".webmentions__results");
+	const status = section.querySelector("[data-webmentions-status]");
 	const canFetch = typeof window.fetch === "function" && typeof AbortController === "function";
 
-	if (readConsent() !== "granted" || !target || !results || !canFetch) {
+	if (readConsent() !== "granted" || !target || !results || !status || !canFetch) {
 		section.remove();
 		return;
 	}
@@ -108,40 +129,163 @@
 		return text;
 	}
 
+	/* Identity ------------------------------------------------------- */
+
+	/* The one gate that keeps the consent banner's promise true: a profile picture is
+	   fetched only from webmention.io's own proxy, which is the service the visitor already
+	   agreed to. A photo hosted anywhere else — a personal domain, a network's image CDN, a
+	   Mastodon instance — is dropped and the letter badge stands in. Parsing with URL()
+	   rather than matching the string is deliberate: it lowercases the host and resolves
+	   punycode, so a homograph host cannot slip past ===, and it throws on anything that is
+	   not an absolute URL. */
+	function photoUrl(author) {
+		const raw = typeof author.photo === "string" ? author.photo.trim() : "";
+		if (!raw) return null;
+		try {
+			const url = new URL(raw);
+			if (url.protocol !== "https:" || url.hostname !== AVATAR_HOST) return null;
+			if (url.username || url.password) return null;
+			return url.href;
+		} catch {
+			/* Relative, malformed or otherwise not a URL we are willing to request. */
+			return null;
+		}
+	}
+
+	/* A pile of twelve links all reading "Someone on the web" is useless. When the author
+	   card carries no name but does carry a profile URL, its host is public, accurate and
+	   tells one person from another. */
+	function displayName(author) {
+		const name = String(author.name || "").trim();
+		if (name) return name;
+		if (isHttpUrl(author.url)) {
+			try {
+				return new URL(author.url).hostname.replace(/^www\./, "");
+			} catch {
+				/* Falls through to the generic label below. */
+			}
+		}
+		return "Someone on the web";
+	}
+
+	/* Best effort, most reliable first. The wm-source fallback keeps the whole URL rather
+	   than its origin: two nameless likes from one Mastodon instance are two people and
+	   must not collapse into one face. */
+	function actorKey(item, author) {
+		if (isHttpUrl(author.url)) return "u:" + normalize(author.url);
+		if (typeof author.photo === "string" && author.photo) return "p:" + normalize(author.photo);
+		if (isHttpUrl(item["wm-source"])) return "s:" + normalize(item["wm-source"]);
+		return "i:" + String(item["wm-id"] || Math.random());
+	}
+
+	function rsvpKey(item) {
+		const key =
+			"rsvp:" +
+			String(item.rsvp || "")
+				.trim()
+				.toLowerCase();
+		return RSVP_GROUPS.some(group => group.key === key) ? key : "rsvp:other";
+	}
+
+	/* Avatars -------------------------------------------------------- */
+
+	function letterBadge(initial) {
+		const badge = el("span", "webmentions__avatar webmentions__avatar--letter", initial);
+		/* Real text now rather than content: attr(), so without this a screen reader would
+		   read "J Jane Doe". */
+		badge.setAttribute("aria-hidden", "true");
+		return badge;
+	}
+
+	function avatarFor(author, name) {
+		/* Array.from rather than slice(0, 1): slicing splits a surrogate pair and renders
+		   half a character. */
+		const initial = (Array.from(name)[0] || "?").toUpperCase();
+		const src = photoUrl(author);
+		if (!src) return letterBadge(initial);
+
+		const img = el("img", "webmentions__avatar webmentions__avatar--photo");
+		img.alt = ""; /* the name is real text inside the same link — see buildFace */
+		img.width = AVATAR_PX;
+		img.height = AVATAR_PX; /* attributes, so the box is reserved even before the CSS lands */
+		img.loading = "lazy"; /* the section sits below a long recipe: most views fetch nothing */
+		img.decoding = "async";
+		img.referrerPolicy = "no-referrer";
+		img.fetchPriority = "low";
+		/* addEventListener rather than an inline onerror, so there is no inline handler to
+		   justify if a content security policy ever lands on this site. */
+		img.addEventListener("error", () => img.replaceWith(letterBadge(initial)), { once: true });
+		img.src = src;
+		return img;
+	}
+
 	/* Rendering ------------------------------------------------------ */
 
 	function setStatus(message, modifier) {
-		results.innerHTML = "";
-		results.append(
-			el(
-				"p",
-				"webmentions__status" + (modifier ? " webmentions__status--" + modifier : ""),
-				message,
-			),
-		);
+		status.className =
+			"webmentions__status" + (modifier ? " webmentions__status--" + modifier : "");
+		status.textContent = message;
 	}
 
-	function buildCounts(counts) {
-		const list = el("ul", "webmentions__counts");
-		Object.keys(COUNT_LABELS).forEach(property => {
-			const total = counts.get(property);
-			if (!total) return;
-			const item = el("li", "webmentions__count");
-			item.append(el("span", "webmentions__count-value", String(total)));
-			item.append(el("span", "webmentions__count-label", COUNT_LABELS[property]));
-			list.append(item);
-		});
-		return list;
+	function buildFace(author) {
+		const name = displayName(author);
+		const face = el("li", "webmentions__face");
+
+		const linked = isHttpUrl(author.url);
+		const inner = el(linked ? "a" : "span", "webmentions__face-link");
+		if (linked) {
+			inner.href = author.url;
+			inner.rel = "nofollow ugc noopener";
+			/* A convenience for pointer users only. title is never the accessible name when
+			   the element already has text content, which it always does here. */
+			inner.title = name;
+		}
+
+		inner.append(avatarFor(author, name));
+		inner.append(el("span", "visually-hidden", name));
+		face.append(inner);
+		return face;
+	}
+
+	function buildOverflow(remaining) {
+		const face = el("li", "webmentions__face");
+		const chip = el(
+			"span",
+			"webmentions__avatar webmentions__avatar--letter webmentions__avatar--more",
+			"+" + remaining,
+		);
+		chip.setAttribute("aria-hidden", "true");
+		face.append(chip);
+		face.append(el("span", "visually-hidden", "and " + remaining + " more"));
+		return face;
+	}
+
+	/* The heading counts distinct people, not mentions, because that is what the pile below
+	   it shows. Counting mentions would put "Likes (12)" above ten faces, which reads as a
+	   bug rather than as deduplication. */
+	function buildFacepile(label, actors) {
+		const group = el("div", "webmentions__group");
+
+		const heading = el("h3", "webmentions__group-title", label + " ");
+		heading.append(el("span", "webmentions__group-count", "(" + actors.size + ")"));
+		group.append(heading);
+
+		const list = el("ul", "webmentions__facepile");
+		const all = Array.from(actors.values());
+		all.slice(0, MAX_FACES).forEach(author => list.append(buildFace(author)));
+		if (all.length > MAX_FACES) list.append(buildOverflow(all.length - MAX_FACES));
+		group.append(list);
+
+		return group;
 	}
 
 	function buildReply(item) {
 		const author = item.author || {};
-		const name = String(author.name || "").trim() || "Someone on the web";
+		const name = displayName(author);
 		const reply = el("li", "webmentions__reply");
 		const meta = el("p", "webmentions__reply-meta");
 
-		/* Drives the CSS letter avatar. author.photo is deliberately never read. */
-		meta.dataset.initial = name.slice(0, 1).toUpperCase();
+		meta.append(avatarFor(author, name));
 
 		if (isHttpUrl(author.url)) {
 			const link = el("a", "webmentions__author", name);
@@ -186,9 +330,37 @@
 		return reply;
 	}
 
+	function buildReplies(replies) {
+		const group = el("div", "webmentions__group");
+
+		const heading = el("h3", "webmentions__group-title", "Replies ");
+		heading.append(el("span", "webmentions__group-count", "(" + replies.length + ")"));
+		group.append(heading);
+
+		const list = el("ol", "webmentions__replies");
+		replies.forEach(item => list.append(buildReply(item)));
+		group.append(list);
+
+		return group;
+	}
+
+	/* Said out loud once, instead of letting the live region read two dozen names and every
+	   reply body aloud the moment they arrive. The headings below already say this on screen,
+	   so the status line hides itself. */
+	function announce(piles, replyCount) {
+		const parts = [];
+		GROUPS.forEach(group => {
+			const actors = piles.get(group.key);
+			if (actors && actors.size) parts.push(actors.size + " " + group.label.toLowerCase());
+		});
+		if (replyCount) parts.push(replyCount + (replyCount === 1 ? " reply" : " replies"));
+		setStatus(parts.join(", ") + ".");
+		status.classList.add("visually-hidden");
+	}
+
 	function render(children) {
 		const seen = new Set();
-		const counts = new Map();
+		const piles = new Map(); /* group key -> Map(actor key -> author card) */
 		const replies = [];
 
 		children.forEach(item => {
@@ -202,35 +374,51 @@
 			if (itemTarget && normalize(itemTarget) !== normalize(target)) return;
 
 			const property = item["wm-property"];
-			if (Object.hasOwn(COUNT_LABELS, property)) {
-				counts.set(property, (counts.get(property) || 0) + 1);
+			const key = FACEPILE_PROPERTIES.has(property)
+				? property
+				: property === "rsvp"
+					? rsvpKey(item)
+					: null;
+
+			if (key) {
+				const author = item.author || {};
+				if (!piles.has(key)) piles.set(key, new Map());
+				/* One face per person per pile, which is the single rule indieweb.org/facepile
+				   states. Scoped to the pile, not globally: somebody who both liked and
+				   reposted belongs in each. */
+				const actors = piles.get(key);
+				const actor = actorKey(item, author);
+				if (!actors.has(actor)) actors.set(actor, author);
 			} else if (REPLY_PROPERTIES.has(property)) {
 				replies.push(item);
 			}
 			/* Anything else is ignored on purpose, so a new property type upstream
-			   cannot quietly land in the bucket that shows names. */
+			   cannot quietly land in a bucket that shows names and faces. */
 		});
 
-		if (!counts.size && !replies.length) {
+		if (!piles.size && !replies.length) {
 			setStatus("No responses yet.");
 			return;
 		}
 
 		results.innerHTML = "";
-		if (counts.size) results.append(buildCounts(counts));
-		if (replies.length) {
-			const list = el("ol", "webmentions__replies");
-			replies.forEach(item => list.append(buildReply(item)));
-			results.append(list);
-		}
+		GROUPS.forEach(group => {
+			const actors = piles.get(group.key);
+			if (actors && actors.size) results.append(buildFacepile(group.label, actors));
+		});
+		if (replies.length) results.append(buildReplies(replies));
+
+		announce(piles, replies.length);
 	}
 
 	/* Fetch ---------------------------------------------------------- */
 
 	async function load() {
-		results.setAttribute("aria-busy", "true");
+		status.setAttribute("aria-busy", "true");
 		setStatus("Loading responses…", "loading");
 
+		/* One page, deliberately. A recipe with more than 100 responses would be undercounted,
+		   but paginating doubles the third-party contact for a case this site will not meet. */
 		const url = ENDPOINT + "?target=" + encodeURIComponent(target) + "&per-page=100&sort-dir=up";
 		const controller = new AbortController();
 		const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
@@ -254,7 +442,7 @@
 			setStatus("Responses could not be loaded right now.", "error");
 		} finally {
 			clearTimeout(timer);
-			results.setAttribute("aria-busy", "false");
+			status.setAttribute("aria-busy", "false");
 		}
 	}
 

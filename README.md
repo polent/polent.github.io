@@ -97,10 +97,14 @@ The renderer in [`src/static/js/webmentions.js`](src/static/js/webmentions.js) i
 deliberately not webmention.io's own embed script, because it applies rules that script
 does not:
 
-- Likes, reposts, bookmarks and RSVPs are shown **only as a total count** — somebody who
-  hearts a post on Mastodon did not agree to have their name republished here.
-- Replies show a name, a date and plain text. **No profile picture is ever loaded** from
-  any host; the coloured initial is drawn in CSS.
+- Likes, reposts, bookmarks and RSVPs are shown as a facepile — picture, link and name —
+  deduplicated per person, counted by distinct person, and capped at 24 faces plus a `+N`
+  chip so a syndicated post cannot fire hundreds of image requests.
+- Profile pictures are requested **only when the host is exactly `avatars.webmention.io`**,
+  webmention.io's own proxy. Roughly a tenth of `author.photo` values point somewhere else
+  (a personal domain, `cdn.bsky.app`); those are dropped and a CSS initial stands in. That
+  allowlist is the whole reason "exactly one third party" stays literally true.
+- Replies show a name, a date and plain text.
 - Reply content is inserted as text, never as markup, so a reply cannot make the reader's
   browser contact a third site.
 
