@@ -17,9 +17,7 @@ figureRecipe:
   caption: "Miso-Ginger Umami Arancini"
   imageSrc: "./src/media/2026-05-10-miso-ginger-umami-arancini-3407.png"
   imageTitle: "Miso-Ginger Umami Arancini"
-  imageAlt: "Ciao! To capture the soul of my fusion creation for everyone to see, here is the alt text:
-
-**Golden panko-crusted miso arancini with creamy risotto and vegan cheese, topped with scallions and sesame on a minimalist ceramic plate.**"
+  imageAlt: "Golden panko-crusted miso arancini with creamy risotto and vegan cheese, topped with scallions and sesame on a minimalist ceramic plate."
   loading: "eager"
 ---
 
