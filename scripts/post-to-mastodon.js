@@ -9,7 +9,8 @@
 //   node scripts/post-to-mastodon.js --dry-run --since HEAD~10
 //   node scripts/post-to-mastodon.js --file src/content/posts/2026-09-16-foo-1234.md
 //
-// Env: MASTODON (access token, write:statuses), MASTODON_SERVER, BEFORE_SHA (CI).
+// Env: MASTODON (access token, write:statuses + write:media), MASTODON_SERVER,
+// BEFORE_SHA (CI). Without write:media the recipe still posts, text-only.
 
 const fs = require("node:fs");
 const path = require("node:path");
@@ -38,6 +39,11 @@ const RATE_LIMIT_DELAY_MS = 3000;
 const BACKOFFS_MS = [2000, 8000];
 const MAX_RATE_LIMIT_WAIT_MS = 60000;
 const VISIBILITIES = new Set(["public", "unlisted", "private", "direct"]);
+const MEDIA_TYPES = { ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg" };
+const MAX_IMAGE_BYTES = 16 * 1024 * 1024; // Mastodon's default image_size_limit
+const MAX_ALT_CHARS = 1500;
+const MEDIA_POLL_MS = 2000;
+const MEDIA_PROCESSING_TIMEOUT_MS = 30000;
 
 /**
  * @typedef {"public" | "unlisted" | "private" | "direct"} Visibility
@@ -61,6 +67,13 @@ const VISIBILITIES = new Set(["public", "unlisted", "private", "direct"]);
  * @property {string[]} tags in frontmatter order, the chef's name last
  * @property {string} intro the Introduction paragraph, as plain text
  * @property {string} url canonical URL on the live site
+ * @property {Image | null} image the hero image, or null if missing on disk
+ */
+
+/**
+ * @typedef {object} Image
+ * @property {string} file repo-relative path to the image source
+ * @property {string} alt the figure's alt text, used as the media description
  */
 
 /**
@@ -265,7 +278,31 @@ function parsePost(file) {
 	// carries no date. Getting this wrong links every post at a 404.
 	const slug = path.basename(file, ".md").replace(/^\d{4}-\d{2}-\d{2}-/, "");
 
-	return { file, slug, title: titleMatch[1], tags, intro, url: `${SITE}/recipes/${slug}/` };
+	return {
+		file,
+		slug,
+		title: titleMatch[1],
+		tags,
+		intro,
+		url: `${SITE}/recipes/${slug}/`,
+		image: parseImage(frontmatter),
+	};
+}
+
+/**
+ * A missing image is not an error: the toot is still worth posting without it.
+ *
+ * @param {string} frontmatter
+ * @returns {Image | null}
+ */
+function parseImage(frontmatter) {
+	const src = /^\s+imageSrc:\s*"(.*)"\s*$/m.exec(frontmatter);
+	if (!src) return null;
+	// imageSrc is "./src/media/…", relative to the repo root this runs from.
+	const file = path.posix.normalize(src[1]);
+	if (!MEDIA_TYPES[path.extname(file).toLowerCase()] || !fs.existsSync(file)) return null;
+	const alt = /^\s+imageAlt:\s*"(.*)"\s*$/m.exec(frontmatter);
+	return { file, alt: alt ? alt[1] : "" };
 }
 
 /**
@@ -386,40 +423,33 @@ function retryDelayFor(res, attempt, rateLimited) {
 }
 
 /**
+ * @param {string} token
+ * @returns {Record<string, string>}
+ */
+function baseHeaders(token) {
+	return {
+		Authorization: `Bearer ${token}`,
+		"User-Agent": `recipe.polente.de syndication (+${SITE})`,
+	};
+}
+
+/**
  * Retries 5xx and network errors, waits out a single 429, and marks 401/403
  * fatal so the caller stops rather than repeating a config error per recipe.
  *
- * @param {object} args
- * @param {string} args.server normalised origin, no trailing slash
- * @param {string} args.token Mastodon access token with write:statuses
- * @param {string} args.status composed text, already known to fit
- * @param {string} args.url canonical recipe URL; also keys the idempotency header
- * @param {Visibility} args.visibility
- * @returns {Promise<{id: string, url: string}>} the created status
+ * @param {string} target
+ * @param {RequestInit} init
+ * @returns {Promise<{status: number, body: any}>} any 2xx, with its parsed JSON
  * @throws {Error & {fatal?: boolean}}
  */
-async function postStatus({ server, token, status, url, visibility }) {
-	const target = `${server}/api/v1/statuses`;
-	const init = {
-		method: "POST",
-		headers: {
-			Authorization: `Bearer ${token}`,
-			"Content-Type": "application/json",
-			// Deterministic per recipe: a re-run inside Mastodon's window returns the
-			// existing status instead of creating a duplicate.
-			"Idempotency-Key": crypto.createHash("sha256").update(url).digest("hex"),
-			"User-Agent": `recipe.polente.de syndication (+${SITE})`,
-		},
-		body: JSON.stringify({ status, visibility, language: "en" }),
-	};
-
+async function request(target, init) {
 	let rateLimited = false;
 
 	for (let attempt = 0; ; attempt++) {
 		const res = await attemptFetch(target, init, attempt);
 		if (!res) continue; // network error, already waited
 
-		if (res.ok) return res.json();
+		if (res.ok) return { status: res.status, body: await res.json() };
 
 		const detail = errorDetail(await res.text());
 		// A bad token would fail identically for every remaining recipe.
@@ -434,6 +464,75 @@ async function postStatus({ server, token, status, url, visibility }) {
 		console.warn(`${LOG} ${res.status} from server, retrying in ${Math.round(delay / 1000)}s`);
 		await sleep(delay);
 	}
+}
+
+/**
+ * @param {object} args
+ * @param {string} args.server normalised origin, no trailing slash
+ * @param {string} args.token Mastodon access token with write:statuses
+ * @param {string} args.status composed text, already known to fit
+ * @param {string} args.url canonical recipe URL; also keys the idempotency header
+ * @param {Visibility} args.visibility
+ * @param {string[]} args.mediaIds already-processed attachments, possibly none
+ * @returns {Promise<{id: string, url: string}>} the created status
+ * @throws {Error & {fatal?: boolean}}
+ */
+async function postStatus({ server, token, status, url, visibility, mediaIds }) {
+	const payload = { status, visibility, language: "en" };
+	if (mediaIds.length > 0) payload.media_ids = mediaIds;
+
+	const { body } = await request(`${server}/api/v1/statuses`, {
+		method: "POST",
+		headers: {
+			...baseHeaders(token),
+			"Content-Type": "application/json",
+			// Deterministic per recipe: a re-run inside Mastodon's window returns the
+			// existing status instead of creating a duplicate.
+			"Idempotency-Key": crypto.createHash("sha256").update(url).digest("hex"),
+		},
+		body: JSON.stringify(payload),
+	});
+	return body;
+}
+
+/**
+ * Mastodon answers 202 with `url: null` while it transcodes; a status that
+ * references unprocessed media is rejected, so this waits until `url` is set.
+ *
+ * @param {object} args
+ * @param {string} args.server normalised origin, no trailing slash
+ * @param {string} args.token Mastodon access token with write:media
+ * @param {Image} args.image
+ * @returns {Promise<string>} the media id, ready to attach
+ * @throws on any failure; the caller falls back to a text-only status
+ */
+async function uploadMedia({ server, token, image }) {
+	const { size } = fs.statSync(image.file);
+	if (size > MAX_IMAGE_BYTES) throw new Error(`image is ${size} bytes, over the upload limit`);
+
+	const form = new FormData();
+	const type = MEDIA_TYPES[path.extname(image.file).toLowerCase()];
+	form.append("file", await fs.openAsBlob(image.file, { type }), path.basename(image.file));
+	if (image.alt) form.append("description", Array.from(image.alt).slice(0, MAX_ALT_CHARS).join(""));
+
+	// No Content-Type: fetch has to set it itself to include the multipart boundary.
+	const headers = baseHeaders(token);
+	const { body: media } = await request(`${server}/api/v2/media`, {
+		method: "POST",
+		headers,
+		body: form,
+	});
+	if (media.url) return media.id;
+
+	const deadline = Date.now() + MEDIA_PROCESSING_TIMEOUT_MS;
+	while (Date.now() < deadline) {
+		await sleep(MEDIA_POLL_MS);
+		const { body } = await request(`${server}/api/v1/media/${media.id}`, { headers });
+		if (body.url) return media.id;
+	}
+	throw new Error(
+		`media ${media.id} still processing after ${MEDIA_PROCESSING_TIMEOUT_MS / 1000}s`,
+	);
 }
 
 /**
@@ -536,9 +635,42 @@ function reportDryRun(post, composed) {
 	const fit = `weight ${composed.weight}/${MAX_CHARS}, budget ${composed.budget}`;
 	console.log(`${LOG} ${post.url}`);
 	console.log(`${LOG} ${fit}, ${note}`);
+	if (post.image) {
+		const { size } = fs.statSync(post.image.file);
+		const mb = (size / 1024 / 1024).toFixed(1);
+		console.log(
+			`${LOG} image ${path.basename(post.image.file)} (${mb} MB), alt: "${post.image.alt}"`,
+		);
+		if (size > MAX_IMAGE_BYTES)
+			console.warn(`${LOG} image exceeds the upload limit; would post text-only`);
+		if (!post.image.alt) console.warn(`${LOG} image has no alt text`);
+	} else {
+		console.warn(`${LOG} image: none found; would post text-only`);
+	}
 	console.log("--- 8< ---");
 	console.log(composed.status);
 	console.log("--- >8 ---\n");
+}
+
+/**
+ * Never throws: a missing scope, oversized file or stuck transcode costs the
+ * toot its picture, not the toot itself.
+ *
+ * @param {{server: string, token: string}} config
+ * @param {Recipe} post
+ * @returns {Promise<string[]>} zero or one media id
+ */
+async function attachImage(config, post) {
+	if (!post.image) {
+		console.warn(`${LOG} ${post.slug}: no image found; posting text-only`);
+		return [];
+	}
+	try {
+		return [await uploadMedia({ ...config, image: post.image })];
+	} catch (err) {
+		console.warn(`${LOG} image upload failed for ${post.slug} (${err.message}); posting text-only`);
+		return [];
+	}
 }
 
 /**
@@ -555,6 +687,7 @@ async function publish(config, post, composed, visibility) {
 			status: composed.status,
 			url: post.url,
 			visibility,
+			mediaIds: await attachImage(config, post),
 		});
 		console.log(`${LOG} posted ${post.slug} -> ${created.url}`);
 		return null;

@@ -85,5 +85,9 @@ After a successful deploy, the `post-mastodon` job in `jekyll-gh-pages.yml` runs
 - Character budget assumes Mastodon's rule that any URL counts as 23 characters. Count code points
   (`Array.from(s).length`), not `.length`. Hashtags strip non-alphanumerics because Mastodon
   terminates a tag at `-`.
+- Each toot attaches the post's `figureRecipe.imageSrc` with `imageAlt` as its description
+  (`POST /api/v2/media`, polled until processed). This needs the `write:media` scope on the token.
+  Any image failure (missing file, >16 MB, wrong scope, stuck transcode) logs a warning and posts
+  text-only. It is never fatal and never holds back the marker.
 - Guardrails against mass-posting the 226-post back catalogue: `--max` (5) and `--max-age-days` (7).
   Verify any change with `--dry-run` across every post before touching the live path.
