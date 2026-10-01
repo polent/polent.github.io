@@ -1,5 +1,8 @@
-/* Pagefind UI overrides — map to the site's existing tokens so search inherits the
-   minimalist palette/typography rather than Pagefind's default styling. */
+/* Pagefind Component UI overrides. The components reset inherited styles with
+   `all: initial` and use very high specificity selectors, so the --pf-* custom
+   properties are the only reliable hook. Map them to the site's tokens so search
+   inherits the minimalist palette/typography. Tokens already switch with
+   prefers-color-scheme, so dark mode follows without extra rules. */
 
 .recipe-search-intro {
 	max-width: var(--measure-default);
@@ -7,59 +10,51 @@
 }
 
 .recipe-search {
-	--pagefind-ui-scale: 0.9;
-	--pagefind-ui-primary: var(--color-interactive-default);
-	--pagefind-ui-text: var(--color-text-default);
-	--pagefind-ui-background: var(--color-surface-default);
-	--pagefind-ui-border: var(--color-border-default);
-	--pagefind-ui-tag: var(--color-highlight);
-	--pagefind-ui-border-width: 1px;
-	--pagefind-ui-border-radius: 0;
-	--pagefind-ui-image-border-radius: 0;
-	--pagefind-ui-image-box-ratio: 4 / 3;
-	--pagefind-ui-font: var(--font-family-sans);
+	--pf-text: var(--color-text-default);
+	--pf-text-secondary: color-mix(in srgb, var(--color-text-default) 80%, var(--color-surface-default));
+	--pf-text-muted: color-mix(in srgb, var(--color-text-default) 70%, var(--color-surface-default));
+	--pf-background: var(--color-surface-default);
+	--pf-border: var(--color-border-default);
+	--pf-border-focus: var(--color-interactive-focus);
+	/* --color-highlight is too loud in dark mode for panel and hover fills */
+	--pf-hover: color-mix(in srgb, var(--color-text-default) 6%, var(--color-surface-default));
+	--pf-mark: var(--color-text-default);
+	--pf-skeleton: var(--pf-hover);
+	--pf-skeleton-shine: var(--color-surface-default);
+	--pf-outline-focus: var(--color-interactive-focus-ring);
+	--pf-outline-width: 2px;
+	--pf-outline-offset: 2px;
+	--pf-font: var(--font-family-sans);
+	--pf-border-radius: 0;
+	--pf-shadow-sm: none;
+	--pf-shadow-md: none;
 
+	--pf-input-height: 2.75rem;
+	--pf-input-font-size: 1rem;
+	--pf-summary-font-size: 0.875rem;
+	--pf-result-title-font-size: 1rem;
+	--pf-result-excerpt-font-size: 0.875rem;
+	--pf-image-width: 6rem;
+	--pf-image-height: 4.5rem;
+	--pf-results-gap: var(--space-xs);
+
+	/* minmax(0, …) so long result excerpts cannot widen the page */
+	display: grid;
+	grid-template-columns: minmax(0, 1fr);
+	gap: var(--space-s);
 	margin-block-start: var(--space-s);
 }
 
-/* Pagefind's stylesheet sets background-color but no color on the input, so the
-   text falls back to the UA default and disappears against the dark surface in
-   dark mode. Set it explicitly. */
-.recipe-search .pagefind-ui__search-input {
-	color: var(--color-text-default);
-}
+/* Filters in a sidebar next to the results on wider screens, stacked above them
+   on small screens. */
+@media (--from-medium-viewport) {
+	.recipe-search {
+		grid-template-columns: minmax(10rem, 14rem) minmax(0, 1fr);
+		column-gap: var(--space-m);
+	}
 
-.recipe-search .pagefind-ui__search-input::placeholder {
-	color: var(--color-text-default);
-	opacity: 0.6;
-}
-
-/* Match focus styling to the rest of the site */
-.recipe-search .pagefind-ui__search-input:focus,
-.recipe-search .pagefind-ui__search-input:focus-visible {
-	outline: 2px solid var(--color-interactive-focus-ring);
-	outline-offset: 2px;
-}
-
-/* Result titles use the site's link colour */
-.recipe-search .pagefind-ui__result-link {
-	color: var(--color-interactive-default);
-	text-decoration: underline;
-	text-decoration-thickness: 1px;
-	text-underline-offset: 0.15em;
-}
-
-.recipe-search .pagefind-ui__result-link:hover {
-	color: var(--color-interactive-hover);
-}
-
-/* Tighter result spacing */
-.recipe-search .pagefind-ui__result {
-	padding-block: var(--space-xs);
-	border-block-end: 1px solid var(--color-border-default);
-}
-
-/* Filters panel: keep the chef/cuisine facets restrained */
-.recipe-search .pagefind-ui__filter-panel {
-	margin-block-end: var(--space-m);
+	.recipe-search__input,
+	.recipe-search__summary {
+		grid-column: 1 / -1;
+	}
 }
