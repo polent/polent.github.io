@@ -30,7 +30,7 @@ module.exports = {
 	],
 	// Public embed key from the EchoThread dashboard. Empty means no comments section.
 	echothread: {
-		apiKey: "",
+		apiKey: "uGiXHiQBal_LRHaNrEOiXN3vGb5Pw2DwJJMq_NQswIM",
 	},
 	og: {
 		locale: "en_GB",
