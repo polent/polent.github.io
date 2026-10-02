@@ -64,6 +64,7 @@ Recipe pages can display responses collected by webmention.io. Because that mean
 - `src/_includes/partials/comments.njk`, included in `post.njk` below the webmentions section. Renders only when `meta.echothread.apiKey` is set; a post opts out with `comments: false`.
 - Click to load, per page, no cookie. The HTML holds no echothread.io reference. `src/static/js/comments.js` injects `cdn.echothread.io/widget.js` only after the button press, sets `data-theme="dark"` under a dark colour scheme, and moves focus to the heading.
 - Identifier is `page.fileSlug`, URL uses `meta.canonicalDomain`. Changing either orphans existing threads.
+- Widget colours, font and radius follow site tokens via `--et-*` overrides on `#echothread .et-widget` in `comments.css`. The widget renders in light DOM; the id selector is what beats its own theme rules. Dark mode follows the tokens, no JS needed.
 - The `#comments` section of `privacy.md` describes operator, hosting, data and storage. Keep it in sync.
 
 ### Microformats2

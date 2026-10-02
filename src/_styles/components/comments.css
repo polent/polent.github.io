@@ -37,3 +37,28 @@
 #echothread:not(:empty) {
 	margin-block-start: var(--space-m);
 }
+
+/* Map EchoThread's variables to site tokens. The widget renders in light DOM with
+   its defaults on .et-widget; the id selector outranks its theme rules. Our tokens
+   switch with prefers-color-scheme, so the widget follows without JS. */
+#echothread .et-widget {
+	--et-color-bg: var(--color-surface-default);
+	--et-color-surface: color-mix(
+		in srgb,
+		var(--color-text-default) 5%,
+		var(--color-surface-default)
+	);
+	--et-color-border: var(--color-border-default);
+	--et-color-text: var(--color-text-default);
+	--et-color-muted: color-mix(
+		in srgb,
+		var(--color-text-default) 72%,
+		var(--color-surface-default)
+	);
+	--et-color-accent: var(--color-interactive-default);
+	--et-color-accent-hover: var(--color-interactive-hover);
+	--et-color-accent-text: var(--color-surface-default);
+	--et-font: var(--font-family-sans);
+	--et-font-size: 1rem;
+	--et-radius: 0;
+}

@@ -20,8 +20,9 @@
 	button.addEventListener(
 		"click",
 		() => {
-			/* The site follows prefers-color-scheme, so the widget does too. Read once at
-			   load time: the widget takes its theme from the attribute when it starts. */
+			/* Colours come from comments.css, which maps --et-* to site tokens. This
+			   attribute only sets the widget's light/dark mode for whatever it does not
+			   expose as a variable. Read once: the widget takes it when it starts. */
 			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
 				mount.dataset.theme = "dark";
 			}
