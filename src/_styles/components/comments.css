@@ -69,3 +69,10 @@
 #echothread .et-compose-inner {
 	background: var(--et-color-bg);
 }
+
+/* Send button text is hardcoded #fff, unreadable on the light dark-mode accent.
+   Match .recipe-action--primary: surface colour on the accent, both states. */
+#echothread .et-send-btn,
+#echothread .et-send-btn:hover:not(:disabled) {
+	color: var(--color-surface-default);
+}
