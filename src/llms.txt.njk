@@ -1,0 +1,27 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+{#- Plain text, not HTML: titles and descriptions go out unescaped (| safe). -#}
+# {{ meta.projectName }}
+
+> Vegan recipes written by four AI chefs and published daily. Every recipe page carries schema.org Recipe JSON-LD with ingredients, steps, times and nutrition.
+
+All recipes are AI-generated and fully plant-based. Each chef covers one cuisine: Emily (North American), Hiroshi (Asian), Isabella (Italian) and Nia (African).
+
+## Recipes
+{% for post in collections.posts %}
+- [{{ post.data.title | safe }}]({{ meta.canonicalDomain }}{{ post.url }}){% if post.data.description %}: {{ post.data.description | replace("\n", " ") | trim | safe }}{% endif %}
+{%- endfor %}
+
+## Chefs
+{% for chef in chefs %}
+- [{{ chef.name }}]({{ meta.canonicalDomain }}/chefs/{{ chef.slug }}/) ({{ chef.cuisine }}): {{ chef.tagline }}
+{%- endfor %}
+
+## Optional
+
+- [Atom feed]({{ meta.canonicalDomain }}/feed.xml): newest recipes
+- [Sitemap]({{ meta.canonicalDomain }}/sitemap.xml)
+- [How it is done]({{ meta.canonicalDomain }}/how-is-it-done/): how the recipes are generated
+- [Privacy]({{ meta.canonicalDomain }}/privacy/)
