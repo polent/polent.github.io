@@ -76,3 +76,25 @@
 #echothread .et-send-btn:hover:not(:disabled) {
 	color: var(--color-surface-default);
 }
+
+/* Secondary buttons hover to --et-color-surface, which is our faint card tint.
+   Give them a tint of the site's interactive hover colour instead, with the
+   icon or label in that colour, like .recipe-action:hover. */
+#echothread :is(
+	.et-sort-toggle,
+	.et-compose-cancel,
+	.et-format-btn,
+	.et-image-btn,
+	.et-gif-btn,
+	.et-emoji-btn,
+	.et-btn-ghost,
+	.et-like-btn,
+	.et-reply-btn,
+	.et-more-menu-btn,
+	.et-bell,
+	.et-permalink-btn
+):hover:not(:disabled) {
+	background: color-mix(in srgb, var(--color-interactive-hover) 15%, var(--color-surface-default));
+	/* !important: the widget forces its text colour on the sort toggle and bell. */
+	color: var(--color-interactive-hover) !important;
+}
