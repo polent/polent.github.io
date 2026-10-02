@@ -48,7 +48,13 @@
 		var(--color-text-default) 5%,
 		var(--color-surface-default)
 	);
-	--et-color-border: var(--color-border-default);
+	/* The widget also uses this as a fill (format chips, dividers, skeletons,
+	   pressed buttons). Full strength brown is too heavy there, so soften it. */
+	--et-color-border: color-mix(
+		in srgb,
+		var(--color-border-default) 40%,
+		var(--color-surface-default)
+	);
 	--et-color-text: var(--color-text-default);
 	--et-color-muted: color-mix(
 		in srgb,
@@ -65,16 +71,35 @@
 	--et-radius: 0;
 }
 
+/* The dark border token is already a subtle grey. */
+@media (prefers-color-scheme: dark) {
+	#echothread .et-widget {
+		--et-color-border: var(--color-border-default);
+	}
+}
+
 /* The compose box background is hardcoded (#fff light, #0f172a dark). */
 #echothread .et-compose-inner {
 	background: var(--et-color-bg);
 }
 
-/* Send button text is hardcoded #fff, unreadable on the light dark-mode accent.
-   Match .recipe-action--primary: surface colour on the accent, both states. */
-#echothread .et-send-btn,
-#echothread .et-send-btn:hover:not(:disabled) {
+/* Match .recipe-action--primary: square, flat, surface colour text on the
+   accent. The widget hardcodes #fff text, an 8px radius, a glow and a lift. */
+#echothread .et-send-btn {
+	background: var(--color-interactive-default);
 	color: var(--color-surface-default);
+	box-shadow: none;
+}
+
+#echothread .et-send-btn:not(.et-send-btn--icon) {
+	border-radius: 0;
+}
+
+#echothread .et-send-btn:hover:not(:disabled) {
+	background: var(--color-interactive-hover);
+	color: var(--color-surface-default);
+	box-shadow: none;
+	transform: none;
 }
 
 /* Secondary buttons hover to --et-color-surface, which is our faint card tint.
