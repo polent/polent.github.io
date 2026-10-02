@@ -83,6 +83,14 @@
 	background: var(--et-color-bg);
 }
 
+/* The error box is hardcoded pink (#fee2e2), but the widget forces its text to
+   --et-color-text, so dark mode puts light text on pink. Tint our surface with
+   the widget's per-mode danger colour instead. */
+#echothread .et-message-error {
+	background: color-mix(in srgb, var(--et-color-danger, #ef4444) 10%, var(--et-color-bg));
+	border-color: color-mix(in srgb, var(--et-color-danger, #ef4444) 45%, var(--et-color-border));
+}
+
 /* Match .recipe-action--primary: square, flat, surface colour text on the
    accent. The widget hardcodes #fff text, an 8px radius, a glow and a lift. */
 #echothread .et-send-btn {
