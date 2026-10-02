@@ -1,0 +1,25 @@
+{# Comments via EchoThread, a third party hosted in the US. Nothing from echothread.io is in
+   this markup: /js/comments.js injects the widget script only after the reader clicks the
+   button, and only for this page. No cookie, no remembered choice. The widget reads the
+   data-* attributes on #echothread once its script has loaded. #}
+<section class="wrapper comments" id="comments" aria-labelledby="comments-title" data-pagefind-ignore>
+  <h2 class="comments__title" id="comments-title" tabindex="-1">Comments</h2>
+  <div class="comments__gate" data-comments-gate>
+    <p class="comments__text">
+      Comments are run by <span class="comments__service">EchoThread</span>, a service hosted in
+      the United States. Loading them sends your IP address and browser details to EchoThread.
+      <a href="/privacy/#comments">What this means</a>.
+    </p>
+    <button type="button" class="recipe-action recipe-action--primary" data-action="comments-load">
+      Load comments
+    </button>
+    <noscript><p class="comments__text">Comments need JavaScript.</p></noscript>
+  </div>
+  <div id="echothread"
+    data-api-key="{{ meta.echothread.apiKey }}"
+    data-page-url="{{ meta.canonicalDomain }}{{ page.url }}"
+    data-identifier="{{ page.fileSlug }}"
+    data-page-title="{{ title }}"></div>
+  <p class="comments__status" data-comments-status role="status" aria-live="polite"></p>
+</section>
+<script src="/js/comments.js" defer></script>
