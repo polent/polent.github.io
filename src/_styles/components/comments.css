@@ -57,8 +57,15 @@
 	);
 	--et-color-accent: var(--color-interactive-default);
 	--et-color-accent-hover: var(--color-interactive-hover);
-	--et-color-accent-text: var(--color-surface-default);
+	/* Accent coloured text on the background, not text on the accent. The widget
+	   writes its own value inline, so this one needs !important to win. */
+	--et-color-accent-text: var(--color-interactive-default) !important;
 	--et-font: var(--font-family-sans);
 	--et-font-size: 1rem;
 	--et-radius: 0;
+}
+
+/* The compose box background is hardcoded (#fff light, #0f172a dark). */
+#echothread .et-compose-inner {
+	background: var(--et-color-bg);
 }

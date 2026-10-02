@@ -20,12 +20,9 @@
 	button.addEventListener(
 		"click",
 		() => {
-			/* Colours come from comments.css, which maps --et-* to site tokens. This
-			   attribute only sets the widget's light/dark mode for whatever it does not
-			   expose as a variable. Read once: the widget takes it when it starts. */
-			if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-				mount.dataset.theme = "dark";
-			}
+			/* No data-theme on purpose. Colours come from comments.css. Without the
+			   attribute the widget reads the page background for light/dark and re-reads
+			   it on every prefers-color-scheme change. Setting it would lock the mode. */
 
 			/* Removing the focused button would drop focus to <body>. */
 			gate.remove();
