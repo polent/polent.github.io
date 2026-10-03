@@ -1,0 +1,133 @@
+/* Reader comments, loaded from EchoThread only after a click. Spacing mirrors
+   webmentions.css so the two response sections read as one block. The button reuses
+   .recipe-action. Uses existing tokens only. */
+
+.comments {
+	margin-block-start: var(--space-2xl);
+	padding-block-start: var(--space-l);
+	border-block-start: 1px solid var(--color-border-default);
+}
+
+.comments__title {
+	@extend %heading-2;
+	margin: 0;
+}
+
+.comments__title:focus {
+	outline: none;
+}
+
+.comments__text {
+	margin-block: var(--space-m) var(--space-s);
+	max-width: var(--measure-default);
+	font-size: var(--step-0);
+}
+
+.comments__service {
+	font-weight: 600;
+}
+
+.comments__status {
+	margin-block: var(--space-m) 0;
+	max-width: var(--measure-default);
+	font-size: var(--step-0);
+	opacity: 0.7;
+}
+
+#echothread:not(:empty) {
+	margin-block-start: var(--space-m);
+}
+
+/* Map EchoThread's variables to site tokens. The widget renders in light DOM with
+   its defaults on .et-widget; the id selector outranks its theme rules. Our tokens
+   switch with prefers-color-scheme, so the widget follows without JS. */
+#echothread .et-widget {
+	--et-color-bg: var(--color-surface-default);
+	--et-color-surface: color-mix(
+		in srgb,
+		var(--color-text-default) 5%,
+		var(--color-surface-default)
+	);
+	/* The widget also uses this as a fill (format chips, dividers, skeletons,
+	   pressed buttons). Full strength brown is too heavy there, so soften it. */
+	--et-color-border: color-mix(
+		in srgb,
+		var(--color-border-default) 40%,
+		var(--color-surface-default)
+	);
+	--et-color-text: var(--color-text-default);
+	--et-color-muted: color-mix(
+		in srgb,
+		var(--color-text-default) 72%,
+		var(--color-surface-default)
+	);
+	--et-color-accent: var(--color-interactive-default);
+	--et-color-accent-hover: var(--color-interactive-hover);
+	/* Accent coloured text on the background, not text on the accent. The widget
+	   writes its own value inline, so this one needs !important to win. */
+	--et-color-accent-text: var(--color-interactive-default) !important;
+	--et-font: var(--font-family-sans);
+	--et-font-size: 1rem;
+	--et-radius: 0;
+}
+
+/* The dark border token is already a subtle grey. */
+@media (prefers-color-scheme: dark) {
+	#echothread .et-widget {
+		--et-color-border: var(--color-border-default);
+	}
+}
+
+/* The compose box background is hardcoded (#fff light, #0f172a dark). */
+#echothread .et-compose-inner {
+	background: var(--et-color-bg);
+}
+
+/* The error box is hardcoded pink (#fee2e2), but the widget forces its text to
+   --et-color-text, so dark mode puts light text on pink. Tint our surface with
+   the widget's per-mode danger colour instead. */
+#echothread .et-message-error {
+	background: color-mix(in srgb, var(--et-color-danger, #ef4444) 10%, var(--et-color-bg));
+	border-color: color-mix(in srgb, var(--et-color-danger, #ef4444) 45%, var(--et-color-border));
+}
+
+/* Match .recipe-action--primary: square, flat, surface colour text on the
+   accent. The widget hardcodes #fff text, an 8px radius, a glow and a lift. */
+#echothread .et-send-btn {
+	background: var(--color-interactive-default);
+	color: var(--color-surface-default);
+	box-shadow: none;
+}
+
+#echothread .et-send-btn:not(.et-send-btn--icon) {
+	border-radius: 0;
+}
+
+#echothread .et-send-btn:hover:not(:disabled) {
+	background: var(--color-interactive-hover);
+	color: var(--color-surface-default);
+	box-shadow: none;
+	transform: none;
+}
+
+/* Secondary buttons hover to --et-color-surface, which is our faint card tint.
+   Give them a tint of the site's interactive hover colour instead, with the
+   icon or label in that colour, like .recipe-action:hover. */
+#echothread :is(
+	.et-sort-toggle,
+	.et-compose-cancel,
+	.et-format-btn,
+	.et-image-btn,
+	.et-gif-btn,
+	.et-emoji-btn,
+	.et-btn-ghost,
+	.et-like-btn,
+	.et-reply-btn,
+	.et-more-menu-btn,
+	.et-bell,
+	.et-permalink-btn
+):hover:not(:disabled) {
+	background: color-mix(in srgb, var(--color-interactive-hover) 15%, var(--color-surface-default));
+	/* !important: the widget forces its text colour on the sort toggle and bell. */
+	color: var(--color-interactive-hover) !important;
+}

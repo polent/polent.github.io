@@ -315,9 +315,18 @@
 	}
 }
 
-/* ≤ 26rem (416px): wordmark hides to keep the header on one row */
+/* ≤ 26rem (416px): wordmark hides to keep the header on one row. Visually only:
+   the logo is alt="", so the wordmark is the link's only accessible name. */
 @media (max-width: 26rem) {
 	.site-header__wordmark {
-		display: none;
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
 	}
 }

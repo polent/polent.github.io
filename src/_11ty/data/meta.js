@@ -28,6 +28,10 @@ module.exports = {
 			url: "https://hellinger.wtf/@recipes",
 		},
 	],
+	// Public embed key from the EchoThread dashboard. Empty means no comments section.
+	echothread: {
+		apiKey: "uGiXHiQBal_LRHaNrEOiXN3vGb5Pw2DwJJMq_NQswIM",
+	},
 	og: {
 		locale: "en_GB",
 		type: "website",

@@ -5,13 +5,14 @@ eleventyNavigation:
   title: Privacy
   order: 5
 title: "Privacy"
-description: "What this site stores on your device, and the one third-party service it can contact."
+description: "What this site stores on your device, and the two third-party services it contacts only when you ask."
 permalink: "/privacy/index.html"
 ---
 
 This site is a static weblog. There is no analytics, no tracking, no advertising and no
-third-party script running in the background. What follows is the complete list of what it
-stores and what it can contact.
+third-party script running in the background. Two third-party services exist, and each one is
+contacted only after you ask for it. What follows is the complete list of what this site stores
+and what it can contact.
 
 ## The one cookie
 
@@ -68,12 +69,37 @@ named. So:
 Use the **Reset my choice** button in the footer of any page. It deletes the cookie and
 brings the banner back.
 
+<h2 id="comments">Comments</h2>
+
+Each recipe has a comments section run by **EchoThread**, a service operated by VectraSEO LLC,
+Pennsylvania, USA. Comment data is stored with Amazon Web Services in the US East region.
+Transfers from the EU rely on the EU-US Data Privacy Framework and Standard Contractual Clauses.
+
+Nothing from EchoThread is part of the page. The comments load only when you press
+**Load comments**, and only on that one page. The choice is not remembered: no cookie is set,
+and the next recipe asks again.
+
+When you press the button, your browser downloads EchoThread's script from
+`cdn.echothread.io` and talks to EchoThread directly. That reveals your **IP address**, your
+browser's user-agent string and the address of the recipe you are reading.
+
+If you sign in and write a comment, EchoThread stores your display name, email address,
+avatar, and the IP address and user agent of the submission. Signing in can go through Google,
+GitHub, X, Facebook or Discord, which then also learn that you signed in. The widget keeps a
+login token and interface state in your browser's local and session storage.
+
+This site never receives any of that. To access, correct, export or delete your data, write to
+`privacy@echothread.io`. See [EchoThread's privacy policy](https://echothread.io/privacy).
+
 ## Stored on your device
 
 The cooking assistant on recipe pages uses your browser's local storage to remember which
 ingredients you have ticked off and which step you were on. It is keyed per recipe, it
 never leaves your device, and it is not transmitted anywhere. Clearing your browser's site
 data removes it.
+
+If you load comments, EchoThread stores a login token and interface state in local and session
+storage, as described under [Comments](#comments). Clearing site data removes that too.
 
 ## Hosting
 

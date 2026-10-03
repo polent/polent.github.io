@@ -60,6 +60,13 @@ Recipe pages can display responses collected by webmention.io. Because that mean
 - The mount point in `post.njk` uses `meta.canonicalDomain` (not `meta.domain`), so `serve` queries the production target instead of `localhost`.
 - `src/content/privacy.md` documents all of the above for readers and must stay in sync.
 
+### Comments (EchoThread)
+- `src/_includes/partials/comments.njk`, included in `post.njk` below the webmentions section. Renders only when `meta.echothread.apiKey` is set; a post opts out with `comments: false`.
+- Click to load, per page, no cookie. The HTML holds no echothread.io reference. `src/static/js/comments.js` injects `cdn.echothread.io/widget.js` only after the button press and moves focus to the heading. It sets no `data-theme`: left alone, the widget reads the page background for light/dark and re-reads it on scheme change. Setting it locks the mode.
+- Identifier is `page.fileSlug`, URL uses `meta.canonicalDomain`. Changing either orphans existing threads.
+- Widget colours, font and radius follow site tokens via `--et-*` overrides on `#echothread .et-widget` in `comments.css`. The widget renders in light DOM; the id selector is what beats its own theme rules. Some widget colours are hardcoded per mode (e.g. `.et-compose-inner`) and need their own override. `--et-color-accent-text` is set inline by the widget, so ours carries `!important`.
+- The `#comments` section of `privacy.md` describes operator, hosting, data and storage. Keep it in sync.
+
 ### Microformats2
 Posts are marked up as `h-entry` (`p-name`, `dt-published`, `e-content`, `u-url`, `p-summary`, `u-photo`, `p-category`) with a `p-author h-card` linking to the chef page. Listing pages (`list.njk`, `tag-results.njk`, `chef.njk`, `content/index.njk`, `layouts/index.njk`) use `h-feed` + `h-entry`. Chef page headers are `h-card`, and `site-footer.njk` carries the representative `h-card` for the domain. Values with no visible text use `<data class="…" value="…">`.
 

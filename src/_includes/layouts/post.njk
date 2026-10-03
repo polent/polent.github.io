@@ -168,6 +168,12 @@
   </section>
   <script src="/js/webmentions.js" defer></script>
 
+  {# Renders only once an EchoThread key is set in meta.js. Opt out per post with
+     `comments: false` in front matter. #}
+  {% if meta.echothread.apiKey and comments != false %}
+    {% include "partials/comments.njk" %}
+  {% endif %}
+
   {% if isRenderableRecipe %}
     <dialog id="cook-mode" class="cook-mode" aria-labelledby="cook-mode-title">
       <div class="cook-mode__frame">
