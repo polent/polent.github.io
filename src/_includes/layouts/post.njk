@@ -1,7 +1,7 @@
 {% extends "layouts/base.njk" %}
 
 {# Compute recipe data once at template scope so both head and content can use it #}
-{% set recipeUrl = meta.domain + page.url %}
+{% set recipeUrl = meta.canonicalDomain + page.url %}
 {% set recipeData = content | extractRecipeData(recipeUrl) %}
 {% set isRenderableRecipe = isRecipe and (recipeData.ingredients | length) and (recipeData.instructions | length) %}
 
@@ -32,7 +32,7 @@
   {% if isRenderableRecipe %}
     {% set recipeImage = null %}
     {% if recipeData.image %}
-      {% set recipeImage = meta.domain + recipeData.image %}
+      {% set recipeImage = meta.canonicalDomain + recipeData.image %}
     {% endif %}
     {% set recipeKeywords = null %}
     {% if tags and (tags | length) %}
@@ -47,9 +47,9 @@
       "datePublished": page.date | dateToYYYYMMDD,
       "author": {
         "@type": "Person",
-        "@id": meta.domain + "/chefs/" + recipeAuthorSlug + "/",
+        "@id": meta.canonicalDomain + "/chefs/" + recipeAuthorSlug + "/",
         "name": recipeAuthor,
-        "url": meta.domain + "/chefs/" + recipeAuthorSlug + "/"
+        "url": meta.canonicalDomain + "/chefs/" + recipeAuthorSlug + "/"
       },
       "image": recipeImage,
       "recipeYield": recipeData.yield,
@@ -70,8 +70,8 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.domain + "/" },
-        { "@type": "ListItem", "position": 2, "name": "Recipes", "item": meta.domain + "/recipes/" },
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.canonicalDomain + "/" },
+        { "@type": "ListItem", "position": 2, "name": "Recipes", "item": meta.canonicalDomain + "/recipes/" },
         { "@type": "ListItem", "position": 3, "name": title, "item": recipeUrl }
       ]
     } %}
@@ -104,9 +104,9 @@
         {% endif %}
       </p>
       {# Microformats values that carry no visible text of their own. #}
-      <data class="u-url" value="{{ meta.domain }}{{ page.url }}"></data>
+      <data class="u-url" value="{{ meta.canonicalDomain }}{{ page.url }}"></data>
       {% if description %}<data class="p-summary" value="{{ description }}"></data>{% endif %}
-      {% if recipeData.image %}<data class="u-photo" value="{{ meta.domain }}{{ recipeData.image }}"></data>{% endif %}
+      {% if recipeData.image %}<data class="u-photo" value="{{ meta.canonicalDomain }}{{ recipeData.image }}"></data>{% endif %}
       {% if tags %}
         <ul class="tags-list">
           {% for item in tags %}

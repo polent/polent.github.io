@@ -1,6 +1,6 @@
 {% extends "layouts/base.njk" %}
 
-{% set chefUrl = meta.domain + "/chefs/" + chef.slug + "/" %}
+{% set chefUrl = meta.canonicalDomain + "/chefs/" + chef.slug + "/" %}
 {% set chefRecipes = collections[chef.tagName] or [] %}
 
 {% block head %}
@@ -24,8 +24,8 @@
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.domain + "/" },
-      { "@type": "ListItem", "position": 2, "name": "Chefs", "item": meta.domain + "/our-chefs/" },
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": meta.canonicalDomain + "/" },
+      { "@type": "ListItem", "position": 2, "name": "Chefs", "item": meta.canonicalDomain + "/our-chefs/" },
       { "@type": "ListItem", "position": 3, "name": chef.name, "item": chefUrl }
     ]
   } %}

@@ -3,12 +3,17 @@ permalink: /sitemap.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {%- for entry in collections.all | sitemapUrls(collections) %}
 	<url>
 		<loc>{{ meta.canonicalDomain }}{{ entry.url | url }}</loc>
 		{%- if entry.lastmod %}
 		<lastmod>{{ entry.lastmod }}</lastmod>
+		{%- endif %}
+		{%- if entry.image %}
+		<image:image>
+			<image:loc>{{ meta.canonicalDomain }}{{ entry.image }}</image:loc>
+		</image:image>
 		{%- endif %}
 	</url>
 {%- endfor %}

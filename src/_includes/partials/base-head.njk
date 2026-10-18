@@ -5,8 +5,8 @@
 {# Remove any title duplication #}
 {% if title === meta.projectName %} {% set pageTitle = title %} {% endif %}
 
-{# URL formats #}
-{% set thisUrl = meta.domain + page.url %}
+{# URL formats: always use canonicalDomain for canonical and social share URLs #}
+{% set thisUrl = meta.canonicalDomain + page.url %}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,9 +36,8 @@
   {% if meta.og.locale %}
     <meta property="og:locale" content="{{ meta.og.locale }}">
   {% endif %}
-  {% if meta.og.type %}
-    <meta property="og:type" content="{{ meta.og.type }}">
-  {% endif %}
+  {% set ogType = (og and og.type) or (meta.og and meta.og.type) or 'website' %}
+  <meta property="og:type" content="{{ ogType }}">
   {% set ogImageUrl = meta.og.image and meta.og.image.rel %}
   {% set ogImageAlt = meta.og.image and meta.og.image.alt %}
   {% if isRecipe %}
@@ -49,9 +48,11 @@
     {% endif %}
   {% endif %}
   {% if ogImageUrl %}
-    <meta property="og:image" content="{{ meta.domain }}{{ ogImageUrl }}">
+    <meta property="og:image" content="{{ meta.canonicalDomain }}{{ ogImageUrl }}">
+    <meta name="twitter:image" content="{{ meta.canonicalDomain }}{{ ogImageUrl }}">
     {% if ogImageAlt %}
       <meta property="og:image:alt" content="{{ ogImageAlt }}">
+      <meta name="twitter:image:alt" content="{{ ogImageAlt }}">
     {% endif %}
   {% endif %}
 {% endif %}

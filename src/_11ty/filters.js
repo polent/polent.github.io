@@ -1,3 +1,5 @@
+const fs = require("node:fs");
+const path = require("node:path");
 const { DateTime } = require("luxon");
 const { execFileSync } = require("node:child_process");
 const chefs = require("./data/chefs.js");
@@ -63,7 +65,7 @@ function squash(text) {
 	// remove short and less meaningful words
 	var result = dedupedStr.replace(
 		/\b(\.|\,|the|a|an|and|am|you|I|to|if|of|off|me|my|on|in|it|is|at|as|we|do|be|has|but|was|so|no|not|or|up|for)\b/gi,
-		""
+		"",
 	);
 	//remove newlines, and punctuation
 	result = result.replace(/\.|\,|\?|-|-|\n/g, "");
@@ -135,7 +137,10 @@ const wrapListItemsWithCheckboxes = sectionHtml => {
 		const idx = ingredientCounter++;
 		let newAttrs = attrs || "";
 		if (/class=/.test(newAttrs)) {
-			newAttrs = newAttrs.replace(/class=(['"])([^'"]*)\1/, (_, q, cls) => `class=${q}${cls} ingredient${q}`);
+			newAttrs = newAttrs.replace(
+				/class=(['"])([^'"]*)\1/,
+				(_, q, cls) => `class=${q}${cls} ingredient${q}`,
+			);
 		} else {
 			newAttrs = `${newAttrs} class="ingredient"`;
 		}
@@ -144,7 +149,10 @@ const wrapListItemsWithCheckboxes = sectionHtml => {
 
 	modifiedHtml = modifiedHtml.replace(/<ul(\s[^>]*)?>/i, (m, attrs = "") => {
 		if (/class=/.test(attrs)) {
-			return m.replace(/class=(['"])([^'"]*)\1/, (_, q, cls) => `class=${q}${cls} ingredients-list${q}`);
+			return m.replace(
+				/class=(['"])([^'"]*)\1/,
+				(_, q, cls) => `class=${q}${cls} ingredients-list${q}`,
+			);
 		}
 		return `<ul${attrs || ""} class="ingredients-list">`;
 	});
@@ -176,7 +184,10 @@ const extractListItemsWithIds = (sectionHtml, idPrefix = "step") => {
 
 	// Promote <ul> to <ol> so the instructions list is semantically ordered.
 	// The recipe authoring convention uses * bullets, but steps are inherently ordered.
-	modifiedHtml = modifiedHtml.replace(/<ul(\s[^>]*)?>([\s\S]*?)<\/ul>/i, (_, attrs, inner) => `<ol${attrs || ""}>${inner}</ol>`);
+	modifiedHtml = modifiedHtml.replace(
+		/<ul(\s[^>]*)?>([\s\S]*?)<\/ul>/i,
+		(_, attrs, inner) => `<ol${attrs || ""}>${inner}</ol>`,
+	);
 
 	return { items, modifiedHtml };
 };
@@ -184,7 +195,9 @@ const extractListItemsWithIds = (sectionHtml, idPrefix = "step") => {
 // Extract raw preparation time text from nutrition table (e.g. "1 hour 30 minutes")
 const extractPrepTimeText = html => {
 	if (!html) return null;
-	const prepTimeMatch = html.match(/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
+	const prepTimeMatch = html.match(
+		/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i,
+	);
 	if (!prepTimeMatch || !prepTimeMatch[1]) return null;
 	return prepTimeMatch[1].trim();
 };
@@ -194,107 +207,117 @@ const extractPrepTime = html => {
 	if (!html) return null;
 
 	// Look for "Preparation Time" row in table
-	const prepTimeMatch = html.match(/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
+	const prepTimeMatch = html.match(
+		/<th[^>]*>\s*Preparation Time\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i,
+	);
 	if (!prepTimeMatch || !prepTimeMatch[1]) return null;
 
 	const timeText = prepTimeMatch[1].trim().toLowerCase();
-	
+
 	// Convert text like "10 minutes" to "PT10M", "1 hour 30 minutes" to "PT1H30M"
 	let hours = 0;
 	let minutes = 0;
-	
+
 	// Extract hours
 	const hourMatch = timeText.match(/(\d+)\s*hours?/);
 	if (hourMatch) hours = parseInt(hourMatch[1]);
-	
+
 	// Extract minutes
 	const minuteMatch = timeText.match(/(\d+)\s*minutes?/);
 	if (minuteMatch) minutes = parseInt(minuteMatch[1]);
-	
+
 	if (hours === 0 && minutes === 0) return null;
-	
-	return `PT${hours > 0 ? hours + 'H' : ''}${minutes > 0 ? minutes + 'M' : ''}`;
+
+	return `PT${hours > 0 ? hours + "H" : ""}${minutes > 0 ? minutes + "M" : ""}`;
 };
 
 // Extract nutrition information from nutrition table
 const extractNutrition = html => {
 	if (!html) return null;
-	
+
 	// Look for "Nutritionfacts" row in table
-	const nutritionMatch = html.match(/<th[^>]*>\s*Nutritionfacts\s*<\/th>\s*<td[^>]*>([\s\S]*?)<\/td>/i);
+	const nutritionMatch = html.match(
+		/<th[^>]*>\s*Nutritionfacts\s*<\/th>\s*<td[^>]*>([\s\S]*?)<\/td>/i,
+	);
 	if (!nutritionMatch || !nutritionMatch[1]) return null;
-	
+
 	const nutritionText = stripHtml(nutritionMatch[1]).trim();
-	
+
 	// If nutrition info is empty, just says it's a source, or contains "None", return null
-	if (!nutritionText || nutritionText.toLowerCase() === "none" || nutritionText.includes("source of") || nutritionText.includes("rich in")) {
+	if (
+		!nutritionText ||
+		nutritionText.toLowerCase() === "none" ||
+		nutritionText.includes("source of") ||
+		nutritionText.includes("rich in")
+	) {
 		return null;
 	}
-	
+
 	const nutrition = {
-		"@type": "NutritionInformation"
+		"@type": "NutritionInformation",
 	};
-	
+
 	// Parse each nutrition field
 	const caloriesMatch = nutritionText.match(/calories[:\s]+(\d+(?:\.\d+)?)/i);
 	if (caloriesMatch) {
 		nutrition.calories = caloriesMatch[1];
 	}
-	
+
 	const proteinMatch = nutritionText.match(/protein[:\s]+(\d+(?:\.\d+)?)\s*g/i);
 	if (proteinMatch) {
 		nutrition.proteinContent = `${proteinMatch[1]} g`;
 	}
-	
-	const fatMatch = nutritionText.match(/total\s+fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) || 
-	                nutritionText.match(/fat[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+
+	const fatMatch =
+		nutritionText.match(/total\s+fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/fat[:\s]+(\d+(?:\.\d+)?)\s*g/i);
 	if (fatMatch) {
 		nutrition.fatContent = `${fatMatch[1]} g`;
 	}
-	
+
 	const carbMatch = nutritionText.match(/(?:total\s+)?carbohydrate[:\s]+(\d+(?:\.\d+)?)\s*g/i);
 	if (carbMatch) {
 		nutrition.carbohydrateContent = `${carbMatch[1]} g`;
 	}
-	
+
 	const fiberMatch = nutritionText.match(/(?:dietary\s+)?fiber[:\s]+(\d+(?:\.\d+)?)\s*g/i);
 	if (fiberMatch) {
 		nutrition.fiberContent = `${fiberMatch[1]} g`;
 	}
-	
+
 	const sodiumMatch = nutritionText.match(/sodium[:\s]+(\d+(?:\.\d+)?)\s*mg/i);
 	if (sodiumMatch) {
 		nutrition.sodiumContent = `${sodiumMatch[1]} mg`;
 	}
-	
+
 	const sugarMatch = nutritionText.match(/sugar[:\s]+(\d+(?:\.\d+)?)\s*g/i);
 	if (sugarMatch) {
 		nutrition.sugarContent = `${sugarMatch[1]} g`;
 	}
-	
+
 	// Return null if no nutrition fields were found
 	if (Object.keys(nutrition).length === 1) {
 		return null;
 	}
-	
+
 	return nutrition;
 };
 
 // Extract yield information from nutrition table
 const extractYield = html => {
 	if (!html) return null;
-	
+
 	// Look for "Yield" row in table
 	const yieldMatch = html.match(/<th[^>]*>\s*Yield\s*<\/th>\s*<td[^>]*>\s*([^<]+)\s*<\/td>/i);
 	if (!yieldMatch || !yieldMatch[1]) return null;
-	
+
 	const yieldText = stripHtml(yieldMatch[1]).trim();
-	
+
 	// If yield info is empty or "none", return null
 	if (!yieldText || yieldText.toLowerCase() === "none") {
 		return null;
 	}
-	
+
 	return yieldText;
 };
 
@@ -316,9 +339,24 @@ function extractRecipeData(html, recipeUrl) {
 		return result;
 	}
 
-	const imageMatch = html.match(/<img[^>]*src=['"]([^'"]+)['"][^>]*>/i);
-	if (imageMatch) {
-		result.image = imageMatch[1];
+	// Prefer highest-resolution JPEG from img srcset or fallback src
+	const srcsetMatch =
+		html.match(/<img[^>]*srcset=['"]([^'"]+)['"][^>]*>/i) ||
+		html.match(/<source[^>]*type=['"]image\/(?:jpeg|webp)['"][^>]*srcset=['"]([^'"]+)['"][^>]*>/i);
+	if (srcsetMatch) {
+		const candidates = srcsetMatch[1]
+			.split(",")
+			.map(s => s.trim().split(/\s+/)[0])
+			.filter(Boolean);
+		if (candidates.length > 0) {
+			result.image = candidates[candidates.length - 1];
+		}
+	}
+	if (!result.image) {
+		const imageMatch = html.match(/<img[^>]*src=['"]([^'"]+)['"][^>]*>/i);
+		if (imageMatch) {
+			result.image = imageMatch[1];
+		}
 	}
 
 	// Extract prep time and nutrition early
@@ -354,14 +392,19 @@ function extractRecipeData(html, recipeUrl) {
 
 	const ingredientsSection = headings.find(heading => heading.title === "ingredients");
 	if (ingredientsSection) {
-		const { items: ingredientItems, modifiedHtml: modifiedIngredientsHtml } = wrapListItemsWithCheckboxes(ingredientsSection.sectionHtml);
+		const { items: ingredientItems, modifiedHtml: modifiedIngredientsHtml } =
+			wrapListItemsWithCheckboxes(ingredientsSection.sectionHtml);
 		result.ingredients = ingredientItems;
-		result.modifiedHtml = result.modifiedHtml.replace(ingredientsSection.sectionHtml, modifiedIngredientsHtml);
+		result.modifiedHtml = result.modifiedHtml.replace(
+			ingredientsSection.sectionHtml,
+			modifiedIngredientsHtml,
+		);
 	}
 
 	const instructionsSection = headings.find(heading => heading.title === "instructions");
 	if (instructionsSection) {
-		const { items: instructionTexts, modifiedHtml: modifiedInstructionsHtml } = extractListItemsWithIds(instructionsSection.sectionHtml, "step");
+		const { items: instructionTexts, modifiedHtml: modifiedInstructionsHtml } =
+			extractListItemsWithIds(instructionsSection.sectionHtml, "step");
 		result.instructions = instructionTexts.map((text, index) => {
 			const stepNumber = index + 1;
 			const stepObject = {
@@ -373,9 +416,12 @@ function extractRecipeData(html, recipeUrl) {
 			}
 			return stepObject;
 		});
-		
+
 		// Update the modified HTML in the result
-		result.modifiedHtml = result.modifiedHtml.replace(instructionsSection.sectionHtml, modifiedInstructionsHtml);
+		result.modifiedHtml = result.modifiedHtml.replace(
+			instructionsSection.sectionHtml,
+			modifiedInstructionsHtml,
+		);
 	}
 
 	return result;
@@ -516,6 +562,35 @@ function sitemapDate(value) {
 
 // Turn `collections.all` into the deduplicated list of indexable URLs for the
 // sitemap. Paginated templates only contribute their first page to a
+function extractImageFromItem(item) {
+	if (!item || !item.data) return null;
+	const figure = item.data.figureRecipe;
+	if (figure && figure.imageSrc) {
+		const name = path.basename(figure.imageSrc, path.extname(figure.imageSrc));
+		const widths = [1600, 1280, 1248, 960, 640];
+		for (const w of widths) {
+			if (fs.existsSync(`dist/img/${name}-${w}.jpeg`)) {
+				return `/img/${name}-${w}.jpeg`;
+			}
+		}
+		return `/img/${name}-1280.jpeg`;
+	}
+	const chef = item.data.chef;
+	if (chef && chef.portrait) {
+		const name = path.basename(chef.portrait, path.extname(chef.portrait));
+		const widths = [1600, 1280, 960, 640, 480];
+		for (const w of widths) {
+			if (fs.existsSync(`dist/img/${name}-${w}.jpeg`)) {
+				return `/img/${name}-${w}.jpeg`;
+			}
+		}
+		return `/img/${name}-640.jpeg`;
+	}
+	return null;
+}
+
+// Turn `collections.all` into the deduplicated list of indexable URLs for the
+// sitemap. Paginated templates only contribute their first page to a
 // collection, so expand `pagination.hrefs` to reach every list/tag/chef page.
 // Anything marked `robots: noindex` is skipped so the sitemap never advertises
 // a URL the page itself tells Google to drop.
@@ -540,7 +615,7 @@ function sitemapUrls(collection, collections) {
 		// data. Let each page speak for itself.
 		if (!Array.isArray(hrefs) || !hrefs.length || pagination.addAllPagesToCollections) {
 			if (item.url && !seen.has(item.url)) {
-				seen.set(item.url, fileDate);
+				seen.set(item.url, { date: fileDate, image: extractImageFromItem(item) });
 			}
 			continue;
 		}
@@ -555,10 +630,14 @@ function sitemapUrls(collection, collections) {
 			if (typeof entry === "string" && !tagIsIndexable(entry, collections)) {
 				return;
 			}
-			seen.set(url, declared || entryDate(entry, collections) || fileDate);
+			seen.set(url, { date: declared || entryDate(entry, collections) || fileDate, image: null });
 		});
 	}
-	return Array.from(seen, ([url, date]) => ({ url, lastmod: sitemapDate(date) }));
+	return Array.from(seen, ([url, info]) => {
+		const date = info && typeof info === "object" && "date" in info ? info.date : info;
+		const image = info && typeof info === "object" ? info.image : null;
+		return { url, lastmod: sitemapDate(date), image };
+	});
 }
 
 function toJson(value) {
