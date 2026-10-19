@@ -11,7 +11,7 @@ module.exports = {
 		process.env.ELEVENTY_RUN_MODE == "serve"
 			? "http://localhost:8080"
 			: "https://recipe.polente.de",
-	robots: "index, follow",
+	robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
 	themeColor: "#fefbdc",
 	backgroundColor: "#fefbdc",
 	author: {

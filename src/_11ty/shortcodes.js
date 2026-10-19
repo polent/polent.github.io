@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 
 // eleventy-img v7 is ESM-only; this config is CommonJS. Load it on first use and
 // cache the promise so the dynamic import happens once per build.
@@ -17,6 +18,11 @@ const imageOptions = {
 	formats: ["avif", "webp", "jpeg"],
 	urlPath: "/img/",
 	outputDir: "./dist/img/",
+	// Keep descriptive slug names for Google Image SEO instead of arbitrary hashes
+	filenameFormat: function (id, src, width, format) {
+		const name = path.basename(src, path.extname(src));
+		return `${name}-${width}.${format}`;
+	},
 	sharpAvifOptions: {
 		quality: 60,
 	},
@@ -36,7 +42,7 @@ const picture = async function (
 	alt,
 	loading = "lazy",
 	sizes = "(min-width: 64rem) 1024px, 100vw",
-	fetchpriority = undefined
+	fetchpriority = undefined,
 ) {
 	const Image = await loadImage();
 
@@ -45,7 +51,7 @@ const picture = async function (
 	const stats = await Image(src, { ...imageOptions, statsOnly: true });
 	const allExist = Object.values(stats)
 		.flat()
-		.every((s) => fs.existsSync(`${imageOptions.outputDir}${s.filename}`));
+		.every(s => fs.existsSync(`${imageOptions.outputDir}${s.filename}`));
 
 	// Skip expensive Sharp processing if all output files already exist (e.g. from CI cache)
 	const metadata = allExist ? stats : await Image(src, imageOptions);
@@ -66,7 +72,20 @@ const picture = async function (
 		imageAttributes.fetchpriority = resolvedFetchPriority;
 	}
 
-	return Image.generateHTML(metadata, imageAttributes);
+	let html = Image.generateHTML(metadata, imageAttributes);
+
+	// Ensure the fallback <img> src points to the highest-resolution JPEG for crawlers,
+	// social card scrapers, and schema extraction rather than the 320px thumbnail.
+	const fallbackFormat = metadata.jpeg || metadata.png || Object.values(metadata)[0];
+	if (fallbackFormat && fallbackFormat.length > 1) {
+		const lowsrc = fallbackFormat[0].url;
+		const highsrc = fallbackFormat[fallbackFormat.length - 1].url;
+		if (lowsrc && highsrc && lowsrc !== highsrc) {
+			html = html.replace(`src="${lowsrc}"`, `src="${highsrc}"`);
+		}
+	}
+
+	return html;
 };
 
 const figure = function (content, caption, className) {
