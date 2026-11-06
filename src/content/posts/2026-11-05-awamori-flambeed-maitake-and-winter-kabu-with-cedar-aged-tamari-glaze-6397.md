@@ -5,7 +5,7 @@ tags:
   - "shojin-ryori"
   - "vegan"
   - "maitake"
-  - "flambé"
+  - "flambe"
   - "japanese"
   - "gluten-free"
   - "umami"
