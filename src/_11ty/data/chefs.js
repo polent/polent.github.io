@@ -64,4 +64,34 @@ module.exports = [
 		signature:
 			"Vegan African — Ethiopian lentil stew, Moroccan vegetable tagine, millet-based grain bowls.",
 	},
+	{
+		name: "Jakob",
+		tagName: "Jakob",
+		slug: "jakob",
+		region: "Black Forest, Germany",
+		cuisine: "Central European",
+		cuisineSchema: "Central European",
+		portrait: "./src/media/chefs/jakob.jpg",
+		portraitAlt:
+			"Jakob in a bright, modern workshop-style kitchen with rustic wood counters, large fermentation jars on the shelves, and fresh root vegetables on the cutting board.",
+		tagline: "Root vegetables, fermentation, and modern rustic classics",
+		bio: "Jakob is a vegan chef from the Black Forest in Germany, dedicated to down-to-earth craftsmanship and the art of fermentation. He specialises in bringing out deep, complex flavours from native winter vegetables, foraged mushrooms, and fresh herbs, reimagining rustic Central European classics as vibrant plant-based dishes.",
+		signature:
+			"Modern rustic Central European — braised salsify in beer sauce, lentils with handmade spätzle, roasted savoy cabbage with mustard crust, potato-parsnip mash with crispy fried onions.",
+	},
+	{
+		name: "Ananya",
+		tagName: "Ananya",
+		slug: "ananya",
+		region: "Kerala / Gujarat, India",
+		cuisine: "South Asian",
+		cuisineSchema: "Indian",
+		portrait: "./src/media/chefs/ananya.jpg",
+		portraitAlt:
+			"Ananya in a warm, sunlight-filled kitchen with brass cookware, stone spice grinders, and small bowls overflowing with turmeric, mustard seeds, and curry leaves.",
+		tagline: "Aromatic spices, slow-simmered dals, and vibrant regional curries",
+		bio: "Ananya is an Indian vegan chef celebrating the rich culinary heritage of Kerala and Gujarat. Her cooking showcases the extraordinary depth of whole spices and legumes — proving that traditional Indian cuisine needs no plant-based substitutes, having mastered vibrant, naturally plant-powered dishes for centuries.",
+		signature:
+			"Vegan Indian & South Asian — creamy chana masala, Kerala vegetable curry with toasted coconut and mustard seeds, crispy dosa with coconut chutney, yellow tadka dal with cumin.",
+	},
 ];

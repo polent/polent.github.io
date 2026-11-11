@@ -20,7 +20,7 @@ description: "Compelling recipe description under 160 characters for search and 
 tags:
   - "vegan"
   - "tag-slug"
-  - "Emily" # Or Hiroshi, Isabella, Nia. Must be capitalized.
+  - "Emily" # Or Hiroshi, Isabella, Nia, Jakob, Ananya. Must be capitalized.
 figureRecipe:
   caption: "Recipe Title"
   imageSrc: "./src/media/YYYY-MM-DD-kebab-slug-NNNN.png"
@@ -36,6 +36,8 @@ The last tag determines the chef persona and cuisine:
 - **Emily**: North American cuisine
 - **Isabella**: Italian cuisine
 - **Nia**: African cuisine
+- **Jakob**: Central European cuisine
+- **Ananya**: South Asian cuisine
 
 ## 4. Required Markdown Structure
 1. **Hero Media:**

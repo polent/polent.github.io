@@ -255,52 +255,139 @@ const extractNutrition = html => {
 
 	const nutrition = {
 		"@type": "NutritionInformation",
+		servingSize: "1 serving",
 	};
 
-	// Parse each nutrition field
-	const caloriesMatch = nutritionText.match(/calories[:\s]+(\d+(?:\.\d+)?)/i);
+	// Parse each nutrition field (supports both "Calories: 520" and "520 kcal")
+	const caloriesMatch =
+		nutritionText.match(/calories[:\s]+(\d+(?:\.\d+)?)/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*(?:kcal|calories)\b/i);
 	if (caloriesMatch) {
-		nutrition.calories = caloriesMatch[1];
+		nutrition.calories = `${caloriesMatch[1]} calories`;
 	}
 
-	const proteinMatch = nutritionText.match(/protein[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	const proteinMatch =
+		nutritionText.match(/protein[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+protein\b/i);
 	if (proteinMatch) {
 		nutrition.proteinContent = `${proteinMatch[1]} g`;
 	}
 
 	const fatMatch =
 		nutritionText.match(/total\s+fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
-		nutritionText.match(/fat[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+		nutritionText.match(/(?:^|[,;\s])fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+(?:total\s+)?fat\b/i);
 	if (fatMatch) {
 		nutrition.fatContent = `${fatMatch[1]} g`;
 	}
 
-	const carbMatch = nutritionText.match(/(?:total\s+)?carbohydrate[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	const satFatMatch =
+		nutritionText.match(/saturated\s+fat[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+saturated\s+fat\b/i);
+	if (satFatMatch) {
+		nutrition.saturatedFatContent = `${satFatMatch[1]} g`;
+	}
+
+	const carbMatch =
+		nutritionText.match(/(?:total\s+)?carbohydrates?[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+(?:total\s+)?carbohydrates?\b/i);
 	if (carbMatch) {
 		nutrition.carbohydrateContent = `${carbMatch[1]} g`;
 	}
 
-	const fiberMatch = nutritionText.match(/(?:dietary\s+)?fiber[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	const fiberMatch =
+		nutritionText.match(/(?:dietary\s+)?fiber[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+(?:dietary\s+)?fiber\b/i);
 	if (fiberMatch) {
 		nutrition.fiberContent = `${fiberMatch[1]} g`;
 	}
 
-	const sodiumMatch = nutritionText.match(/sodium[:\s]+(\d+(?:\.\d+)?)\s*mg/i);
+	const sodiumMatch =
+		nutritionText.match(/sodium[:\s]+(\d+(?:\.\d+)?)\s*mg/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*mg\s+sodium\b/i);
 	if (sodiumMatch) {
 		nutrition.sodiumContent = `${sodiumMatch[1]} mg`;
 	}
 
-	const sugarMatch = nutritionText.match(/sugar[:\s]+(\d+(?:\.\d+)?)\s*g/i);
+	const sugarMatch =
+		nutritionText.match(/sugars?[:\s]+(\d+(?:\.\d+)?)\s*g/i) ||
+		nutritionText.match(/(\d+(?:\.\d+)?)\s*g\s+sugars?\b/i);
 	if (sugarMatch) {
 		nutrition.sugarContent = `${sugarMatch[1]} g`;
 	}
 
-	// Return null if no nutrition fields were found
-	if (Object.keys(nutrition).length === 1) {
+	// Return null if no nutrition fields were found (only @type and servingSize exist)
+	if (Object.keys(nutrition).length <= 2) {
 		return null;
 	}
 
 	return nutrition;
+};
+
+// Extract allergy information from nutrition table
+const extractAllergies = html => {
+	if (!html) return null;
+	const allergyMatch = html.match(
+		/<th[^>]*>\s*Allergy Information\s*<\/th>\s*<td[^>]*>([\s\S]*?)<\/td>/i,
+	);
+	if (!allergyMatch || !allergyMatch[1]) return null;
+	const allergyText = stripHtml(allergyMatch[1]).trim();
+	if (!allergyText || allergyText.toLowerCase() === "none") return null;
+	return allergyText;
+};
+
+// Infer recipeCategory from title and tags
+const inferRecipeCategory = (title = "", tags = []) => {
+	const haystack = `${title} ${(Array.isArray(tags) ? tags.join(" ") : "")}`.toLowerCase();
+	if (/\b(smoothie|latte|drink|beverage|tea|juice|elixir|shake)\b/.test(haystack)) {
+		return "Beverage";
+	}
+	if (
+		/\b(dessert|cake|tart|pudding|cookie|brownie|sweet|mousse|sorbet|ice cream|parfait|panna cotta|tiramisu|crumble|cobbler|pie)\b/.test(
+			haystack,
+		)
+	) {
+		return "Dessert";
+	}
+	if (
+		/\b(breakfast|brunch|pancake|waffle|porridge|oatmeal|oats|granola|scramb|toast)\b/.test(
+			haystack,
+		)
+	) {
+		return "Breakfast";
+	}
+	if (/\b(soup|stew|broth|ramen|pho|chowder|bisque|laksa|goulash|chili)\b/.test(haystack)) {
+		return "Soup & Stew";
+	}
+	if (/\b(salad|slaw|carpaccio)\b/.test(haystack)) {
+		return "Salad";
+	}
+	if (
+		/\b(appetizer|starter|snack|dip|hummus|bruschetta|crostini|dumpling|gyoza|spring roll|samosa|pakora|tapas|mezze|side dish|flatbread)\b/.test(
+			haystack,
+		)
+	) {
+		return "Appetizer & Side";
+	}
+	return "Main course";
+};
+
+// Extract a short step name for HowToStep
+const deriveStepName = (text, stepNumber) => {
+	if (!text) return `Step ${stepNumber}`;
+	// Remove leading "1. " or "Step 1: " if present in the text
+	const cleaned = text.replace(/^(?:step\s*\d+[:.\s-]*|\d+[.)]\s*)/i, "").trim();
+	// If the step has a short lead-in before a colon (e.g. "Prepare the sauce: Whisk...")
+	const colonIndex = cleaned.indexOf(":");
+	if (colonIndex > 2 && colonIndex <= 55) {
+		return cleaned.slice(0, colonIndex).trim();
+	}
+	// Otherwise take the first clause/sentence if concise, or fallback to "Step N"
+	const firstSentence = cleaned.split(/[.!?](?:\s|$)/)[0].trim();
+	if (firstSentence.length > 3 && firstSentence.length <= 55) {
+		return firstSentence;
+	}
+	return `Step ${stepNumber}`;
 };
 
 // Extract yield information from nutrition table
@@ -321,9 +408,10 @@ const extractYield = html => {
 	return yieldText;
 };
 
-function extractRecipeData(html, recipeUrl) {
+function extractRecipeData(html, recipeUrl, title = "", tags = [], inputPath = null) {
 	const result = {
 		image: null,
+		images: [],
 		ingredients: [],
 		instructions: [],
 		prepTime: null,
@@ -331,9 +419,20 @@ function extractRecipeData(html, recipeUrl) {
 		totalTime: null,
 		cookTime: null,
 		nutrition: null,
+		caloriesValue: null,
 		yield: null,
+		recipeCategory: inferRecipeCategory(title, tags),
+		suitableForDiet: ["https://schema.org/VeganDiet"],
+		dateModified: null,
 		modifiedHtml: html,
 	};
+
+	if (inputPath) {
+		const gitDate = gitLastModified(inputPath);
+		if (gitDate) {
+			result.dateModified = dateToYYYYMMDD(gitDate);
+		}
+	}
 
 	if (!html) {
 		return result;
@@ -350,12 +449,15 @@ function extractRecipeData(html, recipeUrl) {
 			.filter(Boolean);
 		if (candidates.length > 0) {
 			result.image = candidates[candidates.length - 1];
+			// Keep largest to smallest for multi-image Schema.org array
+			result.images = [...candidates].reverse();
 		}
 	}
 	if (!result.image) {
 		const imageMatch = html.match(/<img[^>]*src=['"]([^'"]+)['"][^>]*>/i);
 		if (imageMatch) {
 			result.image = imageMatch[1];
+			result.images = [imageMatch[1]];
 		}
 	}
 
@@ -368,7 +470,23 @@ function extractRecipeData(html, recipeUrl) {
 	// stays null and toJson strips it out of the JSON-LD.
 	result.totalTime = result.prepTime;
 	result.nutrition = extractNutrition(html);
+	if (result.nutrition && result.nutrition.calories) {
+		const calNumMatch = String(result.nutrition.calories).match(/(\d+(?:\.\d+)?)/);
+		if (calNumMatch) {
+			result.caloriesValue = calNumMatch[1];
+		}
+	}
 	result.yield = extractYield(html);
+
+	// Check tags and Allergy Information for additional dietary suitability
+	const allergies = extractAllergies(html);
+	const tagsText = Array.isArray(tags) ? tags.join(" ").toLowerCase() : "";
+	if (
+		/\bgluten[-\s]?free\b/i.test(tagsText) ||
+		(allergies && /\bgluten[-\s]?free\b/i.test(allergies))
+	) {
+		result.suitableForDiet.push("https://schema.org/GlutenFreeDiet");
+	}
 
 	const headings = [];
 	const headingRegex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
@@ -409,6 +527,8 @@ function extractRecipeData(html, recipeUrl) {
 			const stepNumber = index + 1;
 			const stepObject = {
 				"@type": "HowToStep",
+				position: stepNumber,
+				name: deriveStepName(text, stepNumber),
 				text,
 			};
 			if (recipeUrl) {
@@ -538,6 +658,9 @@ function entryDate(entry, collections) {
 }
 
 function newestDate(entries, collections) {
+	if (!Array.isArray(entries)) {
+		return null;
+	}
 	let newest = null;
 	for (const entry of entries) {
 		const date = entryDate(entry, collections);

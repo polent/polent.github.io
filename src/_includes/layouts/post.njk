@@ -2,28 +2,41 @@
 
 {# Compute recipe data once at template scope so both head and content can use it #}
 {% set recipeUrl = meta.canonicalDomain + page.url %}
-{% set recipeData = content | extractRecipeData(recipeUrl) %}
+{% set recipeData = content | extractRecipeData(recipeUrl, title, tags, page.inputPath) %}
 {% set isRenderableRecipe = isRecipe and (recipeData.ingredients | length) and (recipeData.instructions | length) %}
 
 {# Resolve chef + cuisine at template scope so head block AND body can both use them #}
 {% set recipeAuthor = meta.author.name %}
 {% set recipeCuisine = null %}
+{% set matchedChef = null %}
 {% if tags and (tags | length) %}
   {% set candidateAuthor = tags[tags | length - 1] %}
   {% if candidateAuthor and (candidateAuthor != (candidateAuthor | lower)) %}
     {% set recipeAuthor = candidateAuthor | replace('-', ' ') %}
-    {% if candidateAuthor == "Hiroshi" %}
-      {% set recipeCuisine = "Asia" %}
-    {% elif candidateAuthor == "Emily" %}
-      {% set recipeCuisine = "North American" %}
-    {% elif candidateAuthor == "Isabella" %}
-      {% set recipeCuisine = "Italian" %}
-    {% elif candidateAuthor == "Nia" %}
-      {% set recipeCuisine = "African" %}
+    {% for chef in chefs %}
+      {% if chef.tagName == candidateAuthor or chef.name == recipeAuthor %}
+        {% set matchedChef = chef %}
+        {% set recipeCuisine = chef.cuisine %}
+      {% endif %}
+    {% endfor %}
+    {% if not recipeCuisine %}
+      {% if candidateAuthor == "Hiroshi" %}
+        {% set recipeCuisine = "Asia" %}
+      {% elif candidateAuthor == "Emily" %}
+        {% set recipeCuisine = "North American" %}
+      {% elif candidateAuthor == "Isabella" %}
+        {% set recipeCuisine = "Italian" %}
+      {% elif candidateAuthor == "Nia" %}
+        {% set recipeCuisine = "African" %}
+      {% elif candidateAuthor == "Jakob" %}
+        {% set recipeCuisine = "Central European" %}
+      {% elif candidateAuthor == "Ananya" %}
+        {% set recipeCuisine = "South Asian" %}
+      {% endif %}
     {% endif %}
   {% endif %}
 {% endif %}
-{% set recipeAuthorSlug = recipeAuthor | slug %}
+{% set recipeAuthorSlug = (matchedChef and matchedChef.slug) or (recipeAuthor | slug) %}
 {# Only a matched chef has a /chefs/<slug>/ page; the meta.author fallback does not. #}
 {% set recipeAuthorIsChef = recipeAuthor != meta.author.name %}
 
@@ -32,31 +45,71 @@
   {% if isRenderableRecipe %}
     {% set recipeImage = null %}
     {% if recipeData.image %}
-      {% set recipeImage = meta.canonicalDomain + recipeData.image %}
+      {% set recipeImage = {
+        "@type": "ImageObject",
+        "url": meta.canonicalDomain + recipeData.image,
+        "caption": (figureRecipe and (figureRecipe.imageAlt or figureRecipe.caption)) or title
+      } %}
     {% endif %}
     {% set recipeKeywords = null %}
     {% if tags and (tags | length) %}
       {% set recipeKeywords = tags | join(', ') %}
     {% endif %}
+    {% set authorUrl = meta.canonicalDomain + "/chefs/" + recipeAuthorSlug + "/" if recipeAuthorIsChef else meta.canonicalDomain + "/" %}
+    {% set authorSchema = {
+      "@type": "Person",
+      "@id": authorUrl,
+      "name": recipeAuthor,
+      "url": authorUrl,
+      "jobTitle": "Vegan Chef" if recipeAuthorIsChef else null,
+      "description": matchedChef.bio if matchedChef else null,
+      "knowsAbout": (matchedChef.cuisine + " vegan cuisine") if matchedChef else null,
+      "homeLocation": {
+        "@type": "Place",
+        "name": matchedChef.region
+      } if matchedChef else null
+    } %}
+    {% set recipeDatePublished = page.date | dateToYYYYMMDD %}
     {% set recipeSchema = {
       "@context": "https://schema.org",
       "@type": "Recipe",
+      "@id": recipeUrl + "#recipe",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": recipeUrl
+      },
       "name": title,
       "description": description or meta.description,
       "url": recipeUrl,
-      "datePublished": page.date | dateToYYYYMMDD,
-      "author": {
-        "@type": "Person",
-        "@id": meta.canonicalDomain + "/chefs/" + recipeAuthorSlug + "/",
-        "name": recipeAuthor,
-        "url": meta.canonicalDomain + "/chefs/" + recipeAuthorSlug + "/"
+      "inLanguage": "en",
+      "datePublished": recipeDatePublished,
+      "dateModified": recipeData.dateModified or recipeDatePublished,
+      "author": authorSchema,
+      "publisher": {
+        "@type": "Organization",
+        "@id": meta.canonicalDomain + "/#organization",
+        "name": meta.projectName,
+        "url": meta.canonicalDomain + "/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": meta.canonicalDomain + "/icon-512.jpg",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "isPartOf": {
+        "@type": "Blog",
+        "@id": meta.canonicalDomain + "/#blog",
+        "name": meta.projectName,
+        "url": meta.canonicalDomain + "/"
       },
       "image": recipeImage,
+      "recipeCategory": recipeData.recipeCategory,
+      "recipeCuisine": (matchedChef and matchedChef.cuisineSchema) or recipeCuisine,
       "recipeYield": recipeData.yield,
-      "recipeCuisine": recipeCuisine,
       "recipeIngredient": recipeData.ingredients,
       "recipeInstructions": recipeData.instructions,
-      "suitableForDiet": "https://schema.org/VeganDiet",
+      "suitableForDiet": recipeData.suitableForDiet if (recipeData.suitableForDiet | length > 1) else "https://schema.org/VeganDiet",
       "prepTime": recipeData.prepTime,
       "cookTime": recipeData.cookTime,
       "totalTime": recipeData.totalTime,
@@ -124,9 +177,9 @@
             <dt>Yield</dt>
             <dd>{{ recipeData.yield }}</dd>
           {% endif %}
-          {% if recipeData.nutrition and recipeData.nutrition.calories %}
+          {% if recipeData.caloriesValue %}
             <dt>Calories</dt>
-            <dd>{{ recipeData.nutrition.calories }} kcal</dd>
+            <dd>{{ recipeData.caloriesValue }} kcal</dd>
           {% endif %}
         </dl>
         <div class="recipe-actions" role="group" aria-label="Recipe actions">

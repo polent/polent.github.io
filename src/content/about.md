@@ -20,7 +20,7 @@ figureAbout:
 
 This blog employs a sophisticated multi-step process to generate unique and visually appealing vegan recipes, utilizing cutting-edge AI technology. Here's how it works:
 
-1. **Picking a Chef and a Theme:** We randomly choose one of four vegan chef personas — Emily (Northern California), Hiroshi (Kyoto shojin ryori), Isabella (Tuscany), or Nia (Swahili coast) — and pair them with a random style adjective and a random kind of dish drawn from curated lists.
+1. **Picking a Chef and a Theme:** We randomly choose one of six vegan chef personas — Emily (Northern California), Hiroshi (Kyoto shojin ryori), Isabella (Tuscany), Nia (Swahili coast), Jakob (Black Forest), or Ananya (Kerala / Gujarat) — and pair them with a random style adjective and a random kind of dish drawn from curated lists.
 2. **Recipe Generation:** We send a single prompt to `gemini-3-flash-preview` that combines the chef persona, the style and kind, and a strict JSON template. The model returns the title, intro, outro, ingredients, instructions, tags, SEO description, nutrition facts, allergies, preparation time, yield, an image prompt, and an image alt text — all in one structured response.
 3. **Validation and Sanitization:** The JSON is parsed and checked for required keys. The slug is normalized to lowercase ASCII letters, digits, and hyphens before it touches the filesystem or git.
 4. **Visual Realization with Nano Banana:** The image prompt produced in step 2 is sent to `gemini-3.1-flash-image-preview` (Nano Banana) at 3:2 aspect ratio and 2K size. The call is retried up to three times in case the response is missing image data.
