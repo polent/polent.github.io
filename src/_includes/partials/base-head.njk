@@ -88,15 +88,22 @@
 <script type="application/ld+json">{
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "url": "{{ meta.domain }}/",
+  "@id": "{{ meta.canonicalDomain }}/#website",
+  "url": "{{ meta.canonicalDomain }}/",
   "name": {{ meta.projectName | dump | safe }},
   "description": {{ meta.description | dump | safe }},
   "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "{{ meta.canonicalDomain }}/#organization",
+    "name": {{ meta.projectName | dump | safe }},
+    "url": "{{ meta.canonicalDomain }}/"
+  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "{{ meta.domain }}/search/?q={search_term_string}"
+      "urlTemplate": "{{ meta.canonicalDomain }}/search/?q={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   }

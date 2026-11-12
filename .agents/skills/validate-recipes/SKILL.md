@@ -14,7 +14,7 @@ Use this procedure to validate recipe files against required schemas, asset requ
 
 1. **Frontmatter Integrity:**
    - Confirm `title` and `description` are non-empty.
-   - Confirm `tags` includes `"vegan"`, appropriate culinary tags, and a valid capitalized chef name as the last item (`"Emily"`, `"Hiroshi"`, `"Isabella"`, or `"Nia"`).
+   - Confirm `tags` includes `"vegan"`, appropriate culinary tags, and a valid capitalized chef name as the last item (`"Emily"`, `"Hiroshi"`, `"Isabella"`, `"Nia"`, `"Jakob"`, or `"Ananya"`).
    - Check `figureRecipe.imageSrc` points to an existing file in `src/media/`.
    - Ensure `figureRecipe.imageAlt` contains descriptive, accessible text.
 
@@ -31,7 +31,7 @@ Use this procedure to validate recipe files against required schemas, asset requ
    const fs = require("fs");
    const path = require("path");
    const dir = "src/content/posts";
-   const chefs = new Set(["Emily", "Hiroshi", "Isabella", "Nia"]);
+   const chefs = new Set(["Emily", "Hiroshi", "Isabella", "Nia", "Jakob", "Ananya"]);
    let errors = 0;
    for (const f of fs.readdirSync(dir).filter(f => f.endsWith(".md"))) {
      const raw = fs.readFileSync(path.join(dir, f), "utf8");
