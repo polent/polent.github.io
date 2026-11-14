@@ -1,0 +1,59 @@
+{
+	"specVersion": "1.0",
+	"entries": [
+		{
+			"identifier": "urn:air:recipe.polente.de:knowledge:llms-txt",
+			"displayName": "Recipe index for LLMs",
+			"type": "text/markdown",
+			"url": "https://recipe.polente.de/llms.txt",
+			"description": "Every recipe with title, URL and summary, plus the four AI chefs. Recipe pages carry schema.org Recipe JSON-LD.",
+			"tags": [
+				"vegan",
+				"recipes",
+				"cooking",
+				"plant-based"
+			],
+			"publisher": {
+				"identifier": "recipe.polente.de",
+				"identityType": "dns",
+				"displayName": "Recipes by our chefs"
+			}
+		},
+		{
+			"identifier": "urn:air:recipe.polente.de:feed:atom",
+			"displayName": "Recipe feed",
+			"type": "application/atom+xml",
+			"url": "https://recipe.polente.de/feed.xml",
+			"description": "Atom feed of the newest vegan recipes, published daily.",
+			"tags": [
+				"vegan",
+				"recipes",
+				"cooking",
+				"plant-based"
+			],
+			"publisher": {
+				"identifier": "recipe.polente.de",
+				"identityType": "dns",
+				"displayName": "Recipes by our chefs"
+			}
+		},
+		{
+			"identifier": "urn:air:recipe.polente.de:index:sitemap",
+			"displayName": "Sitemap",
+			"type": "application/xml",
+			"url": "https://recipe.polente.de/sitemap.xml",
+			"description": "XML sitemap of every page on the site.",
+			"tags": [
+				"vegan",
+				"recipes",
+				"cooking",
+				"plant-based"
+			],
+			"publisher": {
+				"identifier": "recipe.polente.de",
+				"identityType": "dns",
+				"displayName": "Recipes by our chefs"
+			}
+		}
+	]
+}
