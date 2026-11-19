@@ -123,6 +123,222 @@ const extractListItems = sectionHtml => {
 	return items;
 };
 
+const parseFractionValue = str => {
+	if (!str) return NaN;
+	const s = str.trim();
+	const mixed = s.match(/^(\d+)\s+(\d+)\/(\d+)$/);
+	if (mixed) return Number(mixed[1]) + Number(mixed[2]) / Number(mixed[3]);
+	const frac = s.match(/^(\d+)\/(\d+)$/);
+	if (frac) return Number(frac[1]) / Number(frac[2]);
+	return Number(s);
+};
+
+const parseYieldBase = yieldText => {
+	if (!yieldText) return null;
+	const match = yieldText.match(/^\s*(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\b/i);
+	if (!match) return null;
+	const base = Number(match[1]);
+	return base > 0 ? base : null;
+};
+
+const METRIC_UNITS = new Set(["g", "gram", "grams", "ml", "milliliter", "milliliters"]);
+const METRIC_LARGE_UNITS = new Set(["kg", "kilogram", "kilograms", "l", "liter", "liters"]);
+const SPOON_UNITS = new Set(["tsp", "teaspoon", "teaspoons", "tbsp", "tablespoon", "tablespoons"]);
+const CUP_UNITS = new Set(["cup", "cups", "quart", "quarts"]);
+const IMPERIAL_LB_UNITS = new Set(["lb", "lbs", "pound", "pounds"]);
+const IMPERIAL_OZ_UNITS = new Set(["oz", "ounce", "ounces"]);
+
+const UNIT_INFLECTIONS = {
+	cup: ["cup", "cups"],
+	cups: ["cup", "cups"],
+	tablespoon: ["tablespoon", "tablespoons"],
+	tablespoons: ["tablespoon", "tablespoons"],
+	teaspoon: ["teaspoon", "teaspoons"],
+	teaspoons: ["teaspoon", "teaspoons"],
+	lb: ["lb", "lbs"],
+	lbs: ["lb", "lbs"],
+	pound: ["pound", "pounds"],
+	pounds: ["pound", "pounds"],
+	ounce: ["ounce", "ounces"],
+	ounces: ["ounce", "ounces"],
+	quart: ["quart", "quarts"],
+	quarts: ["quart", "quarts"],
+	liter: ["liter", "liters"],
+	liters: ["liter", "liters"],
+	clove: ["clove", "cloves"],
+	cloves: ["clove", "cloves"],
+	can: ["can", "cans"],
+	cans: ["can", "cans"],
+	block: ["block", "blocks"],
+	blocks: ["block", "blocks"],
+	jar: ["jar", "jars"],
+	jars: ["jar", "jars"],
+	sprig: ["sprig", "sprigs"],
+	sprigs: ["sprig", "sprigs"],
+	stalk: ["stalk", "stalks"],
+	stalks: ["stalk", "stalks"],
+	sheet: ["sheet", "sheets"],
+	sheets: ["sheet", "sheets"],
+	slice: ["slice", "slices"],
+	slices: ["slice", "slices"],
+	piece: ["piece", "pieces"],
+	pieces: ["piece", "pieces"],
+	bunch: ["bunch", "bunches"],
+	bunches: ["bunch", "bunches"],
+	head: ["head", "heads"],
+	heads: ["head", "heads"],
+	inch: ["inch", "inches"],
+	inches: ["inch", "inches"],
+	drop: ["drop", "drops"],
+	drops: ["drop", "drops"],
+	pinch: ["pinch", "pinches"],
+	pinches: ["pinch", "pinches"],
+	handful: ["handful", "handfuls"],
+	handfuls: ["handful", "handfuls"],
+	shot: ["shot", "shots"],
+	shots: ["shot", "shots"],
+	strip: ["strip", "strips"],
+	strips: ["strip", "strips"],
+	ear: ["ear", "ears"],
+	ears: ["ear", "ears"],
+	leaf: ["leaf", "leaves"],
+	leaves: ["leaf", "leaves"],
+	bag: ["bag", "bags"],
+	bags: ["bag", "bags"],
+	package: ["package", "packages"],
+	packages: ["package", "packages"],
+	ball: ["ball", "balls"],
+	balls: ["ball", "balls"],
+};
+
+const PRODUCE_NOUN_REGEX =
+	/\b(onions?|shallots?|lemons?|limes?|oranges?|tangerines?|yuzus?|grapefruits?|cucumbers?|avocados?|melons?|watermelons?|squash|kabochas?|pumpkins?|cabbages?|cauliflowers?|radicchios?|eggplants?|plantains?|peppers?|apples?|pears?|peaches|persimmons?|daikons?|fennels?|leeks?|inch|inches)\b/i;
+
+const INDIVISIBLE_NOUN_REGEX =
+	/\b(cans?|jars?|bottles?|packages?|packs?|bags?|sheets?|wrappers?|buns?|sliders?|tortillas?|chapatis?|slices?|cloves?|sprigs?|stalks?|leaves|leaf|pinch|pinches|drops?|handfuls?|shots?|strips?|pieces?|clusters?|bunches|bunch|skewers?|ears?|mushrooms?|tomatoes?|potatoes?|carrots?|radishes?|beets?|beetroots?|scallions?|chiles?|chilies|chili|chile|star\s+anise|pods?|balls?)\b/i;
+
+const classifyIngredientKind = (unitWord, restText, baseVal) => {
+	const u = (unitWord || "").toLowerCase().replace(/^-/, "");
+	if (METRIC_UNITS.has(u)) return "metric";
+	if (METRIC_LARGE_UNITS.has(u)) return "metric-large";
+	if (SPOON_UNITS.has(u)) return "spoon";
+	if (CUP_UNITS.has(u)) return "cup";
+	if (IMPERIAL_LB_UNITS.has(u)) return "imperial-lb";
+	if (IMPERIAL_OZ_UNITS.has(u)) return "imperial-oz";
+	if (u === "inch" || u === "inches") return "produce";
+
+	const clause = `${unitWord || ""} ${restText || ""}`.split(/[,;(]/)[0];
+	if (INDIVISIBLE_NOUN_REGEX.test(clause)) {
+		return "whole";
+	}
+	if (PRODUCE_NOUN_REGEX.test(clause) || (baseVal > 0 && baseVal < 1)) {
+		return "produce";
+	}
+	return "whole";
+};
+
+const annotateIngredientQuantities = html => {
+	if (!html || /<[^>]+>/.test(html)) {
+		return html;
+	}
+	const qtyRegex =
+		/(?<![A-Za-z0-9/'"-])(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:\.\d+)?)(?:\s*(-|–|to)\s*(\d+\s+\d+\/\d+|\d+\/\d+|\d+(?:\.\d+)?))?(\s*)(-?[A-Za-z]+)?/g;
+
+	let result = "";
+	let lastIndex = 0;
+	let match;
+
+	while ((match = qtyRegex.exec(html)) !== null) {
+		const [full, q1, sep, q2, spaceAfter, wordAfter] = match;
+		const idx = match.index;
+		const before = html.slice(0, idx);
+		const after = html.slice(idx + full.length);
+		const unitLower = (wordAfter || "").toLowerCase();
+		const isLeading = /^\s*$/.test(before);
+
+		// Skip ratios like 1-to-1
+		const rawBetween = sep ? html.slice(idx + q1.length, idx + q1.length + sep.length + 2) : "";
+		if ((sep === "to" && !/^\s/.test(rawBetween)) || /^-to-/i.test(html.slice(idx + q1.length))) {
+			continue;
+		}
+		// Skip percentages (70%), flour types (Type 00, Tipo 0, '00'), or zero
+		const base1 = parseFractionValue(q1);
+		if (
+			!base1 ||
+			base1 <= 0 ||
+			/^\s*%/.test(after) ||
+			/\b(?:type|tipo)\s*$/i.test(before) ||
+			/^0+$/.test(q1)
+		) {
+			continue;
+		}
+		// Skip time/age durations (30 minutes, 4 hours, 6 months, 3-year)
+		if (
+			/^-?(?:minutes?|mins?|hours?|hrs?|seconds?|secs?|days?|weeks?|months?|years?|yr)\b/i.test(
+				unitLower,
+			)
+		) {
+			continue;
+		}
+		// Skip mid-line cut dimensions (1-inch cubes, 2cm medallions, 5mm crescents)
+		if (!isLeading && /^-?(?:inch|inches|cm|mm|centimeters?|millimeters?)\b/i.test(unitLower)) {
+			continue;
+		}
+		// Skip container sizes in parentheses after can/block/jar/package, e.g. "1 can (400ml)" or "(or two 15oz cans)"
+		const openParen = before.lastIndexOf("(");
+		const closeParen = before.lastIndexOf(")");
+		const inParens = openParen > closeParen;
+		if (inParens) {
+			const beforeParen = html.slice(0, openParen);
+			if (/\b(?:cans?|blocks?|jars?|packages?|packs?|tins?|bottles?)\s*$/i.test(beforeParen)) {
+				continue;
+			}
+			if (/^\s*(?:each|cans?|blocks?|jars?|packages?)\b/i.test(after)) {
+				continue;
+			}
+		}
+		// Skip container sizes immediately following container nouns outside parens ("1 can 400g", "carved into a 5-pound")
+		if (
+			!isLeading &&
+			/\b(?:cans?|blocks?|jars?|packages?|carved\s+into\s+a|one|two|three)\s+$/i.test(before)
+		) {
+			continue;
+		}
+
+		const base2 = q2 ? parseFractionValue(q2) : null;
+		const kind = classifyIngredientKind(wordAfter, after, base1);
+		const numText = sep
+			? `${q1}${html.slice(idx + q1.length, idx + full.length - (spaceAfter ? spaceAfter.length : 0) - (wordAfter ? wordAfter.length : 0))}`
+			: q1;
+		const maxAttr =
+			base2 && !Number.isNaN(base2)
+				? ` data-base-max="${base2}" data-sep="${sep === "to" ? " to " : "-"}"`
+				: "";
+
+		result += html.slice(lastIndex, idx);
+		result += `<span class="ingredient-qty" data-base="${base1}"${maxAttr} data-kind="${kind}">${numText}</span>`;
+		result += spaceAfter || "";
+
+		if (wordAfter) {
+			const inflection = UNIT_INFLECTIONS[unitLower];
+			if (inflection) {
+				const cap = wordAfter[0] === wordAfter[0].toUpperCase();
+				const one = cap ? inflection[0][0].toUpperCase() + inflection[0].slice(1) : inflection[0];
+				const many = cap ? inflection[1][0].toUpperCase() + inflection[1].slice(1) : inflection[1];
+				result += `<span class="ingredient-unit" data-one="${one}" data-many="${many}">${wordAfter}</span>`;
+			} else {
+				result += wordAfter;
+			}
+		}
+
+		lastIndex = idx + full.length;
+	}
+
+	if (lastIndex === 0) return html;
+	result += html.slice(lastIndex);
+	return result;
+};
+
 const wrapListItemsWithCheckboxes = sectionHtml => {
 	if (!sectionHtml) {
 		return { items: [], modifiedHtml: sectionHtml };
@@ -134,6 +350,7 @@ const wrapListItemsWithCheckboxes = sectionHtml => {
 		const cleaned = decodeHtmlEntities(stripHtml(inner)).replace(/\s+/g, " ").trim();
 		if (!cleaned) return full;
 		items.push(cleaned);
+		const annotatedInner = annotateIngredientQuantities(inner);
 		const idx = ingredientCounter++;
 		let newAttrs = attrs || "";
 		if (/class=/.test(newAttrs)) {
@@ -144,7 +361,7 @@ const wrapListItemsWithCheckboxes = sectionHtml => {
 		} else {
 			newAttrs = `${newAttrs} class="ingredient"`;
 		}
-		return `<li${newAttrs}><label class="ingredient-label"><input type="checkbox" class="ingredient-check" data-ingredient-index="${idx}" aria-label="Mark ingredient as acquired"><span class="ingredient-text">${inner}</span></label></li>`;
+		return `<li${newAttrs}><label class="ingredient-label"><input type="checkbox" class="ingredient-check" data-ingredient-index="${idx}" aria-label="Mark ingredient as acquired"><span class="ingredient-text">${annotatedInner}</span></label></li>`;
 	});
 
 	modifiedHtml = modifiedHtml.replace(/<ul(\s[^>]*)?>/i, (m, attrs = "") => {
@@ -421,6 +638,7 @@ function extractRecipeData(html, recipeUrl, title = "", tags = [], inputPath = n
 		nutrition: null,
 		caloriesValue: null,
 		yield: null,
+		yieldBase: null,
 		recipeCategory: inferRecipeCategory(title, tags),
 		suitableForDiet: ["https://schema.org/VeganDiet"],
 		dateModified: null,
@@ -477,6 +695,7 @@ function extractRecipeData(html, recipeUrl, title = "", tags = [], inputPath = n
 		}
 	}
 	result.yield = extractYield(html);
+	result.yieldBase = parseYieldBase(result.yield);
 
 	// Check tags and Allergy Information for additional dietary suitability
 	const allergies = extractAllergies(html);
@@ -541,6 +760,14 @@ function extractRecipeData(html, recipeUrl, title = "", tags = [], inputPath = n
 		result.modifiedHtml = result.modifiedHtml.replace(
 			instructionsSection.sectionHtml,
 			modifiedInstructionsHtml,
+		);
+	}
+
+	if (result.yieldBase) {
+		result.modifiedHtml = result.modifiedHtml.replace(
+			/(<th[^>]*>\s*Yield\s*<\/th>\s*<td[^>]*>)\s*([^<]+?)\s*(<\/td>)/i,
+			(_, open, val, close) =>
+				`${open}<span class="recipe-yield" data-base-yield="${result.yieldBase}"><button type="button" class="yield-btn" data-action="yield-dec" aria-label="Decrease yield" hidden>−</button><span class="yield-value" data-yield-value>${val.trim()}</span><button type="button" class="yield-btn" data-action="yield-inc" aria-label="Increase yield" hidden>+</button></span>${close}`,
 		);
 	}
 
