@@ -12,7 +12,8 @@
 		"build": "npm-run-all2 --parallel build:files build:styles && npm run build:critical && npm run build:pagefind",
 		"serve:files": "npx @11ty/eleventy --quiet --serve",
 		"serve:styles": "postcss src/site.css --dir dist/styles/ --watch --config postcss.config.js",
-		"serve": "npm-run-all2 --parallel serve:*"
+		"serve": "npm-run-all2 --parallel serve:*",
+		"test": "node --test"
 	},
 	"keywords": [
 		"recipe",

@@ -175,7 +175,15 @@
           {% endif %}
           {% if recipeData.yield %}
             <dt>Yield</dt>
-            <dd>{{ recipeData.yield }}</dd>
+            <dd class="recipe-yield"{% if recipeData.yieldBase %} data-base-yield="{{ recipeData.yieldBase }}"{% endif %}>
+              {% if recipeData.yieldBase %}
+                <button type="button" class="yield-btn" data-action="yield-dec" aria-label="Decrease yield" hidden>−</button>
+                <span class="yield-value" data-yield-value aria-live="polite">{{ recipeData.yield }}</span>
+                <button type="button" class="yield-btn" data-action="yield-inc" aria-label="Increase yield" hidden>+</button>
+              {% else %}
+                {{ recipeData.yield }}
+              {% endif %}
+            </dd>
           {% endif %}
           {% if recipeData.caloriesValue %}
             <dt>Calories</dt>

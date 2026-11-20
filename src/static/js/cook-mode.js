@@ -58,17 +58,301 @@
 
 	actionButtons.forEach(btn => {
 		const action = btn.dataset.action;
-		if (action === "cook-start" && !dialogSupported) return;
+		if (action === "cook-start" && (!dialogSupported || !stepEls.length)) return;
 		if (action === "print-shopping" && !ingredientChecks.length) return;
 		btn.hidden = false;
 	});
+
+	/* Yield scaling -------------------------------------------------- */
+
+	const yieldContainers = Array.from(article.querySelectorAll(".recipe-yield[data-base-yield]"));
+	const yieldValueEls = Array.from(article.querySelectorAll("[data-yield-value]"));
+	const yieldButtons = Array.from(article.querySelectorAll(".yield-btn"));
+	const qtyEls = Array.from(article.querySelectorAll(".ingredient-qty[data-base]"));
+
+	const snapNearest = (val, steps) => {
+		let best = steps[0];
+		let bestDiff = Math.abs(val - best);
+		for (let i = 1; i < steps.length; i++) {
+			const diff = Math.abs(val - steps[i]);
+			if (diff < bestDiff) {
+				best = steps[i];
+				bestDiff = diff;
+			}
+		}
+		return best;
+	};
+
+	const METRIC_MID_STEPS = [25, 30, 40, 50, 60, 70, 75, 80, 90, 100];
+	const SPOON_FRAC_STEPS = [0.125, 0.25, 0.5, 0.75, 1];
+	const CUP_FRAC_STEPS = [
+		0.25,
+		1 / 3,
+		0.5,
+		2 / 3,
+		0.75,
+		1,
+		1.25,
+		1 + 1 / 3,
+		1.5,
+		1 + 2 / 3,
+		1.75,
+		2,
+	];
+
+	const roundQuantity = (raw, kind) => {
+		switch (kind) {
+			case "whole":
+				return Math.max(1, Math.round(raw));
+			case "produce":
+				if (raw < 0.75) return 0.5;
+				if (raw < 2) return Math.round(raw * 2) / 2;
+				return Math.round(raw);
+			case "metric":
+				if (raw < 5) return Math.max(1, Math.round(raw));
+				if (raw < 25) return Math.round(raw / 5) * 5;
+				if (raw < 100) return snapNearest(raw, METRIC_MID_STEPS);
+				if (raw < 250) return Math.round(raw / 25) * 25;
+				return Math.round(raw / 50) * 50;
+			case "metric-large":
+				if (raw < 2) return Math.max(0.25, Math.round(raw * 4) / 4);
+				return Math.round(raw * 2) / 2;
+			case "spoon":
+				if (raw < 1) return snapNearest(raw, SPOON_FRAC_STEPS);
+				if (raw <= 3) return Math.round(raw * 2) / 2;
+				return Math.round(raw);
+			case "cup":
+				if (raw < 0.18) return 0.125;
+				if (raw < 2) return snapNearest(raw, CUP_FRAC_STEPS);
+				if (raw <= 4) return Math.round(raw * 2) / 2;
+				return Math.round(raw);
+			case "imperial-lb":
+				if (raw < 2) return Math.max(0.25, Math.round(raw * 4) / 4);
+				return Math.round(raw * 2) / 2;
+			case "imperial-oz":
+				if (raw < 4) return Math.max(0.5, Math.round(raw * 2) / 2);
+				if (raw <= 16) return Math.round(raw);
+				return Math.round(raw / 2) * 2;
+			default:
+				return Math.max(1, Math.round(raw));
+		}
+	};
+
+	const FRAC_KINDS = new Set(["spoon", "cup", "produce", "imperial-lb"]);
+
+	const formatFractionPart = frac => {
+		if (Math.abs(frac - 0.125) < 0.02) return "1/8";
+		if (Math.abs(frac - 0.25) < 0.02) return "1/4";
+		if (Math.abs(frac - 1 / 3) < 0.02) return "1/3";
+		if (Math.abs(frac - 0.5) < 0.02) return "1/2";
+		if (Math.abs(frac - 2 / 3) < 0.02) return "2/3";
+		if (Math.abs(frac - 0.75) < 0.02) return "3/4";
+		return "";
+	};
+
+	const formatNumber = (val, kind) => {
+		if (FRAC_KINDS.has(kind)) {
+			const whole = Math.floor(val + 1e-6);
+			const frac = val - whole;
+			if (frac < 0.02) return String(whole);
+			const fracStr = formatFractionPart(frac);
+			if (fracStr) return whole > 0 ? `${whole} ${fracStr}` : fracStr;
+		}
+		return Number.isInteger(val) ? String(val) : String(Number(val.toFixed(2)));
+	};
+
+	const YIELD_PLURALS = {
+		serving: "servings",
+		pizza: "pizzas",
+		loaf: "loaves",
+		quart: "quarts",
+		sandwich: "sandwiches",
+		galette: "galettes",
+		bowl: "bowls",
+		slider: "sliders",
+		skewer: "skewers",
+		wrap: "wraps",
+		tartlet: "tartlets",
+		dumpling: "dumplings",
+		cake: "cakes",
+		roll: "rolls",
+		plate: "plates",
+		person: "people",
+		box: "boxes",
+		taco: "tacos",
+		burger: "burgers",
+		pastry: "pastries",
+		croquette: "croquettes",
+		tostadita: "tostaditas",
+		slice: "slices",
+		chapati: "chapatis",
+		samosa: "samosas",
+		portion: "portions",
+		tetela: "tetelas",
+		piece: "pieces",
+		burrito: "burritos",
+		bun: "buns",
+		mahamri: "mahamris",
+		blossom: "blossoms",
+	};
+	const YIELD_SINGULARS = Object.fromEntries(
+		Object.entries(YIELD_PLURALS).map(([s, p]) => [p, s]),
+	);
+
+	const inflectYieldWord = (word, count) => {
+		const lower = word.toLowerCase();
+		const target = count === 1 ? YIELD_SINGULARS[lower] || lower : YIELD_PLURALS[lower] || lower;
+		if (target === lower) return word;
+		return word[0] === word[0].toUpperCase()
+			? target[0].toUpperCase() + target.slice(1)
+			: target;
+	};
+
+	const formatYieldText = (original, base, current) => {
+		if (current === base) return original;
+		const factor = current / base;
+		const out = original.replace(/^\s*(\d+)(?:\s*(?:-|–|to)\s*(\d+))?\b/i, String(current));
+		const parts = out.split("(");
+		parts[0] = parts[0].replace(
+			/\b([A-Za-z]+)(\s*)$/,
+			(_, word, space) => inflectYieldWord(word, current) + space,
+		);
+		if (parts.length > 1 && !/per\s+serving/i.test(parts[1])) {
+			parts[1] = parts[1].replace(
+				/(\d+)(?:\s*(?:-|–|to)\s*(\d+))?(?!\s*-?inch)(\s+[A-Za-z]+)?/gi,
+				(_, a, b, trailing) => {
+					const sa = Math.max(1, Math.round(Number(a) * factor));
+					let numStr = String(sa);
+					let countForInflect = sa;
+					if (b) {
+						const sb = Math.max(sa, Math.round(Number(b) * factor));
+						numStr = sa === sb ? String(sa) : `${sa}-${sb}`;
+						countForInflect = sb;
+					}
+					if (!trailing) return numStr;
+					const inflected = trailing.replace(
+						/([A-Za-z]+)/,
+						w => inflectYieldWord(w, countForInflect),
+					);
+					return numStr + inflected;
+				},
+			);
+		}
+		return parts.join("(");
+	};
+
+	const findAdjacentUnit = qtyEl => {
+		let node = qtyEl.nextSibling;
+		if (node && node.nodeType === Node.TEXT_NODE && /^\s*$/.test(node.nodeValue)) {
+			node = node.nextSibling;
+		}
+		if (node && node.nodeType === Node.ELEMENT_NODE && node.classList.contains("ingredient-unit")) {
+			return node;
+		}
+		return null;
+	};
+
+	const baseYield = yieldContainers.length ? Number(yieldContainers[0].dataset.baseYield) : 0;
+	let currentYield = baseYield;
+	let setYield = null;
+
+	if (baseYield > 0 && yieldValueEls.length) {
+		const minYield = 1;
+		const maxYield = Math.max(24, baseYield * 4);
+
+		const qtyPairs = qtyEls.map(qtyEl => {
+			qtyEl.dataset.origText = qtyEl.textContent;
+			const unitEl = findAdjacentUnit(qtyEl);
+			if (unitEl) unitEl.dataset.origText = unitEl.textContent;
+			return { qtyEl, unitEl };
+		});
+
+		yieldValueEls.forEach(el => {
+			el.dataset.origText = el.textContent;
+		});
+
+		yieldButtons.forEach(btn => {
+			btn.hidden = false;
+		});
+
+		setYield = nextYield => {
+			currentYield = Math.max(minYield, Math.min(maxYield, nextYield));
+			const factor = currentYield / baseYield;
+
+			yieldValueEls.forEach(el => {
+				el.textContent = formatYieldText(el.dataset.origText, baseYield, currentYield);
+			});
+
+			yieldButtons.forEach(btn => {
+				if (btn.dataset.action === "yield-dec") {
+					btn.disabled = currentYield <= minYield;
+				} else if (btn.dataset.action === "yield-inc") {
+					btn.disabled = currentYield >= maxYield;
+				}
+			});
+
+			qtyPairs.forEach(({ qtyEl, unitEl }) => {
+				if (currentYield === baseYield) {
+					qtyEl.textContent = qtyEl.dataset.origText;
+					if (unitEl) unitEl.textContent = unitEl.dataset.origText;
+					return;
+				}
+				const base1 = Number(qtyEl.dataset.base);
+				const kind = qtyEl.dataset.kind || "whole";
+				const val1 = roundQuantity(base1 * factor, kind);
+				let unitCount = val1;
+
+				if (qtyEl.dataset.baseMax) {
+					const base2 = Number(qtyEl.dataset.baseMax);
+					const sep = qtyEl.dataset.sep || "-";
+					const val2 = roundQuantity(base2 * factor, kind);
+					qtyEl.textContent =
+						val1 === val2
+							? formatNumber(val1, kind)
+							: `${formatNumber(val1, kind)}${sep}${formatNumber(val2, kind)}`;
+					unitCount = val2;
+				} else {
+					qtyEl.textContent = formatNumber(val1, kind);
+				}
+
+				if (unitEl) {
+					unitEl.textContent =
+						unitCount <= 1 ? unitEl.dataset.one || unitEl.textContent : unitEl.dataset.many || unitEl.textContent;
+				}
+			});
+
+			try {
+				if (currentYield === baseYield) {
+					localStorage.removeItem(storageKey("yield"));
+				} else {
+					localStorage.setItem(storageKey("yield"), String(currentYield));
+				}
+			} catch (_) {}
+		};
+
+		let initialYield = baseYield;
+		try {
+			const savedYield = Number(localStorage.getItem(storageKey("yield")));
+			if (Number.isInteger(savedYield) && savedYield >= minYield && savedYield <= maxYield) {
+				initialYield = savedYield;
+			}
+		} catch (_) {}
+
+		setYield(initialYield);
+	}
 
 	article.addEventListener("click", e => {
 		const btn = e.target.closest("[data-action]");
 		if (!btn || !article.contains(btn)) return;
 		switch (btn.dataset.action) {
+			case "yield-dec":
+				if (setYield) setYield(currentYield - 1);
+				break;
+			case "yield-inc":
+				if (setYield) setYield(currentYield + 1);
+				break;
 			case "cook-start":
-				startCookMode();
+				if (dialogSupported && stepEls.length) startCookMode();
 				break;
 			case "print-shopping":
 				printShoppingList();
